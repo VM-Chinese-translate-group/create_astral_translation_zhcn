@@ -15,4 +15,4 @@ KubeJS魔改内容：未翻译
 
 ## 鸣谢
 
-B站ID：@茫氪、@Mc2deM
+B站ID：[@茫氪](https://space.bilibili.com/560349507)、[@Mc2deM](https://space.bilibili.com/541937599)
