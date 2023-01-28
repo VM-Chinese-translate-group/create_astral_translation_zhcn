@@ -5,8 +5,10 @@ A Chinese (Simplified) Translation Project for the Create: Astral modpack.
 
 目前整合包版本：2.0
 
-进度：
+## 进度
+
 任务书：翻译至第0.5章
+
 KubeJS魔改内容：未翻译
+
 自定义内容：未翻译
-   
