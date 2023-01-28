@@ -12,3 +12,7 @@ A Chinese (Simplified) Translation Project for the Create: Astral modpack.
 KubeJS魔改内容：未翻译
 
 自定义内容：未翻译
+
+## 鸣谢
+
+B站ID：@茫氪、@Mc2deM
