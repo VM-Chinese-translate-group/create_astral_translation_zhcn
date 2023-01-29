@@ -7,7 +7,7 @@ A Chinese (Simplified) Translation Project for the Create: Astral modpack.
 
 ## 进度
 
-任务书：翻译至第0.5章
+任务书：翻译至第1章：安山世界
 
 KubeJS魔改内容：未翻译
 

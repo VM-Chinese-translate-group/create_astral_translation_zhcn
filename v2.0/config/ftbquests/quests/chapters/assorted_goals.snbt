@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "assorted_goals"
-	title: "第0.5章：迈出第一步"
+	title: "第0.5章 迈出第一步"
 	icon: "minecraft:furnace"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
