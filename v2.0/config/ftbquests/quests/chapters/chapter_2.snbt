@@ -40,7 +40,7 @@
 			}]
 		}
 		{
-			title: "Tough Teeth"
+			title: "坚实咬合"
 			icon: "create:cogwheel"
 			x: -2.0d
 			y: 8.0d
@@ -565,7 +565,7 @@
 			description: [
 				"如果它们是机器人，那就不是强迫劳动。"
 				""
-				"你可以用铁制工具代替钻石工具（不像高级海龟），即使你给了它们铁镐，但它们仍然会拿着钻石镐！"
+				"你可以用铁制工具代替钻石工具（这点与高级海龟不同），即使你给了它们铁镐，他们也会拿着钻石镐！"
 			]
 			dependencies: ["247AF9BF2D5EBF78"]
 			optional: true
@@ -753,7 +753,6 @@
 			y: 5.5d
 			shape: "diamond"
 			subtitle: "只要有稳定的闪长岩来源，你就可以生产大量的下界石英。"
-			description: [""]
 			dependencies: ["1DEF161DE26F3587"]
 			id: "6B85CBE54B33C91F"
 			tasks: [{
@@ -768,7 +767,7 @@
 			x: -5.0d
 			y: 4.0d
 			subtitle: "获得铁轨"
-			description: ["要发展列车科技线，需要先获得黑曜石粉。坏消息是，在你还没有发展出动力钻头之前，你没有办法开采黑曜石。不如之后再回来发展这条线。"]
+			description: ["要发展列车科技线，你需要先获得黑曜石粉。坏消息是，在你还没有发展出动力钻头之前，你没有办法开采黑曜石。不如之后再回来发展这条线。"]
 			dependencies: ["1DEF161DE26F3587"]
 			id: "68108C8A6AC63A01"
 			tasks: [{
@@ -789,7 +788,7 @@
 			x: -2.0d
 			y: -4.0d
 			shape: "gear"
-			subtitle: "解锁第二章"
+			subtitle: "解锁第2章"
 			description: [
 				"使用搅拌器制作砖泥，砖泥可以用来制作匠魂相关的方块。"
 				""
@@ -1105,7 +1104,7 @@
 			tasks: [{
 				id: "1A528CDF4DA51B41"
 				type: "checkmark"
-				title: "Understood."
+				title: "我明白了"
 			}]
 			rewards: [{
 				id: "220200620D9BA6CF"
