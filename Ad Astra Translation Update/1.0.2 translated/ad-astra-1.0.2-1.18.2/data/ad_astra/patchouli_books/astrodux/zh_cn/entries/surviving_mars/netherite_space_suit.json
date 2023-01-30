@@ -1,0 +1,24 @@
+{
+    "name": "下界合金宇航服",
+    "icon": "ad_astra:netherite_space_helmet",
+    "sortnum": 4,
+    "category": "ad_astra:surviving_mars",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "下界合金宇航服",
+            "item": "ad_astra:netherite_space_helmet",
+            "text": "下界合金宇航服永久抗火、有更高的防御值；能够让你在金星和水星上生存，否则高温会使你死亡。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "ad_astra:recipes/netherite_space_helmet",
+            "recipe2": "ad_astra:recipes/netherite_space_suit"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "ad_astra:recipes/netherite_space_pants",
+            "recipe2": "ad_astra:recipes/netherite_space_boots"
+        }
+    ]
+}

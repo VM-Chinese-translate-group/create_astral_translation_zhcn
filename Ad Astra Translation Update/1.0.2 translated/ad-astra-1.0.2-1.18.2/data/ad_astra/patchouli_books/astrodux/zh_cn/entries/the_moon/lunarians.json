@@ -1,0 +1,36 @@
+{
+    "name": "章鱼哥(月球村民)",
+    "icon": "ad_astra:moon_stone_bricks",
+    "sortnum": 5,
+    "category": "ad_astra:the_moon",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "章鱼哥(月球村民)",
+            "item": "ad_astra:moon_stone_bricks",
+            "text": "月球上，有巨大的地下村庄。这些村庄里居住着章鱼哥(月球村民)。与地球村民不同的是，章鱼哥不需要氧气，能在月球寒冷的环境中生存。"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "ad_astra:lunarian",
+            "default_rotation": 45
+        },
+        {
+            "type": "patchouli:text",
+            "text": "章鱼哥有和地球村民不同的职业，有售卖特产材料、太空服、氧气装备"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "流浪の章鱼哥",
+            "item": "ad_astra:lunarian_wandering_trader_spawn_egg",
+            "text": "流浪の章鱼哥彻底贯彻流浪的宗旨，出没于月球和其他星球。售卖关于火箭的商品，可能会拯救被困星球的你。你可以用绿宝石购买发射台、氧气、燃料、灵魂火把，水等；一般出现在月球和其他星球的各种结构"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "流浪の章鱼哥",
+            "entity": "ad_astra:lunarian_wandering_trader",
+            "default_rotation": 45,
+            "scale": 0.8
+        }
+    ]
+}

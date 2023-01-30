@@ -1,0 +1,16 @@
+{
+    "name": "发射准备",
+    "icon": "ad_astra:tier_1_rocket",
+    "sortnum": 4,
+    "category": "ad_astra:the_first_launch",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(#ff0000)请严格遵守以下操作 $()缺少一个也会使你的生存变得困难，甚至被困月球。为了顺利返回，你需要带上发射台和三桶燃料"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "将这些物品放入火箭，确保每次发射都有。你应该带上多个氧气罐，充足的食物，照明工具，武器和工具。万事俱备后就可以发射火箭了！进入火箭并按下$(k:jump)!"
+        }
+    ]
+}

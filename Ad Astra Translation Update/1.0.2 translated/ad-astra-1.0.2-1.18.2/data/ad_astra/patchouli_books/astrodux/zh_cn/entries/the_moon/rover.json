@@ -1,0 +1,19 @@
+{
+    "name": "探测车",
+    "icon": "ad_astra:tier_1_rover",
+    "sortnum": 3,
+    "category": "ad_astra:the_moon",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "探测车",
+            "item": "ad_astra:tier_1_rover",
+            "text": "探测车是一种陆地交通工具，能够在星球崎岖地形上行驶。它的速度非常快，可以存储8件物品，可以容纳两位乘客。将探测器装满燃料:shift右键并将燃料桶放置在左侧输入槽。"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "ad_astra:tier_1_rover",
+            "scale": 0.36
+        }
+    ]
+}

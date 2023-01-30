@@ -1,0 +1,30 @@
+{
+    "name": "燃料",
+    "icon": "ad_astra:fuel_bucket",
+    "sortnum": 2,
+    "category": "ad_astra:the_first_launch",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "即使你放置了火箭，也不能起飞。你需要给火箭加满燃料"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "获取燃料",
+            "item": "ad_astra:oil_bucket",
+            "text": "海面上能发现大量原油喷涌而出，收集尽可能的原油来填装火箭燃料。原油为不可再生资源"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "获取燃料",
+            "item": "ad_astra:fuel_bucket",
+            "text": "在收集到足够多的原油(至少六桶用于往返)后，你需要将原油精炼成燃料。制作一个炼油器，并通电，将原油放在左边的槽中进行精炼。 "
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "炼油器",
+            "recipe": "ad_astra:recipes/fuel_refinery",
+            "text": "shift右键打开火箭，将三桶燃料放入输入槽，三桶放入火箭库存，以便返程使用。"
+        }
+    ]
+}

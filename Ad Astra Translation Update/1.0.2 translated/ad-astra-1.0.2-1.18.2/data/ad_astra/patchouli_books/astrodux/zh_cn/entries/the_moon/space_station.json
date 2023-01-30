@@ -1,0 +1,18 @@
+{
+    "name": "空间站",
+    "icon": "ad_astra:/textures/gui/space_station_icon.png",
+    "sortnum": 0,
+    "category": "ad_astra:the_moon",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "空间站",
+            "text": "空间站是自动生成的结构，可以在在行星选择屏幕上选择空间站。空间站总是位于星球的轨道上，你可以在该轨道维度上放置方块。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "空间站",
+            "text": "空间站可以扩展，你可以在星球上方建立理想的基地。它们总是在你发射火箭的任何位置生成(They always spawn in whatever position you launched your rocket at)，记住坐标避免迷失建筑。"
+        }
+    ]
+}

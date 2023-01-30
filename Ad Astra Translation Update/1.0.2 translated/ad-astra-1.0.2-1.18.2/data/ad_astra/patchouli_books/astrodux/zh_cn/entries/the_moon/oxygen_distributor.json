@@ -1,0 +1,40 @@
+{
+    "name": "氧气释放器",
+    "icon": "ad_astra:oxygen_distributor",
+    "sortnum": 2,
+    "category": "ad_astra:the_moon",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "氧气释放器",
+            "item": "ad_astra:oxygen_distributor",
+            "text": "氧气释放器可以在密闭房间中释放氧气。类似于制氧机，它需要水来制造氧气并释放到空气中。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "水泵",
+            "item": "ad_astra:water_pump",
+            "text": "水泵抽取下方的水源，需要动力支持。通过流体管道输送到需要用水的机器(译者:其他mod的泵和管道也可以)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "释放器和泵",
+            "recipe": "ad_astra:recipes/oxygen_distributor",
+            "recipe2": "ad_astra:recipes/water_pump"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "使用释放器",
+            "text": "释放器工作时会在密闭房间里释放氧气。要检查氧气是否被释放，在分配器GUI中单击“显示”。如果你看到周围漂浮着气泡，这个房间就正在被供氧。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "如果结构没有密闭，导致氧气逸出，分配器GUI将提供警告。修补破损之处，以避免过多的电力消耗和氧气的浪费。之后，你就可以脱下氧气服。每个氧气分配器可以覆盖2000块的空间，你可以建造一个中等规模的空间站或基地。你可以放置多个的氧气释放器放置于更大的空间。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "通风",
+            "text": "在你的含氧建筑内部做好通风，以确保当门关闭时房间仍有氧气。你可以预留墙壁空隙或通风孔。"
+        }
+    ]
+}
