@@ -1,0 +1,24 @@
+{
+  "block.tconstruct.cobalt_ore": "月岩钴矿石",
+  "block.tconstruct.beetroot_soup_fluid": "玉米汤",
+  "fluid.tconstruct.beetroot_soup": "玉米汤",
+  "fluid.tconstruct.flowing_beetroot_soup": "流动的玉米汤",
+  "item.tconstruct.beetroot_soup_bucket": "玉米汤桶",
+
+  "__comment__": "关于以下五种材料的百科解释，由于原文与匠魂其他材料的百科风格存在极大差异，已与开发团队提出，其会于之后修改，故不做翻译，收到后删除本行",
+
+  "material.tconstruct.desh": "戴斯",
+  "material.tconstruct.desh.flavor": "柔软，轻便，可靠。",
+
+  "material.tconstruct.ostrum": "紫金",
+  "material.tconstruct.ostrum.flavor": "千钧重物，给你拿来做工具?!",
+
+  "material.tconstruct.calorite": "耐热金属",
+  "material.tconstruct.calorite.flavor": "最锋利的金属。",
+
+  "material.tconstruct.shadow": "暗影钢",
+  "material.tconstruct.shadow.flavor": "如暗物质般致密。",
+
+  "material.tconstruct.radiant": "光辉石",
+  "material.tconstruct.radiant.flavor": "坚硬，光亮。"
+}
