@@ -1,9 +1,10 @@
-# Create: Astral Translation (Simplified Chinese) 机动星系整合包汉化
-A Chinese (Simplified) Translation Project for the Create: Astral modpack.
+# Create: Astral Modpack Translation (Simplified Chinese)
+
+**机械动力：星辰整合包简体中文汉化**
 
 主要是为了将整合包内的任务书、kubejs内容、自定义物品名称进行汉化。欢迎contribution。
 
-目前整合包版本：2.0
+目前整合包版本：2.0b
 
 ## 进度
 
