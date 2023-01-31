@@ -1104,7 +1104,7 @@
 			tasks: [{
 				id: "1A528CDF4DA51B41"
 				type: "checkmark"
-				title: "我明白了"
+				title: "我知道了"
 			}]
 			rewards: [{
 				id: "220200620D9BA6CF"
@@ -1261,7 +1261,7 @@
 			tasks: [{
 				id: "032EAA934B34EED4"
 				type: "checkmark"
-				title: "我明白了"
+				title: "我知道了"
 			}]
 			rewards: [{
 				id: "04356BEE19FBF2E4"
@@ -1338,7 +1338,7 @@
 				{
 					id: "35684AEA414C5246"
 					type: "checkmark"
-					title: "我明白了"
+					title: "我知道了"
 				}
 				{
 					id: "65DD979F7CE1FDE8"
