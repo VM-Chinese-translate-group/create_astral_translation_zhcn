@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 2
 	filename: "chapter_3"
-	title: "2) Getting industrial."
+	title: "第2章 工业化进程"
 	icon: "create:fluid_tank"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -38,8 +38,8 @@
 			title: "Fluid Storage"
 			x: 0.0d
 			y: -2.0d
-			subtitle: "Tech Reborn tanks also exist later"
-			description: ["You won't be able to use Tinker's fluid tanks until owning a smeltery that comes later. However, Create tanks work just fine for storing liquids. They will require a pipe to input fluid, as buckets cannot be directly used on them."]
+			subtitle: "之后还会有科技复兴的流体储罐"
+			description: ["在拥有冶炼炉之前，你无法使用匠魂的储液罐。但是机械动力的流体储罐也可以用来储存流体。它们需要管道来输入流体，因为你无法直接使用桶与其交互。"]
 			dependencies: ["70799237323247B7"]
 			id: "6AEEE2B22E28945B"
 			tasks: [{
@@ -59,11 +59,11 @@
 			x: -3.0d
 			y: -0.5d
 			shape: "rsquare"
-			subtitle: "The... fluid age?"
+			subtitle: "这是……流体时代？"
 			description: [
-				"Time to learn how molten fluids work! Place a melter on top of a heater and chuck in fuel+raw materials to ~1.33x the output, rewarding you for creating metals in fluid form. Melting liquids is also handy, for certain processes can only happen on metals in liquid form."
+				"是时候学习如何熔化金属了！在加热器上方放一个熔化炉，放入燃料并熔化粗矿，这些矿物会增加约三分之一（变为原有的1.33倍），鼓励你以液体形式熔炼矿物。液态金属有时比固态金属来的更方便，因为某些配方只能用液态金属进行合成。"
 				""
-				"Some alloys you can still craft by hand, but it is recommended you get used to using fluids as it will be needed more and more later."
+				"你依旧可以手动合成某些合金，但是我们十分推荐你熟悉一下液态金属，因为之后对液态金属的需求量会越来越多。"
 			]
 			dependencies: ["751CC4EF84A919C7"]
 			size: 1.5d
@@ -109,13 +109,13 @@
 		{
 			x: -3.0d
 			y: 1.0d
-			subtitle: "Don't eat this either"
+			subtitle: "这个也请勿食用"
 			description: [
-				"Bulk blast, or furnace smelt some grout to grab these bricks. These bricks are used in construction of most tinker's blocks."
+				"批量熔炼（鼓风机），或者直接用熔炉烧制一些砖泥，就可以获得焦黑砖。大部分匠魂方块在合成的时候都用得到这种砖头。"
 				""
-				"A depot might be a good idea if bulk blasting as it has been heavily slowed in Astral! Perhaps this will be alleviated later on with some comically efficient machinery..."
+				"在批量冶炼时利用置物台是个好办法，因为这个整合包大大减慢了鼓风机熔炼的速度。也许之后你可以通过更高效的机器来缓解这种状况。"
 				""
-				"The reward book can explain how melting liquids work in more detail, and will detail what new materials are unlocked for crafting the next tier of custom tools."
+				"奖励的这本书（入门熔炼术）详细讲解了如何熔融金属，还介绍了一些可以用来制作更高级工具的材料。"
 			]
 			dependencies: ["1F79F4D01B219D7E"]
 			id: "751CC4EF84A919C7"
@@ -143,10 +143,11 @@
 			x: 0.0d
 			y: -0.5d
 			shape: "rsquare"
-			subtitle: "Fluid movement"
+			subtitle: "移动液体"
 			description: [
-				"Establishing a melter setup with pumps outputting to various tanks using smart pipes is possibly the greatest investment you can make right now.                                     "
-				"WARNING! Mixing fluids within the same pipe will cause it to break and spill, be sure to have a way to account for this if making a large fluid smelting network (see #showcase on discord for examples)"
+				"建造一个冶炼炉，并使用智能管道将液体分类输出到不同的储罐里，这应该是你现在能做的最大的投入。"
+				""
+				"警告！在同一管道内混合运输多种不同流体会使流体管道破损并向外泄漏。如果要建造大型流体运输网络，请先确保有办法解决此类问题（参见Discord中#showcase子频道的示例）。"
 			]
 			dependencies: [
 				"62DAEDF65FB2226B"
@@ -174,18 +175,18 @@
 			}]
 		}
 		{
-			title: "Things Heat Up"
+			title: "工业化的“热潮”"
 			icon: "minecraft:lava_bucket"
 			x: -4.5d
 			y: 3.0d
 			shape: "pentagon"
-			subtitle: "This is only the beginning"
+			subtitle: "这才刚开始"
 			description: [
-				"This chapter's already a doozy to look at, yeah? The Andesite World eased you in but manufacturing will become more complicated as your crafting techniques expand and reources begin requiring multiple steps. It all builds on stuff you've already learned, so its all about improving your craft."
+				"这一章的任务看着都头大，是不是？安山世界给了你缓冲的时间，从这章开始，你能做的事越来越多，生产资源的流程越来越繁琐，工业化也会越来越复杂。所有内容都以你之前所学的内容为基础，所以提高自己的工业技术才是硬道理。"
 				""
-				"You'll find in this chapter that gathering and managing base resources will become more and more of a hassle. You will need to begin semi-automating or fully automating basic resources, as crafting everything on demand will become unsustainable. But the beauty of industrialization is that you have the power to decide what you need and the tools and tenacity to manufacture limitless amounts of it. There is no one true path to success: let your problem-solving skills be your ultimate guide."
+				"在这章中你会发现，基础资源的管理以及自动化一些变得越来越麻烦。你需要开始着手半自动或者全自动生产基础资源，临到需要的时候再手搓资源并不利于可持续化发展。工业化的优点就在于你可以自己决定自己需要什么资源，运用手头的工具和顽强的意志完成自动化生产。条条大路通罗马，成功不止一种方法，你自行解决问题的能力就是最好的向导。"
 				""
-				"Overcome the revolution of industry and the moon will welcome you to explore its wonders. New resources will be found that can further refine your automation efficiency and capabilities. Plus, any production lines set up this chapter will provide for you for the rest of the game."
+				"跨越工业革命这道坎之后，月球的大门就将为你敞开，你可以尽情探索月球的奥秘。在月球，你可以找到全新的资源，为你的自动化工厂提升效率、更新换代。另外，你在本章中所建立的所有自动化产线，直到你打通这个整合包之前，都会马不停蹄地为你服务，生产资源。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["7354F2BFB2591ECF"]
@@ -195,7 +196,7 @@
 			tasks: [{
 				id: "3209A6ED527120C7"
 				type: "checkmark"
-				title: "Understood."
+				title: "我明白了"
 			}]
 			rewards: [{
 				id: "2347ADEAFB518BEC"
@@ -206,11 +207,11 @@
 		{
 			x: 4.0d
 			y: -0.5d
-			subtitle: "Compatible with tinkers fluids AND casting basin + table recipes instead of a faucet"
+			subtitle: "兼容匠魂流体，还能和铸件台和铸造盆配合，代替浇筑口的功能"
 			description: [
-				"The spout spits liquids onto stuff. Handy."
+				"注液器可以向物品注入流体，十分方便。"
 				""
-				"This spout can be used with Tinker casting tables and basins, as an alternative to using faucets."
+				"注液器可以和匠魂的铸件台、铸造盆配合使用，代替浇筑口的功能。."
 			]
 			dependencies: ["557684C7D7B955B8"]
 			id: "17041A495A41EEFD"
@@ -221,16 +222,16 @@
 			}]
 		}
 		{
-			title: "New Water Toys"
+			title: "新奇的水玩具"
 			x: 4.0d
 			y: 0.5d
-			subtitle: "Compatible with tinkers fluids"
+			subtitle: "兼容匠魂流体"
 			description: [
-				"Item drains let you manually pour buckets, which can then be pumped into tanks or other fluid machines."
+				"分液池可以将桶中流体倒出，倒出的流体可以泵入储液罐或者其他流体机器。"
 				""
-				"The hose pulley lets you either suck up a large body of fluid, or let you drain a large amount of fluid into the environment. They're important for harvesting natural resources."
+				"软管滑轮可以从外界大规模吸入流体，也可以向外界大量排出流体，在收集某些自然资源时不可或缺。"
 				""
-				"Portable Fluid Interfaces operate much like Portable Item Interfaces, but they operate with fluids instead of items. To learn more, see the bottom section of this chapter."
+				"移动式流体接口和移动式存储接口工作原理类似，但它们传输的是流体而不是物品。详见本章界面下半部分的任务。（译者注：参考移动式存储接口的任务来理解流体接口的工作原理）"
 			]
 			dependencies: ["557684C7D7B955B8"]
 			id: "2D86CC26B4A2E07A"
@@ -255,11 +256,11 @@
 		{
 			x: -4.5d
 			y: -1.0d
-			subtitle: "A note on tinkers integration"
+			subtitle: "匠魂笔记"
 			description: [
-				"Tinkers faucets pour molten metals into casts and basins. They can operate from any create liquid holding block, such as Create's fluid tanks and filled Create basins!"
+				"匠魂的焦黑浇筑口可以把流体倒入铸件台或者铸造盆。浇筑口可以在任意机械动力的流体储存方块上工作，比如流体储罐或者含有流体的工作盆！"
 				""
-				"IMPORTANT: These can be made to always drain by transmitting a redstone signal into them!"
+				"重要事项：给浇筑口一个红石信号可以使其一直不停地排出液体！"
 			]
 			dependencies: ["0A34148EBAF329B3"]
 			id: "6D5301A68808F8E8"
@@ -270,16 +271,16 @@
 			}]
 		}
 		{
-			title: "Get Casting"
+			title: "动手浇铸"
 			x: -5.5d
 			y: -2.0d
 			shape: "rsquare"
 			description: [
-				"Casting tables will allow you to cast fluids from a seared faucet into all sorts of shapes such as plates, ingots, tool heads, and more. Basins on the other hand, will let you cast fluids into blocks directly."
+				"你可以从用焦黑浇筑口把流体倒入铸件台，可以把熔融金属浇铸成不同的形状，比如板材、锭材、工具头部部件，以及其他的形状。铸造盆则会直接将熔融金属铸造成金属块。"
 				""
-				"The table requires casts to work. Temporary sand casts can be made, although gold casts are infintely reusable and 100x more desirable."
+				"铸件台需要铸模才能使用。你可以用沙子合成一次性铸模，也可以制作可以无限次使用的金质铸模，比沙子铸模要好上一万倍。"
 				""
-				"By the way, you can now make seared bricks by melting clay and pouring it into an ingot cast."
+				"顺带一提，在冶炼炉里熔化黏土再浇铸成锭就可以得到焦黑砖。（译者注：焦黑砖的另一种生产方式）"
 			]
 			dependencies: ["6D5301A68808F8E8"]
 			id: "1519A1EA2CFA6FB1"
@@ -303,14 +304,14 @@
 			}]
 		}
 		{
-			title: "Find yourself some structures."
+			title: "让我们探索自然生成的结构"
 			x: 5.0d
 			y: 0.5d
-			subtitle: "Will point the direction of the majority of structures."
+			subtitle: "结构罗盘会指向结构主体所在位置的方向。"
 			description: [
-				"Strongholds and some other structures with ingame ways to search are not valid targets."
+				"结构罗盘不能用来搜索某些有其他办法定位的结构，例如要塞。"
 				""
-				"You can also find \"shimmer lakes\" with this, which may have some relevancy very soon..."
+				"你还可以用结构罗盘找到闪光溶液湖，或许不久之后就会派上用场……"
 			]
 			dependencies: ["17041A495A41EEFD"]
 			id: "33B14FCDB52879E4"
@@ -325,12 +326,12 @@
 			}]
 		}
 		{
-			title: "LETSGOOO"
+			title: "芜湖起飞"
 			x: 12.0d
 			y: -0.5d
 			shape: "hexagon"
-			subtitle: "Create is going ASTRAL"
-			description: ["Roll credits"]
+			subtitle: "机械动力要上天了"
+			description: ["该放演职员表咯（译者注：半场开香槟）"]
 			dependencies: ["4D7BFA8973D61425"]
 			size: 1.25d
 			id: "624026189BBACBB0"
@@ -400,19 +401,19 @@
 			}]
 		}
 		{
-			title: "Build a Moon Portal"
+			title: "搭建一个月球传送门"
 			x: 12.0d
 			y: -3.5d
 			shape: "hexagon"
-			subtitle: "What is the nether?"
+			subtitle: "下界是什么？"
 			description: [
-				"The nether no longer exists, never heard of it, nuh-uh."
+				"没有下界了。什么下界，真不熟。"
 				""
-				"Make a regular portal using this pretty little block to cross the boundary to.... the moon...."
+				"用这种十分漂亮的方块搭一个传送门出来，准备开启月球之旅……"
 				""
-				"(Do note that Create train tracks do NOT operate through moon portals)"
+				"（请注意，机械动力的列车不能穿过月球传送门运行）"
 				""
-				"(Also, the reward is if you want to add corners without creating four additional shimmering stone!)"
+				"（以及，任务奖励会额外给你4个闪光石，可以把传送门的四个角补上）"
 			]
 			dependencies: ["00F3EA4A8FB5B11B"]
 			size: 1.25d
@@ -431,11 +432,11 @@
 			}]
 		}
 		{
-			title: "An Astral Gemstone..."
+			title: "星辰之宝石"
 			x: 11.5d
 			y: -2.0d
 			shape: "hexagon"
-			subtitle: "Light the portal."
+			subtitle: "开启传送门"
 			dependencies: ["00F3EA4A8FB5B11B"]
 			size: 1.25d
 			id: "33F13EB2C45C36B3"
@@ -453,7 +454,7 @@
 		{
 			x: 10.0d
 			y: -0.5d
-			subtitle: "To load oxygen into your suit however, some more specialised tools will be needed..."
+			subtitle: "要给你的太空服充氧的话，需要用到一种特别的工具……"
 			dependencies: ["343B8B2BF76B1D3B"]
 			id: "4D7BFA8973D61425"
 			tasks: [{
@@ -465,8 +466,8 @@
 		{
 			x: 9.0d
 			y: -0.5d
-			subtitle: "Custom Astral Multiblock!"
-			description: ["The electrolyser (not to be confused with the Tech Reborn one) can have water pumped into it and using only the power of redstone, extract oxygen at a very slow pace. This will assist in preparing youself to go to the moon"]
+			subtitle: "星辰整合包自定义多方块结构！"
+			description: ["电解器（不要跟科技复兴的工业电解器搞混了）可以将水作为输入，依靠红石的能量缓慢地产生氧气。这台机器可以帮助你为月球之旅做准备。"]
 			dependencies: [
 				"267CD8D04921402E"
 				"3C26E1DEA0265C03"
@@ -488,13 +489,13 @@
 			x: 5.0d
 			y: -0.5d
 			shape: "gear"
-			subtitle: "Electron Tube PTSD"
+			subtitle: "电子管PTSD"
 			description: [
-				"Yes these used to cost 4x the amount, I know."
+				"我晓得，这玩意以前造价是现在的4倍来着。"
 				""
-				"(...These are often used for simple electronics, are used a lot in later Create items.)"
+				"（这些电子管常用于合成简单的电子器件，在游戏后期的机械动力物品中还有更多用途。）"
 				""
-				"(Use REI to figure out the recipe. To sand rose quartz, hold sand paper in one hand and rose quartz in the other, hold right click, and be sad at how fragile sand paper is.)"
+				"（在REI中可以查看合成表。要打磨玫瑰石英，需要一手拿着砂纸，另一手拿着玫瑰石英，按住右键打磨，然后就会发现砂纸真的很不经用！）"
 			]
 			dependencies: [
 				"0F4C452C9C9AB1B8"
@@ -516,11 +517,11 @@
 		{
 			x: 8.0d
 			y: -0.5d
-			subtitle: "This will be terrible for the industrial revolution"
+			subtitle: "这个东西十分不利于工业革命"
 			description: [
-				"Redstone Chips are at the bottom for circuitry, and are mostly specialized for audio equipment, such as those found in the phonos mod."
+				"红石芯片是构成电路的基础，很大程度上是为了制作音频设备特制的，比如Phonos模组的物品。"
 				""
-				"That being said, they have just enough juice to create the tools we need to visit the moon."
+				"话虽如此，这个芯片用来制作我们登月所需的工具刚刚好。"
 			]
 			dependencies: ["32B9EAE28E1C5D7A"]
 			id: "267CD8D04921402E"
@@ -531,14 +532,14 @@
 			}]
 		}
 		{
-			title: "Rose Gold"
+			title: "玫瑰金"
 			x: 3.5d
 			y: -1.5d
-			subtitle: "What a nice alloy, I hope I dont need to make loads of it"
+			subtitle: "好漂亮的合金，希望我不需要量产这玩意"
 			description: [
-				"Two seperate fluids - molten copper and molten gold - will need to be pumped into a mixing basin. A smart pipe may be necessary to extract the completed rose gold."
+				"两种不同流体——熔融铜和熔融金——在工作盆中用搅拌器搅拌可以获得玫瑰金。你可能需要用智能流体管道来导出玫瑰金。"
 				""
-				"It might take a bit to get it just right. Use the recipe filter on the side of the basin once you have a bit of rose gold to stop the basin from accepting too much of one input."
+				"你可能需要花点时间倒腾明白工作原理。在获得足够的熔融玫瑰金之后，可以用工作盆侧面的配方过滤器进行配方标记，防止某一种原料流体填满工作盆导致无法继续合成。"
 			]
 			dependencies: ["70799237323247B7"]
 			id: "0F4C452C9C9AB1B8"
@@ -562,13 +563,13 @@
 			]
 		}
 		{
-			title: "Create: Astral"
+			title: "机械动力：向星辰进发"
 			icon: "ad_astra:moon_globe"
 			x: 14.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "Chapter 3 unlock."
-			description: ["We can get much higher."]
+			subtitle: "解锁第3章"
+			description: ["我们还可以飞得更高"]
 			dependencies: [
 				"33F13EB2C45C36B3"
 				"624026189BBACBB0"
@@ -579,7 +580,7 @@
 			tasks: [{
 				id: "26E0A4319968F290"
 				type: "dimension"
-				title: "Visit Dimension: The Moon"
+				title: "前往维度：月球"
 				dimension: "ad_astra:moon"
 			}]
 			rewards: [
@@ -616,13 +617,14 @@
 			]
 		}
 		{
-			title: "Shimmering Heights"
+			title: "闪光山庄"
 			x: 8.0d
 			y: -2.0d
-			subtitle: "The Iconic Astral Branded Fluid"
+			subtitle: "星辰牌闪光溶液"
 			description: [
-				"Shimmer can be produced using the recipes provided, and fully automated with glow ink sacs and amethyst."
-				"Shimmer can be found in underground shimmer lakes which can be detected with the structure compass, pumping a pool of that with a hose pulley will set you up for a long while."
+				"你可以用已有的配方来合成闪光溶液，只要有发光墨囊和紫水晶就可以实现自动化。"
+				""
+				"在一些地下生成的闪光溶液湖结构中也会生成闪光溶液，结构可以用结构罗盘进行探测。用软管滑轮从湖中抽闪光溶液，应该够你用上一阵子了。"
 			]
 			min_required_dependencies: 1
 			dependencies: [
@@ -652,11 +654,11 @@
 		{
 			x: 3.0d
 			y: -0.5d
-			subtitle: "Ohoho, tiered casings"
+			subtitle: "哦吼吼，不同等级的机壳"
 			description: [
-				"Copper casing is largely used for fluid machines, much like andesite casing for kinetic machines. Copper casing also have an easily overlooked practical application; check the ponder."
+				"和安山机壳广泛用于制造机械相关机器类似，铜机壳也广泛用于制造流体相关机器。铜机壳还有一种不为人所知的实用用途，对铜机壳进行思索可以查看。"
 				""
-				"When making the next tier of casing, you'll be needing a lot of the previous tiered stuff too. As such, over produce this and save yourself the future responsibility."
+				"在制造更高级的机壳时，会用到很多前一级别的东西。趁着现在多做点，之后就省事了。"
 			]
 			dependencies: [
 				"70799237323247B7"
@@ -670,22 +672,22 @@
 			}]
 		}
 		{
-			title: "Automate Copper!"
+			title: "自动化产铜！"
 			x: -7.5d
 			y: -2.0d
 			shape: "diamond"
-			subtitle: "I sure could use more copper"
+			subtitle: "铜这东西不嫌多"
 			description: [
-				"Veridium is a renewable source of copper, created by pouring lava onto seared stone. Having a setup to turn excess clay into copper can be nice."
+				"辉绿矿是可再生的铜来源，在焦黑石头上浇铸熔岩就可以获得。前有辉绿矿，所以黏土到铜的生产线会很有用。"
 				""
-				"If you find a way to passively generate seared stones, you'll never need to mine copper again."
+				"如果你能想办法全自动生产焦黑石头，你就再也不需要挖铜矿了。"
 			]
 			dependencies: ["1519A1EA2CFA6FB1"]
 			id: "3A6FBCB0C9C41439"
 			tasks: [{
 				id: "749D797497A47853"
 				type: "item"
-				title: "4x64 Veridium"
+				title: "4x64 辉绿矿"
 				item: "create:veridium"
 				count: 256L
 			}]
@@ -708,18 +710,18 @@
 			]
 		}
 		{
-			title: "Automate Tin!"
+			title: "自动化产锡！"
 			x: -7.5d
 			y: -1.0d
 			shape: "diamond"
-			subtitle: "its such an exciting material111!!1"
-			description: ["Asurine is a renewable source of zinc created by pouring water onto seared stone. Having a setup to turn excess clay into zinc can be nice."]
+			subtitle: "我们皓蓝石真的太酷啦111！！1"
+			description: ["皓蓝石是可再生的锡来源，在焦黑石头上浇铸熔岩就可以获得。前有皓蓝石，所以黏土到锡的生产线会很有用。"]
 			dependencies: ["1519A1EA2CFA6FB1"]
 			id: "67012541C365BA5A"
 			tasks: [{
 				id: "2DE68D06C55FDAA4"
 				type: "item"
-				title: "4x64 Asurine"
+				title: "4x64 皓蓝石"
 				item: "create:asurine"
 				count: 256L
 			}]
@@ -742,11 +744,11 @@
 			]
 		}
 		{
-			title: "Efficient Alloy Production."
+			title: "高效生产合金"
 			x: -1.0d
 			y: -4.0d
 			shape: "rsquare"
-			subtitle: "Andesite alloy can be produced at 1/3rd the cost if you opt to mix it into a liquid form and cast it into a solid!"
+			subtitle: "生产流体形态的安山混合液，再把它浇铸成固体，就可以用等量的原材料产出三倍的安山合金！"
 			dependencies: ["6AEEE2B22E28945B"]
 			id: "5A1B85C3323DDBD1"
 			tasks: [{
@@ -762,14 +764,14 @@
 			}]
 		}
 		{
-			title: "Make some real tools now"
+			title: "来做一些正经的工具"
 			x: -4.5d
 			y: -3.5d
-			subtitle: "The good 3x3 stuff oh yeaaa"
+			subtitle: "九宫挖掘，一步到胃"
 			description: [
-				"A tinker's anvil allows you to assemble tool parts into tools, much like the tinker's station. Unlike the tinker's station, you have access to fancier tools. 100% try crafting a mining hammer!"
+				"和工匠站一样，在工匠砧上也可以组装工具。不同的是，在工匠砧上你还可以制作更高级的宽型工具。一定要做一把匠魂的大锤试一试！"
 				""
-				"You'll also be able to apply certain upgrades only at a smithing anvil."
+				"一些特定的工具强化只能在工匠砧上进行。"
 			]
 			dependencies: [
 				"3EA569DE4AC60CC2"
@@ -789,10 +791,10 @@
 			}]
 		}
 		{
-			title: "Advanced Tools"
+			title: "高级工具"
 			x: -5.75d
 			y: -4.25d
-			subtitle: "Basic tools, bronze is pretty good all around"
+			subtitle: "十分实用，青铜就是全能材料"
 			dependencies: [
 				"5042E544D3181FAC"
 				"7856BCA1DB363174"
@@ -843,7 +845,7 @@
 			}]
 		}
 		{
-			title: "Get lucky"
+			title: "幸运宠儿"
 			icon: "minecraft:blue_dye"
 			x: -3.5d
 			y: -4.5d
@@ -865,7 +867,7 @@
 			]
 		}
 		{
-			title: "Get luckier"
+			title: "天选之人"
 			icon: "minecraft:diamond"
 			x: -3.5d
 			y: -5.5d
@@ -893,7 +895,7 @@
 			]
 		}
 		{
-			title: "Get real."
+			title: "一切真实"
 			icon: "minecraft:deepslate_diamond_ore"
 			x: -3.5d
 			y: -6.5d
@@ -916,11 +918,11 @@
 			]
 		}
 		{
-			title: "Shimmer Lakes..."
+			title: "闪光溶液湖……"
 			x: 7.0d
 			y: -2.0d
-			subtitle: "Spread across the overworld and moon, you might uncover a buried meteor filled with shimmer..."
-			description: ["Pumping this and shipping it off to your base might be wise, shimmer is a valuable resource to control."]
+			subtitle: "闪光溶液湖广泛分布于地球和月球，你可能会找到埋在地下的陨石，内部装满了闪光溶液……"
+			description: ["把这些溶液抽起来运回基地应该会是个不错的选择，闪光溶液是很有收集价值的资源。"]
 			hide_dependency_lines: true
 			dependencies: ["557684C7D7B955B8"]
 			id: "586FA45ED205784F"
@@ -938,12 +940,12 @@
 			}]
 		}
 		{
-			title: "HOW DO I MAKE THIS?!"
+			title: "这个我要怎么做？！"
 			x: 9.5d
 			y: 0.5d
-			subtitle: "Multiblock Components"
+			subtitle: "多方块结构组件"
 			description: [
-				"Bottom Layer, Front center electrolyser, 3x3 remaining copper casing"
+				"下层：Bottom Layer, Front center electrolyser, 3x3 remaining copper casing"
 				"Middle Layer, 3x3 Copper coils"
 				"Top layer, 3x3 Copper Plating"
 			]
@@ -974,8 +976,8 @@
 		{
 			x: 3.5d
 			y: -2.5d
-			subtitle: "Hey look it says gold chest but its pink!"
-			description: ["Yipee!!!"]
+			subtitle: "你看，写的是金箱子却是粉色的！"
+			description: ["好耶！！"]
 			dependencies: ["0F4C452C9C9AB1B8"]
 			id: "069634A427DE403F"
 			tasks: [{
@@ -985,11 +987,11 @@
 			}]
 		}
 		{
-			title: "Efficient Bronze Production"
+			title: "高效生产青铜"
 			x: 0.0d
 			y: -4.0d
 			shape: "rsquare"
-			subtitle: "Bronze can be produced at half the cost with the mixing recipe."
+			subtitle: "用搅拌配方生产，可以只用原来一半的材料做出等量青铜。"
 			dependencies: ["6AEEE2B22E28945B"]
 			id: "0E939F8167F47710"
 			tasks: [{
@@ -1008,11 +1010,11 @@
 			icon: "tconstruct:gear_cast"
 			x: 0.0d
 			y: -5.0d
-			subtitle: "Transforming molten bronze into cogwheels requires casting into a gear or coin cast"
+			subtitle: "要用浇铸方式制作齿轮或大齿轮，需要将熔融青铜浇铸到币铸模或齿轮铸模中"
 			description: [
-				"As a reminder, you can supply a faucet with a redstone signal to have it continuously pour, and a hopper will suffice for moving a cooled alloy into an inventory."
+				"提醒你一下，你可以给浇筑口一个红石信号使其持续输出液体，并且可以用漏斗将冷却完成的物品导入储存方块中。"
 				""
-				"The coin cast is used to craft SMALL cogwheels, while the gear cast is used to cast LARGE cogwheels."
+				"币铸模可以制作小齿轮，齿轮铸模可以制作大齿轮。"
 			]
 			dependencies: ["0E939F8167F47710"]
 			id: "15069E711021763F"
@@ -1030,15 +1032,15 @@
 			]
 		}
 		{
-			title: "Spy's Sappin my Sentree!"
+			title: "有间谍来偷我的树脂"
 			icon: "techreborn:sap"
 			x: -2.0d
 			y: 2.5d
-			subtitle: "Rubberino"
+			subtitle: "橡胶工厂"
 			description: [
-				"Obtaining a rubber tree by now should be your priority, as a fair amount of this will be used in the production of belts, chests, and casing!"
+				"当下，你的首要目标应该是尽快获取橡胶树，因为制作传送带、箱子和机壳会需要很多橡胶！"
 				""
-				"To extract its sap, just right click sap spots with the treetap. Sap will regenerate on the bark periodically, although if you don't want to wait, the logs can be ground up into sap."
+				"要提取粘性树脂，只需要手持木龙头右键树皮上的树脂斑点。树脂斑点过一段时间会重新出现，如果你比较着急不想等的话，橡胶原木粉碎后可以直接获得粘性树脂。"
 			]
 			dependencies: ["1F79F4D01B219D7E"]
 			id: "1FAC54D118F09831"
@@ -1063,12 +1065,12 @@
 			]
 		}
 		{
-			title: "Rubber: This Age's Andesite Alloy"
+			title: "橡胶：本世代的安山合金"
 			x: 0.0d
 			y: 2.5d
 			shape: "rsquare"
-			subtitle: "Mix up some sap in a mixer and get this lovely substance"
-			description: ["Rubber's used for a lot of important things. You'll want to keep a source of sap nearby."]
+			subtitle: "在搅拌器中搅拌树脂就可以获得这种物质"
+			description: ["橡胶广泛用于许多重要物品的合成配方。你需要建造一个树脂自动产线。"]
 			dependencies: ["1FAC54D118F09831"]
 			size: 1.5d
 			id: "62DAEDF65FB2226B"
@@ -1104,9 +1106,9 @@
 			y: 4.5d
 			subtitle: "Mmm belt"
 			description: [
-				"Belts transport items around. They can even take materials from one machine to the next, allowing you to cut out manual labour in a recipe chain."
+				"传送带可以运输物品，甚至可以用来在机器之间运输材料，省下产线中的人力劳动。"
 				""
-				"You can also bulk blast and bulk wash items on belts, although do know, a more powerful fan will not wash/blast materials any faster. You'll have to carefully tune belt speeds so items stay in the water/lava stream just long enough to transform."
+				"你还可以在传送带上进行批量熔炼和批量洗涤，不过要注意的是，鼓风机的风力大小并不会影响熔炼和洗涤的速度。你需要注意调整传送带的传输速度，保证这些物品在传送带上的时间不长不短刚刚好。"
 			]
 			dependencies: ["62DAEDF65FB2226B"]
 			id: "710C81D7DE6C7FCB"
@@ -1123,11 +1125,11 @@
 			}]
 		}
 		{
-			title: "Getting an Upgrade (of a Chest)"
+			title: "获得升级（箱子）"
 			x: -1.0d
 			y: 4.5d
-			subtitle: "Upgrade those copper chests with iron ones for bonus storage capacity"
-			description: ["That iron chest you earned from the traveller quest in chapter 0.5 doesn't count."]
+			subtitle: "把铜箱子升级成铁箱子可以获得额外的存储空间"
+			description: ["第0.5章旅行者套装任务那个箱子不算数。"]
 			dependencies: ["62DAEDF65FB2226B"]
 			id: "13B2095F8EE6B4D3"
 			tasks: [{
@@ -1140,11 +1142,11 @@
 		{
 			x: 3.0d
 			y: 2.5d
-			subtitle: "Whaaaaat, sequenced assembly already?"
+			subtitle: "什么玩意，这就要流水线装配了？"
 			description: [
-				"The deployer is a very special item - it simulate's a player's right or left click, and will work on everything that can be left or right-clicked. You can also configure it hold items or materials, allowing for contraptions like automatic andesite casing creation or automatic sheep shearing."
+				"机械手是一种十分特别的方块——它能够模拟玩家右键或左键动作，并且可以和任何能够右键或左键的方块进行交互。你还可以把物品交给机械手拿着，实现自动生产安山机壳或者自动剪羊毛。"
 				""
-				"Normally deployers come later, but once again, we're generous ;)"
+				"一般来说机械手也是之后的事，不过还是那句话，咱很大方 ;)"
 			]
 			dependencies: ["62DAEDF65FB2226B"]
 			id: "41926BDF2F7890F6"
@@ -1164,11 +1166,11 @@
 		{
 			x: 2.0d
 			y: 4.5d
-			subtitle: "I love logistics"
+			subtitle: "我爱物流"
 			description: [
-				"The funnel is of paramount importance: it can withdraw and desposit items to and from any inventory. They're often used in conjecture with depots or belts."
+				"漏斗的重要性不容忽视：它能将物品输入到任何容器，也能从任何容器输出物品。漏斗常常与置物台和传送带结合使用。"
 				""
-				"Funnels and belts form the basis of production lines, and therefore automation."
+				"漏斗和传送带构成了生产线的基础，它们就是自动化的基石。"
 			]
 			dependencies: ["62DAEDF65FB2226B"]
 			id: "18159A0691993E5B"
@@ -1193,15 +1195,15 @@
 			]
 		}
 		{
-			title: "See More of Reality"
+			title: "窥探现实"
 			x: -2.0d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "Get goggles, they're super useful!"
+			subtitle: "做一副护目镜吧，很有用的！"
 			description: [
-				"Goggles allow you to directly see how much stress something is producing or consuming, as well as the speed stuff is operating at. It also displays extra info for some blocks."
+				"工程师护目镜可以让你直接看到某个方块产生或消耗了多少应力，还能看到当前工作转速。戴着护目镜看某些方块的时候还会显示额外信息。"
 				""
-				"Definitely invest in one."
+				"做一副护目镜吧，你做不了吃亏做不了上当。"
 			]
 			dependencies: ["62DAEDF65FB2226B"]
 			id: "22F037A9108D116A"
@@ -1218,15 +1220,15 @@
 			}]
 		}
 		{
-			title: "The World Revolving"
+			title: "天旋地转"
 			icon: "create:mechanical_bearing"
 			x: 4.0d
 			y: 7.0d
-			subtitle: "Automatic Farming"
+			subtitle: "自动农场"
 			description: [
-				"Mechanical Bearings can have a structure glued to their top. When activated, they will spin the structure around, and any buzzsaw, harvester, drill, etc., will interact with the environment (and free of SU cost, too!)"
+				"动力轴承可以把旋转结构粘在上面。当轴承启动时，会带着整个结构一起旋转，结构中的动力锯、动力收割机、动力钻等方块会直接与外界环境交互（并且还不会消耗额外应力！）"
 				""
-				"When the contraption rotates, any collected items will be automatically placed inside of storages in the structure, including vaults. Deployers will also use any assigned items it finds in the storage. The portalble item interface can be used to get items out of the farm and onto a production line."
+				"当结构旋转时，所有收集到的掉落物都会直接存储在结构内的存储方块中，包括物品保险库。机械手也会从结构内部存储中拿取指定物品进行使用。移动式存储接口可以从结构的存储空间中输出物品，送到生产线。"
 			]
 			dependencies: [
 				"38814494AB07C2D8"
@@ -1248,11 +1250,11 @@
 			]
 		}
 		{
-			title: "Industrial Agriculture"
+			title: "工业化农耕"
 			x: 5.0d
 			y: 6.5d
-			subtitle: "The days of manual harvesting are over."
-			description: ["The harvester is used to harvest crops automatically. Kelp is of particular concern to us here but they work on wheat, beetroots, farmer delight's foods, etc."]
+			subtitle: "人力劳动农耕的时代结束了"
+			description: ["动力收割机可以用来自动收获作物。这里以海带为例，不过收割机还可以收获小麦、甜菜根、农夫乐事作物，等等。"]
 			dependencies: ["6C28C7FB221EA517"]
 			id: "1A683B56285B7DFC"
 			tasks: [
@@ -1273,11 +1275,11 @@
 			x: 6.0d
 			y: 6.5d
 			shape: "diamond"
-			subtitle: "I'm addicted to these belt things..."
+			subtitle: "我传送带瘾要犯了……"
 			description: [
-				"Having wet kelp doesn't help you much. Before kelp goes to their final destination, it'd be best if you bulk smoke it on the way."
+				"湿哒哒的海带对你的用处并不大。在把海带存起来之前，最好先把它们批量烟熏一下。"
 				""
-				"(Do not bulk blast it! Dried kelp is considered food!)"
+				"（不要用批量熔炼处理海带！干海带算作食物！）"
 			]
 			dependencies: ["1A683B56285B7DFC"]
 			id: "600FB959B71E4B18"
@@ -1294,15 +1296,17 @@
 			}]
 		}
 		{
-			title: "Industrial Logging"
+			title: "工业化伐木"
 			icon: "create:mechanical_saw"
 			x: 5.0d
 			y: 7.5d
-			subtitle: "Remember the mechanical saw from last chapter?"
+			subtitle: "还记得上一章的动力锯吗？"
 			description: [
-				"If you put them on a moving contraption and they should do exactly what you'd expect."
+				"如果你在移动结构上安装动力锯，它就会按照你所想的方式工作。"
 				""
-				"That being said, one caveat of automatic farming is that trees need to be replanted. That's what deployers are for - put them above the saws or on the opposite side of the arm and have them equipped with saplings facing down. Trees that are cut down will provide you saplings."
+				"尽管如此，关于砍树有一点要注意：砍倒的树不会补种树苗。机械手就在这个时候派上用场了：你可以把机械手放在动力锯上方或者旋转臂的另一侧，面朝下方，放上树苗。砍倒的树会为你补给树苗。"
+				""
+				"（译者注：机械手不一定要面朝下方，保证能在指定方块上补种树苗即可）"
 			]
 			dependencies: ["6C28C7FB221EA517"]
 			id: "34F33F38F8BF2B22"
@@ -1322,7 +1326,7 @@
 				{
 					id: "6D29FA1DC53B868D"
 					type: "item"
-					title: "Any Sapling"
+					title: "任意树苗"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1334,22 +1338,22 @@
 			]
 		}
 		{
-			title: "Mass Wood Production"
+			title: "量产木头"
 			x: 6.0d
 			y: 7.5d
 			shape: "diamond"
-			subtitle: "No more tedious tree-chopping excursions"
+			subtitle: "枯燥的砍树工作已经成为历史"
 			description: [
-				"When tree farms get dumped out, they also dump out sticks, saplings, and even apples. If you plan to turn wood into charcoal, excess materials will be burned up - and do you really need the saplings and sticks?"
+				"树场输出产物时不仅会输出原木，还会输出木棍、树苗，甚至还有苹果（译者注：橡木、深色橡木）。如果你打算把原木变成木炭的话，多余的材料会被烧毁——以及，你真的需要那么多树苗和木棍吗？（译者注：提示你把多余的木棍和树苗排出销毁）"
 				""
-				"A note on planks. You might consider automating. Create provides a way to get 6 planks out of every wood log, although you'll have so many logs doing this can be overkill. Your choice."
+				"关于木板有件事要注意，你可能需要做一做木板的自动化。动力锯可以1原木出6木板，不过既然你都建树场了也不差这点木板了，自己权衡吧。"
 			]
 			dependencies: ["34F33F38F8BF2B22"]
 			id: "726EED16A080CFC4"
 			tasks: [{
 				id: "351C7D49A9C4EFD9"
 				type: "item"
-				title: "2x64 Logs That Burn"
+				title: "2x64 可燃烧原木"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1366,13 +1370,13 @@
 			}]
 		}
 		{
-			title: "Automate Zinc"
+			title: "自动化产锌"
 			icon: "create:zinc_ingot"
 			x: -1.5d
 			y: 7.0d
 			shape: "diamond"
-			subtitle: "I want minerals for a healthy factory lifestyle"
-			description: ["Washing red sand rarely produces zinc and dead bushes. There's no way to automate red sand production itself at this point, so all you can really do is use up the red sand you have lying around... If you have any..."]
+			subtitle: "矿物质有益工厂健康"
+			description: ["洗涤红沙有小概率得到锌和枯萎的灌木。目前还没有办法自动化生产红沙，你能做的也就只有把你周围的红沙都洗一洗……如果你有的话。"]
 			dependencies: ["38814494AB07C2D8"]
 			id: "60906B723CCE6D10"
 			tasks: [
@@ -1384,14 +1388,14 @@
 				{
 					id: "56B00DC3D1BC24B5"
 					type: "item"
-					title: "8x64 Zinc Nuggets"
+					title: "8x64 锌锭"
 					item: "create:zinc_nugget"
 					count: 512L
 				}
 				{
 					id: "6BA9DBE5AF20FDBD"
 					type: "item"
-					title: "4x8 Dead Bushes"
+					title: "4x8 枯萎的灌木"
 					item: "minecraft:dead_bush"
 					count: 256L
 				}
@@ -1411,13 +1415,13 @@
 			]
 		}
 		{
-			title: "Automate Iron + Flint"
+			title: "自动化铁+燧石"
 			icon: "minecraft:iron_ingot"
 			x: -1.0d
 			y: 6.5d
 			shape: "diamond"
-			subtitle: "You may have built this dozens of times already"
-			description: ["Washing gravel produces the occasional iron nugget and flint. Gravel can be made by milling cobblestone, and cobblestone can be made from a cobblestone generator..."]
+			subtitle: "这个自动化估计你已经做了好几十遍了"
+			description: ["洗涤沙砾有时会获得铁粒和燧石。沙砾可以通过粉碎圆石获得，圆石则可以从造石机中获得……"]
 			dependencies: ["38814494AB07C2D8"]
 			id: "6E9F3AA80AB398EB"
 			tasks: [
@@ -1429,14 +1433,14 @@
 				{
 					id: "7DCBBC12F5319CA3"
 					type: "item"
-					title: "4x64 Iron Nuggets"
+					title: "4x64 铁粒"
 					item: "minecraft:iron_nugget"
 					count: 256L
 				}
 				{
 					id: "4D471D33779993B0"
 					type: "item"
-					title: "4x64 Flint"
+					title: "4x64 燧石"
 					item: "minecraft:flint"
 					count: 256L
 				}
@@ -1456,18 +1460,18 @@
 			]
 		}
 		{
-			title: "I NEED CLAY"
+			title: "我要黏土"
 			icon: "minecraft:clay_ball"
 			x: -1.0d
 			y: 7.5d
 			shape: "diamond"
 			subtitle: "Based Greg"
 			description: [
-				"Sand can be washed into clay much like red sand washes into zinc. You can even create sand infintely by crushing gravel, but you don't have access to that yet. All you can do is transform unused sand and settle for semi-automation."
+				"和红沙能洗涤得到锌一样，沙子洗涤可以得到黏土。你甚至可以粉碎沙砾来无限产沙子，但是你的科技线还没发展到那步，你现在只能先做个半自动产线凑合用。"
 				""
-				"There is also a different, more complicated semi-automation technique that involves starting with calcite and turning it into dripstone to mill. Unforunately, you can't infintely produce calcite, and therefore there's no way to reliably produce dripstone... Right?"
+				"还有一条不一样的，更加复杂的半自动化流程，可以把方解石转化为滴水石再进行粉碎。但是，你没有办法自动生产方解石，也就没有办法全自动生产滴水石……对吧？"
 				""
-				"Real pros will have a setup that then takes automated clay and makes andesite alloy directly."
+				"老玩家这会已经开始造自动输入黏土，直接生产安山合金的产线了。"
 			]
 			dependencies: ["38814494AB07C2D8"]
 			id: "3B80A4FBF7D2AB7B"
@@ -1485,7 +1489,7 @@
 				{
 					id: "0E85B9A7C227F319"
 					type: "item"
-					title: "16x64 Clay Balls"
+					title: "16x64 黏土"
 					item: "minecraft:clay_ball"
 					count: 1028L
 				}
@@ -1499,7 +1503,7 @@
 				{
 					id: "5C5E71C77D96C277"
 					type: "item"
-					title: "8x64 Brick"
+					title: "8x64 红砖"
 					item: "minecraft:brick"
 					count: 518
 				}
@@ -1512,21 +1516,21 @@
 				{
 					id: "5F8AF4A3119F37A3"
 					type: "item"
-					title: "4x64 Glass"
+					title: "4x64 玻璃"
 					item: "minecraft:glass"
 					count: 256
 				}
 			]
 		}
 		{
-			title: "Funnel's Awkward Sibbling"
+			title: "漏斗的奇怪孪生兄弟"
 			x: 0.0d
 			y: 4.5d
-			subtitle: "LOL"
+			subtitle: "哈哈"
 			description: [
-				"Tunnels do have a use: if a stack is on a conveyor belt and goes under a tunnel with a branching path, exactly one item from the stack will go down the branch."
+				"安山隧道的用途：如果在传送带上有一组物品，这些物品沿着传送带进入有分支出口的隧道时，每个分支的隧道出口会恰好输出一个物品。（译者注：不一定是一组，只要是一堆多个物品就行）"
 				""
-				"Of course, you have limited means to put stacks on belts, so tunnels aren't very useful until later. They're a pleasant way to seal up holes belts go through, at least."
+				"当然，你现在还没什么办法在传送带上放一组物品，所以隧道目前没什么用处，之后会有用。不过，用隧道把传送带穿过的洞口封一封也是极好的。"
 			]
 			dependencies: ["62DAEDF65FB2226B"]
 			id: "42817242953BD9CA"
@@ -1543,18 +1547,18 @@
 			}]
 		}
 		{
-			title: "The Basis of Automation"
+			title: "自动化的基石"
 			icon: "create:mechanical_arm"
 			x: 1.5d
 			y: 7.0d
 			shape: "gear"
-			subtitle: "Chapter 2.5 Unlock"
+			subtitle: "解锁第2.5章"
 			description: [
-				"The true power of the Create mod isn't in the new crafting techniques it provides, but the ability to automate resources."
+				"机械动力模组真正的力量，不在于那些全新的合成方式，而在于其强大的自动化能力。"
 				""
-				"Automating comes in two flavours: full automation, where a specific resource will be made until the end time without any need for the player to touch a system, and semi-automation, where you only need to periodically restock starting resources or fuel."
+				"自动化有两种方式：全自动化和半自动化。全自动化中，特定的资源能够一直保持生产输出直到天荒地老，并且不需要玩家对系统进行任何操作；半自动化中，玩家只需要定期对自动化的起始材料或所需燃料进行补充就能实现。"
 				""
-				"This pack won't always tell you when to automate and what can be automated. That'll be up to you to decide. That being said, we'll occassionaly make diamond-shaped automation quests, to either let you know a new automation opportunity exists, or because its a really strong idea. You don't need to complete them immdediately - just consider starting sometime down the line. Btw, there may have been some of these automation quests in chapter 1 ;)"
+				"这个整合包不会每次都告诉你什么时候该做自动化、哪些东西该做自动化，这需要你自己把握。尽管如此，我们有时会在任务线中放入菱形图标的任务，来提示你这里可以做自动化产线或者告诉你自动化这样东西会比较好。你不需要立刻把自动化做完——考虑一下什么时候把自动化做了就行。顺带一提，第1章里可能有这种自动化的任务哦 ;)"
 			]
 			dependencies: [
 				"18159A0691993E5B"
@@ -1565,7 +1569,7 @@
 			tasks: [{
 				id: "645496942E14E974"
 				type: "checkmark"
-				title: "Let's get factory-building!"
+				title: "开始造工厂咯！"
 			}]
 			rewards: [{
 				id: "61C410A110D3AE8F"
@@ -1579,13 +1583,13 @@
 			x: 4.0d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "Automate Tracks"
+			subtitle: "自动化生产列车轨道"
 			description: [
-				"Remember the train track recipe from chapter 1?"
+				"还记得第1章的列车轨道吗？"
 				""
-				"Well, with deployers, you're now able to produce tracks at 1/3rd the cost. And iron nuggets can be automated too, which is great! Now if only stone slabs can be automated. Or is there a way?"
+				"现在，有了机械手，你可以只花1/3的原材料来合成轨道。以及铁粒也可以自动化，是不是很棒？现在只需要自动化石头半砖就行了，有没有办法呢？"
 				""
-				"To complete the advancement, the same mechanical press must be used to create 1000 tracks pieces."
+				"要完成这个进度，你需要用同一个动力辊压机辊压出1000个列车轨道。"
 			]
 			dependencies: ["41926BDF2F7890F6"]
 			optional: true
@@ -1600,7 +1604,7 @@
 				{
 					id: "4C5AE91F594F0018"
 					type: "item"
-					title: "2x64 Metal Girder"
+					title: "2x64 金属梁"
 					item: "create:metal_girder"
 					count: 128
 				}
@@ -1619,21 +1623,21 @@
 			]
 		}
 		{
-			title: "Automate Mining Itself"
+			title: "自动化挖矿"
 			icon: "create:mechanical_drill"
 			x: 1.5d
 			y: 10.5d
-			subtitle: "Build a tunnelbore!"
+			subtitle: "建造一个盾构机！"
 			description: [
-				"Tunnelbores will mine tunnels for you. They're stupidly complicated, and its highly, highly recommended you watch a YouTube guide."
+				"盾构机可以为你挖掘隧道。盾构机的结构超级复杂，强烈建议你上B站找视频教程看一看。"
 				""
-				"That being said, here's the gist: any minecart running under a powered cart assembler will turn into a cart contraption. The entire contraption can be picked up with a wrench right click. Running the contraption under a de-powered cart assembler will turn it back into block form."
+				"虽说要你去看教程，不过还是大概讲一讲思路：任意种类矿车穿过红石信号充能的矿车装配站时，就会变成装配过的矿车。手持扳手右键可以把整个装配过的矿车收到物品栏。装配过的矿车开到未充能的矿车装配站就会变回方块形态。"
 				""
-				"A tunnelbore is a cart contraption with a wall of drills with a wall of cobblestone/cobbled deepslate deployers, while the outside edge as the deployers before the drills. The purpose of this is to prevent fluids from messing things up."
+				"盾构机矿车结构包含一面动力钻头组成的墙和一面机械手组成的墙（机械手用于放置圆石或深板岩圆石），墙的最外圈要保证机械手在动力钻头前面。这样设计的盾构机结构可以防止流动的液体把东西搞坏。"
 				""
-				"Finally, you create a long neck. The front of the neck has a deployer to place down tracks, and a deployer in front of it one block lower to place down a path for the track. In the back, a plough, which scoops things off the ground, picks up the rails and recycles them."
+				"最后，你的盾构机还需要一个长一点的脖子。脖子的前部需要放一个低一格的机械手来放置铁轨，后部需要放一个动力犁来回收铁轨。"
 				""
-				"Mined coal and cobblestone will refresh the furnace cart and deployers. You'll get stupid amounts of ore in very little time, although you'll have either manually place down lights or find a clever way to deal with darkness-induced mob spawns."
+				"挖下来的煤炭可以为动力矿车补充燃料，而挖下来的圆石可以补给机械手。只需要挖一小会就可以获得大量矿物，不过挖隧道的过程中你要么需要手动放置光源，要么得想个办法对付从黑暗中出现的怪物。"
 			]
 			dependencies: ["4642949B43A4F838"]
 			id: "1C084F85AD4E24BE"
@@ -1688,14 +1692,14 @@
 				{
 					id: "602415334344E919"
 					type: "item"
-					title: "3x64 Cobblestone"
+					title: "3x64 圆石"
 					item: "minecraft:cobblestone"
 					count: 192
 				}
 				{
 					id: "27AE8A781FEE8E1C"
 					type: "item"
-					title: "3x64 Cobbled Deepslate"
+					title: "3x64 深板岩圆石"
 					item: "minecraft:cobbled_deepslate"
 					count: 192
 				}
@@ -1707,7 +1711,7 @@
 				{
 					id: "72281C48ED17B5E1"
 					type: "item"
-					title: "2x64 Torches"
+					title: "2x64 火把"
 					item: "minecraft:torch"
 					count: 128
 				}
@@ -1716,11 +1720,11 @@
 		{
 			x: 1.5d
 			y: 9.5d
-			subtitle: "A more complicated alternative to mechanical bearings"
+			subtitle: "略为复杂的动力轴承替代品"
 			description: [
-				"The cart assembler is special: you can create a moving contraption that operates on minecart railway. They're clunkier to use than rotating farms, but hey, its still an option."
+				"矿车装配站比较特殊：你可以用装配站做出可以沿着矿车铁轨运行的移动结构。矿车结构比旋转结构稍微笨重一些，不过至少是一种选择。"
 				""
-				"That being said, there's one contraption in particularly that'd be of interest to you that involves the cart assembler..."
+				"话虽这么说，有一种十分特别的矿车结构你可能会比较感兴趣……"
 			]
 			dependencies: [
 				"38814494AB07C2D8"
@@ -1734,16 +1738,16 @@
 			}]
 		}
 		{
-			title: "Necessary Contraption Components"
+			title: "移动结构的必备品"
 			x: 2.5d
 			y: 8.0d
-			subtitle: "I seen that glue before!"
+			subtitle: "这个胶胶我曾见过的"
 			description: [
-				"Certain auotmation process involve creating moving contraptions, such as resources like food and trees."
+				"有些自动化过程需要用到动态结构，比如树场或者农场这种自然资源。"
 				""
-				"Glue is necessary to stick blocks together for moving contraptions, and you have seen it in used in chapter 1 for trains. Portal Item Transfers are used to interact with storages on moving contraptions."
+				"强力胶可以把方块粘在一起，作为一个整体结构移动，你在第1章列车相关的任务里已经见过它了。移动式接口可以实现移动结构的物品输入输出。"
 				""
-				"When you use glue, be careful you don't accidently glue part of your base to the contraption!"
+				"在使用强力胶的时候，注意不要把你的基地和移动结构粘到一起！"
 			]
 			dependencies: ["38814494AB07C2D8"]
 			size: 0.75d
@@ -1769,15 +1773,15 @@
 			]
 		}
 		{
-			title: "Automate Fuel"
+			title: "自动化燃料"
 			x: 7.0d
 			y: 7.0d
 			shape: "diamond"
-			subtitle: "Trust me. Automate any of these three and fuel will never be an issue again."
+			subtitle: "信我，自动化三种燃料中的一种，以后就不愁燃料了。"
 			description: [
-				"You only need to complete one of these tasks to complete this quest."
+				"完成三个条件中的一个即可完成此任务。"
 				""
-				"Although lava is an option, do keep in mind that an empty lava bucket is left behind when used as fuel. If you plan on automating the delivery of fuel later on, lava isn't recommended."
+				"尽管你可以用自动化产熔岩做燃料，不过你要注意，熔岩桶在作为燃料方面略逊于其他燃料。如果你计划之后自动化运输燃料的话，熔岩可能不是很合适。"
 			]
 			min_required_dependencies: 1
 			dependencies: [
@@ -1792,14 +1796,14 @@
 				{
 					id: "15435C852622B0D4"
 					type: "item"
-					title: "4x64 Dried Kelp Block"
+					title: "4x64 干海带块"
 					item: "minecraft:dried_kelp_block"
 					count: 256L
 				}
 				{
 					id: "54E59B27898C5A60"
 					type: "item"
-					title: "10x64 Charcoal"
+					title: "10x64 木炭"
 					item: "minecraft:charcoal"
 					count: 640L
 				}
@@ -1843,17 +1847,17 @@
 			]
 		}
 		{
-			title: "Reusable Casts"
+			title: "可重复使用的铸模"
 			x: -7.0d
 			y: -3.5d
-			subtitle: "Sand is cool but it goes away"
-			description: ["Gold casts are reusable. To create one, place an item in the shape of the cast you want - say, a copper axe head made from a pattern - and pour molten gold over it. This will consume the item you're pouring over, but an infinitely reusable gold cast will be made in its place."]
+			subtitle: "沙子铸模也挺好，但是用完就没了"
+			description: ["金质铸模可以重复使用。要制作金质铸模，先在铸件台上放一个你要制作铸模的部件——比如一个铜质的小型斧头，在部件制造台上就可以做——然后在其上浇铸融熔金。这个步骤会消耗放在铸件台里的部件，但是可以做出一个能无限次使用的金质铸模。"]
 			dependencies: ["1519A1EA2CFA6FB1"]
 			id: "7856BCA1DB363174"
 			tasks: [{
 				id: "61061313B1FF9DC3"
 				type: "item"
-				title: "Any Gold Cast"
+				title: "任意金质铸模"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1864,10 +1868,10 @@
 			}]
 		}
 		{
-			title: "Collect Them All"
+			title: "收集所有铸模"
 			x: -8.0d
 			y: -3.5d
-			subtitle: "20 in total!"
+			subtitle: "总共有20种！"
 			dependencies: ["7856BCA1DB363174"]
 			id: "346D47B32354428D"
 			tasks: [
@@ -1987,7 +1991,7 @@
 			]
 		}
 		{
-			title: "Get Fake"
+			title: "皆为幻影"
 			icon: "minecraft:diamond_block"
 			x: -3.5d
 			y: -7.5d
@@ -2015,15 +2019,15 @@
 			}]
 		}
 		{
-			title: "Harness the Power of Wind"
+			title: "掌控风之力量"
 			icon: "create:sail_frame"
 			x: -7.0d
 			y: 2.0d
-			subtitle: "An Alternative to Watermills"
+			subtitle: "水车的替代品"
 			description: [
-				"Windmills are agonizingly slow and can require a lot of gearshifting. However, they provide a lot of power for their size, and are very easy to expand."
+				"风车的旋转速度慢到令人发指，可能需要齿轮变速很多次才可以用。但是风车庞大的体积意味着它可以提供同样庞大的应力量，并且扩建也很方便。"
 				""
-				"Windmills and watermills have their respective pros and cons, so its up to your preferences on which to use."
+				"风车和水车各自都有优缺点，你可以自行决定用哪种方式产生应力。"
 			]
 			dependencies: ["1F79F4D01B219D7E"]
 			id: "7DA20A39EC1DE7EA"
@@ -2054,16 +2058,16 @@
 			}]
 		}
 		{
-			title: "Advanced Storage Option #4"
+			title: "高级储存方式No.4"
 			x: 3.0d
 			y: 4.5d
-			subtitle: "A tricky barrel..."
+			subtitle: "有点麻烦的储物桶……"
 			description: [
-				"Item vaults have excellent storage-per-block, but have one downside: its inventory can not be accessed directly. Items must be deposited or withdrawn with funnels or later tools."
+				"物品保险箱用来存东西非常好用，但是有一个缺点：它的储存栏不能直接打开，只能用漏斗或者后续的其他方式存取物品。"
 				""
-				"They may not be as helpful now as an andesite funnel + depot can only withdraw one random object at a time, but they're more useful later on when you can filter the withdraw and input/output stacks at a time."
+				"保险箱在目前阶段用处还不是很大，因为安山岩漏斗和置物台配合使用时，一次只能随机取出一个物品。不过之后等你能够过滤物品以及成组输入输出物品时，保险箱用处会更大。"
 				""
-				"They're mostly used in conjecture with automation operations, such as storing items at the endpoint or mass item transferring."
+				"保险箱一般配合自动化产线使用，比如可以在某个端点存储产物，或者大量运输物品。"
 			]
 			dependencies: ["18159A0691993E5B"]
 			id: "59E7FEA861328505"
@@ -2074,18 +2078,18 @@
 			}]
 		}
 		{
-			title: "Lava Generation"
+			title: "生产熔岩"
 			icon: "minecraft:lava_bucket"
 			x: 1.0d
 			y: -4.0d
 			shape: "rsquare"
-			subtitle: "Carrying buckets from underground's annoying, isn't it?"
+			subtitle: "从地底下一桶一桶捞熔岩上来还挺麻烦的，是不是？"
 			description: [
-				"How to passively generate lava:"
+				"如何被动产熔岩："
 				""
-				"Put pointed dripstone underneath a block, and then put a lava source block above the block with the pointed dripstone. Then a few blocks below the dripstone, place a cauldron."
+				"将滴水石锥放在某个方块下方，然后在带石锥的方块上方放一桶熔岩，在滴水石锥下方几格的位置放一个炼药锅。"
 				""
-				"The lava from the cauldron can then be pumped out into a fluid tank, giving you a reserve of lava. A couple recipes involve spouting lava on materials, so its handy to have this set up."
+				"炼药锅中的熔岩可以用动力泵抽到流体储罐中，作为可再生的熔岩源。有一些配方需要用注液器注入熔岩，所以这个产线还是很有用的。"
 			]
 			dependencies: ["6AEEE2B22E28945B"]
 			id: "35C34E4EA8292D24"
@@ -2111,17 +2115,17 @@
 			}]
 		}
 		{
-			title: "Infinite Lava"
+			title: "无限熔岩"
 			x: 1.0d
 			y: -5.0d
 			shape: "diamond"
-			subtitle: "You can invest into an even easier lava source..."
+			subtitle: "有一种更简单的无限熔岩来源……"
 			description: [
-				"Hose pulleys in Create have a special property: if they suck up lava, water, or chocolate from a source greater than 10,000 blocks, it will consider the source infinite."
+				"机械动力的软管滑轮有一种特别的性质：如果它从一个大小超过10000方块的水池、熔岩池或巧克力池中抽取流体，那么这个流体池会被视为无限的。"
 				""
-				"Such huge artificial lava lakes can be made from pumping generated lava into a large lake. It will take awhile - and may not even be necessary to do it - But the reward is literally infinite lava."
+				"你可以向一个大坑里排入熔岩来造这么一个大熔岩池。这会需要一些时间——甚至可能都没什么必要——但是你最终可以获得一个近乎于无限的熔岩池。"
 				""
-				"Simple try to drain a 10,000-block-big lava pool with a hose pulley to earn the advancement."
+				"使用软管滑轮从一个10000方块大的熔岩池中抽出熔岩来获得这个成就。"
 			]
 			dependencies: ["35C34E4EA8292D24"]
 			id: "2EC9C1C70660A6A4"
@@ -2160,13 +2164,13 @@
 		{
 			x: 6.0d
 			y: 0.5d
-			subtitle: "Seeing how much stock your factories have produced is so satisfying"
+			subtitle: "只是看着你的工厂一步步生产资源，都会让你感到心满意足"
 			description: [
-				"Display Boards will show text and numbers on a big screen. That's nothing fancy, but what's really special is that display links can attach to an inventory or some machines, and feed data live to the display board. This includes inventory information."
+				"翻牌显示器可以在大屏幕上显示文本和数字。显示文本和数字倒没什么稀奇，但是比较特别的是，翻牌显示器的显示内容可以链接到某个存储方块或者某个机器，把数据实时显示出来，当然物品栏的信息也可以显示。"
 				""
-				"They're mostly fun gimmicks. But they're fun!"
+				"只是一些花里胡哨的玩意，但是能实时显示内容的显示牌真的很酷好不好！"
 				""
-				"They also operate beautifully with trains if you're big into creating a community railway network."
+				"如果你对修建社区铁路系统有浓厚兴趣的话，翻牌显示器和列车相性也很好！"
 			]
 			dependencies: ["32B9EAE28E1C5D7A"]
 			id: "08550B021D54D2DF"
@@ -2198,14 +2202,14 @@
 			]
 		}
 		{
-			title: "Max Power Windmill"
+			title: "全功率风车"
 			x: -7.5d
 			y: 3.0d
-			subtitle: "Simple Excess Power"
+			subtitle: "只是一些应力过剩"
 			description: [
-				"Operate a windmill with 128 attached sail blocks."
+				"让一个连接了128个叶片方块的风车转起来。"
 				""
-				"We're sorry about all that wool that was used up."
+				"向建造过程中无辜殒命的羊羊君们致以最崇高的敬意。"
 			]
 			dependencies: ["7DA20A39EC1DE7EA"]
 			id: "731D9E7777150B6A"
@@ -2230,32 +2234,32 @@
 			]
 		}
 		{
-			title: "A Note on Trains"
+			title: "一些关于列车的笔记"
 			icon: "create:railway_casing"
 			x: 4.0d
 			y: 9.5d
-			subtitle: "What if we slapped buzzsaws on a train?"
+			subtitle: "在列车上安装动力锯会发生什么呢？"
 			description: [
-				"Remember in chapter 1 how you used glue to assemble trains? Isn't that similiar to what you do with a cart assembler and mechanical bearing?"
+				"还记得第1章里，你是怎么用强力胶组装列车的吗？是不是和矿车结构和动力轴承旋转结构有点像？"
 				""
-				"Well, it turns out trains are in the same family of moving contraptions. That means buzzsaws, drills, harvesters, portable storage interfaces, etc., will work on trains and operate just the same. That means you can build farms that operate with trains on automated schedules. If you want to overkill things this way, then by all means, its encouraged!"
+				"其实，列车也是类似的移动结构。这意味着你可以在列车上安装动力锯、动力钻、收割机、移动存储接口等方块，并且他们也会正常工作。也就是说，你可以建造一个靠列车和设定好的时刻表工作的农场。如果你的资源多得用不完的话，可以尝试一下！"
 				""
-				"You can even make a train tunnelbore, although it won't be any easier than using a cart assembler."
+				"你甚至可以做一个列车盾构机，不过这种盾构机并不会比矿车盾构机简单多少。"
 			]
 			dependencies: ["0C3A39AC4C3D10A2"]
 			id: "2B8584C007CB9EFF"
 			tasks: [{
 				id: "25061F9EE73507D3"
 				type: "checkmark"
-				title: "Understood."
+				title: "我明白了"
 			}]
 		}
 		{
-			title: "Cast to Alloy"
+			title: "浇铸合金"
 			x: -1.0d
 			y: -5.0d
-			subtitle: "Transforming mixtures into usable alloys require casting it into an ingot cast."
-			description: ["As a reminder, you can supply a faucet with a redstone signal to have it continously poor, and a hopper will suffice for moving a cooled alloy into an inventory."]
+			subtitle: "你需要将混合液浇铸成锭才能变成可以用的合金。"
+			description: ["提醒你一下，你可以给浇筑口一个红石信号使其持续输出液体，并且可以用漏斗将冷却完成的物品导入储存方块中。"]
 			dependencies: ["5A1B85C3323DDBD1"]
 			id: "3095586FC5E09B01"
 			tasks: [{
@@ -2265,22 +2269,22 @@
 			}]
 		}
 		{
-			title: "Gimme That Rubber"
+			title: "橡胶？拿来吧你！"
 			x: 6.0d
 			y: 8.5d
 			shape: "diamond"
-			subtitle: "I barely have enough!"
+			subtitle: "我自己都不够用呢！"
 			description: [
-				"Rubber logs can be milled into sap which can then be mixed into rubber. Choosing the rubber tree as your choice tree to automate two things at once is a lucrative option..."
+				"橡胶原木经过粉碎可以变成粘性树脂，再经过搅拌就可以变为橡胶。用橡胶树做树场可以一次自动化两种东西，不失为一种选择……"
 				""
-				"Alternatively, if you want to be naturalistic, it is possible to automate sap with deployers carrying treetaps. It's less likely to be more efficient and certainly not simpler, but its the eco-friendly way!"
+				"如果你想更贴近大自然一些，你也可以自动化木龙头，用拿着木龙头的机械手来自动化树脂。虽然效率可能会低一些，而且肯定更复杂，不过对环境比较友好！"
 			]
 			dependencies: ["726EED16A080CFC4"]
 			id: "6C24E4B83E454EC5"
 			tasks: [{
 				id: "364A0657277272C9"
 				type: "item"
-				title: "4x64 Rubber"
+				title: "4x64 橡胶"
 				item: "techreborn:rubber"
 				count: 256L
 			}]
@@ -2291,29 +2295,29 @@
 			}]
 		}
 		{
-			title: "The Possibilties of Automation"
+			title: "可能的自动化"
 			x: -0.5d
 			y: 9.0d
-			subtitle: "Just to give you an idea...."
+			subtitle: "只是提供一个思路……"
 			description: [
-				"The possibilities may be larger than you think. Here are some examples just to give you an idea of the possibilities, whether available now or later:"
+				"你能做的自动化可能比你想得到的要多。这里给你提供一些自动化的思路，现在就做或者之后再做都行："
 				""
-				"A food source, your favourite decoration block (like stone bricks), cogwheels, shafts, torches, andesite casing, copper casing, electron tubes, rose gold, wool (deployers with sheers over sheep), mob farms, every ore, seared bricks...."
+				"你可以自动化食物来源、你最喜欢的装饰方块（例如石砖）、齿轮、传动杆、火把、安山机壳、铜机壳、电子管、玫瑰金、羊毛（机械手手持剪刀对羊使用）、刷怪场、各种矿物、焦黑石砖……"
 			]
 			dependencies: ["38814494AB07C2D8"]
 			id: "7DF5B49918827647"
 			tasks: [{
 				id: "72B6D7AE0932635B"
 				type: "checkmark"
-				title: "There are a lot of options."
+				title: "选择真不少呢"
 			}]
 		}
 		{
-			title: "Better think fast!"
+			title: "急速思考！"
 			x: 8.0d
 			y: -3.0d
-			subtitle: "Speed up your pathing."
-			description: ["Andesite Paving grants a minor speed boost when travelling over it. "]
+			subtitle: "急速步行。"
+			description: ["在安山岩路面上行走时会获得微弱的加速效果。"]
 			dependencies: ["00F3EA4A8FB5B11B"]
 			id: "6229BC66A88B614B"
 			tasks: [{
@@ -2324,11 +2328,11 @@
 			}]
 		}
 		{
-			title: "Way Better Andesite Yields"
+			title: "更多的安山岩产出"
 			x: -6.0d
 			y: 1.0d
-			subtitle: "Just get andesite"
-			description: ["Doing a lava/water generator over TRIPPLE compressed andesite increases your gains all the way to 100% andesite. That being said, triple compressed andesite might be more andesite than you realize..."]
+			subtitle: "挖就完事了"
+			description: ["在三倍压制安山岩上制作熔岩和水的造石机能够100%产出安山岩。尽管如此，三倍压制安山岩所需的安山岩数量可能比你想得要多……"]
 			dependencies: ["1F79F4D01B219D7E"]
 			id: "5098C35DB6D98FC9"
 			tasks: [{
@@ -2344,13 +2348,13 @@
 			}]
 		}
 		{
-			title: "Ahoy!"
+			title: "是，船长！"
 			x: -1.0d
 			y: 1.5d
 			description: [
-				"Ye filthy landlubbers can't even walk 10 seconds on the ocean floor without spluttering for air."
+				"你们这帮旱鸭子，在水底下走不到10秒钟就要抢着上来换气。"
 				""
-				"These will be used in a certain *astral* suit in the near future, you might want to make some now."
+				"不久后你在做*星辰*套装的时候就会用得到这些装备了，最好现在就做起来。"
 			]
 			dependencies: ["62DAEDF65FB2226B"]
 			id: "2C8290C44890E0B5"
