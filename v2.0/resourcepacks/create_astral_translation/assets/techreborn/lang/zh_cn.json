@@ -1,3 +1,7 @@
 {
-    "item.techreborn.electronic_circuit": "电子电路板"
+    "__comment__": "话说techreborn:electronic_circuit不是改叫'Advanced CPU'了吗，回复后删除本行",
+
+    "item.techreborn.electronic_circuit": "电子电路板",
+    "item.techreborn.industrial_circuit": "工业运算单元",
+    "block.techreborn.nuke": "W.O.L.F"
 }
