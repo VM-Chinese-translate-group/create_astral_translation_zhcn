@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 3
 	filename: "chapter_25_the_automation_matrix"
-	title: "2.5) The Automation Matrix"
+	title: "第2.5章 自动化发展"
 	icon: "create:mechanical_arm"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,8 +12,8 @@
 			x: -21.5d
 			y: -21.5d
 			shape: "square"
-			subtitle: "Compost organics"
-			description: ["Bonemeal is used to speed the growth of crops."]
+			subtitle: "将有机物进行堆肥"
+			description: ["骨粉可以用于加速作物生长。"]
 			dependencies: ["7A552E564BED33A1"]
 			size: 2.0d
 			id: "447B85EDCD394BC6"
@@ -26,7 +26,7 @@
 		{
 			x: -21.5d
 			y: -18.0d
-			subtitle: "Compact bone meal and gravel in lava"
+			subtitle: "将骨粉和沙砾在熔岩中进行压块塑形得到"
 			dependencies: [
 				"447B85EDCD394BC6"
 				"14E90DB150FD5F52"
@@ -44,7 +44,7 @@
 			x: -14.0d
 			y: -21.5d
 			shape: "square"
-			subtitle: "Mine generated cobblestone"
+			subtitle: "挖掉生成的圆石"
 			dependencies: [
 				"65BA0693A1503F3E"
 				"1238F770F13D7B85"
@@ -60,7 +60,7 @@
 		{
 			x: -14.0d
 			y: -18.0d
-			subtitle: "Mill or crush cobblestone"
+			subtitle: "用石磨或粉碎轮粉碎圆石"
 			dependencies: ["34F94423116413C9"]
 			id: "14E90DB150FD5F52"
 			tasks: [{
@@ -72,7 +72,7 @@
 		{
 			x: -14.0d
 			y: -14.5d
-			subtitle: "There may be a way to automate this later..."
+			subtitle: "之后可能可以自动化这个……"
 			min_required_dependencies: 1
 			dependencies: [
 				"429D2340C2B20A60"
@@ -91,8 +91,8 @@
 			x: -14.0d
 			y: -11.0d
 			shape: "diamond"
-			subtitle: "Grind pointed dripstone OR mill or crush dripstone OR wash sand"
-			description: ["Clay is in an important resource in the creation of other materials."]
+			subtitle: "用粉碎机（科技复兴）粉碎滴水石锥、用石磨或粉碎轮粉碎滴水石或者洗涤沙子获得"
+			description: ["黏土在制作其他材料的过程中发挥了重要作用。"]
 			min_required_dependencies: 1
 			dependencies: [
 				"0ECC3FAE2E840816"
@@ -110,7 +110,7 @@
 		{
 			x: -21.5d
 			y: -11.0d
-			subtitle: "There may be a way to automate this soon..."
+			subtitle: "之后可能可以自动化这个……"
 			min_required_dependencies: 1
 			dependencies: [
 				"17041A495A41EEFD"
@@ -128,7 +128,7 @@
 		{
 			x: -24.5d
 			y: -4.0d
-			subtitle: "Pack moon sand and pointed dripstone w/ lava+flint"
+			subtitle: "将月壤、滴水石锥、熔岩和燧石一起压块塑形得到"
 			dependencies: [
 				"5453AF2AAC0202B1"
 				"1BFA4FB40E2BB903"
@@ -145,7 +145,7 @@
 		{
 			x: -24.5d
 			y: -7.5d
-			subtitle: "Crush Moon Stone"
+			subtitle: "粉碎月岩"
 			min_required_dependencies: 1
 			dependencies: [
 				"306D009F01634115"
@@ -164,8 +164,8 @@
 			x: -27.5d
 			y: -4.0d
 			shape: "diamond"
-			subtitle: "Wash moon sand"
-			description: ["Desh is used for various basic space-faring utilities."]
+			subtitle: "洗涤月壤"
+			description: ["戴斯可以用于制作太空探索相关的物品。"]
 			dependencies: ["5453AF2AAC0202B1"]
 			size: 2.5d
 			id: "6DE347D54C61BD33"
@@ -178,7 +178,7 @@
 		{
 			x: -24.5d
 			y: -11.0d
-			subtitle: "Bulk blast moon cobblestone"
+			subtitle: "批量烧炼月岩层圆石"
 			dependencies: [
 				"4048C7C6A85BD755"
 				"429D2340C2B20A60"
@@ -195,8 +195,8 @@
 			x: -24.5d
 			y: -14.5d
 			shape: "square"
-			subtitle: "Mine generated moon stone"
-			description: ["You won't be able to turn this into sand until later."]
+			subtitle: "挖掉生成的月岩"
+			description: ["你现在还不能够将它变成沙子，要等之后才能做。"]
 			dependencies: ["52E33520545721C4"]
 			hide: false
 			size: 1.5d
@@ -208,12 +208,12 @@
 			}]
 		}
 		{
-			title: "Andesite (Tier III)"
+			title: "安山岩（三级）"
 			x: -6.5d
 			y: -14.5d
 			shape: "diamond"
-			subtitle: "Compact gravel in lava w/ flint"
-			description: ["Andesite is important for crafting andesite alloy."]
+			subtitle: "将沙砾、熔岩和燧石进行压块塑形得到"
+			description: ["安山岩在安山合金产线中不可或缺。"]
 			min_required_dependencies: 2
 			dependencies: [
 				"6623524E68636273"
@@ -232,7 +232,7 @@
 		{
 			x: -6.5d
 			y: -11.0d
-			subtitle: "Haunt sand"
+			subtitle: "给沙子缠魂"
 			dependencies: [
 				"0ECC3FAE2E840816"
 				"072FC342FAE44F38"
@@ -248,7 +248,7 @@
 		{
 			x: -3.5d
 			y: -9.5d
-			subtitle: "Haunt soul sand"
+			subtitle: "给灵魂沙缠魂"
 			dependencies: ["7B7930EE5AFA5EC0"]
 			hide: true
 			id: "665A937BDB1B23C2"
@@ -261,7 +261,7 @@
 		{
 			x: -3.5d
 			y: -8.5d
-			subtitle: "Crush netherrack"
+			subtitle: "粉碎下界岩"
 			dependencies: [
 				"665A937BDB1B23C2"
 				"429D2340C2B20A60"
@@ -278,8 +278,8 @@
 			x: -0.5d
 			y: -14.5d
 			shape: "square"
-			subtitle: "Mine generated basalt"
-			description: ["You can make diorite out of basalt and one other thing..."]
+			subtitle: "挖掉生成的玄武岩"
+			description: ["闪长岩可以从玄武岩和另外一样东西中获取……"]
 			dependencies: ["70D6E982A2BA7CB7"]
 			hide: true
 			size: 2.0d
@@ -291,10 +291,10 @@
 			}]
 		}
 		{
-			title: "Diorite (Improved)"
+			title: "闪长岩（进阶）"
 			x: -0.5d
 			y: -11.0d
-			subtitle: "Pour liquid soul onto basalt"
+			subtitle: "在玄武岩上浇铸液态灵魂"
 			min_required_dependencies: 1
 			dependencies: [
 				"1F46987F39D5BBDA"
@@ -312,8 +312,8 @@
 			x: 5.5d
 			y: -11.0d
 			shape: "diamond"
-			subtitle: "Mill or crush Diorite"
-			description: ["Quartz has some uncommon uses."]
+			subtitle: "石磨或粉碎轮粉碎闪长岩"
+			description: ["石英有一些不太常见的用途。"]
 			min_required_dependencies: 1
 			dependencies: [
 				"62BC7A057C6192E7"
@@ -330,7 +330,7 @@
 		{
 			x: -3.5d
 			y: -4.0d
-			subtitle: "Crush granite"
+			subtitle: "粉碎花岗岩"
 			min_required_dependencies: 1
 			dependencies: [
 				"1511AEC329BBB627"
@@ -348,8 +348,8 @@
 			x: -3.5d
 			y: -0.5d
 			shape: "diamond"
-			subtitle: "Wash red sand"
-			description: ["Zinc is primarily used in alloying, although a few machines require zinc."]
+			subtitle: "洗涤红沙"
+			description: ["锌一般用于制造合金，也有部分机器需要用锌制作。"]
 			min_required_dependencies: 1
 			dependencies: [
 				"171F7C7F9622F718"
@@ -365,12 +365,12 @@
 			}]
 		}
 		{
-			title: "Andesite (Tier II)"
+			title: "安山岩（二级）"
 			x: 5.5d
 			y: -7.5d
 			shape: "diamond"
-			subtitle: "Pour molten quartz onto stone."
-			description: ["Andesite is important for crafting andesite alloy."]
+			subtitle: "向石头上浇铸熔融石英"
+			description: ["安山岩在安山合金产线中不可或缺。"]
 			dependencies: [
 				"347BC30501D878D4"
 				"1519A1EA2CFA6FB1"
@@ -386,11 +386,11 @@
 			}]
 		}
 		{
-			title: "Granite (Improved)"
+			title: "花岗岩（进阶）"
 			x: -0.5d
 			y: -7.5d
-			subtitle: "Compact diorite and netherrack dust in lava w/ flint"
-			description: ["Although the bedrock generator can give you multiple stones including granite, its more efficient to produce granite this way. Plus, you won't have to deal with transporting rocks from the bottom layer if you do things this way."]
+			subtitle: "将闪长岩、下界岩粉、熔岩和燧石进行压块塑形得到"
+			description: ["尽管基岩造石机可以给你带来包括花岗石在内的多种石头，不过用这种方式产花岗岩效率更高。而且，这样产花岗岩也不用操心怎么把石头从基岩层运上来。"]
 			dependencies: [
 				"62BC7A057C6192E7"
 				"5E3AA3740DDFA355"
@@ -407,7 +407,7 @@
 		{
 			x: -24.5d
 			y: -0.5d
-			subtitle: "Crush limestone"
+			subtitle: "粉碎石灰岩"
 			dependencies: [
 				"31EEA6A71A76E09D"
 				"429D2340C2B20A60"
@@ -424,7 +424,7 @@
 			x: -24.5d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "Wash lime dust"
+			subtitle: "洗涤石灰粉"
 			description: ["Silver is used in the production of electrical machines."]
 			min_required_dependencies: 1
 			dependencies: [
@@ -444,7 +444,7 @@
 		{
 			x: -9.5d
 			y: -11.0d
-			subtitle: "Bulk blast sand"
+			subtitle: "批量熔炼沙子"
 			dependencies: ["0ECC3FAE2E840816"]
 			id: "3DF7824F849750C5"
 			tasks: [{
@@ -456,7 +456,7 @@
 		{
 			x: -9.5d
 			y: -7.5d
-			subtitle: "Shaped crafting with red dye and glass"
+			subtitle: "红色染料和玻璃有序合成"
 			dependencies: [
 				"3DF7824F849750C5"
 				"3EA569DE4AC60CC2"
@@ -474,8 +474,8 @@
 			x: -6.5d
 			y: -4.0d
 			shape: "diamond"
-			subtitle: "Tesla coil charge synthetic redstone crystals"
-			description: ["Redstone is not only used to craft primitive circuitry, but also to craft basic circuits and circuitry tools."]
+			subtitle: "用特斯拉线圈给合成红石水晶充能"
+			description: ["红石不仅可以用来合成原始的红石电路，也可用于合成一些基础的电子电路和电路工具。"]
 			dependencies: [
 				"0D2B2E4558DCB357"
 				"64A1C434EB7021E6"
@@ -493,7 +493,7 @@
 		{
 			x: -12.5d
 			y: -7.5d
-			subtitle: "Basin pour molten clay onto stone"
+			subtitle: "在石头上浇铸熔融黏土"
 			dependencies: [
 				"09C0AD7F5D605F0C"
 				"1519A1EA2CFA6FB1"
@@ -509,7 +509,7 @@
 		{
 			x: -15.0d
 			y: -4.0d
-			subtitle: "Basin pour water onto seared stone"
+			subtitle: "在铸造盆中向焦黑石头浇铸水"
 			min_required_dependencies: 1
 			dependencies: [
 				"406D5C04583BD542"
@@ -526,7 +526,7 @@
 		{
 			x: -10.0d
 			y: -4.0d
-			subtitle: "Basin pour lava onto seared stone"
+			subtitle: "在铸造盆中向焦黑石头浇铸熔岩"
 			min_required_dependencies: 1
 			dependencies: [
 				"406D5C04583BD542"
@@ -544,8 +544,8 @@
 			x: -15.5d
 			y: -0.5d
 			shape: "diamond"
-			subtitle: "Mill or crush asurine"
-			description: ["Tin is used in various miscelaneous machines. It is also used in alloying."]
+			subtitle: "石磨或粉碎轮粉碎皓蓝石"
+			description: ["锡可用于制作不同机器，也可用于合金。"]
 			min_required_dependencies: 1
 			dependencies: [
 				"7083DC2167188BCF"
@@ -565,8 +565,8 @@
 			x: -9.5d
 			y: -0.5d
 			shape: "diamond"
-			subtitle: "Mill or crush veridium"
-			description: ["Copper is used in fluid-related machines, and is common in alloying."]
+			subtitle: "石磨或粉碎轮粉碎辉绿矿"
+			description: ["铜广泛用于流体相关机器，也常用于合金。"]
 			min_required_dependencies: 1
 			dependencies: [
 				"1F7524655E4B58A0"
@@ -586,8 +586,8 @@
 			x: -6.5d
 			y: -7.5d
 			shape: "diamond"
-			subtitle: "Wash soul sand."
-			description: ["Gold's unique properties gives it unusual uses for crafting. It is also beloved by some mobs."]
+			subtitle: "洗涤灵魂沙"
+			description: ["金的特殊性质使其在合成中起到了特殊作用。有的怪物也喜欢金子。"]
 			dependencies: ["7B7930EE5AFA5EC0"]
 			size: 2.5d
 			id: "0A7ECB3D720093C0"
@@ -601,7 +601,7 @@
 			x: -21.5d
 			y: -7.5d
 			shape: "square"
-			subtitle: "Farm kelp"
+			subtitle: "建造海带农场"
 			dependencies: ["38814494AB07C2D8"]
 			hide: true
 			size: 1.5d
@@ -616,11 +616,11 @@
 			x: -21.5d
 			y: -4.0d
 			shape: "diamond"
-			subtitle: "Bulk smoke kelp"
+			subtitle: "批量烟熏海带"
 			description: [
-				"Dried kelp is used for crafting tunnels, funnels, and belts, which are used a lot in item transportation during automation."
+				"干海带可用于合成隧道、漏斗和传送带。这些物品在自动化过程中广泛用于物品运输。"
 				""
-				"It can also be used as a fuel source when crafted into blocks."
+				"干海带合成干海带块的话还能用作燃料。"
 			]
 			dependencies: ["707B59245747B112"]
 			size: 2.5d
@@ -634,7 +634,7 @@
 		{
 			x: -21.5d
 			y: -0.5d
-			subtitle: "Grind dried kelp"
+			subtitle: "磨粉机粉碎干海带"
 			dependencies: [
 				"32C6826E01CB67F2"
 				"2F7F41E1C9C7F7B3"
@@ -651,8 +651,8 @@
 			x: -18.5d
 			y: -0.5d
 			shape: "diamond"
-			subtitle: "Pack gunpowder, lazurite dust, and iron nuggets in lava"
-			description: ["Lapis has a couple of mystical properties. Its block form is also used in circuitry production."]
+			subtitle: "将火药、青金石粉、铁粒和熔岩压块塑形得到"
+			description: ["青金石有一些神秘的用途，它的方块形式也可用于电路板的制造。 "]
 			dependencies: [
 				"274BA7205ECC4FEB"
 				"5389EB8711792F04"
@@ -671,7 +671,7 @@
 		{
 			x: -17.0d
 			y: -4.0d
-			subtitle: "Crush asurine"
+			subtitle: "粉碎皓蓝石"
 			dependencies: [
 				"7083DC2167188BCF"
 				"429D2340C2B20A60"
@@ -685,15 +685,15 @@
 			}]
 		}
 		{
-			title: "Flint (Used in Multiple Places - Read!)"
+			title: "燧石（很多地方都用得到——快打开读！）"
 			x: -9.5d
 			y: -18.0d
 			shape: "octagon"
-			subtitle: "Wash gravel"
+			subtitle: "批量洗涤沙砾"
 			description: [
-				"Flint is a very common ingredient for many rock chemistry recipes, often being compacted in lava."
+				"燧石是很多石头系列配方的常客，经常在熔岩中进行压块塑形。"
 				""
-				"Recipes that use flint in lava are not connected to this quest, but be mindful that flint is quite as useless as one may think."
+				"这个任务没有直接连线到需要用燧石和熔岩压块塑形的配方，但是你要记住，用得到燧石的配方种类可能比你想的还要少。"
 			]
 			dependencies: ["14E90DB150FD5F52"]
 			id: "6623524E68636273"
@@ -817,7 +817,7 @@
 		{
 			x: 8.5d
 			y: -11.0d
-			subtitle: "Shapless crafting with redstone and quartz"
+			subtitle: "红石和下界石英无序合成"
 			dependencies: [
 				"347BC30501D878D4"
 				"5D1A07E7D27FB96D"
@@ -833,7 +833,7 @@
 		{
 			x: 8.5d
 			y: -7.5d
-			subtitle: "Sand rose quartz"
+			subtitle: "砂纸打磨玫瑰石英"
 			dependencies: ["6B3AE660A641C114"]
 			hide: true
 			id: "1CBDFF73BCBD9083"
@@ -847,8 +847,8 @@
 			x: 8.5d
 			y: -4.0d
 			shape: "diamond"
-			subtitle: "Spout molten rose gold onto polished rose quartz"
-			description: ["Electron tubes is essential for production of \"smart\" mechanical machines."]
+			subtitle: "向磨制玫瑰石英上注入熔融玫瑰金"
+			description: ["电子管在制造“智能”机器时十分重要。"]
 			dependencies: [
 				"1CBDFF73BCBD9083"
 				"244E5AA24082322C"
@@ -868,7 +868,7 @@
 			x: -33.5d
 			y: -21.5d
 			shape: "square"
-			subtitle: "Foundry smelt living blazes from spawner"
+			subtitle: "熔炼刷怪笼刷出的烈焰人"
 			description: ["Blazing blood can be used as an alternative to lava for powering foundries. It will melt items faster."]
 			dependencies: ["3CB5D433A10C2040"]
 			size: 2.0d
@@ -883,7 +883,7 @@
 			x: -30.5d
 			y: -21.5d
 			shape: "square"
-			subtitle: "Foundry smelt non-blazes from spawners"
+			subtitle: "熔炼刷怪笼刷出的非烈焰人怪物"
 			description: ["Blood can be casted into coagulated blood, a substitute for slime."]
 			dependencies: ["3CB5D433A10C2040"]
 			size: 2.0d
@@ -897,7 +897,7 @@
 		{
 			x: -27.5d
 			y: -14.5d
-			subtitle: "Shapeless crafting w/ lime dye and dough"
+			subtitle: "黄绿色染料和面团无序合成"
 			dependencies: [
 				"22466F075AF13097"
 				"09C4EF17B09DD54B"
@@ -912,7 +912,7 @@
 		{
 			x: -28.0d
 			y: -18.0d
-			subtitle: "Bulk wash wheat flour or mix wheat flour w/ water"
+			subtitle: "批量洗涤小麦粉或者将小麦粉与水搅拌"
 			dependencies: ["506F91A88F6A9960"]
 			id: "09C4EF17B09DD54B"
 			tasks: [{
@@ -924,7 +924,7 @@
 		{
 			x: -27.0d
 			y: -18.0d
-			subtitle: "Shapless crafting w/ green dye and white dye"
+			subtitle: "绿色染料和白色燃料无序合成"
 			dependencies: [
 				"538805A57FBC2DC8"
 				"09BA679DF8E30068"
@@ -940,7 +940,7 @@
 			x: -26.5d
 			y: -21.5d
 			shape: "square"
-			subtitle: "Mill or crush a green dye source"
+			subtitle: "石磨或粉碎轮粉碎绿色染料来源"
 			dependencies: ["3AF363AF0DF17B33"]
 			size: 2.0d
 			id: "538805A57FBC2DC8"
@@ -953,7 +953,7 @@
 		{
 			x: -33.5d
 			y: -18.0d
-			subtitle: "Cast blazing blood into rod cast"
+			subtitle: "把烈焰血浇铸成杆"
 			dependencies: ["2E443EE8C2CC5DE9"]
 			id: "234C22F2C08CFE9B"
 			tasks: [{
@@ -965,7 +965,7 @@
 		{
 			x: -33.5d
 			y: -14.5d
-			subtitle: "Shaped crafting w/ blaze rods OR grind blaze rods"
+			subtitle: "烈焰棒有序合成或者粉碎机粉碎烈焰棒"
 			dependencies: ["234C22F2C08CFE9B"]
 			id: "7E8A77B2BB8550B6"
 			tasks: [{
@@ -977,7 +977,7 @@
 		{
 			x: -30.5d
 			y: -11.0d
-			subtitle: "Shapless crafting w/ blaze powder and either coagulated blood OR slimeballs"
+			subtitle: "凝血或黏液球之一和烈焰粉无序合成"
 			min_required_dependencies: 1
 			dependencies: [
 				"7E8A77B2BB8550B6"
@@ -995,7 +995,7 @@
 		{
 			x: -30.5d
 			y: -4.0d
-			subtitle: "Bulk wash magma blocks"
+			subtitle: "批量洗涤岩浆块"
 			min_required_dependencies: 1
 			dependencies: ["61CBA59F2BC063AC"]
 			hide: false
@@ -1010,8 +1010,8 @@
 			x: -30.5d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "Sequenced assembly (optionally with lava)"
-			description: ["Sturdy sheets have many uses due to its sturdy properties. Utilities relating to trains also make use of them."]
+			subtitle: "序列组装（熔岩选配）"
+			description: ["坚固板十分坚固的特性使其在许多地方都能派上用场。和列车相关的设备也用得到它。"]
 			dependencies: ["619CD1378381E86E"]
 			size: 2.5d
 			id: "6B75BA55CF212249"
@@ -1024,7 +1024,7 @@
 		{
 			x: -30.5d
 			y: -14.5d
-			subtitle: "Cast blood into casting table, no cast shape required."
+			subtitle: "在浇铸台上浇铸血，不需要使用铸模"
 			dependencies: ["75DBB5D323C6761B"]
 			id: "2950D3DA74E0D635"
 			tasks: [{
@@ -1037,7 +1037,7 @@
 			x: -32.0d
 			y: -25.0d
 			shape: "pentagon"
-			subtitle: "Place a fueled foundry under a spawner"
+			subtitle: "在刷怪笼下面造一个燃料充足的熔铸炉"
 			dependencies: ["5355CA2F0BA74BF1"]
 			hide: true
 			size: 1.5d
@@ -1052,7 +1052,7 @@
 			x: -28.5d
 			y: -21.5d
 			shape: "circle"
-			subtitle: "Mill or crush wheat"
+			subtitle: "石磨或粉碎轮粉碎小麦"
 			dependencies: ["1A7E5A082C9C7BC8"]
 			id: "506F91A88F6A9960"
 			tasks: [{
@@ -1065,8 +1065,8 @@
 			x: -3.5d
 			y: 10.0d
 			shape: "diamond"
-			subtitle: "Bulk blast grout"
-			description: ["Seared bricks allow you to craft melters, necessary for converting metals into molten form."]
+			subtitle: "批量熔炼砖泥"
+			description: ["焦黑石砖可以用来建造冶炼炉，将金属转化为熔融金属的时候冶炼炉十分必要。"]
 			dependencies: ["5A6FC129185EA65C"]
 			size: 2.5d
 			id: "17C8208B96AF144C"
@@ -1079,7 +1079,7 @@
 		{
 			x: -3.5d
 			y: 6.5d
-			subtitle: "Mix zinc ingots, andesite alloy, and gravel"
+			subtitle: "将安山合金、锌锭和沙砾搅拌混合获得"
 			dependencies: [
 				"0368B30374467B41"
 				"61DC7598AD1BF667"
@@ -1096,8 +1096,8 @@
 			x: -0.5d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "Cast compound mixture into a basin or ingot cast"
-			description: ["Andesite is ubiquitous in the production of fundamental kinetic machines."]
+			subtitle: "将混合液浇铸在铸造盆或锭铸模中"
+			description: ["安山合金在基础动力机械的制造产线中随处可见。"]
 			hide_dependency_lines: false
 			min_required_dependencies: 1
 			dependencies: [
@@ -1116,7 +1116,7 @@
 		{
 			x: 1.0d
 			y: 0.0d
-			subtitle: "Mix andesite alloy ingredients"
+			subtitle: "将制作安山合金的原材料搅拌混合"
 			dependencies: [
 				"37EE2561931F2BEF"
 				"36FE917048C6B485"
@@ -1135,8 +1135,8 @@
 			x: -0.5d
 			y: 10.0d
 			shape: "diamond"
-			subtitle: "Deploy andesite alloy onto logs"
-			description: ["Andesite casing is used to craft basic mechanical machines."]
+			subtitle: "机械手手持安山合金右键去皮原木"
+			description: ["安山机壳可用于合成基础动力机器。"]
 			dependencies: [
 				"0368B30374467B41"
 				"3A632D8D9986D43A"
@@ -1155,8 +1155,8 @@
 			x: -0.5d
 			y: 13.5d
 			shape: "diamond"
-			subtitle: "Sequenced assembly"
-			description: ["Copper casing is important for crafting machines that act on fluids."]
+			subtitle: "序列装配"
+			description: ["铜机壳在制作一些与流体有关的机器时十分重要。"]
 			dependencies: [
 				"0BF064389F9FFDC3"
 				"023225B51792489A"
@@ -1176,8 +1176,8 @@
 			x: -3.5d
 			y: 16.5d
 			shape: "diamond"
-			subtitle: "Pour molten brass onto copper casing"
-			description: ["Brass casing is important for \"smart\" mechanical machines."]
+			subtitle: "在铜机壳上浇铸熔融黄铜"
+			description: ["黄铜机壳在制造“智能”机器时起到重要作用。"]
 			min_required_dependencies: 2
 			dependencies: [
 				"737625E7DFCB0382"
@@ -1194,11 +1194,11 @@
 			}]
 		}
 		{
-			title: "Any Tree"
+			title: "任意种类的树"
 			x: 5.5d
 			y: -0.5d
 			shape: "square"
-			subtitle: "Farm any tree, preferably rubber trees"
+			subtitle: "造一个树场产木头，最好是橡胶木"
 			dependencies: ["38814494AB07C2D8"]
 			hide: true
 			size: 2.0d
@@ -1217,9 +1217,10 @@
 			}]
 		}
 		{
+			title: "任意可燃烧的原木"
 			x: 5.5d
 			y: 3.0d
-			subtitle: "Farm trees"
+			subtitle: "造树场"
 			dependencies: ["5B3FA87A71825852"]
 			id: "7FFED14DF7F210ED"
 			tasks: [{
@@ -1236,9 +1237,10 @@
 			}]
 		}
 		{
+			title: "任意去皮原木"
 			x: 2.5d
 			y: 6.5d
-			subtitle: "Mechanically saw logs"
+			subtitle: "动力锯锯原木"
 			dependencies: ["7FFED14DF7F210ED"]
 			id: "3A632D8D9986D43A"
 			tasks: [{
@@ -1258,8 +1260,8 @@
 			x: 8.5d
 			y: 6.5d
 			shape: "diamond"
-			subtitle: "Bulk blast logs"
-			description: ["Charcoal is an efficient renewable fuel source."]
+			subtitle: "批量熔炼原木"
+			description: ["木炭是一种高效的可再生能源。"]
 			dependencies: ["7FFED14DF7F210ED"]
 			size: 2.5d
 			id: "558432AC3AABA477"
@@ -1272,7 +1274,7 @@
 		{
 			x: 5.5d
 			y: 6.5d
-			subtitle: "Mill or crush rubber logs"
+			subtitle: "石磨或粉碎轮粉碎橡胶木"
 			dependencies: ["7FFED14DF7F210ED"]
 			id: "153FAE86E32F306B"
 			tasks: [{
@@ -1285,8 +1287,8 @@
 			x: 5.5d
 			y: 10.0d
 			shape: "diamond"
-			subtitle: "Mix or extract sap"
-			description: ["Rubber is important for crafting a lot fluid machines and other machines, including item transportation mechanisms."]
+			subtitle: "搅拌或提取粘性树脂"
+			description: ["橡胶在制造许多流体机器和一些其他机器时都十分重要，包括物品运输系统。"]
 			dependencies: ["153FAE86E32F306B"]
 			size: 2.5d
 			id: "023225B51792489A"
@@ -1299,7 +1301,7 @@
 		{
 			x: 8.5d
 			y: 10.0d
-			subtitle: "Haunt charcoal"
+			subtitle: "给木炭缠魂"
 			dependencies: [
 				"558432AC3AABA477"
 				"072FC342FAE44F38"
@@ -1315,7 +1317,7 @@
 		{
 			x: 8.5d
 			y: 13.5d
-			subtitle: "Grind coal"
+			subtitle: "粉碎机粉碎煤炭"
 			dependencies: [
 				"7F18819B46FAB017"
 				"2F7F41E1C9C7F7B3"
@@ -1332,8 +1334,8 @@
 			x: 8.5d
 			y: 17.0d
 			shape: "diamond"
-			subtitle: "Implosion compress 64x coal dust"
-			description: ["Diamond is primarily used for decoration."]
+			subtitle: "聚爆压缩64个煤粉"
+			description: ["钻石主要用于装饰。"]
 			dependencies: [
 				"0702F6A12A0C5FBE"
 				"2E320829DF95EB8E"
@@ -1351,8 +1353,8 @@
 			x: -0.5d
 			y: 20.5d
 			shape: "diamond"
-			subtitle: "Sequenced assembly"
-			description: ["Machine frames are used for basic electrical machines."]
+			subtitle: "序列组装"
+			description: ["机械框架可用于制作基础的电力机器。"]
 			dependencies: [
 				"737625E7DFCB0382"
 				"023225B51792489A"
@@ -1372,8 +1374,8 @@
 			x: -6.5d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "Heated mix copper and molten, in molten form or ingot form"
-			description: ["Brass is important for creation of \"smart\" mechanical machines."]
+			subtitle: "加热搅拌铜锭和锡锭，或者直接搅拌熔融铜和熔融锡"
+			description: ["黄铜在制造“智能”机器时十分重要。"]
 			dependencies: [
 				"22BAAD8B7057DF80"
 				"705C815541DB89F8"
@@ -1391,7 +1393,7 @@
 		{
 			x: -6.5d
 			y: 13.5d
-			subtitle: "Melt brass"
+			subtitle: "熔融黄铜"
 			dependencies: [
 				"5FD6A6FBF967C7D5"
 				"22B29B232EF2638F"
@@ -1407,7 +1409,7 @@
 		{
 			x: -18.5d
 			y: 3.0d
-			subtitle: "Automatic pack lapis lazuli"
+			subtitle: "自动打包青金石"
 			min_required_dependencies: 1
 			dependencies: [
 				"0C464BD01B2B52E0"
@@ -1424,7 +1426,7 @@
 		{
 			x: -18.5d
 			y: 6.5d
-			subtitle: "Press lapis lazuli block"
+			subtitle: "动力辊压青金石快"
 			dependencies: ["7F769452EFAD2E99"]
 			id: "3C90385C588F4630"
 			tasks: [{
@@ -1436,7 +1438,7 @@
 		{
 			x: -16.0d
 			y: 8.0d
-			subtitle: "rolling mill with copper sheets, or wire mill copper sheet."
+			subtitle: "用轧机（机械动力附加）或线材轧机（科技复兴）处理铜板"
 			min_required_dependencies: 2
 			dependencies: [
 				"73973C5E6D2573B8"
@@ -1453,7 +1455,7 @@
 		{
 			x: -24.5d
 			y: 10.0d
-			subtitle: "Melt silver"
+			subtitle: "熔融银"
 			dependencies: ["20B5957A02D96D8D"]
 			hide: true
 			id: "491505BB41BEF9DE"
@@ -1467,8 +1469,8 @@
 			x: -18.5d
 			y: 10.0d
 			shape: "diamond"
-			subtitle: "Sequenced assembly"
-			description: ["Circuits are used in basic electrical machines."]
+			subtitle: "序列装配"
+			description: ["电路广泛用于基础用电机器。"]
 			dependencies: [
 				"491505BB41BEF9DE"
 				"3C90385C588F4630"
@@ -1483,7 +1485,7 @@
 			}]
 		}
 		{
-			title: "Andesite (From Elsewhere)"
+			title: "安山岩（从其他地方来）"
 			x: 0.0d
 			y: -1.0d
 			shape: "octagon"
@@ -1501,7 +1503,7 @@
 			}]
 		}
 		{
-			title: "Clay Ball (From Elsewhere)"
+			title: "黏土（从其他地方来）"
 			x: 1.0d
 			y: -1.5d
 			shape: "octagon"
@@ -1519,7 +1521,7 @@
 			}]
 		}
 		{
-			title: "Andesite Alloy Nuggets (From Elsewhere)"
+			title: "安山合金粒（从其他地方来）"
 			x: 2.0d
 			y: -1.0d
 			shape: "octagon"
@@ -1553,8 +1555,8 @@
 			x: -12.5d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "Shapeless crafting with tin and copper, OR mix molten copper and molten tin"
-			description: ["Bronze is used for the production of cogwheels."]
+			subtitle: "锡和铜无序合成，或者将熔融锡和熔融铜进行搅拌获得"
+			description: ["青铜可用于生产齿轮。"]
 			dependencies: [
 				"2B8D64F5CD89A082"
 				"22BAAD8B7057DF80"
@@ -1568,7 +1570,7 @@
 			}]
 		}
 		{
-			title: "Gravel (From Elsewhere)"
+			title: "沙砾（从其他地方来）"
 			x: -4.5d
 			y: 5.5d
 			shape: "octagon"
@@ -1582,7 +1584,7 @@
 			}]
 		}
 		{
-			title: "Redstone (From Elsewhere)"
+			title: "红石（从其他地方来）"
 			x: 8.5d
 			y: -12.0d
 			shape: "octagon"
@@ -1598,7 +1600,7 @@
 		{
 			x: -24.5d
 			y: -21.5d
-			subtitle: "Mill or crush bone meal"
+			subtitle: "石磨或粉碎轮粉碎骨粉"
 			dependencies: ["447B85EDCD394BC6"]
 			id: "09BA679DF8E30068"
 			tasks: [{
@@ -1610,7 +1612,7 @@
 		{
 			x: 11.5d
 			y: -7.5d
-			subtitle: "Mix molten copper and molten gold"
+			subtitle: "混合搅拌熔融铜和熔融金"
 			min_required_dependencies: 1
 			dependencies: [
 				"60CE6A8505C14D69"
@@ -1657,7 +1659,7 @@
 			x: -36.5d
 			y: 3.0d
 			shape: "circle"
-			subtitle: "Heated mix powdered obsidian, scoria, soul sand, and magma cream"
+			subtitle: "加热搅拌黑曜石粉、熔渣、灵魂沙和岩浆膏"
 			dependencies: [
 				"619CD1378381E86E"
 				"6A40405DDF192EE6"
@@ -1676,7 +1678,7 @@
 		{
 			x: -30.5d
 			y: -0.5d
-			subtitle: "Mill or crush obsidian"
+			subtitle: "石磨或粉碎轮粉碎黑曜石"
 			dependencies: ["32D551CE9F6A6B0A"]
 			id: "619CD1378381E86E"
 			tasks: [{
@@ -1688,7 +1690,7 @@
 		{
 			x: -39.5d
 			y: -0.5d
-			subtitle: "Bulk blast soul sand"
+			subtitle: "批量熔炼灵魂沙"
 			dependencies: ["12588E50528E12E2"]
 			id: "4D9420C96F186CB1"
 			tasks: [{
@@ -1698,11 +1700,11 @@
 			}]
 		}
 		{
-			title: "Soul Sand (From Elsewhere)"
+			title: "灵魂沙（从其他地方来）"
 			x: -36.5d
 			y: -4.0d
 			shape: "octagon"
-			subtitle: "Haunt sand"
+			subtitle: "给沙子缠魂"
 			hide_dependency_lines: true
 			dependencies: ["20BFF582275C31C8"]
 			hide: true
@@ -1715,10 +1717,11 @@
 			}]
 		}
 		{
-			title: "Moonstone generator explained here"
+			title: "月岩造石机的介绍在这里"
 			x: -24.0d
 			y: -19.0d
 			shape: "pentagon"
+			description: [""]
 			dependencies: [
 				"306D009F01634115"
 				"38814494AB07C2D8"
@@ -1734,7 +1737,7 @@
 		{
 			x: -9.5d
 			y: 8.0d
-			subtitle: "Press copper ingots"
+			subtitle: "辊压铜锭"
 			dependencies: ["22BAAD8B7057DF80"]
 			hide: true
 			id: "4FC60CABB568F168"
@@ -1748,8 +1751,8 @@
 			x: -9.5d
 			y: -14.5d
 			shape: "diamond"
-			subtitle: "Compact gravel and flint"
-			description: ["Cobbled Deepslate can be recycled for rare chances of various ores later on."]
+			subtitle: "将燧石和沙砾压块塑形得到"
+			description: ["之后可以将深板岩圆石重复利用，小概率获取一些矿物。"]
 			dependencies: [
 				"14E90DB150FD5F52"
 				"6623524E68636273"
@@ -1765,7 +1768,7 @@
 		{
 			x: -3.5d
 			y: -11.0d
-			subtitle: "Melt soul sand"
+			subtitle: "熔融灵魂沙"
 			dependencies: [
 				"7B7930EE5AFA5EC0"
 				"072FC342FAE44F38"
@@ -1781,7 +1784,7 @@
 		{
 			x: -30.5d
 			y: -7.5d
-			subtitle: "Automatic pack magma creams"
+			subtitle: "自动打包岩浆膏"
 			min_required_dependencies: 1
 			dependencies: [
 				"6A40405DDF192EE6"
@@ -1799,7 +1802,7 @@
 			x: -36.5d
 			y: 6.5d
 			shape: "diamond"
-			subtitle: "Bulk blast nether grout"
+			subtitle: "批量熔炼下界砖泥"
 			description: ["Scorched Bricks are used to craft foundry-related blocks. Foundries are the best utility for smelting many objects at once, and produce the highest ore yields when melting ores. Foundries can also smelt entities."]
 			min_required_dependencies: 1
 			dependencies: [
@@ -1818,8 +1821,8 @@
 		{
 			x: -17.5d
 			y: -11.5d
-			subtitle: "Automatic pack pointed dripstone"
-			description: ["If you don't have access to a grinder, you need mill or crush the full dripstone block instead."]
+			subtitle: "自动将滴水石锥打包"
+			description: ["如果你还用不了磨粉机，你需要用石磨或粉碎轮粉碎整个滴水石块。"]
 			dependencies: ["1BFA4FB40E2BB903"]
 			id: "13BACEBAA46322DC"
 			tasks: [{
@@ -1832,7 +1835,7 @@
 			x: -28.5d
 			y: -25.0d
 			shape: "square"
-			subtitle: "Farm wheat"
+			subtitle: "种一些小麦"
 			dependencies: ["38814494AB07C2D8"]
 			hide: true
 			size: 2.0d
@@ -1844,11 +1847,11 @@
 			}]
 		}
 		{
-			title: "Green Dye Source"
+			title: "绿色燃料来源"
 			x: -26.5d
 			y: -25.0d
 			shape: "pentagon"
-			subtitle: "Fram a source of green dye"
+			subtitle: "想个办法获取绿色燃料"
 			dependencies: ["38814494AB07C2D8"]
 			hide: true
 			size: 1.5d
@@ -1873,19 +1876,19 @@
 			]
 		}
 		{
-			title: "What Is This?"
+			title: "这章是什么？"
 			icon: "create:empty_schematic"
 			x: -39.0d
 			y: -16.0d
 			shape: "gear"
 			description: [
-				"This chapter is special. The quests here aren't to present you with progression challenges, but to give you a visualization of what it takes to automate specific resources, and how resources overlap. It is a giant flowchart."
+				"这一章比较特殊。这里的任务不是为了让你挑战完成某事，而是让你能够对如何完成特定物品的自动化进行可视化展示，以及告诉你不同的产线中哪些产线有资源重叠。这是一个很大的流程图。"
 				""
-				"It will feel sparse at first, but as you continue playing and unlock new machines and new resources, this chapter will automatically update to reflect new automation paths. Check back regularly!"
+				"这一章任务一开始会看起来零零散散的，不过当你继续游玩，逐步推进进度，继续解锁新机器和新材料的时候，这一章就会自动进行更新，显示出可能的自动化流程。记得常回来看看！"
 				""
-				"Important: just because a resource is in here, DOES NOT MEAN YOU NEED TO AUTOMATE IT. Again, this page is a visualization tool, not a guidebook."
+				"重要注意事项：并不是说你在这一章看到了某个资源，就一定要做它的自动化。再强调一次，这一章只是可视化，不是指导书。"
 				""
-				"It will also only go up to resources that can be automated at the end of chapter 3. That being said, following chapters will either introduce the next tier of circuits or casing, or will take advantage of a new stone generator."
+				"以及，这一章只会介绍到第3章任务线结束时可以进行的自动化。不过，之后的章节会引入更高级的机壳，或者会介绍新的造石机。"
 			]
 			dependencies: ["38814494AB07C2D8"]
 			hide: true
@@ -1894,15 +1897,15 @@
 			tasks: [{
 				id: "0C4A361DA556D37A"
 				type: "checkmark"
-				title: "Understood."
+				title: "我知道了"
 			}]
 		}
 		{
-			title: "Crushing Unlocked"
+			title: "已解锁粉碎轮"
 			x: -14.0d
 			y: -16.0d
-			subtitle: "Crush gravel to get sand"
-			description: ["Now that you've unlocked crushing, you can automate sand directly."]
+			subtitle: "粉碎沙砾得到沙子"
+			description: ["现在你有了粉碎轮，可以直接自动化产沙子了。"]
 			dependencies: [
 				"14E90DB150FD5F52"
 				"429D2340C2B20A60"
@@ -1916,16 +1919,16 @@
 			}]
 		}
 		{
-			title: "Grinder Unlocked"
+			title: "已解锁磨粉机"
 			x: -17.5d
 			y: -10.5d
-			subtitle: "Improved yields"
-			description: ["This improves the yields of clay over creating dripstone blocks and milling/crushing them."]
+			shape: "circle"
+			subtitle: "提高产量"
+			description: ["磨粉机可以通过磨粉滴水石锥获得比粉碎轮粉碎滴水石块更高的产量。"]
 			dependencies: [
 				"1BFA4FB40E2BB903"
 				"2F7F41E1C9C7F7B3"
 			]
-			hide: true
 			id: "1EB897C7C80B3286"
 			tasks: [{
 				id: "6E13AE174469C82D"
@@ -1934,11 +1937,11 @@
 			}]
 		}
 		{
-			title: "Spout Unlocked"
+			title: "已解锁注液器"
 			x: -21.5d
 			y: -14.5d
-			subtitle: "Spout water on calcite to create dripstone"
-			description: ["There is now a way to create pointed dripstone directly, if there wasn't a way already."]
+			subtitle: "向方解石注入水获得滴水石锥"
+			description: ["现在有直接制造滴水石锥的办法了。"]
 			dependencies: [
 				"43B007A5BAE5E02E"
 				"17041A495A41EEFD"
@@ -1952,7 +1955,7 @@
 			}]
 		}
 		{
-			title: "A slime option"
+			title: "选择你的黏液球"
 			x: -29.0d
 			y: -13.0d
 			min_required_dependencies: 2
@@ -1978,17 +1981,17 @@
 			}]
 		}
 		{
-			title: "How to Read this Flowchart"
+			title: "如何阅读本章的流程图"
 			icon: "create:goggles"
 			x: -39.0d
 			y: -11.0d
 			shape: "gear"
 			description: [
-				"The flow chart is pretty simple! Objects point to what can be made with them. How you convert one object to the other will be in the subtitle of the destination object."
+				"流程图很简单易懂！物品A的箭头指向物品B，那么A就可以用于生产B。生产方式会写在B任务的副标题里。"
 				""
-				"Some notes: Some quests are hidden until you complete a dependent quest. Even if you're deciding not to automate something, it might be worth completing the quest just to make sure you're not missing anything."
+				"注意事项：有些任务在你完成前置任务时是看不到的。就算你决定不去做某样东西的自动化，你也可以把任务完成，这样不会错过后面的内容。"
 				""
-				"Due to space constraints, we can't show every connection. Any quests marked (\"from elsewhere\") means the steps to automate the resource are described somewhere else in the flowchart. Also, the flowchart skips some steps that can be assumed easily, such as packing nuggets, melting metals, etc."
+				"由于篇幅限制，我们不能在这章完全展示所有的连线。任何标有（“从其他地方来”）的任务，其自动化步骤都在另外某个任务的描述中介绍过了。并且，这个流程图跳过了一些十分简单无需特别描述的步骤，比如将粒压成锭、熔化金属，等等。"
 			]
 			dependencies: ["75928E9A25B2EFFD"]
 			hide: true
@@ -1997,25 +2000,25 @@
 			tasks: [{
 				id: "6A7245A59D6471C9"
 				type: "checkmark"
-				title: "Understood."
+				title: "我知道了"
 			}]
 		}
 		{
-			title: "What do the shapes mean?"
+			title: "任务图标的形状是什么意思？"
 			icon: "create:wrench"
 			x: -39.0d
 			y: -7.5d
 			shape: "gear"
 			description: [
-				"Square quests are a resource you can easily get an infinite amount of."
+				"正方形的任务提示你可以很方便地获取无限量该种资源。"
 				""
-				"Pentagon quests are the tools you use to get an infinite amount of starting resource."
+				"五边形的任务提示你该用什么方式来获得无限量的起始资源。"
 				""
-				"Diamond-shaped quests are resources a player is likely to consider automating."
+				"菱形的任务提示你也许可以考虑自动化该种资源。"
 				""
-				"Circle quests are intermediate steps."
+				"圆形的任务提示你这一步是中间步骤。"
 				""
-				"Octagon quests means the material's automation steps is described somewhere else, OR the intermediate material is used somewhere else in the flowchart. You might need to unlock more to see where materials are re-used."
+				"八边形的任务提示你这种材料的自动化在另外的地方已经介绍过了，或者这种中间材料用在了流程图中另外的地方。你可能需要解锁更多任务才能看到这种材料用在了哪里。"
 			]
 			dependencies: ["3CDA0DBF9C8CF228"]
 			hide: true
@@ -2024,7 +2027,7 @@
 			tasks: [{
 				id: "01671A62BCC4E3F3"
 				type: "checkmark"
-				title: "Understood."
+				title: "我知道了"
 			}]
 		}
 		{
@@ -2054,12 +2057,12 @@
 			}]
 		}
 		{
-			title: "Bedrock Stone Generator"
+			title: "基岩造石机"
 			icon: "minecraft:bedrock"
 			x: 5.5d
 			y: -18.0d
 			shape: "pentagon"
-			description: ["Whenever flowing lava touches water ON TOP OF A BLOCK OF BEDROCK, there is a 20% chance of granite, diorite, and andesite - and a 40% of stone. You may have already built this. There will be more reliable ways to farm Andesite as you progress."]
+			description: ["当流动的熔岩在基岩上接触水时，就会有20%概率生成花岗岩、闪长岩和安山岩——以及40%概率生成石头。你也许已经造过基岩造石机了。随着你的进度向前推进，你会获得更加高效的产安山岩方式。"]
 			dependencies: [
 				"611F2B19B29B4CC5"
 				"2825485494EF37A5"
@@ -2069,11 +2072,11 @@
 			tasks: [{
 				id: "2FF3DD56D74395BE"
 				type: "checkmark"
-				title: "Understood."
+				title: "我知道了"
 			}]
 		}
 		{
-			title: "Andesite (Tier I)"
+			title: "安山岩（一级）"
 			x: 2.5d
 			y: -14.5d
 			shape: "diamond"
@@ -2104,7 +2107,7 @@
 		{
 			x: 5.5d
 			y: -14.5d
-			subtitle: "Mine a bedrock stone generator"
+			subtitle: "通过基岩造石机获得"
 			dependencies: ["68D19E8C4B61D854"]
 			id: "14D83C47DA4FAB3C"
 			tasks: [{
@@ -2114,14 +2117,14 @@
 			}]
 		}
 		{
-			title: "Andesite Generator"
+			title: "安山岩造石机"
 			x: 2.5d
 			y: -18.0d
 			shape: "pentagon"
 			description: [
-				"Flowing lava touching water over a double andesite block will produce andesite 1/6 of the time, and stone the other five times."
+				"流动的熔岩在二倍压制安山岩上方接触水的时候会有1/6概率生成安山岩，5/6概率生成石头。"
 				""
-				"Although the rate is about the same as bedrock, you won't need to retrieve the andesite from bedrock, and the stone can be used for dedicated uses."
+				"尽管这个概率和基岩造石机差不多，你不需要费尽心思将安山岩运送到地表，并且石头也会有别的用处。"
 			]
 			dependencies: [
 				"248121061F335E67"
@@ -2162,14 +2165,14 @@
 			}]
 		}
 		{
-			title: "Improved Andesite Generator"
+			title: "高级安山岩造石机"
 			x: -6.5d
 			y: -21.5d
 			shape: "pentagon"
 			description: [
-				"Flowing water touching lava over triple compressed andesite will always produce andesite."
+				"熔岩在三倍压制安山岩上方接触流动水时总会生成安山岩。"
 				""
-				"Although it will take you awhile to create enough andesite to make a triple compressed andesite, this method is incredibly simple."
+				"尽管你需要一段时间才能获得足够制造一个三倍压制安山岩的安山岩，不过这个获得安山岩的方法变得更加简单了。"
 			]
 			dependencies: [
 				"16DACAE87B3C7699"
@@ -2211,11 +2214,11 @@
 			}]
 		}
 		{
-			title: "Andesite (Tier IV)"
+			title: "安山岩（四级）"
 			x: 11.5d
 			y: -14.5d
 			shape: "diamond"
-			subtitle: "The ultimate andesite generator"
+			subtitle: "终极安山岩造石机"
 			dependencies: ["3C2D4B41F4BE1AA6"]
 			size: 2.5d
 			id: "5114DC1BA07F8A2F"
