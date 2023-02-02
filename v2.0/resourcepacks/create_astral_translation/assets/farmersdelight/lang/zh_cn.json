@@ -1,5 +1,26 @@
 {
   "block.farmersdelight.beetroot_crate": "箱装玉米",
   "block.farmersdelight.wild_beetroots": "海玉米",
-  "item.farmersdelight.vegetable_noodles": "古扎拉布拉面"
+  "block.farmersdelight.rice_roll_medley_block": "寿司拼盘",
+  "block.farmersdelight.sandy_shrub": "沙生灌木",
+
+  "item.farmersdelight.vegetable_noodles": "蔬菜拉面",
+  "item.farmersdelight.salmon_roll": "鲑鱼寿司",
+  "item.farmersdelight.cod_roll": "鳕鱼寿司",
+  "item.farmersdelight.kelp_roll": "海带寿司卷",
+  "item.farmersdelight.kelp_roll_slice": "海带寿司",
+  "item.farmersdelight.bone_broth": "大骨汤",
+  "item.farmersdelight.glow_berry_custard": "发光浆果蛋奶沙司",
+
+  "item.farmersdelight.rotten_tomato": "烂番茄",
+
+  "farmersdelight.subtitles.rotten_tomato.throw": "烂番茄：丢出",
+  "farmersdelight.subtitles.rotten_tomato.hit": "烂番茄：脓汁四溅",
+
+  "farmersdelight.advancement.get_fd_seed": "野生作物",
+  "farmersdelight.advancement.get_fd_seed.desc": "有四种新的作物在野外等待着你，你需要……跨过山和大海，也穿……或者只需要翻翻箱子。",
+  "farmersdelight.advancement.hit_raider_with_rotten_tomato": "嘘！嘶！",
+  "farmersdelight.advancement.hit_raider_with_rotten_tomato.desc": "向那些讨厌的入侵者扔一个烂番茄！",
+  "farmersdelight.advancement.harvest_ropelogged_tomato": "奋斗的采田艹加",
+  "farmersdelight.advancement.harvest_ropelogged_tomato.desc": "在番茄顶上挂些绳子，让它长得更高！"
 }
