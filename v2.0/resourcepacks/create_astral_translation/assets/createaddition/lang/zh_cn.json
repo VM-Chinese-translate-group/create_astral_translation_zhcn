@@ -65,7 +65,7 @@
   "item.createaddition.biomass": "生物质",
   "item.createaddition.biomass_pellet": "生物质颗粒",
   "item.createaddition.biomass_pellet.tooltip": "BIOMASS_PELLET",
-  "item.createaddition.biomass_pellet.tooltip.summary": "可以在_熔炉_中熔炼_6 种物品_的_固体燃料_。",
+  "item.createaddition.biomass_pellet.tooltip.summary": "可以在_熔炉_中熔炼_5 个物品_的_固体燃料_。",
   "item.createaddition.charging_chromatic_compound": "正在充能的异彩化合物",
   "item.createaddition.overcharged_alloy": "超负荷合金",
   "item.createaddition.overcharged_alloy.tooltip": "超负荷合金",

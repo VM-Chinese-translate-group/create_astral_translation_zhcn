@@ -1,5 +1,7 @@
 {
     "item.techreborn.electronic_circuit": "电子电路板",
+    "item.techreborn.sponge_piece": "海绵碎片",
+	"item.techreborn.muffler_upgrade": "消音升级",
 
     "item.techreborn.silver_helmet": "银头盔",
     "item.techreborn.silver_chestplate": "银胸甲",
@@ -23,6 +25,7 @@
 
     "block.techreborn.block_breaker": "方块破坏器",
     "block.techreborn.block_placer": "方块放置器",
+    "block.techreborn.storage_buffer": "存储缓冲器",
 
     "techreborn.message.info.block.techreborn.block_breaker": "可以直接破坏它前面的任何方块",
     "techreborn.message.info.block.techreborn.block_placer": "可以将库存中的方块直接放在它的前面"
