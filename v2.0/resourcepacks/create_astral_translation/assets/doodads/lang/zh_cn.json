@@ -53,7 +53,7 @@
     "item.doodads.doodad_bundle.tooltip": "内含一个随机的 Doodad 物件",
     "block.doodads.glare_light": "日光灯",
     "block.doodads.platform": "木制平台",
-    "block.doodads.asphalt": "沥青",
+    "block.doodads.asphalt": "安山岩路面",
     "block.doodads.stone_brick_road": "石砖路",
     "block.doodads.brick_road": "砖路",
     "block.doodads.yellow_brick_road": "黄色砖路",
@@ -103,7 +103,7 @@
     "text.autoconfig.doodads.option.doodadTrinkets.enableSunStoneRing": "启用日耀之戒",
   
     "text.autoconfig.doodads.option.doodadBlocks": "方块",
-    "text.autoconfig.doodads.option.doodadBlocks.enableAsphalt": "启用沥青",
+    "text.autoconfig.doodads.option.doodadBlocks.enableAsphalt": "启用安山岩路面",
     "text.autoconfig.doodads.option.doodadBlocks.enableBrickRoad": "启用砖路",
     "text.autoconfig.doodads.option.doodadBlocks.enableStoneBrickRoad": "启用石砖路",
     "text.autoconfig.doodads.option.doodadBlocks.enableYellowBrickRoad": "启用黄色砖路",

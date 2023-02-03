@@ -28,7 +28,7 @@ function lizardTooltipChanges(event) {
       // text.add(2, Text.green('16 '));
       // text.add(3, [Text.white('Iron, '), Text.aqua('Diamonds, '), Text.gold('Gold '), Text.white('or even '), Text.green('Emeralds '), Text.white('are valid base blocks!')])
       text.add(1, [Text.of('').white()]);
-      text.add(2, [Text.of('（它实际上能熔融 ').darkGreen(), Text.of('16个物品').green(), Text.of("，请忽略上面说的）").darkGreen()]);
+      text.add(2, [Text.of('（它实际上能烧制 ').darkGreen(), Text.of('16个物品').green(), Text.of("，请忽略上面说的）").darkGreen()]);
     }
   });
 }
