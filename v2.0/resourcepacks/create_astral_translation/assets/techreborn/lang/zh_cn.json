@@ -1,3 +1,39 @@
 {
-    "item.techreborn.electronic_circuit": "电子电路板"
+    // 整合包修改过的物品/方块
+    "item.techreborn.electronic_circuit": "高级集成电路",
+    "item.techreborn.industrial_circuit": "工业计算单元",
+    "item.techreborn.machine_parts": "机械零件",
+    "item.techreborn.uu_matter": "精炼闪光溶液",
+    "item.techreborn.synthetic_redstone_crystal": "合成红石晶体",
+
+    // 缺失的翻译
+    "item.techreborn.sponge_piece": "海绵碎片",
+	"item.techreborn.muffler_upgrade": "消音升级",
+
+    "item.techreborn.silver_helmet": "银头盔",
+    "item.techreborn.silver_chestplate": "银胸甲",
+    "item.techreborn.silver_leggings": "银护腿",
+    "item.techreborn.silver_boots": "银靴子",
+ 
+    "item.techreborn.steel_helmet": "钢头盔",
+    "item.techreborn.steel_chestplate": "钢胸甲",
+    "item.techreborn.steel_leggings": "钢护腿",
+    "item.techreborn.steel_boots": "钢靴子",
+
+    "block.techreborn.advanced_alloy_storage_block": "高级合金块",
+    "block.techreborn.advanced_alloy_storage_block_stairs": "高级合金楼梯",
+    "block.techreborn.advanced_alloy_storage_block_slab": "高级合金台阶",
+    "block.techreborn.advanced_alloy_storage_block_wall": "高级合金墙",
+
+    "block.techreborn.hot_tungstensteel_storage_block": "热钨钢块",
+    "block.techreborn.hot_tungstensteel_storage_block_stairs": "热钨钢楼梯",
+    "block.techreborn.hot_tungstensteel_storage_block_slab": "热钨钢台阶",
+    "block.techreborn.hot_tungstensteel_storage_block_wall": "热钨钢墙",
+
+    "block.techreborn.block_breaker": "方块破坏器",
+    "block.techreborn.block_placer": "方块放置器",
+    "block.techreborn.storage_buffer": "存储缓冲器",
+
+    "techreborn.message.info.block.techreborn.block_breaker": "可以直接破坏它前面的任何方块",
+    "techreborn.message.info.block.techreborn.block_placer": "可以将库存中的方块直接放在它的前面"
 }
