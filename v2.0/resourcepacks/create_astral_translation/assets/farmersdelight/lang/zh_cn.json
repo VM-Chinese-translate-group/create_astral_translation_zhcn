@@ -1,10 +1,13 @@
 {
+  // 整合包修改过的物品/方块
   "block.farmersdelight.beetroot_crate": "箱装玉米",
   "block.farmersdelight.wild_beetroots": "海玉米",
+  "item.farmersdelight.vegetable_noodles": "歪比巴卜面",
+
+  // 缺失的翻译
   "block.farmersdelight.rice_roll_medley_block": "寿司拼盘",
   "block.farmersdelight.sandy_shrub": "沙生灌木",
 
-  "item.farmersdelight.vegetable_noodles": "歪比巴卜面",
   "item.farmersdelight.salmon_roll": "鲑鱼寿司",
   "item.farmersdelight.cod_roll": "鳕鱼寿司",
   "item.farmersdelight.kelp_roll": "海带寿司卷",

@@ -25,11 +25,11 @@
 	"item.itemfilters.damage": "损坏程度过滤器",
 	"item.itemfilters.damage.description": "检查物品损坏程度",
 	"item.itemfilters.block": "方块过滤器",
-	"item.itemfilters.block.description": "检查物品是否是方块",
+	"item.itemfilters.block.description": "检查物品是否为方块",
 	"item.itemfilters.max_count": "最大堆叠大小过滤器",
 	"item.itemfilters.max_count.description": "检查物品的最大堆叠大小是否满足设定的关系",
 	"item.itemfilters.strong_nbt": "NBT 过滤器（强）",
-	"item.itemfilters.strong_nbt.description": "如果整个 NBT 相等则匹配",
+	"item.itemfilters.strong_nbt.description": "如果整个 NBT 相等，则匹配",
 	"item.itemfilters.weak_nbt": "NBT 过滤器（弱）",
 	"item.itemfilters.weak_nbt.description": "只要 NBT 的指定部分存在，则匹配",
 	"item.itemfilters.custom": "自定义过滤器",
@@ -39,7 +39,7 @@
 	"itemfilters.help_text.filter": "过滤器（右击清除）",
 	"itemfilters.help_text.nbt": "NBT 字符串\n▶ 例如 { text:\"hello\", value: 1, active: true }",
 	"itemfilters.help_text.weak_nbt": "弱 NBT 字符串\n▶ 例如 { text:\"hello\", value: 1, active: true }\n▶ 仅检查提供的 NBT 字段（项目中的任何其他字段将被忽略）",
-	"itemfilters.help_text.regex": "正则表达式\n 与项目 ID 匹配\n▶ 例如 \"^minecraft:\" 匹配所有原版物品",
-	"itemfilters.help_text.max_count": "最大堆叠大小\n▶ 也可能包括关系运算符，例如 \"<64\" 或 \">=16\"",
-	"itemfilters.help_text.damage": "物品损坏程度\n▶ 还可能包括关系运算符，例如 \"<10\" 或 \">=5\"\n 和可选的百分比，例如 \">50%\""
+	"itemfilters.help_text.regex": "正则表达式\n 与项目 ID 进行匹配\n▶ 例如 \"^minecraft:\" 匹配所有原版物品",
+	"itemfilters.help_text.max_count": "最大堆叠大小\n▶ 也可以包括关系运算符，例如 \"<64\" 或 \">=16\"",
+	"itemfilters.help_text.damage": "物品损坏程度\n▶ 也可以包括关系运算符，例如 \"<10\" 或 \">=5\"\n 和可选的百分比，例如 \">50%\""
 }
