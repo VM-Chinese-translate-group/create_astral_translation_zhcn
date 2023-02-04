@@ -4,7 +4,7 @@
 
 主要是为了将整合包内的任务书、kubejs内容、自定义物品名称进行汉化。欢迎contribution。
 
-目前整合包版本：2.0b
+目前整合包版本：2.0b，[点此进入CurseForge页面](https://www.curseforge.com/minecraft/modpacks/create-astral)
 
 ## 进度
 
@@ -21,3 +21,6 @@ KubeJS魔改内容：翻译完成
 ## 鸣谢
 
 B站ID：[@茫氪](https://space.bilibili.com/560349507)、[@Mc2deM](https://space.bilibili.com/541937599)
+
+
+GitHub: [@lrcno6](https://github.com/lrcno6), [@spaceskynet](https://github.com/spaceskynet)
