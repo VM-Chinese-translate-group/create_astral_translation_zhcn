@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 4
 	filename: "chapter_4"
-	title: "3) Remnants of a lost civilisation"
+	title: "第3章 失落文明的遗迹"
 	icon: {
 		id: "ftbquests:custom_icon"
 		Count: 1b
@@ -29,11 +29,11 @@
 		{
 			x: -21.5d
 			y: 2.0d
-			subtitle: "Obtain a blaze from a lost pipeline on the moon!"
+			subtitle: "在月球的遗落流水线上获取一个烈焰人！"
 			description: [
-				"Pipelines spawn with dangerous wither skeletons and guaranteed Blaze spawners. With an empty blaze burner, you'll be able to right click blazes and scoop them up."
+				"月球的遗落流水线结构中会生成十分危险的凋零骷髅，并一定会有烈焰人刷怪笼。手持空的烈焰人燃烧室右键烈焰人可以将其捕捉进去。"
 				""
-				"Blaze burners let you do heated (and later on, super-heated) recipes, where you light a fire under a basin for a mixer or press to operate on. A lot of recipes can only be made this way. It's the reason you really should have fuel automated."
+				"烈焰人燃烧室可以让你制作需要加热（以及后续的超级加热）的配方，你需要在工作盆的下方放置燃烧室加热，并和搅拌器或辊压机配合使用。有很多配方只能通过这种方式进行合成，这也是为什么你需要完全自动化生产燃料。"
 			]
 			dependencies: ["6027602617EC9F1F"]
 			id: "51BD31261A5725E3"
@@ -51,14 +51,14 @@
 			]
 		}
 		{
-			title: "The World of \"Smart\""
+			title: "“智能”世界"
 			x: -19.0d
 			y: 5.0d
-			subtitle: "Discover the most stylish alloy"
+			subtitle: "发现最炫酷的合金"
 			description: [
-				"Put brass production into OVERDRIVE as you'll want to use many of its unique tools. Even if you have automation going on, you may want to consider investing in a quarry or tunnelbore so quick injections of these can be made into your life."
+				"多多生产黄铜，你会需要用它制作许多独特的工具。尽管你已经有了自动化，但是你也许还要建造一个采石场或者一台盾构机，快速获取该种材料。"
 				""
-				"From this point, the most efficient way of producing cogwheels is going to be directly pouring them with a brass filled spout. Consider automating brass casing and cogwheels this way, as these are going to be needed in bulk!"
+				"从这里开始，获取齿轮的最快方式就是通过注液器From this point, the most efficient way of producing cogwheels is going to be directly pouring them with a brass filled spout. Consider automating brass casing and cogwheels this way, as these are going to be needed in bulk!"
 			]
 			dependencies: ["51BD31261A5725E3"]
 			id: "705C815541DB89F8"
@@ -82,19 +82,19 @@
 			}]
 		}
 		{
-			title: "Automate the World!"
+			title: "自动化整个世界！"
 			x: -9.5d
 			y: 5.0d
 			shape: "rsquare"
-			subtitle: "Imagination's the automation limit now"
+			subtitle: "只有你想不到的，没有做不了自动化的"
 			description: [
-				"Mechanical crafters can craft stuff for you. Almost every table crafting recipe is supported."
+				"动力合成器可以为你合成物品。基本所有合成台配方都支持。"
 				""
-				"Not just that, but mechanical crafters can extend past the normal 3x3 grid available to tables. A handful of recipes producing large objects can only be made with the help of these items."
+				"不仅如此，动力合成器可以制作的配方还超越了原版工作台的3x3网格。有一大堆的物品你能且只能使用动力合成器制作。"
 				""
-				"But wait, there's more! The precision mechanisms inside allow you to craft certain materials that are dedicate to craft by hand, even if their recipes are smaller than a 3x3 grid."
+				"等等，还有一件事！动力合成器内部的精巧结构甚至可以满足一些小物件的制作需求，就算合成表大小比3x3还小都能做。"
 				""
-				"There are so many new recipes that this quest book can't show them all. Check out what you can make with REI!"
+				"还有许多其他的全新合成配方，这本书没法面面俱到地一个个解释。在REI中看看你能做些什么东西吧！"
 			]
 			dependencies: [
 				"21DBCD51CC35B794"
@@ -131,9 +131,9 @@
 		{
 			x: -14.5d
 			y: 4.0d
-			subtitle: "A common crafting component."
+			subtitle: "常见的合成材料"
 			description: [
-				"Precision mechanisms are used in all sorts of powerful Create utilities. You'll find yourself smiling each time you craft one."
+				"你会在许多功能强大的机械动力机器中见到精密构件的身影。每当你做出一个的时候，你都会不由自主地露出笑容。"
 				""
 			]
 			dependencies: ["705C815541DB89F8"]
@@ -152,19 +152,19 @@
 			}]
 		}
 		{
-			title: "CRUSH"
+			title: "碎！碎！碎！"
 			x: -4.5d
 			y: 5.0d
 			shape: "rsquare"
-			subtitle: "Like grinding but different"
+			subtitle: "很像磨粉，但不太一样"
 			description: [
-				"Crushing is a very important industrial process. It has multiple uses:"
+				"粉碎是一个十分重要的工业流程，有许多用途："
 				""
-				"1) It can \"crush\" raw ore into crushed ore, giving a bonus yields as well as xp chunks. The xp can be cashed in at any time, but you might need it more later..."
+				"1. 它可以把粗矿“粉碎”，变成粉碎矿石，并有额外的产出以及经验。经验颗粒可以随时吸收，不过你后续可能会需要这些经验颗粒……"
 				""
-				"2) It's an improved miller. Any recipe the millstone has, the crushing wheel can do too, and usually with extra bonus yields."
+				"2. 它是进阶版的石磨。任何石磨能处理的配方，粉碎轮都能处理，而且通常能获得更多产物。"
 				""
-				"3) It has some unique processing recipes. In general, if a stone has a \"sand\" version of it, if you can expect to be able to crush the item into sand. It can also extract special dusts out of many different blocks. This is similiar to the grinder, but the big difference is that crushing wheels crush whole blocks into dust, while the grinder grinds items."
+				"3. 粉碎轮也有一些独有的处理配方：一般来讲，如果一种石头有“沙子”版本，那么大概把这种石头放进粉碎轮就会得到对应的“沙子”。粉碎轮还能从许多不同的方块中提取各种粉末。这一点和磨粉机很像，但是不同的是粉碎轮粉碎的是整个方块，但磨粉机磨的是物品。"
 			]
 			min_required_dependencies: 1
 			dependencies: ["3EA569DE4AC60CC2"]
@@ -204,11 +204,11 @@
 			]
 		}
 		{
-			title: "It's like copper but cooler"
+			title: "就像铜质，但是更帅气"
 			x: -18.5d
 			y: 4.0d
-			subtitle: "and highly enchantable!"
-			description: ["Effectively a minor upgrade to iron, except with a major enchanting bonus allowing for easy god tier enchants."]
+			subtitle: "而且和附魔相性很好！"
+			description: ["相对于铁套来说算是小小的升级，但是黄铜套有附魔加成，更容易获得高等级附魔。"]
 			dependencies: ["705C815541DB89F8"]
 			optional: true
 			id: "156E58E3BD65E3A0"
@@ -279,15 +279,15 @@
 			]
 		}
 		{
-			title: "We're Gonna Need a Bigger Crafter..."
+			title: "我们需要大点的工作台……"
 			x: 2.0d
 			y: 5.0d
 			shape: "hexagon"
-			subtitle: "Probably shouldn't launch that rocket from some grass."
+			subtitle: "也许不应该在草地上发射火箭"
 			description: [
-				"A large Mechanical crafting setup will be needed for this recipe. With it crafted you've got yourself the perfect base to launch a rocket from."
+				"要制作这个配方你需要一个很大的合成器组。一旦合成完毕，你就拥有了一个完美的火箭发射基地。"
 				""
-				"You'll need two - you'll want to leave whatever planet you go to, right?"
+				"你需要两个这东西——无论你去哪个星球，你早晚还得回来，对不对？"
 			]
 			hide_dependency_lines: false
 			dependencies: ["62C959AC63DD2A89"]
@@ -301,16 +301,15 @@
 			}]
 		}
 		{
-			title: "Operate a boiler, young wolf."
+			title: "年轻的工人哟，来试试蒸汽锅炉吧"
 			x: -19.5d
 			y: 2.0d
 			shape: "gear"
-			subtitle: "Ultimate Kinetic Power"
+			subtitle: "超级动能"
 			description: [
-				"Boilers - essentially steam power - blows every other kinetic energy source out of the water. They involve a giant fluid tank with water constantly pumped into them and blaze burners constantly lit below it. The setup is more complicated to manage, so the ponder system is recommended."
+				"锅炉——本质上就是蒸汽动力——能够产生强大的能量，别的动力源方块跟它一比就是弟弟。锅炉包含一个需要持续向其中供水的流体储罐，以及锅炉下方需要持续燃烧的烈焰人燃烧室。这个结构十分复杂，建议使用思索功能学习。"
 				""
-				""
-				"Aim for a level 9 boiler as these are incredibly efficient for their cost. The moment electricity generation enters the room those stress units will be eaten up in no time."
+				"你的目标是9级锅炉，和它的投入相比，它的输出可以说非常高效。发展到电力科技之后，你的应力消耗系统可以说是不值一提。"
 			]
 			dependencies: ["51BD31261A5725E3"]
 			size: 1.5d
@@ -325,8 +324,8 @@
 		{
 			x: -9.5d
 			y: 6.5d
-			subtitle: "It's brass now."
-			description: ["A basic computer but like, better?"]
+			subtitle: "现在是黄铜计算机了"
+			description: ["最基本的计算机，但是可能……更好一些？"]
 			dependencies: ["3EA569DE4AC60CC2"]
 			optional: true
 			id: "1142742E67E7F493"
@@ -345,8 +344,8 @@
 		{
 			x: -9.5d
 			y: 7.5d
-			subtitle: "Stop playing bad apple on boot, PLEASE"
-			description: ["\"no\""]
+			subtitle: "别在开机的时候放bad apple了，好吗？"
+			description: ["不"]
 			dependencies: ["1142742E67E7F493"]
 			optional: true
 			id: "75E964418F7E94F0"
@@ -365,8 +364,8 @@
 		{
 			x: -9.5d
 			y: 8.5d
-			subtitle: "There are so many uses for this!"
-			description: ["You still can't program though!"]
+			subtitle: "这个东西用处很多！"
+			description: ["不过你暂时还不能编程！"]
 			dependencies: ["75E964418F7E94F0"]
 			optional: true
 			id: "02AE40C72FE1744E"
@@ -383,12 +382,16 @@
 			}]
 		}
 		{
-			title: "For his neutral special he wields a gun"
+			title: "“而他的B键攻击是一把枪”"
 			x: -11.0d
 			y: 3.5d
 			shape: "heart"
-			subtitle: "They say happiness is a warm gun."
-			description: ["Rifles are exceptionally powerful in conjunction with potion arrows. Might be a neat investment, mm?"]
+			subtitle: "人们常说，幸福是一杆温暖的枪。"
+			description: [
+				"步枪和药水箭放在一起用会十分强力。感觉不错是不是？"
+				""
+				"（译者注：没玩过大乱斗，但我查到任务标题是任天堂大乱斗角色Joker的技能，语出官方预告片技能介绍。以及为什么“步枪”要用药水箭orz）"
+				]
 			dependencies: ["3EA569DE4AC60CC2"]
 			hide: false
 			optional: true
