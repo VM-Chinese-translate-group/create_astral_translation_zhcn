@@ -97,7 +97,7 @@
   "item.createaddition.overcharged_hammer.tooltip": "超负荷锤",
   "item.createaddition.overcharged_hammer.tooltip.summary": "这把可靠的_锤子_被注入了_电能_的力量",
   "item.createaddition.spool": "空线轴",
-  "item.createaddition.spool.nbt": "存储连接地点",
+  "item.createaddition.spool.nbt": "会记住连接点",
   "item.createaddition.spool.tooltip": "线轴",
   "item.createaddition.spool.tooltip.summary": "右击两个_连接器_会移除连接它们之间的线缆，并返还一个_线轴_。",
   "statusbar.createaddition.wire.linked": "节点已连接",

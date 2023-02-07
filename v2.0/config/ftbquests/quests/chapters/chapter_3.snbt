@@ -280,7 +280,7 @@
 				""
 				"铸件台需要铸模才能使用。你可以用沙子合成一次性铸模，也可以制作可以无限次使用的金质铸模，比沙子铸模要好上一万倍。"
 				""
-				"顺带一提，在冶炼炉里熔化黏土再浇铸成锭就可以得到焦黑砖。（译者注：焦黑砖的另一种生产方式）"
+				"顺带一提，在冶炼炉里熔化黏土再浇铸成到石头上就可以得到焦黑石头。"
 			]
 			dependencies: ["6D5301A68808F8E8"]
 			id: "1519A1EA2CFA6FB1"
@@ -307,22 +307,27 @@
 			title: "让我们探索自然生成的结构"
 			x: 5.0d
 			y: 0.5d
-			subtitle: "结构罗盘会指向结构主体所在位置的方向。"
+			subtitle: "探险家指南针会指向结构主体所在位置的方向。"
 			description: [
-				"结构罗盘不能用来搜索某些有其他办法定位的结构，例如要塞。"
+				"探险家指南针会为你指明各种结构！ 除非你是在准备去“抢劫”，否则我不建议去要塞，但是……它们的门户目前“无法使用”。"
 				""
-				"你还可以用结构罗盘找到闪光溶液湖，或许不久之后就会派上用场……"
+				"你还可以用探险家指南针找到闪光溶液湖，或许不久之后就会派上用场……"
 			]
 			dependencies: ["17041A495A41EEFD"]
 			id: "33B14FCDB52879E4"
 			tasks: [{
-				id: "6EB0DD4B64ED4C64"
+				id: "720A3210935826F3"
 				type: "item"
 				item: {
-					id: "structures_compass:structures_compass"
+					id: "explorerscompass:explorerscompass"
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "31FB455D6634DC34"
+				type: "item"
+				item: "minecraft:map"
 			}]
 		}
 		{
@@ -455,6 +460,7 @@
 			x: 10.0d
 			y: -0.5d
 			subtitle: "要给你的太空服充氧的话，需要用到一种特别的机器……"
+			description: ["我们已经取消了操作这台机器时对能量的需求！ 在你努力登月时不需要担心这个 :)"]	
 			dependencies: ["343B8B2BF76B1D3B"]
 			id: "4D7BFA8973D61425"
 			tasks: [{
@@ -468,6 +474,14 @@
 			y: -0.5d
 			subtitle: "星辰整合包自定义多方块结构！"
 			description: ["电解器（不要跟科技复兴的工业电解器搞混了）可以将水作为输入，依靠红石的能量缓慢地产生氧气。这台机器可以帮助你为月球之旅做准备。"]
+			description: [
+				""
+				"（不要跟科技复兴的工业电解器搞混了！）"
+				""
+				"如果它不工作，就把它打碎后重新放置！"
+				""
+				"它只能将水作为输入，只能将氧气作为输出，所以你不用担心需要额外在管道上加上过滤条件来适配它。"
+			]
 			dependencies: [
 				"267CD8D04921402E"
 				"3C26E1DEA0265C03"
@@ -522,6 +536,8 @@
 				"红石芯片是构成电路的基础，很大程度上是为了制作音频设备特制的，比如Phonos模组的物品。"
 				""
 				"话虽如此，这个芯片用来制作我们登月所需的工具刚刚好。"
+				""
+				"可能是你需要认真对待的第一个有序合成配方！"
 			]
 			dependencies: ["32B9EAE28E1C5D7A"]
 			id: "267CD8D04921402E"
@@ -773,10 +789,7 @@
 				""
 				"一些特定的工具强化只能在工匠砧上进行。"
 			]
-			dependencies: [
-				"3EA569DE4AC60CC2"
-				"1519A1EA2CFA6FB1"
-			]
+			dependencies: ["1519A1EA2CFA6FB1"]
 			id: "5042E544D3181FAC"
 			tasks: [{
 				id: "622223D1E4140C47"
@@ -849,6 +862,7 @@
 			icon: "minecraft:blue_dye"
 			x: -3.5d
 			y: -4.5d
+			subtitle: "时运	I 就是用的这个配方！"
 			dependencies: ["5042E544D3181FAC"]
 			optional: true
 			id: "1717E5063CC231DD"
@@ -871,6 +885,7 @@
 			icon: "minecraft:diamond"
 			x: -3.5d
 			y: -5.5d
+			subtitle: "时运	II 用的就是这个配方哦！"
 			dependencies: [
 				"1717E5063CC231DD"
 				"406D5C04583BD542"
@@ -899,6 +914,7 @@
 			icon: "minecraft:deepslate_diamond_ore"
 			x: -3.5d
 			y: -6.5d
+			subtitle: "时运	III 用的就是这个配方啦！"
 			dependencies: ["1C10D7A2828DE436"]
 			optional: true
 			id: "25085C910155E06D"
@@ -941,14 +957,17 @@
 		}
 		{
 			title: "这个我要怎么做？！"
-			x: 9.5d
+			x: 9.0d
 			y: 0.5d
-			subtitle: "多方块结构组件"
+			subtitle: "制作你的电解器和常见问题解答。"
 			description: [
-				"每层大小3x3"
-				"下层：一条边中间为电解器，其余方块为铜机壳"
+				"电解器多方块结构与 IE 等模组的专用多方块结构略有不同。它在组装时不会成为一个新方块，而是允许核心的“电解器”方块按照配方进行工作"
+				""
+				"下层：一条边中间为电解器，其余3x3空间为铜机壳"
+				""
 				"中层：周围一圈8个铜线轴块，中间留空"
-				"上层：3x3的铜板方块"
+				""
+				"上层：3x3的铜机壳"
 			]
 			hide_dependency_lines: true
 			dependencies: ["32B9EAE28E1C5D7A"]
@@ -961,16 +980,10 @@
 					count: 8L
 				}
 				{
-					id: "44EBEC6416325EB0"
-					type: "item"
-					item: "createastral:copper_plating"
-					count: 9L
-				}
-				{
 					id: "13E157B81D7B2039"
 					type: "item"
 					item: "create:copper_casing"
-					count: 8L
+					count: 17L
 				}
 			]
 		}
@@ -1996,6 +2009,7 @@
 			icon: "minecraft:diamond_block"
 			x: -3.5d
 			y: -7.5d
+			subtitle: "嗯……那个？这到底是什么？！"
 			dependencies: ["25085C910155E06D"]
 			optional: true
 			id: "3F331B0DAE1062E8"
@@ -2399,6 +2413,55 @@
 				type: "item"
 				item: "minecraft:nautilus_shell"
 				count: 5
+			}]
+		}
+		{
+			title: "自动化产铁！"
+			x: 5.0d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "来自工业燃烧的热度。"
+			description: ["绯红岩是一种可再生的铁资源。可通过序列组装对深板岩圆石注入熔岩和安装燧石来获得。"]
+			hide_dependency_lines: true
+			dependencies: ["17041A495A41EEFD"]
+			id: "0A427E6582CA072F"
+			tasks: [{
+				id: "70B832BB8CC011DC"
+				type: "item"
+				item: "create:crimsite"
+				count: 256L
+			}]
+			rewards: [{
+				id: "3780ACA5F78DD832"
+				type: "item"
+				item: "tconstruct:iron_reinforcement"
+				count: 128
+			}]
+		}
+		{
+			title: "自动化产金！"
+			x: -1.0d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "闪？闪闪发光？！"
+			description: [
+				"赭金砂是一种可再生的金资源。它是在动力搅拌器中使用压制沙子、深板岩圆石和熔岩制成的。"
+				""
+			]
+			hide_dependency_lines: false
+			dependencies: ["70799237323247B7"]
+			id: "1338FD7D41851914"
+			tasks: [{
+				id: "44D1A94AC2451152"
+				type: "item"
+				item: "create:ochrum"
+				count: 256L
+			}]
+			rewards: [{
+				id: "068C687C5C0D5F42"
+				type: "item"
+				item: "tconstruct:gold_reinforcement"
+				count: 64
 			}]
 		}
 	]

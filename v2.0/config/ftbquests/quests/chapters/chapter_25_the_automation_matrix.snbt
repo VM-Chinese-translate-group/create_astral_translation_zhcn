@@ -425,7 +425,7 @@
 			y: 3.0d
 			shape: "diamond"
 			subtitle: "洗涤石灰粉"
-			description: ["Silver is used in the production of electrical machines."]
+			description: ["银用于生产电力机器。"]
 			min_required_dependencies: 1
 			dependencies: [
 				"282478462D746146"
@@ -652,7 +652,7 @@
 			y: -0.5d
 			shape: "diamond"
 			subtitle: "将火药、青金石粉、铁粒和熔岩压块塑形得到"
-			description: ["青金石有一些神秘的用途，它的方块形式也可用于电路板的制造。 "]
+			description: ["青金石有一些神秘的用途，它的方块形式也可用于电路板的制造。"]
 			dependencies: [
 				"274BA7205ECC4FEB"
 				"5389EB8711792F04"
@@ -707,8 +707,8 @@
 			x: -18.5d
 			y: -14.5d
 			shape: "diamond"
-			subtitle: "Wash gravel"
-			description: ["Iron has many, many uses. "]
+			subtitle: "洗涤沙砾"
+			description: ["铁有很多、很多用途~不是吗？"]
 			min_required_dependencies: 1
 			dependencies: [
 				"14E90DB150FD5F52"
@@ -869,7 +869,7 @@
 			y: -21.5d
 			shape: "square"
 			subtitle: "熔炼刷怪笼刷出的烈焰人"
-			description: ["Blazing blood can be used as an alternative to lava for powering foundries. It will melt items faster."]
+			description: ["烈焰血可以作为熔岩的替代品来为熔铸炉提供动力。它能更快地熔融物品。"]
 			dependencies: ["3CB5D433A10C2040"]
 			size: 2.0d
 			id: "2E443EE8C2CC5DE9"
@@ -884,7 +884,7 @@
 			y: -21.5d
 			shape: "square"
 			subtitle: "熔炼刷怪笼刷出的非烈焰人怪物"
-			description: ["Blood can be casted into coagulated blood, a substitute for slime."]
+			description: ["血可以浇铸成凝固黏血块，作为黏液的替代品。"]
 			dependencies: ["3CB5D433A10C2040"]
 			size: 2.0d
 			id: "75DBB5D323C6761B"
@@ -1717,11 +1717,11 @@
 			}]
 		}
 		{
-			title: "月岩造石机的介绍在这里"
+			title: "行星方块生成器！"
 			x: -24.0d
 			y: -19.0d
 			shape: "pentagon"
-			description: [""]
+			subtitle: "用下面的月岩制作一个月球圆石来生成更多的月岩！"
 			dependencies: [
 				"306D009F01634115"
 				"38814494AB07C2D8"
@@ -1803,7 +1803,7 @@
 			y: 6.5d
 			shape: "diamond"
 			subtitle: "批量熔炼下界砖泥"
-			description: ["Scorched Bricks are used to craft foundry-related blocks. Foundries are the best utility for smelting many objects at once, and produce the highest ore yields when melting ores. Foundries can also smelt entities."]
+			description: ["焦褐砖用于制作与熔铸相关的方块。熔铸炉是一次熔炼许多物体的最佳工具，用于熔炼矿石时能得到最高的矿石产量。熔铸炉也可以熔炼实体。（译者注：就如任务流程最开始所说，把熔铸炉修建在烈焰人刷怪笼的下面熔炼烈焰人，真是便捷的烈焰血来源~）"]
 			min_required_dependencies: 1
 			dependencies: [
 				"7CC71DB08315F7BE"
