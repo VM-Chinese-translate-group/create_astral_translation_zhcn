@@ -477,7 +477,7 @@ onEvent('item.tooltip', e => {
     }
     if (e.isShift()) {
       
-     text.add(1, [Text.of('厚实耐用，是钻石的坚实替代品。 ').gold(),])
+     text.add(1, [Text.of('厚实耐用，是钻石的坚实替代品。').gold(),])
       
     }
   })
@@ -558,7 +558,7 @@ onEvent('item.tooltip', e => {
     }
     if (e.isShift()) {
       
-      text.add(1, [Text.of('较易生产，在附魔台上有几率获得更高级的附魔。 ').gold(),])
+      text.add(1, [Text.of('较易生产，在附魔台上有几率获得更高级的附魔。').gold(),])
       
     }
   })
@@ -568,7 +568,7 @@ onEvent('item.tooltip', e => {
     }
     if (e.isShift()) {
       
-      text.add(1, [Text.of('较易生产，在附魔台上有几率获得更高级的附魔。 ').gold(),])
+      text.add(1, [Text.of('较易生产，在附魔台上有几率获得更高级的附魔。').gold(),])
       
     }
   })
@@ -578,7 +578,7 @@ onEvent('item.tooltip', e => {
     }
     if (e.isShift()) {
       
-      text.add(1, [Text.of('较易生产，在附魔台上有几率获得更高级的附魔。 ').gold(),])
+      text.add(1, [Text.of('较易生产，在附魔台上有几率获得更高级的附魔。').gold(),])
       
     }
   })
@@ -588,7 +588,7 @@ onEvent('item.tooltip', e => {
     }
     if (e.isShift()) {
       
-      text.add(1, [Text.of('较易生产，在附魔台上有几率获得更高级的附魔。 ').gold(),])
+      text.add(1, [Text.of('较易生产，在附魔台上有几率获得更高级的附魔。').gold(),])
       
     }
   })
@@ -598,7 +598,7 @@ onEvent('item.tooltip', e => {
     }
     if (e.isShift()) {
       
-      text.add(1, [Text.of('较易生产，在附魔台上有几率获得更高级的附魔。 ').gold(),])
+      text.add(1, [Text.of('较易生产，在附魔台上有几率获得更高级的附魔。').gold(),])
       
     }
   })
@@ -608,7 +608,7 @@ onEvent('item.tooltip', e => {
     }
     if (e.isShift()) {
       
-      text.add(1, [Text.of('较易生产，在附魔台上有几率获得更高级的附魔。 ').gold(),])
+      text.add(1, [Text.of('较易生产，在附魔台上有几率获得更高级的附魔。').gold(),])
       
     }
   })
@@ -618,49 +618,8 @@ onEvent('item.tooltip', e => {
     }
     if (e.isShift()) {
       
-      text.add(1, [Text.of('较易生产，在附魔台上有几率获得更高级的附魔。 ').gold(),]),
-      text.add(2, [Text.of('按下（V）键切换为使用武器采矿。').white(),])
-      
-    }
-  })
-  e.addAdvanced('tconstruct:mattock', (item, advanced, text) => {
-    if (!e.isShift()) {
-      text.add(1, [Text.of('按下 ').gold(), Text.of('Shift ').yellow(), Text.of('来查看更多信息。').gold()])
-    }
-    if (e.isShift()) {
+      text.add(1, [Text.of('较易生产，在附魔台上有几率获得更高级的附魔。').gold(),])
 
-      text.add(1, [Text.of('按下（V）键切换为使用武器采矿。').white(),])
-      
-    }
-  })
-  e.addAdvanced('tconstruct:hammer', (item, advanced, text) => {
-    if (!e.isShift()) {
-      text.add(1, [Text.of('按下 ').gold(), Text.of('Shift ').yellow(), Text.of('来查看更多信息。').gold()])
-    }
-    if (e.isShift()) {
-
-      text.add(1, [Text.of('按下（V）键切换为使用武器采矿。').white(),])
-      
-    }
-  })
-  e.addAdvanced('tconstruct:hand_axe', (item, advanced, text) => {
-    if (!e.isShift()) {
-      text.add(1, [Text.of('按下 ').gold(), Text.of('Shift ').yellow(), Text.of('来查看更多信息。').gold()])
-    }
-    if (e.isShift()) {
-
-      text.add(1, [Text.of('按下（V）键切换为使用武器采矿。').white(),])
-      
-    }
-  })
-  e.addAdvanced('tconstruct:broad_axe', (item, advanced, text) => {
-    if (!e.isShift()) {
-      text.add(1, [Text.of('按下 ').gold(), Text.of('Shift ').yellow(), Text.of('来查看更多信息。').gold()])
-    }
-    if (e.isShift()) {
-
-      text.add(1, [Text.of('按下（V）键切换为使用武器采矿。').white(),])
-      
     }
   })
   e.addAdvanced('createastral:brass_shovel', (item, advanced, text) => {
@@ -669,7 +628,7 @@ onEvent('item.tooltip', e => {
     }
     if (e.isShift()) {
       
-      text.add(1, [Text.of('较易生产，在附魔台上有几率获得更高级的附魔。 ').gold(),])
+      text.add(1, [Text.of('较易生产，在附魔台上有几率获得更高级的附魔。').gold(),])
       
     }
   })
@@ -679,7 +638,7 @@ onEvent('item.tooltip', e => {
     }
     if (e.isShift()) {
       
-      text.add(1, [Text.of('较易生产，在附魔台上有几率获得更高级的附魔。 ').gold(),])
+      text.add(1, [Text.of('较易生产，在附魔台上有几率获得更高级的附魔。').gold(),])
       
     }
   })
@@ -759,8 +718,7 @@ onEvent('item.tooltip', e => {
     }
     if (e.isShift()) {
       
-      text.add(1, [Text.of('易于制作，几乎不需要加工。').gold(),]),
-      text.add(2, [Text.of('按下（V）键切换为使用武器采矿。').white(),])
+      text.add(1, [Text.of('易于制作，几乎不需要加工。').gold(),])
       
     }
   })
@@ -830,8 +788,7 @@ onEvent('item.tooltip', e => {
     }
     if (e.isShift()) {
       
-      text.add(1, [Text.of('坚固可靠，需将铁锭压成铁板才可以进一步加工。').gold(),]),
-      text.add(2, [Text.of('按下（V）键切换为使用武器采矿。').white(),])
+      text.add(1, [Text.of('坚固可靠，需将铁锭压成铁板才可以进一步加工。').gold(),])
       
     }
   })
@@ -841,8 +798,7 @@ onEvent('item.tooltip', e => {
     }
     if (e.isShift()) {
       
-      text.add(1, [Text.of('坚固可靠，需将铁锭压成铁板才可以进一步加工。').gold(),]),
-      text.add(2, [Text.of('按下（V）键切换为使用武器采矿。').white(),])
+      text.add(1, [Text.of('坚固可靠，需将铁锭压成铁板才可以进一步加工。').gold(),])
       
     }
   })
@@ -852,8 +808,7 @@ onEvent('item.tooltip', e => {
     }
     if (e.isShift()) {
       
-      text.add(1, [Text.of('坚固可靠，需将铁锭压成铁板才可以进一步加工。').gold(),]),
-      text.add(2, [Text.of('按下（V）键切换为使用武器采矿。').white(),])
+      text.add(1, [Text.of('坚固可靠，需将铁锭压成铁板才可以进一步加工。').gold(),])
       
     }
   })
@@ -920,26 +875,6 @@ onEvent('item.tooltip', e => {
       
     }
   })
-  e.addAdvanced('ad_astra:solar_panel', (item, advanced, text) => {
-    if (!e.isShift()) {
-      text.add(1, [Text.of('按下 ').gold(), Text.of('Shift ').yellow(), Text.of('来查看更多信息。').gold()])
-    }
-    if (e.isShift()) {
-      
-      text.add(1, [Text.of('已禁用。 交流发电机产生电力。').gold(),])
-      
-    }
-  })
-  e.addAdvanced('ad_astra:coal_generator', (item, advanced, text) => {
-    if (!e.isShift()) {
-      text.add(1, [Text.of('按下 ').gold(), Text.of('Shift ').yellow(), Text.of('来查看更多信息。').gold()])
-    }
-    if (e.isShift()) {
-      
-      text.add(1, [Text.of('已禁用。 交流发电机产生电力。').gold(),])
-      
-    }
-  })
   e.addAdvanced('minecraft:rotten_flesh', (item, advanced, text) => {
     if (!e.isShift()) {
       text.add(1, [Text.of('按下 ').gold(), Text.of('Shift ').yellow(), Text.of('来查看更多信息。').gold()])
@@ -960,26 +895,6 @@ onEvent('item.tooltip', e => {
       
     }
   })
-  e.addAdvanced('campanion:hiking_pack', (item, advanced, text) => {
-    if (!e.isShift()) {
-      text.add(1, [Text.of('按下 ').gold(), Text.of('Shift ').yellow(), Text.of('来查看更多信息。').gold()])
-    }
-    if (e.isShift()) {
-      
-      text.add(1, [Text.of('装备在胸甲槽中。物品会在卸下时掉落！').gold(),])
-      
-    }
-  })
-  e.addAdvanced('bosses_of_mass_destruction:monolith_block', (item, advanced, text) => {
-    if (!e.isShift()) {
-      text.add(1, [Text.of('按下 ').gold(), Text.of('Shift ').yellow(), Text.of('来查看更多信息。').gold()])
-    }
-    if (e.isShift()) {
-      
-      text.add(1, [Text.of('蕴含着巨大的势能...（从巨型黑曜石上掉落）').gold(),])
-      
-    }
-  })
   e.addAdvanced('createastral:orcane', (item, advanced, text) => {
     if (!e.isShift()) {
       text.add(1, [Text.of('按下 ').gold(), Text.of('Shift ').yellow(), Text.of('来查看更多信息。').gold()])
@@ -987,68 +902,8 @@ onEvent('item.tooltip', e => {
     if (e.isShift()) {
       
 	text.add(1, [Text.of('如果你是机械动力新手，那么你可以使用思索或在线指南。该整合包几乎完全以机械动力为中心。任务书有一些项目，可以大致了解发生了什么变化/包含什么，可以根据任务书来进行游玩，但是，该包也可以不完全跟着任务线走，所以做你喜欢的事情吧！').gold(),])
-	text.add(2, [Text.of('您*可能*想知道的一个重大变化。这个整合包中下界不存在。 甚至不要尝试创建下界门户，因为它不会起作用。 所有与下界相关的物品都分布在整个整合包中（主要是在行星上）').white(),])
+	text.add(2, [Text.of('您*可能*想知道的一个重大变化。这个整合包中下界不存在。甚至不要尝试创建下界门户，因为它不会起作用。所有与下界相关的物品都分布在整个整合包中（主要是在行星上）').white(),])
 
-    }
-  })
-  e.addAdvanced('createastral:radiant_chestplate', (item, advanced, text) => {
-    if (!e.isShift()) {
-      text.add(1, [Text.of('按下 ').gold(), Text.of('Shift ').yellow(), Text.of('来查看更多信息。').gold()])
-    }
-    if (e.isShift()) {
-      
-      text.add(1, [Text.of('套装加成：抗性提升 （I） 跳跃提升 （I） 急迫 （I）;高级附魔').gold(),])
-      
-    }
-  })
-  e.addAdvanced('createastral:radiant_boots', (item, advanced, text) => {
-    if (!e.isShift()) {
-      text.add(1, [Text.of('按下 ').gold(), Text.of('Shift ').yellow(), Text.of('来查看更多信息。').gold()])
-    }
-    if (e.isShift()) {
-      
-      text.add(1, [Text.of('套装加成：抗性提升 （I） 跳跃提升 （I） 急迫 （I）;高级附魔').gold(),])
-      
-    }
-  })
-  e.addAdvanced('createastral:radiant_helmet', (item, advanced, text) => {
-    if (!e.isShift()) {
-      text.add(1, [Text.of('按下 ').gold(), Text.of('Shift ').yellow(), Text.of('来查看更多信息。').gold()])
-    }
-    if (e.isShift()) {
-      
-      text.add(1, [Text.of('套装加成：抗性提升 （I） 跳跃提升 （I） 急迫 （I）;高级附魔').gold(),])
-      
-    }
-  })
-  e.addAdvanced('createastral:radiant_leggings', (item, advanced, text) => {
-    if (!e.isShift()) {
-      text.add(1, [Text.of('按下 ').gold(), Text.of('Shift ').yellow(), Text.of('来查看更多信息。').gold()])
-    }
-    if (e.isShift()) {
-      
-      text.add(1, [Text.of('套装加成：抗性提升 （I） 跳跃提升 （I） 急迫 （I）;高级附魔').gold(),])
-      
-    }
-  })
-   e.addAdvanced('compressor:triple_compressed_andesite', (item, advanced, text) => {
-    if (!e.isShift()) {
-      text.add(1, [Text.of('按下 ').gold(), Text.of('Shift ').yellow(), Text.of('来查看更多信息。').gold()])
-    }
-    if (e.isShift()) {
-      
-      text.add(1, [Text.of('用蓝冰，灵魂土和岩浆制造一个刷玄武岩机，把灵魂土换成三倍压制安山岩，你就得到了一个刷安山岩机！').gold(),])
-      
-    }
-  })
-   e.addAdvanced('compressor:triple_compressed_sand', (item, advanced, text) => {
-    if (!e.isShift()) {
-      text.add(1, [Text.of('按下 ').gold(), Text.of('Shift ').yellow(), Text.of('来查看更多信息。').gold()])
-    }
-    if (e.isShift()) {
-      
-      text.add(1, [Text.of('把它放在刷圆石机下，就得到了一个刷沙机！').gold(),])
-      
     }
   })
   e.addAdvanced('createastral:radiant_sword', (item, advanced, text) => {
@@ -1067,8 +922,7 @@ onEvent('item.tooltip', e => {
     }
     if (e.isShift()) {
       
-      text.add(1, [Text.of('像光一样闪亮持久，极其迷人。.').gold(),]),
-      text.add(2, [Text.of('按下（V）键切换为使用武器采矿。').white(),])
+      text.add(1, [Text.of('像光一样闪亮持久，极其迷人。.').gold(),])
       
     }
   })
@@ -1153,7 +1007,7 @@ onEvent('worldgen.add', event => {
 
 		ore.count([10, 40])
 			.squared()
-			.triangleHeight(0, 200)
+			.triangleHeight(0, 140)
 	})
   
 
@@ -1172,6 +1026,7 @@ onEvent('worldgen.add', event => {
 
   event.addOre((ore) => {
 		ore.id = "kubejs:rubyoremoon" // optional
+    ore.biomes = ['ad_astra:lunar_wastelands', 'minecraft:basalt_deltas', 'incendium:toxic_heap']
 		ore.biomes = [{
 			not: {
 				category: "river"
@@ -1186,16 +1041,18 @@ onEvent('worldgen.add', event => {
 
     event.addOre((ore) => {
 		ore.id = "kubejs:cobaltoremoon" // optional
+    ore.biomes = ['ad_astra:lunar_wastelands', 'minecraft:basalt_deltas', 'incendium:toxic_heap']
 		ore.biomes = [{
 			not: {
 				category: "river"
 			}
 		}]
 		ore.addTarget('#ad_astra:moon_ore_replaceables', 'tconstruct:cobalt_ore')
-
+    ore.noSurface = 0.75   
 		ore.count([10, 25])
 			.squared()
 			.triangleHeight(0, 60)
+
       
 	})
 
@@ -1203,13 +1060,36 @@ onEvent('worldgen.add', event => {
 		ore.id = "kubejs:silveroremoon" // optional
 		ore.biomes = ['ad_astra:lunar_wastelands', 'minecraft:basalt_deltas', 'incendium:toxic_heap']
 		ore.addTarget('#ad_astra:moon_ore_replaceables', 'techreborn:deepslate_silver_ore')
-
+    ore.noSurface = 0.75    
 		ore.count([25, 40])
 			.squared()
 			.triangleHeight(0, 115)
 	})
 
 
+  event.addOre((ore) => {
+		ore.id = "kubejs:basalt" // optional
+		ore.biomes = ['ad_astra:lunar_wastelands', 'minecraft:basalt_deltas', 'incendium:toxic_heap']
+		ore.addTarget('#ad_astra:moon_ore_replaceables', 'create:scoria')
+
+
+		ore.count([1, 2])
+			.squared()
+			.triangleHeight(60, 110)
+    ore.size = 60
+	})
+
+  event.addOre((ore) => {
+		ore.id = "kubejs:skystoneae2" // optional
+		ore.biomes = ['ad_astra:lunar_wastelands', 'minecraft:basalt_deltas', 'incendium:toxic_heap']
+		ore.addTarget('#ad_astra:moon_ore_replaceables', 'ae2:sky_stone_block')
+
+
+		ore.count([1, 2])
+			.squared()
+			.triangleHeight(60, 110)
+    ore.size = 60
+	})
 
 
   ///MARS
@@ -1308,22 +1188,4 @@ onEvent('worldgen.add', event => {
 			.squared()
 			.triangleHeight(0, 85)
 	})
-
-  event.addOre((ore) => {
-		ore.id = "kubejs:basalt" // optional
-		ore.biomes = ['ad_astra:lunar_wastelands', 'minecraft:basalt_deltas', 'incendium:toxic_heap']
-		ore.addTarget('#ad_astra:moon_ore_replaceables', 'create:scoria')
-
-
-		ore.count([1, 2])
-			.squared()
-			.triangleHeight(60, 110)
-    ore.size = 60
-	})
-
- 
-  
 })
-  
-
-////END SCRIPT

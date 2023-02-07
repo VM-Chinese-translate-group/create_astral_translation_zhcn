@@ -33,7 +33,7 @@
 					id: "6EB2296D77D552F4"
 					type: "item"
 					item: {
-						id: "createastral:copper_chestplate"
+						id: "createastral:copper_helmet"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -44,7 +44,7 @@
 					id: "2D17C236457E66C2"
 					type: "item"
 					item: {
-						id: "createastral:copper_helmet"
+						id: "createastral:copper_chestplate"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -142,6 +142,7 @@
 			x: -4.5d
 			y: 11.5d
 			subtitle: "每种工具通常包含至少三种部件，这些部件组合起来就是一把完整工具，你可以动手试试。"
+			description: ["在部件制造台上制作任意的匠魂工具部件。"]
 			dependencies: ["75B36BB7FE771333"]
 			id: "29AF19492CFCB2DB"
 			tasks: [{
@@ -166,7 +167,7 @@
 			}
 			x: -4.5d
 			y: 10.0d
-			subtitle: "制作你的第一把匠魂工具"
+			subtitle: "在匠魂工作站中组合工具零件来制作你的第一把匠魂工具。"
 			description: [
 				"既然你已经做出了挖矿工具，你可以直接推进到用焦黑石砖搭建你的冶炼炉。这本工匠大百科会随着你匠魂进度的推进而逐步解锁章节，所以最好随身带着它。我们还送给你一本记载了一些新奇小玩意的书，有兴趣的话可以翻开看看！"
 				""
@@ -432,11 +433,13 @@
 			}]
 		}
 		{
+			title: "工作设备"
 			x: -7.8078231292516875d
 			y: 13.244897959183653d
 			shape: "pentagon"
 			subtitle: "挑选你喜欢的工作台，开始你的旅程。"
-			description: ["（注意：使用匠魂的工作站进行合成可能会导致任务无法识别所需物品。如果没有识别，可以把物品丢到地上再捡起来，或者使用普通工作台进行合成。）（译者注：老毛病了，1.2版本就存在）"]
+			description: ["（注意：使用匠魂的工作站进行合成可能会导致任务无法识别所需物品。如果没有识别，可以把物品丢到地上再捡起来，或者使用原版工作台进行合成。）（译者注：老毛病了，1.2版本就存在）"]
+			dependency_requirement: "one_completed"
 			size: 2.5d
 			min_required_tasks: 1
 			id: "0BCED0F8481E0C21"
@@ -558,7 +561,10 @@
 			x: -10.5d
 			y: 10.0d
 			subtitle: "嗯~稻香啊~"
-			description: ["农夫乐事添加了很多农作物。你能把它们全都自动化吗？"]
+			description: [
+				"农夫乐事添加了很多农作物。你能把它们全都自动化吗？"
+				""
+			]			
 			dependencies: ["2CE5BB6A7B30CA4C"]
 			optional: true
 			id: "504201C234C38437"
@@ -651,13 +657,13 @@
 									-1803202854
 									408989958
 								]
+								Name: "Laskyyy"
 								Properties: {
 									textures: [{
 										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3NDg2MzUyNzI3MSwKICAicHJvZmlsZUlkIiA6ICI0ZjA4NGZmMzY2NDg0NWE2OTQ4NTRlZGExODYwYjEwNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMYXNreXl5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZjMzBiZGEyYTdhOWY5NDU2NWIyN2JmOWVkMWNmMmQ4Y2I2NzM0NWJjYzRiYmJiMzVlYWJlNjYzYTY3NjA1MDUiCiAgICB9CiAgfQp9"
 										Signature: "f4suDAYZO5DJbfMf8dWosqTgiz8BaP78V+THOL2VGvAuFDr76okSBzUi7kGSkvn1YrzHnEzBMxZl7ZdlnYm7VX5BRHRmak342Qr7WINZaAEdYmMl2RxG3+mxj75owlS5o1g/q42AJYnjeyw2qw1dN+gbsD3R9+/lUqGLZMgHC7CjCJUQ62WYZye2WaMbM0AtOr2WlldMDLMEZaKLR2o4bz5s8+pUh3qagxqC5UcXXcWNPFXza2+0B8woprlwBu+rAMf/1/Ue5gHaRxiG71JG8U6FgWQYG78MzC7kkT3F9qgrLQju7W1MqTo40AJ6pr10tMvJpBg4kRNalq0TaB7ghBDuQmyEQAvqoh0FjlhWZ9FNlvj+Ga90u0q3TWmTCaubZyA8k9T4Jyn5/BoWY16sI+dGMsQ+a1WuT4SUSuJwRhyjx1ZyGUP0xjKgUCzauileKF8jL2vXeirDx/pe1e6UzrckdkZ3ddhdVpLfjgdw3A2ojvzpCaxNRv0cYvvA3mD4Yf/aJ4SvQ3zChySj7UABDk81XBnYhQOAdX5FEEvKq+oE/NXk/Gb1jyc29m9Ku237ZVwBeH3zWICzt+aKG0rjv/58uPGUutmeMnFINLT00cKt2nLqOkXZECTpr+Xuch989G2finByNtCM0tQl5ApM2OziR2/VYBRikvFCwa9OTkA="
 									}]
 								}
-								Name: "Laskyyy"
 							}
 						}
 					}
@@ -676,13 +682,13 @@
 									-1716679678
 									86603787
 								]
+								Name: "LizardLeliel"
 								Properties: {
 									textures: [{
 										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3NDg2MzUzNTcwMiwKICAicHJvZmlsZUlkIiA6ICI4MTU3NjFhZTlmMzc0NTExOTlhZDhjMDIwNTI5NzgwYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaXphcmRMZWxpZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBiY2I4Mzk2OTVmMmY4OWY3NTM4YWQwY2E2ZWMyN2RlMzFkN2FiMzU5YjczNTk0NDU3Y2U3YjQ2OWQ5OWI0NCIKICAgIH0KICB9Cn0="
 										Signature: "OD4iPLtIWSWy4um9omOwi/YewdlazvfM0iMS/IwUlfY59AybhHqEcZ6srl9Ij2XxjXLAJAYC/HovHQJBMFcNc92228FPtxB5Bj9Z4AyYJGhst9FYPPZn4KVIziMwFzBkcNXzt1Vcee5PPP8LWLW433S8Fl3039FoS/S8VIOAS69llywc6YJb1U5UXavpfV660vwbtfY5LU24ehd0+T822ZhA8ti7qYcJb02C3I/IXtpFrLbpv0Is84LKkomQ/laBFgVXYq4bTX/wbE1hJtocn3uluroPC3UmHZvUegYEyjbTDKx78Uwy58DfnAfd3gHY0uyFSfvKbw3FYIRL63ulPyfBfqoOwPds3iQ4qQ1+fW1cYC11Ji2wBqPzdlzE8jV3T8EnOuf5riKx2IQOTfA/6WnT9oJUSM1Huos5Rhw4BnBpnvvn7fZaTRL3hAdGhaT2d4ifBfPAxeINT9vD8DSxo26G02snSNtVPdFuKOuHjUmTtisNBgMgkssxmOkZngPkMPvXHY7/Rw+eZsOzCslhqTrm6WGs0P3hBn5FBRvBGAD83SVfRgE5QCR+LilBTtS90/62ZZsBr4s1yTe6glszEl16x7Sm+mmfA+wGlG6W2okAWxlXOqBbgzDh7ZC3s9YTFWtB1rU0hie00LBE6o5rtTfY4PjOnD+NdidjZ6hzEC4="
 									}]
 								}
-								Name: "LizardLeliel"
 							}
 						}
 					}
@@ -701,13 +707,13 @@
 									-1434531122
 									-991854955
 								]
+								Name: "ethanicuss"
 								Properties: {
 									textures: [{
 										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3NDg2MzU0MTA4MSwKICAicHJvZmlsZUlkIiA6ICJiMzUxMzZjNGQ1NWI0YzIyYWE3ZWNhY2VjNGUxN2U5NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJldGhhbmljdXNzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzlmNDU2YTZlMTBmMGEyNDQ4ZjI4ODU5OWI4MDQ1NzQ5NTdmZDJiOTU0NTA5OTRmMzBmOGMyNDM4YmU3Zjc1NDUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
 										Signature: "cM67wNDvjZhJkQf6c85wJriG54+R/7MBsU8Wyzo6euT8HQl1bQieV5MaJ8LY8mDMG3Pn5PYu1MWTYIgU//p1ZyjbgNYONA1SHYYNxb6jfor3NiCzmaamWkxkDC2TmhBod8yHUCVp2nybvd/xplaldtIKb+26UqH4Kub5OSGeubyDKLnLOOtdJARHfOmEkLwCzk3v16ZQ8muk0oP3WV9A+ED/eyJAvA+HqjSRJ8kQLvX6kjg+Xipb51rf3NInx7B+q0Ia6d8NrdOjz/VLDQXWuZbvzF4HG8S216nb5khedznao5P3Y+nhzqe9V5QVESp9B8b1HKPYp7ilKl/L+OySZEGXlyg33dC3XYcsnlXyud81uzkajylk4yc1iOgggIzuHmTXh3wPF/ILNBqo2I0S1G8Blcsv58aJ0e2xgpztP86o5ku1icOE5R7bhbc54s2wTYgzc7mh/t43nGoIoDh+wU0QX9RWYXgGpSmj6clSD+qs9+JWuItGCgL6Wz5y1SnEv89QrsCTblWX8MLRO/k490vnysBWdZZ4ZjiS1/uZX368Zo2Pln9fKgVIccuy/YBvizEWMvaUd17iIzQeRmJZArExcctaLPWwZOV1bdUt1G9Nyxc5ob8IiHtgIuvRIbQ3SVYTEPfCJtzEeBcmTy4hd9D7scTEb3UPAD6AOBKYjJA="
 									}]
 								}
-								Name: "ethanicuss"
 							}
 						}
 					}
@@ -726,13 +732,13 @@
 									-1756542517
 									342281462
 								]
+								Name: "ieaturkneecaps"						
 								Properties: {
 									textures: [{
 										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3NDg2MzU0Njc4OCwKICAicHJvZmlsZUlkIiA6ICIwYzgxNmIzZWI1Y2M0YmYyOTc0ZDQ5Y2IxNDY2Y2NmNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJpZWF0dXJrbmVlY2FwcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80N2QyMmE4Y2RkOGM1YzZjYmIwOGY4MGE0NmUwZDFhNGMyNjAwYjVmNDVmNTA5ZDY2ZDU3YzZmZmUxMGE5ODk4IgogICAgfQogIH0KfQ=="
 										Signature: "jcGzVKHNXeU4tFQLw/oLvPGMEiSB7uyTRkQbj7pDIllcVUqH8M3uhzBmukCGF0NAWJY+glFaOxpu72BiPnYNTisEpB9WgXk0XG0A4WXn5lrsMP0rQk1OjqxUYy6FIrzgYwQ+xuhGZzwdfDfZWnvmb6wkWN01jjW+OvmHPLYiDJ/qbtmomfNDr0xy9XgPUFk7v6M+wsrE9seAikw48XK7kg4vsWq0wdZeF88VL41PAGNPQWza65n8CA8E4TcEyYjUOGIwHXLkxHkrDezWXFnhHwvSinRY9PuVdMhC0mAWidAFytGCYjL16uUxBcYKcgqtAajyPREFggHwHLAQaKxsNIgsphbfLMqK29lR4EkMm8Gmb9LkfwrbU9GM4vO9kfdvXauMEnjD9GwqsrR6nx3l0R79OI7Lm48RJzF/T8CGZWoeLfhjIWfhf0UBnz/VyNn3EF1kt6zWfofpsMXVHmRsk3n8UL8vApAhDkxStsCD9R6g4iqdJSYyRiwRpqKby68cuHxo+ToLIcOv9PsbzWXf6OIn4er/eHHLNqrrlJjfDtDG5OigunUM+Oi+b7nr1tby0sEYbwPrENIKB0fgcNGG03HICNFyl0MSnC/hZvlZ8nU+etFx5Pqt7BC0+Ae6feJGkZt6Pab1jjA+BkCKnX4ycWe+NY3DKY9PMwrnwwOyh6U="
 									}]
 								}
-								Name: "ieaturkneecaps"
 							}
 						}
 					}
@@ -751,13 +757,13 @@
 									-1695679908
 									2049130246
 								]
+								Name: "ChocoNeosome"
 								Properties: {
 									textures: [{
 										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3NDg2MzY1Nzc1NiwKICAicHJvZmlsZUlkIiA6ICJhNjk3NTY2MTgzYzk0MWVlOWFlZGZhNWM3YTIzM2YwNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDaG9jb05lb3NvbWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWFhMzI3ODJiMDFmNjA0ZTIxYjIyZWI2MWU5MjAwNzNkOWExNGYwZWZhZTQ2ZjNlZWNiZTRhOWVkNTA3M2U1NiIKICAgIH0KICB9Cn0="
 										Signature: "e6AVGhXYQ36HUTlFiWt7yNEbsfNaT2sLEOtCcyMVu/GqF9iYAnNQ9JbX8UFoTO0ScnZjxiOw0sWwatHHkXacM0xyF0V6slIk5vWT5yQeMLsEqI4NZiiCFiw8eWVPzeJvwp0cjKHI2l5qe2RofN+yWbnux56Poo1Z/FAZUeYraHq4vF9mZXd7FpztO8bB3Jo06udyXGkb7Yd8Von0tmQY4KkPtRbhDds9J1Ma5IVpyBnajmACs2/JjR5Sjkmtjj7Rojb2uZcBTj3V+lHOM2kgmZMIuerGO5kraoSfJXYsAn+ZCfkvuju8Wmf03Z0Vu8GAubqJYCDbSzgxITpjMpy9p0sMo9JeLMlDx+2sqI0nmDJx+ayBGvGIr/ExWIkpzIFPFM7bDck69SWE21JMTO+BfDRwCH82Ab5skXrOUBYdcrPcYMa+djsehv3AkWD/3wqOFiJJarP40dX7xutHgQMomS5S2nZ+Fl6PWEvyRbQH7m+rD/ZMVrq3EjwV0zuNikBAttDD6dKFCJjW9VORT8D/hGzdmrfNCVTF4e1qtPe9GbgCQhhvkcYpkIq8SMVvYBwsaipi+bmmFoB9roLStOfQEjxwu6kY/Pah4LU/4bnRmGB2YZ6ZPOlO+KVMCE2OXKqKy20mOw7VSEfK3zT9PgTYK7xtudTxZv2r2I5iHH5RMlQ="
 									}]
 								}
-								Name: "ChocoNeosome"
 							}
 						}
 					}
@@ -1111,6 +1117,13 @@
 			y: 10.0d
 			subtitle: "背在身上的存储空间？真不错……"
 			description: ["这些背包会占用你的胸甲栏位哦，但是其中包含了大量的物品存储栏位，以及一个内置的工作台。"]
+			description: [
+				"这些背包会占用你的胸甲栏位哦，但是其中包含了大量的物品存储栏位，以及一个内置的工作台。请务必阅读背包的工具提示，了解如何背上它。"
+				""
+				"你会注意到你在背包内置的工作台中制作东西时，没有显示结果。别担心，物品/方块一旦真正制作出来，它就会显示出来。我们希望这张用猫的图片代替制作产物的图片，以此来减轻您的痛苦。"
+				""
+				"免责声明：背着背包使用匠魂的肩托式背包会毁坏背包和里面的所有东西！"
+			]
 			dependencies: ["504201C234C38437"]
 			optional: true
 			id: "501AD44D7875F4D9"
@@ -1223,9 +1236,9 @@
 				Count: 1b
 				tag: {
 					Automobile: {
-						wheels: "automobility:standard"
+						engine: "automobility:stone"				
 						frame: "automobility:yellow_tractor"
-						engine: "automobility:stone"
+						wheels: "automobility:standard"
 					}
 				}
 			}
@@ -1313,9 +1326,9 @@
 						Count: 1b
 						tag: {
 							Automobile: {
-								engine: "automobility:stone"
-								frame: "automobility:yellow_tractor"
 								wheels: "automobility:standard"
+								frame: "automobility:yellow_tractor"
+								engine: "automobility:stone"
 							}
 						}
 					}
@@ -1343,7 +1356,7 @@
 				"锡和铜需要用来制作工业系统所需的一种新材料：青铜，而安山岩和黏土则可以制成机械动力的基石：安山合金。要真正意义上完成这个任务，你可能需要屯积非常非常多的这些材料。"
 				""
 				""
-				"如果你在后续游玩过程中忘记了什么信息或者需要什么帮助，记得随时回来查看这一章节。备好充足的食物来源，因为丰富的饮食可以增加你的血量上限！"
+				"如果你在后续游玩过程中忘记了什么信息或者需要什么帮助，记得随时回来查看这一章节。"
 			]
 			dependencies: [
 				"601A619C6E96920A"
@@ -1393,6 +1406,8 @@
 				"科技复兴的存储单元可以存储大量的单种物品（最多32组）。因为你在游玩过程中会经常着重生产某一种物品，所以十分有必要把这些物品存起来。"
 				""
 				"存储单元的缺点就是破坏它们的时候，里面的东西都会掉出来。如果你想要灵活性的话，建议使用包裹。"
+				""
+				"（或者使用科技复兴的扳手移动它们）"
 			]
 			dependencies: ["6433AD83545428C3"]
 			id: "3147C3CCBC6856B6"
@@ -1408,12 +1423,19 @@
 					item: "techreborn:crude_storage_unit"
 				}
 			]
-			rewards: [{
-				id: "136E8C4D5C4A0054"
-				type: "item"
-				item: "techreborn:crude_storage_unit"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "136E8C4D5C4A0054"
+					type: "item"
+					item: "techreborn:crude_storage_unit"
+					count: 4
+				}
+				{
+					id: "185D3119BF9DE681"
+					type: "item"
+					item: "techreborn:wrench"
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -1844,8 +1866,8 @@
 								realCount: 0
 							}
 							PackageStyle: {
-								frame: "minecraft:oak_log"
 								inner: "minecraft:oak_planks"
+								frame: "minecraft:oak_log"
 								color: 0
 							}
 						}

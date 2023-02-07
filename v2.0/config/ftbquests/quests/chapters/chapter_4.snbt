@@ -538,6 +538,7 @@
 		}
 		{
 			title: "The Path of Silver"
+			icon: "techreborn:deepslate_silver_ore"
 			x: -18.5d
 			y: -3.5d
 			subtitle: "Let's get electric"
@@ -547,28 +548,16 @@
 				"This path, you'll explore electricity and specialized machines. Getting rotation power around the base can be made much easier, and although these machines may not impact you as much as the brass path, they'll become more and more important as you dive deeper into the cosmos."
 			]
 			dependencies: ["306D009F01634115"]
+			dependency_requirement: "one_completed"
 			size: 1.5d
 			min_required_tasks: 1
 			id: "1DFF76A494C9A586"
-			tasks: [
-				{
-					id: "6D9FBDDB83DBA298"
-					type: "questsadditions:break"
-					title: "Break Silver Ore"
-					block_type: 0
-					block: "techreborn:silver_ore"
-					value: 1L
-					checkItem: false
-				}
-				{
-					id: "0041BCC5356DAB9B"
-					type: "questsadditions:break"
-					block_type: 0
-					block: "techreborn:deepslate_silver_ore"
-					value: 1L
-					checkItem: false
-				}
-			]
+			tasks: [{
+				id: "58A49C6524D4217E"
+				type: "item"
+				item: "techreborn:raw_silver"
+				count: 8L
+			}]
 		}
 		{
 			title: "Automate Desh!"
@@ -592,6 +581,18 @@
 				item: "ad_astra:desh_nugget"
 				count: 512L
 			}]
+			rewards: [
+				{
+					id: "368A95184CCC6B9A"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "2CB80513EC263D3E"
+					type: "item"
+					item: "ad_astra:desh_sliding_door"
+				}
+			]
 		}
 		{
 			x: -14.5d
@@ -641,7 +642,7 @@
 			y: -2.5d
 			subtitle: "Roundabout importance"
 			description: [
-				"Lapis sheets are ingredients in very recipes, but they have one use: integrated circuits."
+				"Lapis sheets are ingredients in lots of recipes, but they have one use: integrated circuits."
 				""
 				"A lot of recipes will use integrated circuits."
 			]
@@ -694,10 +695,7 @@
 					id: "tconstruct:sword"
 					Count: 1b
 					tag: {
-						tic_multipliers: {
-							"tconstruct:mining_speed": 0.5f
-							"tconstruct:durability": 1.1f
-						}
+						Damage: 0
 						tic_stats: {
 							"tconstruct:attack_damage": 6.6000004f
 							"tconstruct:harvest_tier": "minecraft:diamond"
@@ -705,12 +703,11 @@
 							"tconstruct:mining_speed": 4.07f
 							"tconstruct:attack_speed": 1.7600001f
 						}
-						Damage: 0
-						tic_materials: [
-							"tconstruct:silver"
-							"tconstruct:silver"
-							"tconstruct:silver"
-						]
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.5f
+							"tconstruct:durability": 1.1f
+						}
+						tic_broken: 0b
 						tic_modifiers: [
 							{
 								name: "tconstruct:smite"
@@ -721,7 +718,11 @@
 								level: 1s
 							}
 						]
-						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:silver"
+							"tconstruct:silver"
+							"tconstruct:silver"
+						]
 						tic_persistent_data: {
 							upgrades: 3
 							abilities: 1
@@ -1055,20 +1056,19 @@
 		}
 		{
 			title: "Desh Race"
+			icon: "ad_astra:moon_desh_ore"
 			x: -23.5d
 			y: -5.5d
 			subtitle: "It does look tasty, doesn't it."
 			description: ["Desh is used in specialized space machinery. Although it won't help your factories, desh becomes important later on, so you'll want to collect it when you can."]
 			dependencies: ["306D009F01634115"]
+			dependency_requirement: "one_completed"
 			id: "59694D713430B333"
 			tasks: [{
-				id: "09CDB7F72120CC02"
-				type: "questsadditions:break"
-				title: "Break Desh Ore"
-				block_type: 0
-				block: "ad_astra:moon_desh_ore"
-				value: 1L
-				checkItem: false
+				id: "135C9606CF75069A"
+				type: "item"
+				item: "ad_astra:raw_desh"
+				count: 8L
 			}]
 		}
 		{
@@ -1151,8 +1151,8 @@
 			title: "Nuclear?"
 			x: -24.5d
 			y: -5.0d
-			subtitle: "Uncover the site of a disaster, where a strange entity resides..."
-			description: ["The gauntlet at the centre of a reactor is an optional boss for those wanting to test their skills. Bring highly enchanted armour and a bed!"]
+			subtitle: "Uncover the site of a disaster"
+			description: ["Evidence of great technological advance now stands in ruin... There is little sign of coherant life here."]
 			dependencies: ["306D009F01634115"]
 			id: "63C197DE5231155D"
 			tasks: [{
@@ -1162,13 +1162,24 @@
 				icon: "chipped:yellow_concrete_19"
 				structure: "incendium:nether_reactor"
 			}]
+			rewards: [{
+				id: "7463814688428D28"
+				type: "item"
+				item: "ad_astra:space_painting"
+			}]
 		}
 		{
 			title: "Not So Practical Deco"
 			x: -27.5d
 			y: 8.5d
 			subtitle: "Only if you like keeping colours consistent"
-			description: ["There are scorched versions of many seared tools. Seared faucets, basins, and tables that you've already been using will work with the foundry. The only thing different about these objects is that they have matching colours to your foundry."]
+			description: [
+				"Scorched Tables! These cute little things act slightly differently to regular seared components, in that they REQUIRE a cast before they will accept any kind of recipe."
+				""
+				"This is both limiting (can't cast some items such as iron bars)"
+				""
+				"but also incredible useful (you can leave a faucet redstone powered and not worry about coming back to your reinforcement automator with 10 stacks of iron bars in the chest)"
+			]
 			dependencies: ["5355CA2F0BA74BF1"]
 			optional: true
 			id: "1E83F62D325A44F2"
@@ -1389,6 +1400,11 @@
 					item: "ad_astra:desh_ingot"
 				}
 			]
+			rewards: [{
+				id: "2907DB37ADDB8AE2"
+				type: "xp"
+				xp: 200
+			}]
 		}
 		{
 			title: "Creat a Space Station!!"

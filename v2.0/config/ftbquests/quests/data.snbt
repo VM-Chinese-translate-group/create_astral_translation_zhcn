@@ -1,6 +1,6 @@
 {
 	version: 13
-	title: "机械动力：星辰"
+	title: "{quest.main_title}"
 	icon: {
 		id: "ftbquests:custom_icon"
 		Count: 1b
