@@ -423,22 +423,22 @@
 			}]
 		}
 		{
-			title: "The Ultimate Recycling Project"
+			title: "终极回收再利用计划"
 			x: -5.5d
 			y: 6.0d
 			shape: "diamond"
-			subtitle: "Crush for assorted goodies."
+			subtitle: "把它粉碎有好东西哦"
 			description: [
-				"Rather than being dead-weight, deepslate can be crushed into random ores at extremely low odds, that tunnel bore filled with 100k deepslate now has a use..."
+				"与其放在那里当废品，不如把闲置深板岩圆石以极低的概率粉碎成各种矿物！盾构机里的一万组深板岩圆石终于有地方去了……"
 				""
-				"You can also craft cobble deepslate out of flint, if you find it trashing your inventory too much."
+				"如果你觉得燧石太占用物品栏，你可以用它合成深板岩圆石。"
 			]
 			dependencies: ["429D2340C2B20A60"]
 			id: "014B450CC8D472A4"
 			tasks: [{
 				id: "6DF91EC85EA51BE5"
 				type: "item"
-				title: "32x64 Cobbled Deepslate"
+				title: "32x64 深板岩圆石"
 				item: "minecraft:cobbled_deepslate"
 				count: 2048L
 			}]
@@ -471,13 +471,13 @@
 			]
 		}
 		{
-			title: "Vegan fuel? Closer than you think!"
+			title: "素食燃料？倒也差不多！"
 			x: -1.5d
 			y: -5.0d
 			description: [
 				""
-				"The plantball will fall apart if sent directly to the compressor. Pre-press it a bit."
-				"Some plantballs will break apart, so be ready to dispose or recyle the defects."
+				"直接把植物球放入压缩机的话它会被压个稀巴烂，先进行一下预压缩。"
+				"有些植物球会被压碎，注意清理或者再利用处理失败的残次品。"
 			]
 			dependencies: ["5CD6C6CA30CA50F0"]
 			dependency_requirement: "one_completed"
@@ -490,11 +490,11 @@
 			}]
 		}
 		{
-			title: "Pure Fuel"
+			title: "纯净燃料"
 			x: 0.5d
 			y: -5.0d
-			subtitle: "Wet some fertiliser into submission."
-			description: ["You do not want ANY impurities in rocket fuel. Wash them away."]
+			subtitle: "从生物质里洗出来化肥"
+			description: ["你的火箭燃料里可容不下一丁点的杂质，把杂质洗出去。"]
 			dependencies: ["232F25F6D9BFC2F5"]
 			id: "1533B14714529386"
 			tasks: [{
@@ -510,18 +510,18 @@
 			}]
 		}
 		{
-			title: "Welcome to the Moon!"
+			title: "欢迎来到月球！"
 			icon: "ad_astra:moon_globe"
 			x: -23.0d
 			y: -3.5d
 			shape: "pentagon"
-			subtitle: "Read me!"
+			subtitle: "看我！"
 			description: [
-				"Welcome to chapter 3! Things will start feeling truly challenging. Recipe chains will be long and complicated and it will no longer be sufficient to semi-automate or even fully automate basic resources; you will more and more need to automate crafted items such as casing, electron tubes, cables, cogwheels, and circuits."
+				"欢迎来到第3章！之后的任务才是真正的挑战。合成产线会变得越来越长，有的时候只进行基础资源的半自动化甚至全自动化都不太够用，你需要自动化一些合成出来的物品，例如机壳、电子管、导线、齿轮，以及电路板。"
 				""
-				"However, the moon provides many invaluable resources for accomplishing this. The bottom path will have irreplacable utilities for managing the logistics of so many resources, while the top paths will give you a glimpse of the world of electricity with new tools to process materials in new ways. Both paths will give methods needed to fully automate any kind of earth resource you can imagine."
+				"尽管如此，月球为你提供了许多十分宝贵的资源来帮助你达成这一目标。界面下半部分的任务线会提供给你不可或缺的思路来管理如此大量资源的物流系统，而上半部分的任务线会带你走进强大的电力世界，向你介绍处理资源的全新工具和方式。这两条任务线将会为你提供自动化生产地球上任何一种资源所需的方法。"
 				""
-				"Overcome science and you'll use it to explore the stars above. Don't let the sinking hole of over-engineering trap you though; automation quests are there to tell you something can be automated; not that it must."
+				"克服这些艰苦的挑战，最终你将用这些工具继续探索你头顶的星空。但是注意不要被任务线束缚了手脚：这些任务只是告诉你可以做自动化，不是要求你自动化。"
 			]
 			dependencies: ["15B9947ABCCB882F"]
 			hide: true
@@ -530,7 +530,7 @@
 			tasks: [{
 				id: "59023CFBD7DC7228"
 				type: "checkmark"
-				title: "Understood."
+				title: "我知道了"
 				icon: "ad_astra:moon_globe"
 			}]
 			rewards: [{
@@ -540,15 +540,15 @@
 			}]
 		}
 		{
-			title: "The Path of Silver"
+			title: "银之大道"
 			icon: "techreborn:deepslate_silver_ore"
 			x: -18.5d
 			y: -3.5d
-			subtitle: "Let's get electric"
+			subtitle: "就在这理发店"
 			description: [
-				"Both sides of this tree will converge at the end, making them both mandatory."
+				"这两条任务线最终会汇集在一点，意味着两条线都很重要，都要发展。"
 				""
-				"This path, you'll explore electricity and specialized machines. Getting rotation power around the base can be made much easier, and although these machines may not impact you as much as the brass path, they'll become more and more important as you dive deeper into the cosmos."
+				"这条线主要发展的是电力和一些特殊机器，在你的大本营周围传输一下动力比较好。并且，尽管这些机器对你的科技线影响没有黄铜任务线那么大，但是随着你深入星空，它们的重要性会愈发彰显出来。"
 			]
 			dependencies: ["306D009F01634115"]
 			dependency_requirement: "one_completed"
