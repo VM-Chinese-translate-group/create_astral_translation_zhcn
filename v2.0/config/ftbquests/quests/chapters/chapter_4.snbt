@@ -758,7 +758,7 @@
 				""
 				"……再过不久，特斯拉线圈就会变成你的新玩具。"
 				""
-				"It will produce Tech Reborn cables and Create Addition cables at an improved rate, but it won't produce Create Additions rods, so do actually keep your rolling mill around."
+				"线材轧机（科技复兴）可以用于生产科技复兴的导线和机械动力附加模组的金属线，并且速度更快，不过没有办法生产机械动力附加的金属棒，所以你的轧机也别急着拆。"
 			]
 			dependencies: ["61878C8DC870AC6A"]
 			id: "52EC8406E928BDB3"
