@@ -540,11 +540,11 @@
 			}]
 		}
 		{
-			title: "银之大道"
+			title: "白银之路"
 			icon: "techreborn:deepslate_silver_ore"
 			x: -18.5d
 			y: -3.5d
-			subtitle: "就在这理发店"
+			subtitle: "就在这里发电"
 			description: [
 				"这两条任务线最终会汇集在一点，意味着两条线都很重要，都要发展。"
 				""
@@ -563,24 +563,24 @@
 			}]
 		}
 		{
-			title: "Automate Desh!"
+			title: "自动化戴斯！"
 			x: -25.0d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "This process applies the same to each planet's primary sand+material"
+			subtitle: "这个过程同样适用于每个星球的基础沙子方块以及材料"
 			description: [
-				"By washing moon sand in the same way you'd make an iron farm, you can obtain a renewable source of silver nuggets."
+				"和铁的自动化过程差不多，洗涤月沙可以获得戴斯粒，是一种可再生的戴斯粒来源。"
 				""
-				"Moon sand itself can be semi-automated by crushing moon stone into sand, which you will be able to achieve soon with the crushing wheels."
+				"月沙本身可以通过粉碎月岩进行半自动化，之后你有了粉碎轮就可以做。"
 				""
-				"Moonstone itself can be made by having flowing lava touch water over moon stone, which you will be able to turn into moon sand further into the quest. This has a chance to create basalt though!"
+				"熔岩在月岩上方碰到水就会变成月岩，推进任务线之后可以将月岩变成月沙。不过这个过程中也有可能生成玄武岩！"
 			]
 			dependencies: ["306D009F01634115"]
 			id: "7909A5A0E194C800"
 			tasks: [{
 				id: "415C272D0390AAFA"
 				type: "item"
-				title: "8x64 Desh Nugget"
+				title: "8x64 戴斯粒"
 				item: "ad_astra:desh_nugget"
 				count: 512L
 			}]
@@ -601,13 +601,13 @@
 			x: -14.5d
 			y: 6.0d
 			shape: "rsquare"
-			subtitle: "Pour molten brass onto a copper casing to craft brass casing."
+			subtitle: "在铜机壳中浇铸熔融黄铜就可以制作黄铜机壳"
 			description: [
-				"Brass casings are needed for the smartest and most useful of Create machines - Machines with \"smart\" functionality. They are essential for logistics in large, complicated factories."
+				"黄铜机壳可以用来制作机械动力中最为智能、用途最为广泛的机器——带有“智能”功能的机器。要建造大规模的复杂工厂物流系统的话，黄铜机壳必不可少。"
 				""
-				"Brass casings are the final tier of casings, at least for Create machines. Machine casings on the other side of the chapter will have more progressions."
+				"黄铜机壳是最终级别的机壳，至少对于机械动力的机器来说是如此。本章另外一侧介绍的机械外壳将会有更多用途。"
 				""
-				"Reminder that tinker faucets and create spouts are fully automatable, don't expose yourself to manual labour!"
+				"提醒你一下，匠魂的浇注口和机械动力的注液器都是可以自动化的，不要老想着手搓了！"
 			]
 			dependencies: ["705C815541DB89F8"]
 			id: "22B29B232EF2638F"
@@ -618,15 +618,15 @@
 			}]
 		}
 		{
-			title: "The Path of Brass"
+			title: "黄铜之路"
 			icon: "createdeco:black_decal"
 			x: -23.0d
 			y: 0.0d
-			subtitle: "This wasteland is scattered with pipelines... what for?"
+			subtitle: "这篇废土上到处都是流水线系统……是做什么的呢？"
 			description: [
-				"Both sides of this tree will converge at the end, making them both mandatory."
+				"这两条任务线最终会汇集在一点，意味着两条线都很重要，都要发展。"
 				""
-				"The path of brass will lead you to the ultimate ends of both the Tinker's Construct mod, and the Create mod. You'll have every tool you need to fully manage intricate production lines."
+				"黄铜这条线会带你进入匠魂和机械动力两个模组的最终阶段，你将获得所有生产线的完全掌控能力。"
 			]
 			dependencies: ["306D009F01634115"]
 			size: 1.5d
@@ -634,20 +634,20 @@
 			tasks: [{
 				id: "369624A3BE4061DF"
 				type: "structure"
-				title: "Find a Lunar Pipeline"
+				title: "找到一个月球流水线结构"
 				icon: "ad_astra:iron_plating"
 				structure: "incendium:pipeline"
 			}]
 		}
 		{
-			title: "Essential Plate #2"
+			title: "重要板材No.2"
 			x: -19.0d
 			y: -2.5d
-			subtitle: "Roundabout importance"
+			subtitle: "曲线救国"
 			description: [
-				"Lapis sheets are ingredients in lots of recipes, but they have one use: integrated circuits."
+				"青金石板在许多合成配方中都有出现，但是其中一个合成尤为重要：集成电路板。"
 				""
-				"A lot of recipes will use integrated circuits."
+				"许多合成配方都要用到集成电路板。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -662,11 +662,11 @@
 			}]
 		}
 		{
-			title: "Digital Revolution"
+			title: "数字革命"
 			x: -17.0d
 			y: -2.5d
-			subtitle: "Funny you invent circuits before electricity"
-			description: ["Integrated Circuits are used in all sorts of machines."]
+			subtitle: "在发明电力之前就发明了电路，真有意思"
+			description: ["集成电路板可以用来合成各种物品。"]
 			dependencies: [
 				"1A08EE7C76242947"
 				"1DFF76A494C9A586"
@@ -679,11 +679,11 @@
 			}]
 		}
 		{
-			title: "Tier III Casings"
+			title: "三级机壳"
 			x: -17.0d
 			y: -3.5d
-			subtitle: "Those andesite casings have come a long way..."
-			description: ["Machine frames are the basis of many silver electrical machines. They will also be used to craft even further tiers of casings."]
+			subtitle: "这些安山机壳可真是历经千辛万苦……"
+			description: ["机械框架是许多银质店里机器的基础材料。制作更高级的机壳时也会用到。"]
 			dependencies: ["1DFF76A494C9A586"]
 			id: "2E7D02CA77627EF5"
 			tasks: [{
@@ -735,11 +735,11 @@
 			}]
 		}
 		{
-			title: "The Basics of Energy Storage"
+			title: "基础能量储存"
 			x: -15.5d
 			y: -4.5d
-			subtitle: "In case you didn't know what batteries do"
-			description: ["Batteries store energy."]
+			subtitle: "以防你不知道电池是做什么的"
+			description: ["电池可以储存电能。"]
 			dependencies: ["229495414D7B7D5E"]
 			id: "19CCFE1A90B73F44"
 			tasks: [{
@@ -749,14 +749,14 @@
 			}]
 		}
 		{
-			title: "Efficiently Produce Wires."
+			title: "高效生产金属导线"
 			x: -12.0d
 			y: 0.5d
-			subtitle: "Save on some resources this way, entirely optional."
+			subtitle: "这样做可以省下一些资源，全看你喜欢"
 			description: [
-				"The Create Additions Rolling Mill had its run as being the cool new thing :("
+				"机械动力附加模组中的轧机已经不是新鲜玩意了 :("
 				""
-				"...Just in time for Tesla Coils to be the cool new creative addition."
+				"……再过不久，特斯拉线圈就会变成你的新玩具。"
 				""
 				"It will produce Tech Reborn cables and Create Addition cables at an improved rate, but it won't produce Create Additions rods, so do actually keep your rolling mill around."
 			]
