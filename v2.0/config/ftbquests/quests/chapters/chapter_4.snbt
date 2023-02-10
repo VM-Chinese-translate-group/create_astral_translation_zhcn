@@ -33,7 +33,7 @@
 			description: [
 				"月球的遗落流水线结构中会生成十分危险的凋零骷髅，并一定会有烈焰人刷怪笼。手持空的烈焰人燃烧室右键烈焰人可以将其捕捉进去。"
 				""
-				"烈焰人燃烧室可以让你制作需要加热（以及后续的超级加热）的配方，你需要在工作盆的下方放置燃烧室加热，并和搅拌器或辊压机配合使用。有很多配方只能通过这种方式进行合成，这也是为什么你需要完全自动化生产燃料。"
+				"烈焰人燃烧室可以让你制作需要加热（以及后续的超级加热）的配方，你需要在工作盆的下方放置燃烧室加热，并和搅拌器或辊压机配合使用。有很多配方只能通过这种方式进行合成，这也是你需要完全自动化生产燃料的原因。"
 			]
 			dependencies: ["6027602617EC9F1F"]
 			id: "51BD31261A5725E3"
@@ -58,7 +58,7 @@
 			description: [
 				"多多生产黄铜，你会需要用它制作许多独特的工具。尽管你已经有了自动化，但是你也许还要建造一个采石场或者一台盾构机，快速获取该种材料。"
 				""
-				"从这里开始，获取齿轮的最快方式就是通过注液器From this point, the most efficient way of producing cogwheels is going to be directly pouring them with a brass filled spout. Consider automating brass casing and cogwheels this way, as these are going to be needed in bulk!"
+				"从这里开始，获取齿轮的最快方式就是通过注液器向铸模中注入青铜。考虑自动化生产黄铜机壳和齿轮吧，后续会需要很多这些东西的。"
 			]
 			dependencies: ["51BD31261A5725E3"]
 			id: "705C815541DB89F8"
@@ -88,9 +88,9 @@
 			shape: "rsquare"
 			subtitle: "只有你想不到的，没有做不了自动化的"
 			description: [
-				"动力合成器可以为你合成物品。基本所有合成台配方都支持。"
+				"动力合成器可以为你合成物品。支持几乎所有工作台配方。"
 				""
-				"不仅如此，动力合成器可以制作的配方还超越了原版工作台的3x3网格。有一大堆的物品你能且只能使用动力合成器制作。"
+				"不仅如此，动力合成器可以制作的配方还超越了原版工作台的3x3网格，有大量物品你能且只能使用动力合成器制作。"
 				""
 				"等等，还有一件事！动力合成器内部的精巧结构甚至可以满足一些小物件的制作需求，就算合成表大小比3x3还小都能做。"
 				""
@@ -793,11 +793,11 @@
 			]
 		}
 		{
-			title: "HUGE rubber gainz"
+			title: "橡胶产量大升级"
 			x: -12.0d
 			y: -0.5d
-			subtitle: "Increase the efficiency of converting tree sap into rubber using an extractor."
-			description: ["Many more recipes included to cater for automation of resources. A lot of these are dyes, but there are some useful dyes."]
+			subtitle: "使用提取机处理树脂可以提高树脂到橡胶的转化效率。"
+			description: ["提取机带来了很多新的处理配方，助你完成自动化。大部分配方都是处理染料的，不过有些染料也很有用。"]
 			dependencies: ["752215E611021472"]
 			id: "61878C8DC870AC6A"
 			tasks: [{
@@ -807,13 +807,13 @@
 			}]
 		}
 		{
-			title: "The Compressor"
+			title: "压缩机"
 			x: -5.5d
 			y: -2.5d
 			description: [
-				"Electrical machines allow you to either do new things, or do things more efficiently than ever before."
+				"电力机器要么可以让你做一些没做过的事，要么可以帮你把做过的事做得更好更高效。"
 				""
-				"The compressor allows you to compress items so hard that they become \"plates.\" It is also strong enough to turn organic matter into fuel."
+				"压缩机可以把物品狠狠地压成板，还可以把有机物转化成燃料。"
 			]
 			dependencies: ["752215E611021472"]
 			id: "07B10625859F1AF9"
@@ -835,15 +835,15 @@
 			}]
 		}
 		{
-			title: "Prepare the biofuel"
+			title: "备好生物燃料"
 			x: 2.0d
 			y: -4.5d
 			shape: "diamond"
-			subtitle: "Use that canning machine to load pure biomatter into liquid form."
+			subtitle: "用装罐机把纯净生物质转化成流体形式装起来"
 			description: [
-				"This is one of the three essential components for space flight. The other two are rocket pieces and a workbench to assemble the rocket."
+				"这是进行太空旅行的三个关键前置条件之一。另外两个条件是火箭零件组装火箭用的工作台。"
 				""
-				"If you wish to store the fuel in fuel tanks, you'll need to run the cell over an item drain."
+				"如果你想把燃料存到液体储罐里，你需要把燃料单元从分液池上滚过去。"
 			]
 			dependencies: [
 				"1533B14714529386"
@@ -865,16 +865,16 @@
 			}]
 		}
 		{
-			title: "The First Electricity Source!"
+			title: "第一个电力来源！"
 			icon: "createdeco:yellow_decal"
 			x: -15.5d
 			y: -2.5d
 			shape: "gear"
-			subtitle: "You'll need pretty powerful kinetic sources to make good use of this!"
+			subtitle: "想要让发电机发挥最大效能，你需要非常强劲的动力！"
 			description: [
-				"The alternator takes kinetic rotation and produces an electrical charge using magnets."
+				"交流发电机可以将旋转能作为输入，利用磁转子产生电能。"
 				""
-				"This energy can be transfered around with cables or wires, and be stored in batteries. Many machines will only operate on electricity."
+				"发出的电可以用导线或线缆传输，也可以储存在电池中。许多机器需要电能才能工作。"
 			]
 			dependencies: [
 				"73973C5E6D2573B8"
@@ -891,17 +891,17 @@
 			}]
 		}
 		{
-			title: "Power the World!"
+			title: "为整个世界发电！"
 			x: -10.5d
 			y: -2.5d
 			shape: "rsquare"
-			subtitle: "All your energy can be transferred around with easy-to-use wires now!"
+			subtitle: "你现在生产的电能可以用简单易用的线缆传输了！"
 			description: [
-				"The connector attaches to either a energy producer, or an energy consumer. Once attached, a copper spool can be be attached between them, allowing electricity to be passed around."
+				"连接器可以放置于发电设备或用电器上。放上连接器后，你可以用铜线轴连接它们，传输电力。"
 				""
-				"The copper spool only has so much range. If you need it to travel even further distances, than you can use connectors attached to flat surface as a middle point."
+				"铜线轴能够连接的范围有限。如果你想把电传得更远，你可以在平地上放一个连接器做中继。"
 				""
-				"Tech Reborn insulated cables can also transfer energy around, but are much uglier and clunky."
+				"科技复兴的绝缘线缆也可以用来传电，但是没那么好看，用起来也很笨重。"
 			]
 			dependencies: ["5459F646B9A392C4"]
 			size: 1.75d
@@ -926,20 +926,20 @@
 			}]
 		}
 		{
-			title: "We're going to Mars"
+			title: "我们要去火星了"
 			x: 2.0d
 			y: 0.0d
 			shape: "circle"
-			subtitle: "Not sponsored by SpaceX"
+			subtitle: "SpaceX并没有赞助"
 			description: [
-				"Crouch and right click to open its UI. From there, biofuel can be deposited. It can store up to three buckets; that being said, its a smart idea to keep some spare. Being stranded is the worst thing that can happen to you."
+				"潜行右键火箭打开界面，在界面中可以为火箭添加燃料，最多可以添加3桶。话虽这么说，一定记得带一点备用的燃料，谁都不想被困在外太空，被迫流浪。"
 				""
 				""
-				"Right-click to enter the rocket. After holding space for awhile you'll launch off and gain access to a planetary selection system. You can't explore every planet just yet, but you'll still have some new options."
+				"右键火箭可以坐上去。按住空格键一小会，你的火箭就会升空，并显示目的地选择界面。你暂时还不能探索所有行星，不过你的选项还是有不少的。"
 				""
-				"After selecting a location, you'll descend on the planet in a lander. Space will decelerate it. Make sure you do not hit the ground too fast: the lander will explode and you'll be left with no way home. The truly paranoid will take two rockets. F5 can help with the landing process."
+				"选择一个目的地之后，你就会坐在着陆器中向行星表面降落。按下空格可以减速。注意不要着陆过快，否则你的着陆器会爆炸，你就回不去了。你要是还不放心的话可以多带几个火箭。F5切换视角可以让你看得更清楚，方便降落。"
 				""
-				"Happy space-faring! There's a whole solar system to discover!"
+				"祝你星际旅行愉快，整个太阳系等着你去探索！"
 			]
 			dependencies: [
 				"1BF9656E9FBB2364"
@@ -980,15 +980,15 @@
 			]
 		}
 		{
-			title: "Those hands sure can craft"
+			title: "你这双手可真能造啊"
 			x: -2.5d
 			y: 1.5d
 			shape: "hexagon"
-			subtitle: "Produce a NASA workbench for rocket creation"
+			subtitle: "做一个NASA工程台组装火箭"
 			description: [
-				"The NASA workbench is used exclusively for crafting rockets. This thing requires electricity!"
+				"NASA工程台是专门用来造火箭的，需要电力才能工作！"
 				""
-				"What the heck's a NASA in this universe?"
+				"不是，MC世界观里哪来的NASA啊？"
 			]
 			dependencies: [
 				"75CE520F392CC1E1"
@@ -1004,11 +1004,11 @@
 			}]
 		}
 		{
-			title: "Space Powah"
+			title: "太空电力"
 			x: -3.5d
 			y: -1.0d
-			subtitle: "A little more expensive, but allows for easy movement of power generation."
-			description: ["Especially useful for space."]
+			subtitle: "稍微有点小贵，但是可以很方便地挪来挪去"
+			description: ["在太空中格外有用。"]
 			dependencies: [
 				"75CE520F392CC1E1"
 				"463D366C0BF340BF"
@@ -1021,14 +1021,14 @@
 			}]
 		}
 		{
-			title: "I Got Some New Tools for Ya"
+			title: "我给你准备了一些大宝贝"
 			x: -10.5d
 			y: -4.5d
-			subtitle: "These have no durability, are enchantable, but require power as a resource instead!"
+			subtitle: "这些工具没有耐久，可以附魔，但是需要电能来工作！"
 			description: [
-				"They may not be more powerful than upgraded tinker tools, but enchanting via the old way and keeping them forever can be pretty handy."
+				"这些东西可能比不上升级之后的匠魂工具，但是可以用老方法给它们附个魔，然后一直带在身上用，很方便的。"
 				""
-				"A description of what they do is in each relevant quest."
+				"在每个任务中都为你详细介绍了对应工具的用途。"
 			]
 			dependencies: ["752215E611021472"]
 			optional: true
@@ -1036,18 +1036,18 @@
 			tasks: [{
 				id: "7B272C5C7E0B9420"
 				type: "checkmark"
-				title: "Understood."
+				title: "我知道了"
 			}]
 		}
 		{
-			title: "Navigation Systems: Check"
+			title: "导航系统：确认"
 			x: -4.5d
 			y: 0.0d
-			subtitle: "Raow"
+			subtitle: "rua"
 			description: [
-				"The Redstone Chip's specialization in frequency operations turns out to be particularly good for space traveling navigation. It just needs a little more sprucing up so measurements and calculations are as precise they can be."
+				"红石芯片的频率处理能力使其十分适合用于星际航行。芯片只需要一点处理，就可以进行更加精确的测量和运算。"
 				""
-				"There are very few items that need a navigation mechanism, but a NASA work bench is one of them."
+				"需要用到导航构件的东西不多，但是NASA工程台是其中一个。"
 			]
 			dependencies: ["55214095FAF22F42"]
 			id: "75CE520F392CC1E1"
@@ -1058,12 +1058,12 @@
 			}]
 		}
 		{
-			title: "Desh Race"
+			title: "戴斯快跑"
 			icon: "ad_astra:moon_desh_ore"
 			x: -23.5d
 			y: -5.5d
-			subtitle: "It does look tasty, doesn't it."
-			description: ["Desh is used in specialized space machinery. Although it won't help your factories, desh becomes important later on, so you'll want to collect it when you can."]
+			subtitle: "看起来挺好吃的，是不是"
+			description: ["戴斯可以用来制作特殊的太空机器。尽管现在可能还用不上，但是戴斯在后续的发展中会十分重要，可以的时候就挖一些吧。"]
 			dependencies: ["306D009F01634115"]
 			dependency_requirement: "one_completed"
 			id: "59694D713430B333"
@@ -1075,29 +1075,29 @@
 			}]
 		}
 		{
-			title: "The Piglin Planet"
+			title: "猪灵星球"
 			icon: "ad_astra:mars_globe"
 			x: 5.5d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "Chapter 4 unlock."
-			description: ["It's time to introduce yourself to some porky friends."]
+			subtitle: "解锁第4章"
+			description: ["来，给你介绍一些猪猪朋友。"]
 			dependencies: ["6E20B194F5CA8F22"]
 			size: 1.5d
 			id: "63DCF596AAA9A232"
 			tasks: [{
 				id: "16182598B074073D"
 				type: "dimension"
-				title: "Visit Dimension: Mars"
+				title: "前往维度：火星"
 				dimension: "ad_astra:mars"
 			}]
 		}
 		{
-			title: "Living on the Moon!"
+			title: "在月球上定居！"
 			x: -23.5d
 			y: -6.5d
-			subtitle: "If you have plans to base on the Moon or any other planet without oxygen, you'll need to set up an oxygen distributor with a decent source of oxygen to pump out."
-			description: ["By using airlocks and solid blocks you can stop air from leaking out."]
+			subtitle: "如果你计划在月球或者其他没有氧气的行星上生活，你需要准备氧气释放器和充足的氧气来源。"
+			description: ["你可以用气密舱门和固体方块防止氧气泄露出去。"]
 			dependencies: ["59694D713430B333"]
 			id: "5A8CB0CAB6E98321"
 			tasks: [{
@@ -1107,14 +1107,14 @@
 			}]
 		}
 		{
-			title: "Let There be LED."
+			title: "神说：“要有LED”"
 			x: -1.5d
 			y: 3.0d
-			subtitle: "Light up the world with snazzy new lights."
+			subtitle: "用漂亮的新光源点亮这个世界"
 			description: [
-				"Require an adjacent power source to turn on."
+				"需要和电力源相邻才能点亮。"
 				""
-				"Lamps require coal dust, which can be made from the grinder or crushing wheels."
+				"制作白炽灯需要煤粉，可以用磨粉机或粉碎轮得到。"
 			]
 			dependencies: ["609BD6A99E34BB17"]
 			optional: true
@@ -1133,14 +1133,14 @@
 			]
 		}
 		{
-			title: "Upgrading storage units."
+			title: "升级存储单元"
 			x: -17.0d
 			y: -1.0d
-			subtitle: "Store 128 stacks in one block!"
+			subtitle: "在一个方块里存储128组物品！"
 			description: [
-				"Tech Reborn storages can be upgraded to store many more objects."
+				"科技复兴的存储方块可以升级，增大存储容量。"
 				""
-				"With the capability to directly manage resource paths on the bottom path, they can be valuably helpful as final resource resting places."
+				"下面那条的科技线可以让你直接管理资源产线，而新的存储单元作为资源的最终存储方块再好不过。"
 			]
 			dependencies: ["73973C5E6D2573B8"]
 			id: "0ADFE1D87DB51856"
@@ -1151,17 +1151,17 @@
 			}]
 		}
 		{
-			title: "Nuclear?"
+			title: "核能？"
 			x: -24.5d
 			y: -5.0d
-			subtitle: "Uncover the site of a disaster"
-			description: ["Evidence of great technological advance now stands in ruin... There is little sign of coherant life here."]
+			subtitle: "发现一个灾难的遗址"
+			description: ["昔日强大科技发展的证明屹立于遗迹之上……这里基本没有智慧生物的痕迹。"]
 			dependencies: ["306D009F01634115"]
 			id: "63C197DE5231155D"
 			tasks: [{
 				id: "7AA332BD2DA6428E"
 				type: "structure"
-				title: "Find a Nuclear Reactor"
+				title: "找到一个核反应堆"
 				icon: "chipped:yellow_concrete_19"
 				structure: "incendium:nether_reactor"
 			}]
@@ -1172,16 +1172,16 @@
 			}]
 		}
 		{
-			title: "Not So Practical Deco"
+			title: "没什么用的装饰"
 			x: -27.5d
 			y: 8.5d
-			subtitle: "Only if you like keeping colours consistent"
+			subtitle: "除非你想把颜色统一一下"
 			description: [
-				"Scorched Tables! These cute little things act slightly differently to regular seared components, in that they REQUIRE a cast before they will accept any kind of recipe."
+				"焦褐色的桌子！这些东西和焦黑色的桌子类似，但是稍有不同。它们必须放入铸件才能正常工作。"
 				""
-				"This is both limiting (can't cast some items such as iron bars)"
+				"这既是一种限制（比如不能直接浇铸铁栏杆），"
 				""
-				"but also incredible useful (you can leave a faucet redstone powered and not worry about coming back to your reinforcement automator with 10 stacks of iron bars in the chest)"
+				"也是一种可以加以利用的特点（你可以保持红石信号开启，而不用担心出去一趟回来发现箱子里多了10组铁栏杆）"
 			]
 			dependencies: ["5355CA2F0BA74BF1"]
 			optional: true
@@ -1205,11 +1205,11 @@
 			]
 		}
 		{
-			title: "Gather for a More Efficient Smeltery"
+			title: "多收集一些，准备做更高效的熔铸炉"
 			x: -23.5d
 			y: 2.0d
-			subtitle: "Find scoria within the moon's caverns"
-			description: ["This still-warm block can only be found on the moon, and will be needed to make bigger melting systems than those puny melters."]
+			subtitle: "可以在月球的洞穴中找到熔渣"
+			description: ["这种温热的方块只能在月球找到，你需要用它来制作比小熔化炉更大的熔炼系统。"]
 			dependencies: ["6027602617EC9F1F"]
 			id: "0E59475F511DBCC7"
 			tasks: [{
@@ -1221,17 +1221,17 @@
 			}]
 		}
 		{
-			title: "Even Better Smelting"
+			title: "更好的熔炼"
 			x: -25.0d
 			y: 7.0d
 			shape: "rsquare"
-			subtitle: "Get yourself a tinkers multiblock foundry"
+			subtitle: "来建造一个匠魂熔铸炉结构吧"
 			description: [
-				"The foundry is capable of smelting at even higher levels of efficiency compared to the melter, and produces secondary metals when melting."
+				"相比单方块熔化炉来说，熔铸炉可以更高效地熔炼矿物，并且还会产出一些副产物金属。"
 				""
-				"Not just that, but foundries operate as a fuild tank that can store multiple fuilds. They can work with smart pipes, too. It won't be the best way to organize fluids but this feature may be handy to you."
+				"不仅如此，熔铸炉还可以用作一个能够存储多种流体的流体存储结构，还能和智能流体管道配合使用。也许这并不是管理流体的最好方式，但是对你来说大概会很有用。"
 				""
-				"For instructions on how to build one, read both these guides. Do note that this modpack skips over \"smelteries\" entirely, which the light gray book deals with. Bother smelteries and foundaries have a lot in common though, and both books will teach you of the best tool materials and upgrades available to you."
+				"关于如何建造这种结构，参阅这两本指南书。注意这个整合包直接跳过了“冶炼炉”的部分，冶炼炉相关的信息写在了灰色的《入门熔炼术》里。冶炼炉和熔铸炉有很多相似之处，这两本书还会告诉你一些关于全新材料和工具升级的信息。"
 			]
 			dependencies: [
 				"1A7150A746855B4D"
@@ -1308,15 +1308,15 @@
 			]
 		}
 		{
-			title: "Automate redstone!"
+			title: "自动产红石！"
 			icon: "minecraft:redstone"
 			x: -6.5d
 			y: -2.0d
 			shape: "diamond"
-			subtitle: "By using a Create Additions Tesla Coil(tm) you can electrify these synthetic crystals to obtain an infinitely renewable source of redstone dust."
+			subtitle: "你可以使用机械动力附加特斯拉线圈（TM）为这些合成晶体充能，获得可再生的红石来源。"
 			description: [
-				"The recipe doesnt show in REI, it will work regardless."
-				"(Press U on a tesla coil instead)"
+				"配方在REI中不显示，反正肯定有用就是了。"
+				"（鼠标放在特斯拉线圈上，按U查看配方）"
 			]
 			dependencies: ["64A1C434EB7021E6"]
 			id: "512B5F1349E34457"
@@ -1324,7 +1324,7 @@
 				{
 					id: "2115F7EC251337A0"
 					type: "item"
-					title: "8x64 Redstone"
+					title: "8x64 红石粉"
 					item: "minecraft:redstone"
 					count: 512L
 				}
@@ -1341,11 +1341,11 @@
 			}]
 		}
 		{
-			title: "These chests are just getting silly..."
+			title: "这些箱子真的是越来越奇怪了……"
 			x: -4.5d
 			y: -1.0d
-			subtitle: "How many slots does a man really need?"
-			description: ["1 slot is all you need, but technology is about having MORE THAN YOU NEED!!!"]
+			subtitle: "到底多少栏位才算够呢？"
+			description: ["1个就够了，但是科技不就是超量生产吗！"]
 			dependencies: ["07B10625859F1AF9"]
 			id: "39DE2EF14165FB0A"
 			tasks: [{
@@ -1355,10 +1355,10 @@
 			}]
 		}
 		{
-			title: "Lunatic Scavanger"
+			title: "疯狂月球探险家"
 			x: -25.0d
 			y: -4.0d
-			subtitle: "Learn the resources you can find on the moon."
+			subtitle: "了解一下你可以在月球上找到的资源"
 			dependencies: ["306D009F01634115"]
 			id: "661A93F58DBEFB8F"
 			tasks: [
@@ -1410,17 +1410,17 @@
 			}]
 		}
 		{
-			title: "Creat a Space Station!!"
+			title: "建造一个空间站！"
 			x: 4.5d
 			y: -2.5d
 			shape: "circle"
-			subtitle: "Orbit dimensions have a 1:8 block travel ratio, just like the nether."
+			subtitle: "近地维度的旅行距离比也是1:8，和下界一样。"
 			description: [
-				"It might be worth setting up an outpost for fast travel, as planets are only 1:2."
+				"建立一个快速旅行的前哨站应该会很值当，因为星球维度的距离比只有1:2。"
 				""
-				"Also, it's really awesome to live in space."
+				"而且，在太空里住着真的很酷好不好。"
 				""
-				"Be alert that the space station does not come with oxygen generation or distribution capabilities. You will have to set it up yourself after it's made. That, and you can crash your lander into this space station. Don't do that."
+				"要注意，空间站不自带供氧系统，你需要在空间站落成之后自行搭建，建完之后你就可以尽情在空间站上坠毁你的着陆器了。我开玩笑的，别真坠了。"
 			]
 			dependencies: ["6E20B194F5CA8F22"]
 			id: "47A155F9CAD19710"
@@ -1464,13 +1464,13 @@
 			]
 		}
 		{
-			title: "Fast Food Fuel"
+			title: "快餐油"
 			icon: "createaddition:seed_oil_bucket"
 			x: -4.0d
 			y: -6.0d
 			shape: "diamond"
-			subtitle: "Automate a seed."
-			description: ["Seed Oil, which our biofuel will be derived from, is made by compressing heated seeds. There are many seeds to choose from, so automate which one makes the most sense to you."]
+			subtitle: "自动化一种种子。"
+			description: ["种子油可以通过压块塑形种子得到，可用于生产生物燃油。很多种子都可以用来生产种子油，你可以任选你喜欢的种子做自动化。"]
 			dependencies: ["4C59011F80601279"]
 			id: "494F84A10D6934E7"
 			tasks: [
@@ -1482,7 +1482,7 @@
 				{
 					id: "1C7275685128FEF1"
 					type: "item"
-					title: "Any seeds"
+					title: "任意种子"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1499,17 +1499,17 @@
 			}]
 		}
 		{
-			title: "Plant Materials"
+			title: "植物材料"
 			x: -4.0d
 			y: -5.0d
 			shape: "diamond"
-			subtitle: "Automate one of these"
+			subtitle: "自动化下列任一物品"
 			description: [
-				"Seed oil will need to mix with plant matter in order to coalesce. Too many nutrients will intefere with the chemistry, so your options are limited."
+				"种子油需要和植物材料进行混合才能进一步合成。很多养分都会扰乱化学反应，所以你的选择很有限。"
 				""
-				"You can take advantage of an existing tree farm to automate leaves. This will require a way to restock it with sheers however."
+				"你可以利用已有的树场来自动化树叶，这需要你时不时补充剪刀。"
 				""
-				"A grass farm might be simpler, especially since you won't need to hotpatch your tree farm. However, you'll still need a deployer with sheers, and you will also need to find a way to deploy bone meal to grass as well."
+				"自动产草机也许更简单一些，这样不需要修改你的树场。不过你还是需要用机械手配合剪刀，并且还需要想个办法自动施骨粉才能长草。"
 			]
 			min_required_dependencies: 1
 			dependencies: ["4C59011F80601279"]
@@ -1519,7 +1519,7 @@
 				{
 					id: "624F8EE22AB2B55B"
 					type: "item"
-					title: "Any leaves"
+					title: "任意树叶"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1531,7 +1531,7 @@
 				{
 					id: "301F319A8D43EC84"
 					type: "item"
-					title: "Any type of grass"
+					title: "任意种类的草"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1543,11 +1543,11 @@
 			]
 		}
 		{
-			title: "Painballs"
+			title: "直勿求"
 			x: -2.5d
 			y: -5.5d
-			subtitle: "Not a paintball"
-			description: ["Mixing seed oil and plant material will clamp it into a loose organic compound that can be refined further."]
+			subtitle: "跟彩弹射击没什么关系"
+			description: ["将种子油和植物材料在搅拌盆中搅拌，再把它压缩，就可以获得一种有机化合物，并可以进行后续加工。"]
 			dependencies: [
 				"5B11C7CE6EF9FB2E"
 				"494F84A10D6934E7"
@@ -1560,11 +1560,11 @@
 			}]
 		}
 		{
-			title: "We're Going to Burn Dead Things"
+			title: "让我们把这堆尸体烧成灰"
 			x: -0.5d
 			y: -4.5d
-			subtitle: "Just some final processing to do."
-			description: ["Use the compressor. It smells like MacDonalds."]
+			subtitle: "只是一些最终处理"
+			description: ["用压缩机进行最终处理，闻起来就像金拱门的味道。"]
 			dependencies: [
 				"59C1BBC3C57A277A"
 				"07B10625859F1AF9"
@@ -1577,12 +1577,12 @@
 			}]
 		}
 		{
-			title: "Impure Fuel"
+			title: "含杂燃料"
 			x: -0.5d
 			y: -5.875d
 			shape: "diamond"
-			subtitle: "A healthy coal alternative"
-			description: ["Biomass can be refined into biomatter pellets, a very efficient solid fuel source to power furnaces and other such machines. It might be worth using some biomatter for this, or coming back to this recipe once there is excess rocket fuel."]
+			subtitle: "一种环保的煤炭替代品"
+			description: ["生物质经过处理可以获得生物质颗粒，这是一种十分高效的固体燃料，可以在熔炉或其他需要固体燃料的机器中燃烧。你可以选择现在就开始生产这种颗粒，也可以等你的火箭燃料做完再回来做。"]
 			dependencies: ["232F25F6D9BFC2F5"]
 			optional: true
 			id: "0AF6740D30DD0D65"
@@ -1600,14 +1600,14 @@
 			}]
 		}
 		{
-			title: "Hazmat Protection"
+			title: "生化保护"
 			x: -15.5d
 			y: -5.5d
-			subtitle: "More useful on Earth than the Moon..."
+			subtitle: "在地球上比在月球上有用……"
 			description: [
-				"The hazmat will let you wade through lava. It also has fall damage resistance and protects you from freezing."
+				"防护服套装可以让你直接穿越熔岩。它还能提供部分摔落保护以及防寒功能。"
 				""
-				"It won't give you oxygen though."
+				"不过并不能为你提供氧气。"
 			]
 			dependencies: ["19CCFE1A90B73F44"]
 			id: "6B07593DD5128CAD"
@@ -1647,7 +1647,7 @@
 			}]
 		}
 		{
-			title: "Lunatic Traveller"
+			title: "疯狂月球旅行家"
 			x: -22.5d
 			y: -5.5d
 			dependencies: ["306D009F01634115"]
@@ -1656,21 +1656,21 @@
 				{
 					id: "380B63DBA28F27EA"
 					type: "biome"
-					title: "Visit Some Lunar Wastelands"
+					title: "前往月球瘠地"
 					icon: "ad_astra:moon_sand"
 					biome: "ad_astra:lunar_wastelands"
 				}
 				{
 					id: "24A51F3747706B79"
 					type: "biome"
-					title: "Visit Some Lunar Basalt Deltas"
+					title: "前往月球玄武岩三角洲"
 					icon: "minecraft:basalt"
 					biome: "minecraft:basalt_deltas"
 				}
 				{
 					id: "48A492F6EF687D38"
 					type: "biome"
-					title: "Visit a Toxic Heap"
+					title: "前往剧毒堆原"
 					icon: "createdeco:black_decal"
 					biome: "incendium:toxic_heap"
 				}
@@ -1679,13 +1679,13 @@
 		{
 			x: -6.5d
 			y: -1.0d
-			subtitle: "Zap!"
+			subtitle: "滋啦啦！"
 			description: [
-				"Tesla Coils are unique in that they operate like kinetic machines, but they use electricity."
+				"特斯拉线圈的特别之处在于，它的工作方式和动力驱动的机器类似，但消耗的是电能。"
 				""
-				"The low-current but high-voltage they produce can be used to provide a current to materials that can become ionized into something different. Nice!"
+				"特斯拉线圈的电流很小但是电压很高，可以向物品中通入电流，将其电离成另外一种物品。真不错！"
 				""
-				"DESPITE WHAT ITS PONDER/DESCRIPTION SAYS, IT CAN NOT CHARGE ELECTRICAL TOOLS AND BATTERIES. Use a battery box for that!"
+				"尽管特斯拉线圈的思索界面说它能给物品“充电”，但它实际上并不能。要充电的话，请使用储电盒。"
 			]
 			dependencies: ["752215E611021472"]
 			id: "64A1C434EB7021E6"
@@ -1696,16 +1696,16 @@
 			}]
 		}
 		{
-			title: "Brass Funnel My Beloved"
+			title: "黄铜漏斗，我的最爱"
 			x: -19.0d
 			y: 6.0d
-			subtitle: "The most useful brass gizmo"
+			subtitle: "最有用的黄铜机械"
 			description: [
-				"Brass funnels operate like andesite tunnels except for two important distinctions: they can filter what what they take or give, and they can input or output up to whole stacks at a time."
+				"黄铜漏斗的工作方式和安山岩漏斗类似，但是有两点不同：一、黄铜漏斗可以进行物品过滤；二、它们最多可以输入或输出一组物品。"
 				""
-				"Certain contraptions can operate on entire stacks at a time such as bulk washing, haunting, and blasting, although be alert that more time is needed to process stacks."
+				"某些特别的装置可以一次处理一组物品，比如批量洗涤、缠魂，和熔炼，不过一次处理一组花的时间更长。"
 				""
-				"Vaults are also made much more useful. Having vaults output entire stacks of a material onto a depot can be a great way to have you ready to pick up goodies."
+				"这样一来，物品保险库的用处也更大了。保险库现在可以在置物台上一次输出一组物品，方便你随时存取物品。"
 			]
 			dependencies: ["705C815541DB89F8"]
 			id: "042CE6F6D7A67F42"
@@ -1728,16 +1728,16 @@
 			}]
 		}
 		{
-			title: "Funnel's Chad Sibbling"
+			title: "漏斗的孪生兄弟"
 			x: -20.0d
 			y: 6.0d
-			subtitle: "WOW"
+			subtitle: "哇哦"
 			description: [
-				"Remember how niche andesite tunnels were, especially since chutes were the only way to get stacks onto a conveyor belt?"
+				"还记得没什么用的安山岩隧道吗？在这之前，你只能用溜槽往传送带上输送成组的物品，安山岩漏斗实在是没什么用武之地。"
 				""
-				"Well"
+				"不过"
 				""
-				"Tunnels allow you to filter items onto different branches at a belt intersection. Not only that, but if you put adjacent brass tunnels on top of adjacent conveyor belts, they can split the stack evenly or round robin, allowing you divide up where resources go on the fly."
+				"现在黄铜隧道可以用过滤器限制每个出口输出的物品种类。不仅如此，在相邻的传送带上放置相邻的黄铜隧道，这些隧道就可以用平均分配或者轮询调度的方式向不同的支路输出物品，平均地调度资源。"
 			]
 			dependencies: ["705C815541DB89F8"]
 			id: "0A29C0657D13CD49"
@@ -1762,11 +1762,11 @@
 		{
 			x: -20.0d
 			y: 5.0d
-			subtitle: "Dump things with intelligence"
+			subtitle: "智能地溜东西"
 			description: [
-				"Smart Chutes are like normal chutes, except you can filter what gets dumped and by how much."
+				"智能溜槽和普通溜槽类似，不过可以用过滤器限制输出什么物品，或是一次输出物品的数量。"
 				""
-				"They can also be turned on and off by redstone signal. This in combination with stockpile switches can make for an effective way to get rid of excess items in a single inventory."
+				"它们还能用红石信号开启或关闭，和存量转信器结合使用就可以实现自动丢弃富余的物品。"
 			]
 			dependencies: ["705C815541DB89F8"]
 			id: "50200A5256D99A82"
@@ -1791,11 +1791,11 @@
 		{
 			x: -15.0d
 			y: 5.0d
-			subtitle: "It's the future of industry!!"
+			subtitle: "这就是工业化的未来！"
 			description: [
-				"Mechnical crafters can take items off of belts and depots and put them somewhere else, including other depots and belts, as well as funnels."
+				"动力臂可以从传送带或置物台上拿起物品，然后放到别的地方。它可以把物品放到别的传送带、置物台，以及漏斗里。"
 				""
-				"They're great if setting up belts is too complicated if you only need to move an item by six feet, or you need items to go onto diverging paths/converging end points."
+				"动力臂在传送带太过复杂的时候比较合适：把一个物品运送到三格开外还要连个传送带属实没必要。以及，如果你想把物品分流到不同的产线或是合并到一处，选择动力臂也是极好的。"
 			]
 			dependencies: [
 				"22B29B232EF2638F"
@@ -1815,14 +1815,14 @@
 			}]
 		}
 		{
-			title: "No More Gearshifting"
+			title: "齿轮变速已成历史"
 			x: -14.0d
 			y: 5.0d
-			subtitle: "This makes a mockery of engineering"
+			subtitle: "给工程师的当头棒喝"
 			description: [
-				"The rotation speed controller lets you set the speed of rotation. It needs a large cogwheel on top of it to work."
+				"转速控制器可以用来设置旋转速度，上面需要放一个大齿轮才能工作。"
 				""
-				"It's as good and useful as it sounds. You'll want a couple of these."
+				"听起来很好用，实际上确实很好用，多做几个吧。"
 			]
 			dependencies: [
 				"22B29B232EF2638F"
