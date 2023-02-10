@@ -1896,16 +1896,16 @@
 			]
 		}
 		{
-			title: "CUSTOM AIRLOCKS"
+			title: "自定义气密舱门"
 			x: -16.0d
 			y: 7.0d
-			subtitle: "These gearshifts let you overengineer everything!"
+			subtitle: "这种齿轮箱能帮你将一切都工程化！"
 			description: [
-				"Sequenced gearshifts let you you specify a sequence of rotations. For example, when it receives a redstone signal, it can rotate something exactly 60 degrees, regardless of output speed specified."
+				"你可以对可编程齿轮箱进行编程，控制其进行一系列的旋转。例如，当它收到红石信号的时候，它可以将某物旋转刚好60度，并无视设置的输出旋转速度。"
 				""
-				"They can work on mechanical bearings. There's also a few items that were actually available to you all along, but don't make a lot of sense to use without sequenced gearshifts."
+				"可编程齿轮箱在动力轴承上也可以工作。其实有一些物品你在前期就可以做，但是它们得等你做出可编程齿轮箱之后才能真正派上用场。"
 				""
-				"Of course, having blocks move around doesn't help you too much. There is one exception though: you need a way to keep all that air in your moon base from leaking out, yeah? Until you can build airlocks, sequenced gearshifts are the most reliable way to lock air."
+				"当然，只是把方块动来动去可能对你用处不大。不过有一个特例：你的月球离地需要一个气密舱门，防止氧气泄露。在你能制作真正的气密舱门之前，可编程齿轮箱可以帮你锁住你的氧气。"
 			]
 			dependencies: ["22B29B232EF2638F"]
 			id: "0EDFECC97E44B508"
@@ -1916,17 +1916,17 @@
 			}]
 		}
 		{
-			title: "GRIND"
+			title: "磨！磨！磨！"
 			x: -9.0d
 			y: -0.5d
 			shape: "rsquare"
-			subtitle: "Like crushing but different"
+			subtitle: "很像粉碎，但不太一样"
 			description: [
-				"The grinder is like the millstone: it crushes things down to a more reduced form."
+				"磨粉机和石磨很相近：它可以把东西磨成更碎的形态。"
 				""
-				"This grinder specializes in precision and sharpness. It can efficiently grind up any resources that can fit within it. This improves yields for some objects! There's also unique materials that can only be made from this machine. Granted, most of them are dusts that don't help you out at the moment."
+				"这台磨粉机特别加强了精度和锋利度。它能高效地将任何能磨成粉的资源打碎成细腻的粉末。这个过程可以增产某些资源哦！另外，还有一些资源只能用这台机器获得，不过这些资源大都是粉末，你目前还用不到。"
 				""
-				"It's similiar to the crushing wheel from the bottom path. The difference is that crushing wheel operates on whole blocks, while the grinder operates on individual items. Sometimes there is overlap between these two machines, however."
+				"磨粉机和下路科技线的粉碎轮很像。但是不同的是粉碎轮粉碎的是整个方块，但磨粉机磨的是物品，不过两种机器能处理的配方也有部分重合。"
 			]
 			dependencies: ["752215E611021472"]
 			id: "2F7F41E1C9C7F7B3"
@@ -1939,11 +1939,11 @@
 		{
 			x: -13.0d
 			y: 7.0d
-			subtitle: "What's in the box?"
+			subtitle: "箱子里有什么？"
 			description: [
-				"The content observer can broadcast a redstone signal whenever an inventory has a matching item."
+				"物品侦测器会在所监测的存储空间中有某种物品时输出红石信号。"
 				""
-				"Not too useful cause if you managed your factories well enough, you should already know what's in an inventory. That being said, put it your inventory crafting table and..."
+				"大概没什么用，因为如果你把你的工厂安排得足够利落的话，你应该对什么箱子里有什么东西都了然于心。不过话是这样说，在物品栏里随时备一个也是极好的……"
 			]
 			dependencies: ["22B29B232EF2638F"]
 			id: "0873D71412D52F18"
@@ -1954,11 +1954,11 @@
 			}]
 		}
 		{
-			title: "Essential Plate #1"
+			title: "重要板材No.1"
 			x: -17.0d
 			y: -4.5d
-			subtitle: "Very essential"
-			description: ["A LOT of machinery uses silver plates. This stuff is more valuable than gold."]
+			subtitle: "非常重要"
+			description: ["很多机器都要用到银板，这个东西比金还值钱。"]
 			dependencies: ["1DFF76A494C9A586"]
 			id: "229495414D7B7D5E"
 			tasks: [{
@@ -1970,11 +1970,11 @@
 		{
 			x: 2.0d
 			y: -6.0d
-			subtitle: "Wow this is worthless"
+			subtitle: "哇，这个真的好没用喔"
 			description: [
-				"There few solids that can only be turned into liquids when contained in an air-tight cell. The canning machines allow you to do this."
+				"有几种固体物质在装罐时会变成液体，而装罐机可以帮你进行装罐。"
 				""
-				"There's very few items that require this though, but there's one you might need."
+				"能用到这台机器的物品不多，但是有一种你可能会需要。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["752215E611021472"]
@@ -1993,14 +1993,14 @@
 			]
 		}
 		{
-			title: "Useful Moving Contraption #1"
+			title: "有用的移动结构No.1"
 			x: -17.0d
 			y: 7.0d
-			subtitle: "This allows you to move things back and forth"
+			subtitle: "这个东西可以来回移动结构"
 			description: [
-				"The gantry shaft allows you to push connected structures back and forth along a connected \"gantry\"."
+				"利用起重机杆，你可以沿着“起重机”前后移动结构。"
 				""
-				"Combined with a sequence gearshift, this allows you to create contraptions such as elevators and moving platforms."
+				"将起重机杆和可编程齿轮箱结合使用，你可以造出来诸如电梯或移动平台之类的移动结构。"
 			]
 			dependencies: ["0EDFECC97E44B508"]
 			id: "6A008BEB9C5F456C"
@@ -2018,16 +2018,16 @@
 			]
 		}
 		{
-			title: "Useful Moving Contraption #2"
+			title: "有用的移动结构No.2"
 			x: -17.0d
 			y: 8.0d
-			subtitle: "This allows you to move things back and forth"
+			subtitle: "这个东西可以来回移动结构"
 			description: [
-				"The rope pulley can be lowered and attach to connected structures. It can also move structures up and down."
+				"绳索滑轮可以把绳索向下放，并和连接好的结构连在一起，还可以上下移动结构。"
 				""
-				"Combined with a sequence gearshift, it can be used to make an elevator, or to vertically transport inventories."
+				"将绳索滑轮和可编程齿轮箱结合使用，你可以造出电梯，也可以纵向搬运容器。"
 				""
-				"Very inventive engineers might be able to make a quarry with this, as machines like drills work on structures being moved around via rope pulleys much like they do on mechanical bearings, trains, and cart contraptions. This applies to pistons and gantries too."
+				"有创造力的工程师可能会用它造一个采石场，因为动力钻头之类的东西可以在移动结构上工作，和在动力轴承，列车或矿车结构上一样。当然，动力活塞或起重机也是可以的。"
 			]
 			dependencies: ["0EDFECC97E44B508"]
 			id: "5261F7129457E4BD"
@@ -2038,16 +2038,16 @@
 			}]
 		}
 		{
-			title: "Useful Moving Contraption #3"
+			title: "有用的移动结构No.3"
 			x: -16.0d
 			y: 8.0d
-			subtitle: "This allows you to move things back and forth"
+			subtitle: "这个东西可以来回移动结构"
 			description: [
-				"The piston can be push connected contraptions forwards. The sticky version can push them back and forther. They resemble regular Minecraft pistons, although their range can be made longer than their redstone counterpart."
+				"动力活塞可以将移动结构向前推，黏性动力活塞还可以把结构拉回来。动力活塞和原版的活塞差不多，不过动力活塞可以通过在后方加长活塞杆来加大工作范围。"
 				""
-				"Combined with a sequence gearshift, they can be used to make elevators. Weird how that works."
+				"将动力活塞和可编程齿轮箱结合使用，你可以造出电梯。这电梯够奇怪的。"
 				""
-				"(A lowkey practical use for them is pushing blocks made in a cobblestone or basalt generator to a drill placed in a more convenient spot.)"
+				"（动力活塞还有一个不为人所知的用途：它可以用在圆石或玄武岩造石机中，把生成的石头推到别的地方，再用钻头钻掉，这样可以把钻头的位置安排得灵活方便一些。）"
 			]
 			dependencies: ["0EDFECC97E44B508"]
 			id: "1B2B6C73281EAD26"
@@ -2065,15 +2065,15 @@
 			]
 		}
 		{
-			title: "Let's Set Up Fuel Production Line"
+			title: "来建造燃油生产线"
 			x: -5.5d
 			y: -5.5d
 			shape: "pentagon"
-			subtitle: "You can start production of rocket fuel early if you want!"
+			subtitle: "你可以早点开始着手制造火箭燃料产线！"
 			description: [
-				"Rocket biofuel is a difficult process, especially with the technology you have available to you. Automating it will test your factory-building skills, but the stars beckon you discover a new age within them."
+				"火箭生物燃油产线十分复杂，尤其是用你已有的科技来建造这条产线。这条产线的自动化会考验你建造工厂的能力，但是你将要探索的星球会带你领略全新的时代。"
 				""
-				"Although you can do this as you complete the chapter, you will need certain tools from both sides of the tree in order to complete this challenge."
+				"尽管你可以选择一边推进本章任务一边推进燃油产线，不过你在做燃油产线的时候要用到来自上下两条科技线的一部分科技才能完成。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["306D009F01634115"]
@@ -2082,16 +2082,16 @@
 			tasks: [{
 				id: "62E96FF6DC6FD344"
 				type: "checkmark"
-				title: "Let's Go!"
+				title: "走起！"
 			}]
 		}
 		{
-			title: "The Fabled Desh Plate"
+			title: "大名远扬的戴斯板"
 			x: -2.5d
 			y: -2.0d
 			shape: "hexagon"
-			subtitle: "Desh makes a comeback"
-			description: ["The desh plate is needed in many manners of space utilities and crafts."]
+			subtitle: "戴斯又回来了"
+			description: ["戴斯板在制作许多太空相关物品时都用得到。"]
 			dependencies: ["07B10625859F1AF9"]
 			id: "463D366C0BF340BF"
 			tasks: [{
@@ -2103,11 +2103,11 @@
 		{
 			x: -5.5d
 			y: -0.5d
-			subtitle: "Will melt you and electrocute you!"
+			subtitle: "将你熔化，让你通电！"
 			description: [
-				"Electrum has limited technical applications, mostly for finely controlling electric currents in circuity that specializes in waves."
+				"琥珀金在科技上的用途比较少，主要用于精密控制波形电路中的电流。"
 				""
-				"It's normally used as an equipment material. Tinker tools made with this give you more experience than usual! After all, you did go through a lot of experience to come this far."
+				"琥珀金一般也用来制作工具，用琥珀金制成的工具部件会给你带来更多经验值！毕竟你都玩到这里了，肯定也有不少经验了。"
 			]
 			dependencies: ["64A1C434EB7021E6"]
 			id: "55214095FAF22F42"
@@ -2126,10 +2126,10 @@
 		{
 			x: -22.5d
 			y: 2.0d
-			subtitle: "Hey, did you know you can make magma blocks out of these?"
+			subtitle: "你知道这个东西可以做岩浆块吗？"
 			description: [
 				""
-				"You can make nether grout out of it too."
+				"这个东西也可以做下界砖泥哦。"
 			]
 			dependencies: ["6027602617EC9F1F"]
 			id: "129A16584F8B0BFE"
@@ -2142,8 +2142,8 @@
 		{
 			x: -23.0d
 			y: 4.0d
-			subtitle: "Nether means 'Nether one of my b****es"
-			description: ["Also don't eat this."]
+			subtitle: "下界一赖，谁都不爱"
+			description: ["这个也请勿食用。"]
 			dependencies: [
 				"0E59475F511DBCC7"
 				"129A16584F8B0BFE"
@@ -2160,11 +2160,11 @@
 		{
 			x: -23.0d
 			y: 5.0d
-			subtitle: "Seared Brick 2 the Sequel"
+			subtitle: "《焦黑砖》的续集《焦褐砖》"
 			description: [
-				"Much like how seared bricks are to melters, scorched bricks are the foundation of many foundary blocks."
+				"焦褐砖之于熔铸炉，相当于焦黑砖之于熔化炉。焦褐砖是制作熔铸炉相关方块的基础。"
 				""
-				"You will need a lot more of these then you will seared bricks, however. Foundaries are made block by block you'll probably want to build big."
+				"不过，你需要制作比焦黑砖的数量多得多的焦褐砖。熔铸炉是一个方块一个方块搭起来的多方块结构，你需要把它造得大一些。"
 			]
 			dependencies: ["7372E223FCD34128"]
 			id: "11AF7F7CE0940C06"
@@ -2177,8 +2177,8 @@
 		{
 			x: -25.0d
 			y: 5.0d
-			subtitle: "Cool new multiblock material!!"
-			description: ["Scorched Bricks form the walls of a foundry. Literally. You place them down in a hollow cube and place the controller in one of them to make a foundry."]
+			subtitle: "全新炫酷多方块材料！"
+			description: ["焦褐石砖可以组成熔铸炉的墙壁。嗯。把焦褐石砖摆成中空的长方体或正方体，然后把控制器放在其中一面墙里，就是一个熔铸炉了。（译者注：这里的文本提示不是很充分，具体搭建方法请参阅《奇异熔铸术》以及模组百科。注意：奇异熔铸术书中的多方块结构示意图有问题，无法显示，可以看模组百科。）"]
 			dependencies: ["11AF7F7CE0940C06"]
 			id: "1A7150A746855B4D"
 			tasks: [{
@@ -2189,14 +2189,14 @@
 			}]
 		}
 		{
-			title: "Get Items into the Foundry"
+			title: "熔铸炉的物品输入"
 			x: -27.5d
 			y: 6.5d
-			subtitle: "For when chucking stuff into the top doesn't work"
+			subtitle: "从顶上输入不太方便的时候可以用这招"
 			description: [
-				"The scorched chute can have a funnel attached to it and be used to input items into the foundry. Useful if you have an ore processing setup."
+				"焦褐滑槽可以和漏斗结合，向熔铸炉内输入物品，在矿石处理线中格外有用。"
 				""
-				"By the way, you can insert items manually via the foundary controller, this block is only needed for automation pruposes."
+				"顺带一提，你可以在控制器内手动放入要熔融的物品，滑槽只是用来做自动化的。"
 			]
 			dependencies: ["5355CA2F0BA74BF1"]
 			id: "5AFABBFC63D9558E"
@@ -2207,14 +2207,14 @@
 			}]
 		}
 		{
-			title: "Get Fluids in and out the Foundry"
+			title: "熔铸炉的流体输入输出"
 			x: -27.5d
 			y: 5.5d
-			subtitle: "You stick it right into the side!"
+			subtitle: "放在熔铸炉侧壁就能用！"
 			description: [
-				"A scorched drain will let you pump fluids in and out of the foundry with Create pipes."
+				"你可以用机械动力的管道连接焦褐排液孔，向熔铸炉内输入或从熔铸炉输出液体。"
 				""
-				"By the way, buckets can work on this block for inputing or extracting fluids manually."
+				"顺带一提，手持桶对着这个方块右键可以手动倒入倒出液体。"
 			]
 			dependencies: ["5355CA2F0BA74BF1"]
 			id: "645BE27FEDB3FE29"
@@ -2225,14 +2225,14 @@
 			}]
 		}
 		{
-			title: "Power for the foundry"
+			title: "熔铸炉的热量来源"
 			x: -23.0d
 			y: 7.0d
-			subtitle: "The foundry has special power methods"
+			subtitle: "熔铸炉的热量来源比较特殊"
 			description: [
-				"These two items can store up to four buckets of any fluid. They can also be picked up and moved around. This has its own uses."
+				"这两种方块中最多可以储存4桶的任何流体。它们被破坏的时候也可以保留其中储存的流体，这一点很有用。"
 				""
-				"However, their biggest purpose is to act as fuel input to the foundary. Foundaries powered by lava will melt the fastest with great fuel efficiency. You'll want one in your foundry."
+				"不过，这两种容器最大的用途还是作为熔铸炉的燃料源。用熔岩作燃料的熔铸炉可以最大化金属熔化效率，在你的熔铸炉里安排一个吧。"
 			]
 			min_required_dependencies: 1
 			dependencies: ["11AF7F7CE0940C06"]
@@ -2251,14 +2251,14 @@
 			]
 		}
 		{
-			title: "Pratical-ish Foundry Deco"
+			title: "有那么点用的熔铸炉装饰"
 			x: -27.5d
 			y: 7.5d
-			subtitle: "Check what's in your foundry!"
+			subtitle: "看看你的熔铸炉里有啥！"
 			description: [
-				"Foundries can be built pretty high. It may be handy to look into them - or even better, have a ladder out of them for when you fall in."
+				"熔铸炉的高度会很高，如果能直接看到其中的流体会很方便——甚至于如果你掉进去了，还可以沿着梯子爬上来，岂不是更好。"
 				""
-				"Scorched ladders can be build as part of the foundry wall while keeping the multiblock structure valid. Handy."
+				"焦褐梯子可以作为熔铸炉的有效方块，十分贴心。"
 			]
 			dependencies: ["5355CA2F0BA74BF1"]
 			optional: true
@@ -2277,14 +2277,14 @@
 			]
 		}
 		{
-			title: "Improved Yields"
+			title: "资源增产"
 			x: -10.0d
 			y: -0.5d
-			subtitle: "For some items!"
+			subtitle: "一部分物品的增产！"
 			description: [
-				"The grinder is superior at grinding items. Because of this, a few items - even if they can be milled or crushed - will have their greatest yield from this machine."
+				"磨粉机是进行磨粉工作的不二之选。因此，有些物品虽然可以用石磨或粉碎轮处理，但是用磨粉机处理的产出率最高。"
 				""
-				"The tasks above are a few examples."
+				"上面的任务是一些例子。"
 			]
 			dependencies: ["2F7F41E1C9C7F7B3"]
 			id: "01F2D498CB3CC2BB"
