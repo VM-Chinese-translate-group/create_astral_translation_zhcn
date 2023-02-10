@@ -1836,14 +1836,14 @@
 			}]
 		}
 		{
-			title: "Wireless Redstone"
+			title: "无线红石"
 			x: -15.0d
 			y: 8.0d
-			subtitle: "Great with sequenced gearshifts, and stockpile observers, and, and, and..."
+			subtitle: "建议配合可编程齿轮箱，还有物品侦测器，还有，还有，还有……"
 			description: [
-				"A redstone link will transmit a redstone signal wireless. They must be set to receive or broadcast with a wrench, and the wireless channel is determined by what items are in its two slots."
+				"无线红石信号终端可以无线地传输红石信号，要用扳手调整为发射接收状态才能正常使用。无线红石信号的频道由终端上两个槽位里的物品决定。"
 				""
-				"They're lifesavers for anything involving redstone, and are especially helpful when used in conjecture with sequenced gearshifts and stockpile switches."
+				"无线红石终端就是红石机械的版本答案，尤其是结合可编程齿轮箱和物品侦测器使用，效果更好。"
 			]
 			dependencies: ["22B29B232EF2638F"]
 			id: "71D8CE5E35BE1389"
@@ -1858,13 +1858,13 @@
 			x: -13.0d
 			y: 8.0d
 			shape: "gear"
-			subtitle: "LOGISTICS"
+			subtitle: "超级物流"
 			description: [
-				"Here's an especially handy gadget."
+				"这个东西可好用的。"
 				""
-				"Stockpile Switches can be set to broadcast a redstone signal when an inventory has reached a certain threshold, and will turn off once it drops below a threshold."
+				"存量转信器可以检测某个存储方块内的物品存量，在存量升高到某个阈值以上后自动输出红石信号，在存量降低到某个阈值以下后停止输出红石信号。"
 				""
-				"This is handy for dumping inventories when clogged up. This also helps manage fine control of what resources are being made. You don't really need anymore than four stacks of andesite casing at a time, yeah? Use this, and now any extra andesite casing produced can continue to be transformed into copper and brass casing."
+				"这个装置可以用来丢弃超量的物品，防止产线堵塞，也可以用来控制产出资源的种类。你再怎么说也不会一次性用到四组安山机壳，对不对？用这个东西检测安山机壳存量，多余的安山机壳就可以用来生产铜机壳和黄铜机壳了。"
 			]
 			dependencies: ["0873D71412D52F18"]
 			id: "1D294F2F189410BD"
@@ -1875,11 +1875,11 @@
 			}]
 		}
 		{
-			title: "Simpler Ways"
+			title: "简单点，合成的方式简单点"
 			x: -14.0d
 			y: 8.0d
-			subtitle: "The observer recipes were so cursed!"
-			description: ["Certain chapter 2 recipes now have simpler recipes. Even if brass is a bit more rare, the simplified recipes are such a huge ease of mind."]
+			subtitle: "侦测器的配方太难受了！"
+			description: ["一些第2章的配方现在可以用更简单的合成表合成了。尽管黄铜相对来说较为稀有，但是简单的合成配方确实很省脑子。"]
 			dependencies: ["22B29B232EF2638F"]
 			id: "0F8E22F275728521"
 			tasks: [
