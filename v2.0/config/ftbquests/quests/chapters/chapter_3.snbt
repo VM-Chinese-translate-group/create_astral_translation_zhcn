@@ -862,7 +862,7 @@
 			icon: "minecraft:blue_dye"
 			x: -3.5d
 			y: -4.5d
-			subtitle: "时运	I 就是用的这个配方！"
+			subtitle: "时运 I 就是用的这个配方！"
 			dependencies: ["5042E544D3181FAC"]
 			optional: true
 			id: "1717E5063CC231DD"
@@ -885,7 +885,7 @@
 			icon: "minecraft:diamond"
 			x: -3.5d
 			y: -5.5d
-			subtitle: "时运	II 用的就是这个配方哦！"
+			subtitle: "时运 II 用的就是这个配方哦！"
 			dependencies: [
 				"1717E5063CC231DD"
 				"406D5C04583BD542"
@@ -914,7 +914,7 @@
 			icon: "minecraft:deepslate_diamond_ore"
 			x: -3.5d
 			y: -6.5d
-			subtitle: "时运	III 用的就是这个配方啦！"
+			subtitle: "时运 III 用的就是这个配方啦！"
 			dependencies: ["1C10D7A2828DE436"]
 			optional: true
 			id: "25085C910155E06D"
