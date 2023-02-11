@@ -1,13 +1,14 @@
 {
-    "__comment__": "整合包修改过的方块",
+  // 整合包修改过的物品/方块
     "item.techreborn.electronic_circuit": "高级集成电路",
     "item.techreborn.industrial_circuit": "工业计算单元",
     "item.techreborn.machine_parts": "机械零件",
-    "item.techreborn.uu_matter": "精炼闪光溶液",
+    "item.techreborn.uu_matter": "精炼闪光粉",
     "item.techreborn.synthetic_redstone_crystal": "合成红石晶体",
     "block.techreborn.nuke": "W.O.L.F",
 
-    "__comment__": "补充翻译",
+    // 缺失的翻译
+    "item.techreborn.netherrack_dust": "下界岩粉",
     "item.techreborn.sponge_piece": "海绵碎片",
 	"item.techreborn.muffler_upgrade": "消音升级",
 
