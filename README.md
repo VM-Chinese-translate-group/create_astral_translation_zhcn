@@ -8,11 +8,11 @@
 
 ## 进度
 
-任务书：翻译至第2.5章：自动化发展
+任务书：翻译至第3章：失落文明的遗迹
 
 KubeJS魔改内容：翻译完成
 
-自定义内容：后续将会根据整合包开发组提供的魔改文件名进行翻译，并将这些语言文件以资源包形式加载
+自定义内容：正在根据整合包开发组提供的魔改文件名进行翻译，并将这些语言文件以资源包形式加载
 
 ## 注意事项
 
@@ -23,4 +23,4 @@ KubeJS魔改内容：翻译完成
 B站ID：[@茫氪](https://space.bilibili.com/560349507)、[@Mc2deM](https://space.bilibili.com/541937599)
 
 
-GitHub: [@lrcno6](https://github.com/lrcno6), [@spaceskynet](https://github.com/spaceskynet)
+GitHub: [@lrcno6](https://github.com/lrcno6), [@spaceskynet](https://github.com/spaceskynet), [@KuLiPoi](https://github.com/KuLiPoi)
