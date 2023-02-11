@@ -976,7 +976,7 @@
 			title: "每天要摄入钠……多少来着？"
 			x: -14.0d
 			y: 8.0d
-			subtitle: "(电解青金石粉可以获得钠作为副产物)"
+			subtitle: "（电解青金石粉可以获得钠作为副产物）"
 			dependencies: ["6C43EB3CBD04AA17"]
 			id: "3110924697AB562C"
 			tasks: [{
