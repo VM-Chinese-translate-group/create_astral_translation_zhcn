@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 6
 	filename: "chapter_5"
-	title: "4) Piglin Peculiarities."
+	title: "第四章 猪灵的怪癖"
 	icon: "techreborn:electronic_circuit"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -35,15 +35,15 @@
 	]
 	quests: [
 		{
-			title: "Welcome to Mars."
+			title: "欢迎来到火星。"
 			x: -8.0d
 			y: -4.0d
 			shape: "pentagon"
-			subtitle: "Make yourself at home, it only gets worse from here..."
+			subtitle: "就当在家一样吧……眼下这情况只会变得更糟了。"
 			description: [
-				"A resilient civilisation inhabits Mars... They seem to worship gold. Find large quantities of it along with lead and ostrum in the underground. Buildings, old and new, can be found on the surface."
+				"一个生命力顽强顽强的文明生活在火星上，看起来他们对黄金非常痴迷。在地下你可以找到大量的黄金、铅和奥斯特朗矿石。古老文明的遗迹和新建起的建筑都分布在行星表面"
 				""
-				"As you proven your resourcefulness up to now, the quests will be slightly less thorough, and may not tell you every new tool you gained when you craft a new machine. This totally has nothing to do with two different writers writing different halves of the pack. Nope. Not at all."
+				"随着任务进行到现在，你已经证明了你才能出众。后面的任务提示将不会那么具体，并且大概率不会一个个告诉你制造新机器时所要用的所有工具和部件。这与两位不同的作者分开写两段任务没有任何关系。完全没有。绝对没有。"
 			]
 			dependencies: ["63DCF596AAA9A232"]
 			hide: true
@@ -70,16 +70,16 @@
 			]
 		}
 		{
-			title: "Iron but slightly harder, I reckon"
+			title: "我估摸着，这玩意就是更硬一点的铁"
 			icon: "ad_astra:compressed_steel"
 			x: -8.0d
 			y: 5.0d
 			shape: "square"
-			subtitle: "Mix steel dust in a superheated blaze burner!"
+			subtitle: "将钢粉在超级加热状态下搅拌！"
 			description: [
-				"A key component in later game recipes and survival on mercury!"
+				"钢是后续合成表和水星生存不可或缺的部分。"
 				""
-				"Reminder: Use fuel *buckets* to input into a blaze burner!"
+				"小贴士：用桶将燃油倒入烈焰人燃烧室！"
 			]
 			dependencies: ["5729A883639B2EEF"]
 			size: 2.0d
@@ -112,15 +112,15 @@
 			]
 		}
 		{
-			title: "Produce some Lithium + Batteries"
+			title: "生产一些锂和电池"
 			x: -3.5d
 			y: 1.5d
 			shape: "square"
-			subtitle: "Pour Lithium into your red cell batteries for this component. "
+			subtitle: "将锂注入红石电池来制作锂电池。"
 			description: [
-				"Lithium can be processed from basic clay balls for a large amount, if you use one of the earlier clay farms."
+				"如果你有早期的粘土农场，那么锂可以通过粘土球来大量制造。"
 				""
-				"A reminder that batteries can be charged in any tech reborn machine! The tesla coil from create additions does not provide this."
+				"小贴士：锂电池可以在任意一个科技复兴的机器中供能，但机械动力附加mod的特斯拉线圈并不能给它充电。"
 			]
 			dependencies: [
 				"42FDBAC4A8966F9D"
@@ -153,7 +153,7 @@
 			}]
 		}
 		{
-			title: "Upgrade! Drill!"
+			title: "升级！电钻！"
 			x: -3.0d
 			y: 0.0d
 			dependencies: ["7B5DE5040FC24D21"]
@@ -166,7 +166,7 @@
 			}]
 		}
 		{
-			title: "Upgrade! Chainsaw!"
+			title: "升级！电锯！"
 			x: -2.0d
 			y: 0.5d
 			dependencies: ["7B5DE5040FC24D21"]
@@ -179,7 +179,7 @@
 			}]
 		}
 		{
-			title: "Upgrade! Jackhammer!"
+			title: "升级！凿岩锤！"
 			x: -1.5d
 			y: 1.5d
 			dependencies: ["7B5DE5040FC24D21"]
@@ -192,14 +192,14 @@
 			}]
 		}
 		{
-			title: "REQUIRED: electrolysis (for real this time)"
+			title: "需求：电解器（这回是真的电解器了）"
 			x: -6.0d
 			y: 1.5d
-			subtitle: "This isn't a dodgy Astral multiblock, its a fully fledged block."
+			subtitle: "这不是什么破烂多方块结构，这是一个完整的机器。"
 			description: [
-				"Electrolysing various dusts and minerals can produce a large array of new materials."
+				"电解一些粉尘和矿物可以生产出许多新材料。"
 				""
-				"As of currently, lithium is the main one to be worried about before further ones are implemented."
+				"到目前为止，如何获取锂是实现后续机器升级的主要难题。"
 			]
 			dependencies: ["5729A883639B2EEF"]
 			id: "684E33C50BD55A8E"
@@ -234,15 +234,15 @@
 			]
 		}
 		{
-			title: "Military-Grade Space Gear"
+			title: "军工级太空装备"
 			x: -9.75d
 			y: 7.5d
 			shape: "square"
-			subtitle: "I look like a spartan now"
+			subtitle: "我现在看起来像个斯巴达人。"
 			description: [
-				"Utilising steel and a set of sturdy armour, you can craft a higher tier of space suit which is immune to fire damage. This should ease the exploration into mercury."
+				"用钢和一套坚固盔甲，你可以制造一套能够免疫火焰伤害的宇航服。这有助于你在水星的勘探。"
 				""
-				"The oxygen tank capacity is twice as large. What a bonus."
+				"氧气罐的容量升级为原先的两倍，多棒的升级。"
 			]
 			dependencies: [
 				"3A5D7E60EF1C3BC3"
@@ -304,11 +304,11 @@
 			}]
 		}
 		{
-			title: "Rocket barrage, activated!"
+			title: "火箭集群！已部署！"
 			x: -8.047619047619065d
 			y: 9.666666666666671d
 			shape: "hexagon"
-			subtitle: "We CAN get much higheerrr it seems..."
+			subtitle: "看起来我们能飞的更更更更高……"
 			dependencies: [
 				"356CE973D7F17F3C"
 				"7B5AE0A782DE8DF8"
@@ -335,8 +335,8 @@
 		{
 			x: -10.0d
 			y: 6.0d
-			subtitle: "Bouncy..."
-			description: ["Negates fall damage entirely and enabled jumping up multiple blocks! You'll have to learn to control the bouncing however..."]
+			subtitle: "好Q弹……"
+			description: ["这鞋子能完全抵消坠落伤害，并使你能跳得更高！然而你必须学会控制落地后的弹跳……"]
 			dependencies: ["3A5D7E60EF1C3BC3"]
 			optional: true
 			id: "08CEB76C11CCE833"
@@ -359,11 +359,11 @@
 			}]
 		}
 		{
-			title: "Hot hot hot HOT. Let me put some insulation on."
+			title: "好热，好热，好热，让我穿件隔热装备。"
 			x: -8.0d
 			y: 12.0d
 			shape: "gear"
-			description: ["To survive on mercury with it's super hot surface temperature, ensure you are wearing the netherite space suit at all times!"]
+			description: ["为了能在水星的超高温下生存，请保证你一直穿着那套“下界合金宇航服”（译者注：其实是钢和坚固板做的。）！"]
 			dependencies: ["3CF2DB0B0ACE19B6"]
 			size: 2.0d
 			id: "5BD2D0F7F0D70180"
@@ -375,15 +375,15 @@
 			}]
 		}
 		{
-			title: "A blast furnace for forging steel alloy more efficiently."
+			title: "一个炼钢更高效的高炉。"
 			x: -6.0d
 			y: 3.5d
 			description: [
-				"Before obtaining steel, a few processes are required to set up."
+				"在获得钢之前，还需要我们还需要经过好几道工序。"
 				""
-				"Steel dust is the baseline for alloying steel, but such a metal requires a high heat threshold to form."
+				"要炼钢得先获取钢粉。但钢需要很高的温度才能被塑形成锭。"
 				""
-				"The blast furnace multiblock can unlock this capability."
+				"建立多方块工业高炉就可以用锌的方法炼钢了。"
 			]
 			dependencies: ["5729A883639B2EEF"]
 			optional: true
@@ -406,14 +406,14 @@
 			}]
 		}
 		{
-			title: "That's some good fuel, right there."
+			title: "啊，好油，真是好油。"
 			x: -10.0d
 			y: 1.5d
-			subtitle: "In conjunction with Ad Astra Oil, you can distill a fuel fluid which can burn hotter than anything you've seen."
+			subtitle: "将这个机器与Ad Astra模组的燃油结合使用，您可以蒸馏出一种燃油，它的燃烧温度比的见过的任何东西都要热。"
 			description: [
-				"This fuel can be pumped into blaze burners to superheat them."
+				"将这种燃油灌入烈焰人燃烧室可以让他们进入超级加热状态。"
 				""
-				"Try distilling some oil cells in the tower."
+				"试着用蒸馏塔分馏原油来生产一些燃油。"
 			]
 			dependencies: ["5729A883639B2EEF"]
 			id: "0373FACF0AB8113E"
@@ -436,10 +436,10 @@
 			]
 		}
 		{
-			title: "Martian Traveller"
+			title: "火星旅行者"
 			x: -5.5d
 			y: -5.0d
-			subtitle: "Discover the biomes of this treacherous climate."
+			subtitle: "探索这些气候恶劣的生物群系。"
 			dependencies: ["253F29A00B4EA050"]
 			id: "28B99F2B5CA82BF9"
 			tasks: [
@@ -481,10 +481,10 @@
 			}]
 		}
 		{
-			title: "Martian Explorer"
+			title: "火星勘探者"
 			x: -10.5d
 			y: -5.0d
-			subtitle: "Uncover the secrets of piglin civilisation..."
+			subtitle: "发现猪灵文明的秘密……"
 			dependencies: ["253F29A00B4EA050"]
 			id: "16D7DDD842CB4797"
 			tasks: [
@@ -520,13 +520,13 @@
 			}]
 		}
 		{
-			title: "Components for an upgraded circuit!"
+			title: "升级电路板的元件！"
 			x: -8.5d
 			y: -2.0d
 			description: [
-				"The next tier of circuit will require a new process assembly line."
+				"下一阶段的电路板需要一条新的生产线。"
 				""
-				"Mill golden nuggets into pins and electrify them under a tesla coil + depot to obtain electrified pins."
+				"将金粒磨成金针脚，并在特斯拉线圈下通电，就可以制造高级电路板需求的充能针脚。"
 			]
 			dependencies: ["253F29A00B4EA050"]
 			id: "7B0BBD0E9F82939D"
@@ -545,10 +545,10 @@
 			]
 		}
 		{
-			title: "The incomplete mechanism..."
+			title: "还没完成的构件……"
 			x: -8.0d
 			y: 0.0d
-			description: ["With the basic pins in position, clamp down an ostrum plate to finish the process."]
+			description: ["针脚全部安装就位后，安装奥斯特朗板就可以装配好电路板。"]
 			dependencies: [
 				"0476231FB94F095A"
 				"2993E04DCB7B4EC4"
@@ -567,15 +567,15 @@
 			}]
 		}
 		{
-			title: "A new tier of circuit..."
+			title: "更高级的电路板……"
 			x: -7.964285714285715d
 			y: 2.7193877551020407d
 			shape: "rsquare"
-			subtitle: "This time it will be needed a LOT, like a lot."
+			subtitle: "这回它可能会用的多一点，就亿点。"
 			description: [
-				"With access to Advanced CPUs, new industrial tier machines are now able to be constructed, each with some unique uses."
+				"通过高级CPU的使用，现在可以构建新一级的工业机器，且每台机器都有独特的用途。"
 				""
-				"Inspect the branching quest lines to uncover more about them. Steel isn't obtainable immediately from this quest, after all..."
+				"查看分支任务线来查看机器的具体材料或技术需要。毕竟，钢不是从这个任务中立即获得的……"
 			]
 			dependencies: ["0DF20AB6978A93FE"]
 			size: 1.5d
@@ -607,13 +607,13 @@
 			]
 		}
 		{
-			title: "You spin me right round..."
+			title: "你把我转了一圈……"
 			x: -10.0d
 			y: 2.5d
 			description: [
-				"Centrifuging dusts and various blocks provides further elements."
+				"离心粉尘和各种方块以生产下一阶段的元素。"
 				""
-				"For our purposes here, this optional process of centrifuging soul sand into oil can provide a renewable source of it, saving you the need to collect it manually from oil spouts."
+				"就目前而言，将灵魂沙离心生成原油是一种可再生的生产方式，你不需要再费力地去开采原油了。"
 			]
 			dependencies: ["5729A883639B2EEF"]
 			id: "673DC1F22D2F790D"
@@ -637,7 +637,7 @@
 		{
 			x: -6.0d
 			y: 2.5d
-			subtitle: "Electrolysing clay dust produces lithium liquid, which can be utilised to upgrade red cell batteries."
+			subtitle: "电解粘土粉以制取锂，一种用于升级红石电池的原料。"
 			dependencies: ["5729A883639B2EEF"]
 			id: "42FDBAC4A8966F9D"
 			tasks: [{
@@ -647,10 +647,10 @@
 			}]
 		}
 		{
-			title: "More efficient steel dust."
+			title: "更高效率的钢粉生产。"
 			x: -4.5d
 			y: 3.5d
-			description: ["Cells of molten iron can be poured from create spouts, ready to be processed with some carbon material to form steel even more efficiently than the old recipe!"]
+			description: ["从机械动力的搅拌盆中导出熔融铁灌入空单元，并和一些碳材料一起加工，可以更加高效地炼制钢粉。"]
 			dependencies: ["30B554B51AEFEB0C"]
 			optional: true
 			id: "33DBA03CF188DF0B"
@@ -688,7 +688,7 @@
 		{
 			x: -3.5d
 			y: 3.5d
-			description: ["Obtain a small stockpile to start with."]
+			description: ["刚开始，先做一点用着。"]
 			dependencies: ["33DBA03CF188DF0B"]
 			optional: true
 			id: "4AEC38BDC884A6C4"
@@ -700,11 +700,11 @@
 			}]
 		}
 		{
-			title: "How Crude..."
+			title: "咋这么粗……"
 			x: -14.0d
 			y: 2.5d
-			subtitle: "How Crood..."
-			description: ["Oil can be sourced renewably from a centrifuge, however spouts across the overworld also contain a fair few cells worth of the fluid too."]
+			subtitle: "咋还咕嘟咕嘟的……"
+			description: ["原油可以从离心机中持续生产，但是世界各处的油井中也含有相当多的这种液体。（译者注：原标题和副标题疑似Crude（粗糙的）和Crood（咕噜，拟声词）的谐音梗。）"]
 			dependencies: ["307933B04A6E7CA9"]
 			id: "48F61CBC3AFDEEBD"
 			tasks: [{
@@ -726,12 +726,12 @@
 			}]
 		}
 		{
-			title: "Hotter Stuff"
+			title: "更热的东西"
 			x: -12.0d
 			y: 1.5d
 			shape: "gear"
-			subtitle: "UNLOCK: Superheated Blaze Burners!"
-			description: ["Using Fuel Buckets on blaze burners, in the same fashion as a lava bucket, will superheat them for a short while. This is required to unlock future recipes, including the all-important steel!"]
+			subtitle: "解锁：烈焰人燃烧室超级加热！"
+			description: ["在烈焰人燃烧室上像倒岩浆那样倒出燃油，可以让它们进入一小会的超级加热状态。这是未来合成表解锁的必需条件，包括最最最最重要的钢的生产。"]
 			dependencies: [
 				"0373FACF0AB8113E"
 				"48F61CBC3AFDEEBD"
@@ -763,12 +763,12 @@
 			]
 		}
 		{
-			title: "Infernal Spire Processing."
+			title: "炼狱尖刺加工。"
 			x: -4.2d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "Get a load of this stuff!"
-			description: ["Crushing Infernal Spire produces netherite scrap nuggets at a low rate."]
+			subtitle: "刨一堆这东西吧！"
+			description: ["粉碎炼狱尖刺有小概率产出残骸碎片。"]
 			dependencies: ["2B697AA42C48FC04"]
 			size: 1.2d
 			optional: true
@@ -780,12 +780,15 @@
 			}]
 		}
 		{
-			title: "Automate debris!"
+			title: "残骸生产自动化！"
 			x: -3.5d
 			y: -2.0d
 			shape: "diamond"
-			subtitle: "Purely for high-rollers"
-			description: ["Semi-automatable debris! Wow! Along with its usual usages, netherite can be used to forge some devastating MC Dungeons weapons. If your rolling in the stuff, Create Deco provides some pricey decoration blocks. - Happy flexing"]
+			subtitle: "专为赌狗而生。"
+			description: ["我去！半自动残骸！除了一般的用途外，下界合金还可用于锻造一些强大的《我的世界：地下城》中的武器。如果你将残骸切石，可以制造Create Deco中的一些昂贵的装饰方块。-快乐弯曲"
+			              ""
+				      "（译者注：标题可能指碎片掉落的谜之概率，或是生产残骸要耗费的大量砾岩。）
+			]
 			dependencies: ["520A09EF39A1BF5D"]
 			optional: true
 			id: "27B0EA62812564DD"
@@ -811,9 +814,9 @@
 			x: -8.5d
 			y: -1.0d
 			description: [
-				"As you have used the tesla coil for previously, charging a golden pin with electricity will charge them."
+				"和之前一样，使用特斯拉线圈给金针脚充电可以让它变成充能针脚。"
 				""
-				"Begin the circuit upgrade by applying 64x of these electrified pins onto an integrated circuit."
+				"在未完成的电路板上安装64个充能针脚以升级电路板。"
 			]
 			dependencies: ["7B0BBD0E9F82939D"]
 			id: "0476231FB94F095A"
@@ -830,10 +833,10 @@
 			}]
 		}
 		{
-			title: "I can see clearly now."
+			title: "我现在能看清了。"
 			x: -4.5d
 			y: 0.0d
-			description: ["N = Toggle Night Vision"]
+			description: ["按N键控制夜视"]
 			dependencies: ["7B5DE5040FC24D21"]
 			id: "259E754B57C45C67"
 			tasks: [{
@@ -854,13 +857,13 @@
 			}]
 		}
 		{
-			title: "Inner Machinations."
+			title: "更深层的构造。"
 			x: -6.5d
 			y: 7.5d
 			description: [
-				"Machine parts?? You are telling me we haven't been using parts in our machines so far?"
+				"机器部件？？？你的意思是到现在为止我们都还没用过机器内的部件吗？？？"
 				""
-				"...what's holding them together then?"
+				"……那么是啥玩意把它们支撑在一起的？"
 			]
 			dependencies: [
 				"3A5D7E60EF1C3BC3"
