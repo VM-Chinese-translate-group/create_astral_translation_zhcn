@@ -2687,15 +2687,15 @@
 			}]
 		}
 		{
-			title: "Keep Machines Running"
+			title: "让你的机器持续运转"
 			x: -5.5d
 			y: -1.5d
 			shape: "gear"
-			subtitle: "Want resources to flow even as you explore space?"
+			subtitle: "想在探索月球的时候让家里的机器不停工？"
 			description: [
-				"As you explore the moon, your factories on earth may not work. Not just that, some things may only be able to be mined from afar. Although you have trains to transport materials between unloaded chunks, you'll want a way to keep chunks loaded. The chunk loader does just that."
+				"当你在探索月球的时候，你家里的自动化工厂可能会停止工作。不仅如此，有些东西可能还需要从很遥远的地方挖过来。虽然列车可以在未加载区块间运输物品，但是你肯定想找个方法让区块保持加载。区块加载器就是干这个的。"
 				""
-				"And be aware that some servers may disable it, and that too many of these things will lag things up a lot."
+				"要注意，有些服务器可能会禁用加载器，并且加载器过多可能会让世界变得很卡顿。"
 			]
 			dependencies: [
 				"07B10625859F1AF9"
@@ -2711,7 +2711,7 @@
 		{
 			x: -11.0d
 			y: 6.5d
-			subtitle: "\"Say cheese\" is pretty fitting"
+			subtitle: "这个时候你应该说“茄子”"
 			dependencies: ["3EA569DE4AC60CC2"]
 			id: "0E295989064E5992"
 			tasks: [{
@@ -2721,11 +2721,11 @@
 			}]
 		}
 		{
-			title: "Too Many Items!"
+			title: "东西太多啦！"
 			x: -8.5d
 			y: 3.5d
-			subtitle: "Gotta Craft Them All!"
-			description: ["There are a LOT of new items you can craft with the mechanical crafter. This quest lists even more objects you can craft that aren't worth a special mention."]
+			subtitle: "全都要做！"
+			description: ["你可以用动力合成器制作不少新东西。这个任务把你能做的有用没用的东西都列出来了。"]
 			dependencies: ["3EA569DE4AC60CC2"]
 			id: "0C82B8A57B80C9DE"
 			tasks: [
@@ -2770,14 +2770,14 @@
 			]
 		}
 		{
-			title: "Miner's Nightmare"
+			title: "矿工噩梦"
 			x: -1.5d
 			y: 4.0d
-			subtitle: "Don't ingest this, it ain't coke"
+			subtitle: "不要拿来烧，这不是焦煤"
 			description: [
-				"Coal (carbon) can be mixed with iron to create very sturdy steel. Both the grinder from the silver path and the crushing wheel can produce an equal amount of coal dust."
+				"煤炭（碳）可以和铁混合，制成十分坚硬的钢。无论是上路科技线的磨粉机还是粉碎轮都可以产出等量的煤粉。"
 				""
-				"If you have very little coal on you, charcoal can be converted to coal via bulk haunting."
+				"如果你的煤炭储备不是很多，木炭可以批量缠魂变为煤炭。"
 			]
 			dependencies: ["2F7F41E1C9C7F7B3"]
 			id: "609BD6A99E34BB17"
@@ -2788,14 +2788,14 @@
 			}]
 		}
 		{
-			title: "Strong Dust"
+			title: "强韧的粉末"
 			x: -0.5d
 			y: 4.0d
-			subtitle: "You might see this again in the future"
+			subtitle: "你之后还会见到这种粉末的"
 			description: [
-				"Although you have the means to mix steel dust, you don't have the means to turn it into an ingot. Melting it won't work either."
+				"虽然你现在可以混合获得钢粉，但是你暂时没办法把它变成钢锭，熔融也不行。"
 				""
-				"Steel will have a lot more relevancy in chapter 4."
+				"在第4章中钢锭的存在感会更高一些。"
 			]
 			dependencies: ["609BD6A99E34BB17"]
 			id: "70FE485B4505AC81"
@@ -2806,14 +2806,16 @@
 			}]
 		}
 		{
-			title: "Blast-Resistant Cement"
+			title: "防爆水泥"
 			x: -0.5d
 			y: 5.0d
-			subtitle: "This doesn't make the bucket blast resistant, just the cement in it"
+			subtitle: "外面的桶不防爆，防爆的是里面的水泥"
 			description: [
-				"To make blast-resistant cement, steel and coal dust needs to be mixed together with concrete powder."
+				"在搅拌盆中搅拌混凝土粉末、石灰粉，钢粉和水可以生产防爆水泥。"
 				""
-				"Clay dust for the concrete powder can be obtained by crushing limestone, or crushing clay. The material is too soft for the grinder to work."
+				"混凝土粉末中的黏土粉末可以通过粉碎石灰岩或粉碎黏土获得。这种材料太软，不能用磨粉机处理。"
+				""
+				"（译者注：这里也错得离谱，原文写的是钢粉、煤粉，混凝土和水搅拌，但是REI用的是上面的配方。以及这个黏土粉末也莫名其妙的，根本就没有粉碎黏土的配方，混凝土粉末的生产方法请自行查看REI。）"
 			]
 			dependencies: [
 				"70FE485B4505AC81"
@@ -2829,13 +2831,13 @@
 		{
 			x: 0.5d
 			y: 5.0d
-			subtitle: "More useful then you might realize!"
+			subtitle: "比你想的更有用！"
 			description: [
-				"Lastly, all you need to do is pour the cement into a casting basin."
+				"最后，你只需要把水泥倒在铸造盆里就行了。"
 				""
-				"Blast-Resistant Concrete is the only material strong enough to withstand the blast of a rocket, while still being cheap enough to get it in the quantities you need."
+				"防爆水泥是唯一一种强度足够高，能够抵挡火箭火焰喷射的材料，而且造价也不算昂贵，产出数量可观。"
 				""
-				"That being said, you'll want to build your landing sites out of this. Rockets can blow up if you don't land them correctly, and this concrete block will prevent those mishaps from destroying part of your base."
+				"综上所述，你需要用这种混凝土材料建造你的火箭发射台。如果你降落火箭的方法不正确的话，火箭可能会爆炸，而这种防爆方块也可以保护你的大本营不被炸烂。"
 			]
 			dependencies: ["65DED861096175C2"]
 			id: "62C959AC63DD2A89"
@@ -2861,29 +2863,29 @@
 			}]
 		}
 		{
-			title: "Where Are My Alloys?"
+			title: "我的合金哪里去了？"
 			x: -23.0d
 			y: 8.5d
-			subtitle: "Read this if your a Tinker's expert"
-			description: ["If you've played modded MC before, you probably know high-tier Tinker alloys are made with either the Smeltery, or the Alloy Mixer. Both of these have been removed. Instead, all Tinker Construct's alloys are now mixed with heated basins."]
+			subtitle: "如果你是一位专业工匠的话，请仔细阅读"
+			description: ["如果你以前玩过别的整合包，你大概知道匠魂里高等级的合金都需要在冶炼炉或者小型合金炉中制作。这两样东西都被移除了。作为替代，你需要在加热的工作盆中混合制作合金。"]
 			dependencies: ["5355CA2F0BA74BF1"]
 			id: "18FFC172467B68B7"
 			tasks: [{
 				id: "0ECBA864EB1C9CAC"
 				type: "checkmark"
-				title: "Understood."
+				title: "我知道了"
 			}]
 		}
 		{
-			title: "Automate Circuits"
+			title: "自动化电路板"
 			x: -16.0d
 			y: -1.0d
 			shape: "diamond"
-			subtitle: "They're kind of important to technology!"
+			subtitle: "电路板对于科技发展还是很重要的！"
 			description: [
-				"Not only are integrated circuits used in many machines in the near future, but much like casing, they are a tiered object. You will create more advanced circuits from integrated circuits."
+				"电路板不仅会在稍后介绍的机器中广泛使用，而且和机壳类似，电路板也是分等级的。你之后会需要用集成电路板制作更高等级的电路板。"
 				""
-				"Of course, you can get far with only semi-automating it."
+				"当然，就目前而言，半自动化生产已经可以满足你的需求了。"
 			]
 			dependencies: ["73973C5E6D2573B8"]
 			id: "470ACBBCC340FB4D"
@@ -2900,11 +2902,11 @@
 			}]
 		}
 		{
-			title: "The Third or Fourth Kinetic Source!"
+			title: "你的第三种动力源！也有可能是第四种！"
 			x: -14.5d
 			y: -3.5d
-			subtitle: "Electricity can be turned back into kinetic energy"
-			description: ["Electric motors do the reverse of alternators: they take electricity and turn them into rotational power. There's a conversion loss made when doing this - you'll only use 75% of energy that was made with the alternator. Despite that, wires solve all sorts of issues with gear shifts and axis transfering. Plus, later on you'll have access to powerful electrical generators that may replace traditional kinetic sources entirely."]
+			subtitle: "电能可以反向转化为旋转动力"
+			description: ["电动马达相当于把交流发电机反过来：输入的是电能，输出的是旋转能。当然这个过程是有能量损耗的，利用率大约只有75%。不过，导电线缆可以解决动力传动过程中复杂的齿轮变速和传动杆转向问题。并且，在之后的科技发展中，你还可以制作更强大的发电机器，也许可以完全代替传统的动能机械。"]
 			dependencies: ["5459F646B9A392C4"]
 			id: "5FED52E4F6F60F6A"
 			tasks: [{
@@ -2914,11 +2916,11 @@
 			}]
 		}
 		{
-			title: "I Hate Sand Paper"
+			title: "我讨厌砂纸"
 			x: -10.0d
 			y: 0.5d
-			subtitle: "I mean, what else would you use diamonds for?"
-			description: ["Diamond-grit sand paper is a sand paper far more efficient than regular sand paper. Although you will have to say good bye to one of your diamonds to get diamond dust, it's worth not having to replace your sand paper every five seconds."]
+			subtitle: "除了这个，钻石还有什么别的用吗？"
+			description: ["钻石细粒砂纸是比普通砂纸更加高效的砂纸。虽然这需要消耗掉你一个宝贵的钻石来做钻石粉，但是总比你过一会就换个砂纸要强得多。"]
 			dependencies: ["2F7F41E1C9C7F7B3"]
 			optional: true
 			id: "7A172AD294C44DB5"
@@ -2940,11 +2942,11 @@
 			}]
 		}
 		{
-			title: "Easy Gunpowder"
+			title: "简单的火药来源"
 			x: -9.0d
 			y: 0.5d
-			subtitle: "Good grief"
-			description: ["One special resource the grinder can produce is gunpowder from dried kelp. Although we're not expecting you to use a lot of TNT, gunpowder may have a helpful role in creating a special blue rock..."]
+			subtitle: "额滴神呐"
+			description: ["火药有个特殊的生产方法：在磨粉机中粉碎干海带。尽管我们没想让你制作很多TNT，但是也许火药可以用来制作某种蓝色的石头……"]
 			dependencies: ["2F7F41E1C9C7F7B3"]
 			id: "425F51268D51FC3A"
 			tasks: [{
@@ -2961,11 +2963,11 @@
 			}]
 		}
 		{
-			title: "Goes great with lemons!"
+			title: "让你吃到真正的石灰~"
 			x: -1.5d
 			y: 5.0d
 			description: [
-				"Crushing limestone will give you lime, a necessary ingredient for creating big boy concrete!"
+				"粉碎石灰岩会得到石灰粉，是制作混凝土的关键原料！"
 				""
 			]
 			dependencies: ["429D2340C2B20A60"]
@@ -2977,15 +2979,15 @@
 			}]
 		}
 		{
-			title: "Automate Sturdy Sheets"
+			title: "自动化生产坚固板"
 			x: -25.0d
 			y: 10.0d
 			shape: "diamond"
-			subtitle: "These have been popping up more and more"
+			subtitle: "坚固板存在感越来越高了"
 			description: [
-				"With a steady source of blaze powder and a source of slime (alternative or otherwise), you now have a path to make obsidian by colling magma blocks."
+				"有了烈焰粉和黏液球（或其替代品）的稳定来源，你现在可以用岩浆块自动生产黑曜石了。"
 				""
-				"Sturdy sheets become more and more relevant, and are pretty important to the silver path. You may want to consider automating this sheet."
+				"坚固板在后面的出场率会越来越高，并且对上路科技线也十分重要。你可能需要自动化生产这种板材。"
 			]
 			dependencies: [
 				"78370C1AE832CBF1"
@@ -2995,7 +2997,7 @@
 			tasks: [{
 				id: "1CB04A67ECFD96FD"
 				type: "item"
-				title: "4x64 Sturdy Sheets"
+				title: "4x64 坚固板"
 				item: "create:sturdy_sheet"
 				count: 256L
 			}]
@@ -3026,16 +3028,16 @@
 			]
 		}
 		{
-			title: "Craft a Drill or Jackhammer"
+			title: "制作一把钻头或凿岩锤"
 			x: -9.5d
 			y: -5.5d
-			subtitle: "Love me some Minin'"
+			subtitle: "我爱挖矿"
 			description: [
-				"The drill acts like an all purpose pickaxe."
+				"钻头类似于全能镐子。"
 				""
-				"The jackhammer work as an efficient pickaxe, except that its the lowest tier of tools. That is, it can only mine rocks, not ores."
+				"凿岩锤更像一把高效的镐子，不过其挖掘等级是最低的。也就是说，它只能用来挖石头，而不能挖矿石。"
 				""
-				"Crafter whichever looks the most interesting to you."
+				"你可以选一个感兴趣的做。"
 			]
 			min_required_dependencies: 1
 			dependencies: ["64271E1245394C9A"]
@@ -3054,11 +3056,11 @@
 			]
 		}
 		{
-			title: "Craft a Chainsaw"
+			title: "制作一把电锯"
 			x: -12.0d
 			y: -4.5d
-			subtitle: "Love me some trees"
-			description: ["It cuts trees."]
+			subtitle: "我爱砍树"
+			description: ["电锯可以砍树。"]
 			dependencies: ["64271E1245394C9A"]
 			id: "54106852E46435FA"
 			tasks: [{
@@ -3068,11 +3070,11 @@
 			}]
 		}
 		{
-			title: "Electrify Your Rubber Collection"
+			title: "给你的橡胶收藏来点电"
 			x: -9.0d
 			y: -4.5d
-			subtitle: "Love me some sap"
-			description: ["It zapz saps"]
+			subtitle: "我爱树脂"
+			description: ["树脂提取器可以从树干里提取树脂。"]
 			dependencies: ["64271E1245394C9A"]
 			id: "7E5C46C5D079B23D"
 			tasks: [{
@@ -3082,11 +3084,11 @@
 			}]
 		}
 		{
-			title: "Craft a Rockcutter"
+			title: "制作一把岩石切割机"
 			x: -11.5d
 			y: -5.5d
-			subtitle: "Love me some rocks"
-			description: ["The rockcutter acts as a diamond pickaxe with silk touch."]
+			subtitle: "我爱石头"
+			description: ["岩石切割机类似于一把精准采集的钻石镐。"]
 			dependencies: ["64271E1245394C9A"]
 			id: "38AE3052E5BBBED7"
 			tasks: [{
@@ -3105,11 +3107,11 @@
 			}]
 		}
 		{
-			title: "Save Your Power"
+			title: "节约电力"
 			x: -11.0d
 			y: 0.5d
-			subtitle: "Eyooo its like a battery?!?"
-			description: ["The accumulator really does act like a giant battery. Its tooltip has more information about how it works."]
+			subtitle: "哎呀，这不就是电池吗！"
+			description: ["蓄电池确实就像一块巨大的电池。在信息提示栏里有更多使用方法的说明。"]
 			dependencies: [
 				"752215E611021472"
 				"3EA569DE4AC60CC2"
@@ -3122,11 +3124,11 @@
 			}]
 		}
 		{
-			title: "Charge your tools"
+			title: "给你的工具充电"
 			x: -10.5d
 			y: -6.0d
-			subtitle: "Tesla Coils won't work"
-			description: ["This handy box will charge batteries and power tools, thus making your tools truly reusable."]
+			subtitle: "特斯拉线圈用不了"
+			description: ["这个方便的小盒子可以为电池和电动工具充电，让你的工具真正地拥有无限耐久。"]
 			dependencies: ["64271E1245394C9A"]
 			id: "7FF635D31674DBBA"
 			tasks: [{
@@ -3136,14 +3138,14 @@
 			}]
 		}
 		{
-			title: "What a steel!"
+			title: "人是铁，甲是钢，一件不穿心慌慌"
 			x: -0.5d
 			y: 3.0d
-			subtitle: "Hope that pun doesn't weigh you down."
+			subtitle: "希望这个双关你看懂了"
 			description: [
-				"Pressing steel dust in a heated basin will coat your sturdy armour in a layer of steel!"
+				"在加热的工作盆中将坚固盔甲和钢压块可以为你的盔甲附上一层钢！"
 				""
-				"It is an equivalent to diamond, and worth making for the aesthetic alone..."
+				"钢盔甲和钻石盔甲差不多等效，而且单就美观角度也很值得做一套……"
 			]
 			dependencies: ["70FE485B4505AC81"]
 			optional: true
@@ -3196,12 +3198,12 @@
 			]
 		}
 		{
-			title: "A Curious Meteorite..."
+			title: "一种新奇的陨石"
 			icon: "ae2:sky_stone_block"
 			x: -21.5d
 			y: -5.0d
 			shape: "gear"
-			subtitle: "Chapter 3.5 Unlock"
+			subtitle: "解锁第3.5章"
 			dependencies: ["306D009F01634115"]
 			size: 1.5d
 			id: "790B0567FF49110F"
@@ -3212,12 +3214,12 @@
 			}]
 		}
 		{
-			title: "Moon Stone Generator"
+			title: "月岩刷石机"
 			x: -3.5d
 			y: 6.0d
 			shape: "diamond"
-			subtitle: "In case you wondering how to automate desh."
-			description: ["Much like for generating andesite, moon stone can be farmed by letting flowing lava touch water while above a moon stone. This wouldn't be helpful on its own, but now you can crush moon stone into moon sand to then wash."]
+			subtitle: "如果你想知道如何自动化产戴斯的话。"
+			description: ["类似于安山岩刷石机，熔岩在月岩上方接触水会生成月岩。这本身没什么太大用处，不过你可以将月岩粉碎成月沙，然后洗涤得到戴斯。"]
 			dependencies: ["429D2340C2B20A60"]
 			id: "056B65ECA8538ED0"
 			tasks: [{
@@ -3227,7 +3229,7 @@
 			}]
 		}
 		{
-			title: "How do I input/output from these machines?"
+			title: "我要怎么从这种机器中输入输出物品？"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -3238,25 +3240,25 @@
 			x: -8.996428571428567d
 			y: -3.2571428571428527d
 			shape: "diamond"
-			subtitle: "A quick crash course on how to automate these funny little blocks."
+			subtitle: "关于单方块机器自动化的简单教程。"
 			description: [
-				"By default all sides of tech reborn machines are LOCKED. To adjust this you will need to open the blocks GUI and click the wrench icon."
+				"科技复兴机器所有的面默认是锁上的。要进行每个面输入输出的调整，你需要打开机器界面，然后点击扳手图标。"
 				""
-				"You now get to manually configure all individual slots to have a direction input/output based on which sides you wanted to use funnels to input those items from."
+				"现在你可以手动调整每个槽位输入或输出到哪个面，并且在对应的面上用漏斗进行物品交互。"
 				""
-				"Red = Editable slots"
-				"Blue = Input Face"
-				"Orange = Output Face"
-				"Green = Accepts Both"
+				"红色 = 可编辑槽位"
+				"蓝色 = 输入面"
+				"橙色 = 输出面"
+				"绿色 = 输入输出均可的面"
 				""
-				"This remedies the age old issue default blocks have in which predetermined input/output directions for specific slots limit automation design *heavily*."
+				"这样放置机器并配置输入输出面就不会把自动化产线搞得乱七八糟了。"
 			]
 			dependencies: ["752215E611021472"]
 			id: "41097A2335061B1D"
 			tasks: [{
 				id: "7DA6659E11BD55C3"
 				type: "checkmark"
-				title: "Cool!"
+				title: "好！"
 			}]
 			rewards: [
 				{
