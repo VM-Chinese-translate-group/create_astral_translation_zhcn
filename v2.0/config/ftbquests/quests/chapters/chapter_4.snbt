@@ -2321,11 +2321,11 @@
 			}]
 		}
 		{
-			title: "Gather Souls"
+			title: "收集灵魂"
 			x: -24.5d
 			y: 2.0d
-			subtitle: "They're a little dark"
-			description: ["Soul soil has a surprising number of uses. They're needed for foundaries, basalt generators, and a special form of processing called \"haunting\". Huh!"]
+			subtitle: "有那么一点黑暗"
+			description: ["灵魂土的用处比你想到的要多。它可以用来做地基，可以做玄武岩刷石机，还可以用于“缠魂”处理配方。有意思。"]
 			dependencies: ["6027602617EC9F1F"]
 			id: "20BFF582275C31C8"
 			tasks: [{
@@ -2336,12 +2336,12 @@
 			}]
 		}
 		{
-			title: "Very Very Haunting"
+			title: "非常缠魂"
 			x: -27.5d
 			y: 2.0d
 			shape: "gear"
-			subtitle: "Access a new form of material processing"
-			description: ["The soul campfire has a unique property. When placed in front of a fan, it will begin to \"bulk haunt\" items, much like how bulk smelting and bulk washing works. Items that undergo haunting transform into an alternate or \"corrupted\" version of themselves. Its really handy for getting stuff that may be a bit hard to find, as well as unusual applications in automation!"]
+			subtitle: "全新的材料处理方式"
+			description: ["灵魂营火拥有一种特殊的性质。当放置于鼓风机前面时，它会对物品进行“批量缠魂”，其工作原理与批量熔炼和批量洗涤十分相近。经过缠魂的物品会变成另外一种形式，或者叫“堕落版”的自己。这个过程适合用于获得那些难以寻找的资源，当然也非常适合参与自动化。"]
 			dependencies: ["20BFF582275C31C8"]
 			id: "072FC342FAE44F38"
 			tasks: [{
@@ -2351,17 +2351,17 @@
 			}]
 		}
 		{
-			title: "Automate Blood or Slime"
+			title: "自动化黏血块或黏液块"
 			x: -25.5d
 			y: 9.0d
 			shape: "diamond"
-			subtitle: "This is a Children's Game, Obviously."
+			subtitle: "小孩子过家家"
 			description: [
-				"Most mobs trapped inside an active foundry will accumulate blood inside the foundry. The blood can then be casted into balls that function like slimeballs."
+				"被困在熔铸炉中的大部分怪物都会在炉子里产生液态血。血可以浇铸成球状，功能类似黏液球。"
 				""
-				"You can't move spawners in this game, but setting up a foundry around one you discovered can make for a great slimeball automation alternative. You can even set up a train to periodically deliver blood to your base if the nearest spawner is far away!"
+				"在这个游戏里你没办法挪动刷怪笼，但是=发现刷怪笼后围绕它建造一个熔铸炉还是可以的，可以用这种方式自动化黏液球或黏血球。如果最近的刷怪笼离你大本营太远的话，你甚至可以建造定时列车运输系统，把获得的黏血送回你的基地！"
 				""
-				"Alternatively, slime can be automated by automating lime dye and dough, if this setup is too much for you. This quest will accept either approach."
+				"如果你觉得太麻烦了，另外一种选择是自动化产面团和黄绿色染料，从而自动化黏液球。两种方式任选一个即可完成这个任务。"
 			]
 			dependencies: ["5355CA2F0BA74BF1"]
 			optional: true
@@ -2387,15 +2387,15 @@
 			}]
 		}
 		{
-			title: "Automate Blaze Rods"
+			title: "自动化烈焰棒"
 			x: -24.5d
 			y: 9.0d
 			shape: "diamond"
-			subtitle: "This is hell"
+			subtitle: "太地狱了"
 			description: [
-				"You can build a foundary around a blaze spawner, and it'll cook the blaze spawner into blazing blood. Blazing blood can be converted to blaze rods, or used to power the foundary."
+				"你可以围绕烈焰人刷怪笼建造熔铸炉，炉子会把烈焰人熔化成烈焰血。烈焰血可以变成烈焰棒，也可以用作熔铸炉燃料。"
 				""
-				"Alternatively, you could just keep the blazing blood as an alternative to lava for powering the foundary. It is faster at melting!"
+				"你也可以选择只把烈焰血当作熔岩的替代品，用作熔铸炉燃料。烈焰血熔东西比熔岩更快！"
 			]
 			dependencies: ["5355CA2F0BA74BF1"]
 			id: "221861F3A1C4C3B8"
@@ -2419,12 +2419,12 @@
 			]
 		}
 		{
-			title: "Automate Gold"
+			title: "自动化产金"
 			x: -28.5d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "Not as valuable as silver though"
-			description: ["Soul soil can be washed into golden nuggets and very rarely quartz. Soul Soil can also be made by haunting sand, leading to a more abudent way to gather sand. You might have a way to automate sand later in this quest..."]
+			subtitle: "不过没有银那么有价值"
+			description: ["灵魂土和灵魂沙可以洗涤变成金粒，并有极小概率产出下界石英。对沙子进行缠魂可以生产灵魂沙，又多了一个理由来做沙子自动化了。不过，你大概得在这一章之后的部分才能自动化产沙子……"]
 			dependencies: ["072FC342FAE44F38"]
 			id: "0813FC54B6D7F235"
 			tasks: [{
@@ -2447,11 +2447,11 @@
 			]
 		}
 		{
-			title: "Curious Conversions"
+			title: "奇妙的转化"
 			x: -29.0d
 			y: 2.0d
-			subtitle: "This isn't magic in a tech pack"
-			description: ["The tasks listed here are a few examples of what can be gained via haunted. Play around!"]
+			subtitle: "这是科技向整合包，哪来的魔法"
+			description: ["这里列出的几个任务可以通过缠魂完成，试试看！"]
 			dependencies: ["072FC342FAE44F38"]
 			optional: true
 			id: "47130960FB5806A9"
@@ -2492,8 +2492,8 @@
 		{
 			x: -28.5d
 			y: 1.0d
-			subtitle: "Want to see what areas aren't lit well enough?"
-			description: ["Craft a pecular bell with brass which is a little down the quest line the other way, and then haunt it for a haunted bell. This bell has a unique property - when rung, it will show spirits where mobs can spawn at night. This utility is perfect for mob-spawn-proofing your base!"]
+			subtitle: "想知道哪里光照不太够吗？"
+			description: ["在之后的任务中你可以制作奇异钟，将它缠魂可以获得缠魂钟。缠魂钟有个特殊的效果：当你敲响它的时候，它会在晚上可能刷怪的方块上方显示灵魂粒子。这可以帮你防止自己家里刷怪！"]
 			dependencies: ["072FC342FAE44F38"]
 			optional: true
 			id: "1ABEB66BBE3FC979"
@@ -2511,16 +2511,16 @@
 			]
 		}
 		{
-			title: "Automate Lapis!"
+			title: "自动化产青金石！"
 			icon: "minecraft:lapis_lazuli"
 			x: -5.0d
 			y: 6.5d
 			shape: "diamond"
-			subtitle: "The top path did tell you to automate this..."
+			subtitle: "上路科技线告诉你要自动化这个……"
 			description: [
-				"Remember Asurine? What you milled for zinc? Well, not only does crushing it give you extra zinc, it will also create \"lazurite dust\". Lazurite combined with gunpowder and some iron will create lapis."
+				"还记得皓蓝石吗？磨碎产锡来着？皓蓝石用粉碎轮粉碎不仅可以获得锡，还会产出青金石粉。将青金石粉和火药、铁和熔岩放在一起压块塑形会得到青金石。"
 				""
-				"Don't know how to reliably get gun powder? The top path might have an answer..."
+				"不知道怎么自动产火药？上路科技线也许有解决方案……"
 			]
 			dependencies: ["429D2340C2B20A60"]
 			optional: true
@@ -2529,7 +2529,7 @@
 				{
 					id: "7760579AE96D168D"
 					type: "item"
-					title: "8x64 Lapis Lazuli"
+					title: "8x64 青金石"
 					item: "minecraft:lapis_lazuli"
 					count: 512L
 				}
@@ -2547,19 +2547,19 @@
 			}]
 		}
 		{
-			title: "Sand is now 100% Automatable"
+			title: "你现在可以全自动生产沙子了"
 			x: -4.5d
 			y: 3.5d
 			shape: "diamond"
-			subtitle: "This blows automation wide open!"
+			subtitle: "大大拓宽了自动化途径！"
 			description: [
-				"One of crushing wheel's unique capabilities is to grind gravel into sand."
+				"粉碎轮的一大功能就是将沙砾粉碎成沙子。"
 				""
-				"Sand can be washed into clay as an alternative to milling dripstone, although processing dripstone may be more efficient. You'll need clay for full zinc, copper, lapis lazuli, and andesite alloy automation."
+				"洗涤沙子可以生产黏土，并代替石磨研磨滴水石产线，不过研磨滴水石可能效率更高些。你需要用黏土做锡、铜，青金石和安山合金的全自动化。"
 				""
-				"Sand can be blasted into glass. Not only is this a nice decorative block, but it is needed for automating redstone."
+				"熔炼沙子可以生产玻璃。玻璃不仅可以用作装饰方块，还可以用在红石的全自动生产线。"
 				""
-				"Lastly, sand can be haunted into soul sand, needed for automating gold. Soul soil can be further refined into netherrack dust and cinder flour, something needed for \"superheating\" later on, but is also used for more efficiently creating granite, which can be turned into tin."
+				"最后，将沙子缠魂可以生产灵魂沙，用于全自动生产金。灵魂沙还可以进一步处理成下界岩粉和余烬面粉。余烬面粉在后续的“超级加热”中会用得到，而地狱岩粉可以用来产花岗岩，并可以转化为锌。"
 			]
 			dependencies: ["429D2340C2B20A60"]
 			id: "71E3E5B94A8B7FE3"
@@ -2584,16 +2584,18 @@
 			]
 		}
 		{
-			title: "More Granite \\& Tin"
+			title: "更多花岗岩，更多锌"
 			x: -4.0d
 			y: 6.5d
 			shape: "diamond"
-			subtitle: "We meant it when we said automation becomes complicated."
+			subtitle: "自动化更麻烦了。骗你是小狗。"
 			description: [
 				""
-				"Netherrack, obtained by haunting soul soil, can be crushed into netherrack dust. It can then be mixed with diorite to produce granite at a more efficient rate, without the need for quartz. Diorite can then be turned into tin."
+				"对灵魂沙进行缠魂可以获得下界岩，进一步粉碎可以获得下界岩粉。将下界岩粉和闪长岩还有一些别的东西混合压块可以更高效地产花岗岩，并且不需要石英。花岗岩可以进一步处理为锌。"
 				""
-				"Of course, not every optimization is necessary. Decide if you even need more tin or quartz."
+				"当然，并不是每种优化都有必要做。你可以自行判断是否需要更多的锌或者石英。"
+				""
+				"（译者注：这部分自动化的任务文本全乱套了。因为制作组之前设计的锌和锡的产线是反过来的，后来交换产线后忘了改任务文本，而且还搞混了灵魂沙和灵魂土，导致我们在翻译的时候十分莫名其妙。总之，所有自动化配方以REI显示为准。）"
 			]
 			dependencies: ["429D2340C2B20A60"]
 			optional: true
@@ -2605,15 +2607,15 @@
 			}]
 		}
 		{
-			title: "Automate Silver!"
+			title: "自动化产银！"
 			x: -4.5d
 			y: 7.0d
 			shape: "diamond"
-			subtitle: "Just how many uses does clay have?!?"
+			subtitle: "要用黏土的地方也太多了吧？！"
 			description: [
-				"Silver can only be gained by crushing limestone into lime and then washing it. You know how a use for that block!"
+				"银只能通过将石灰岩粉碎为石灰粉，再洗涤石灰粉得到。石灰岩总归是有点用。"
 				""
-				"Limestone itself can be made by mixing moon sand with pointed dripstone."
+				"将月沙、滴水石锥，燧石以及熔岩进行压块可以得到石灰岩。"
 			]
 			dependencies: ["429D2340C2B20A60"]
 			id: "7C29C95E2F7AAA62"
@@ -2651,14 +2653,16 @@
 			]
 		}
 		{
-			title: "A Basalt Generator"
+			title: "玄武岩刷石机"
 			x: -25.5d
 			y: 3.0d
 			shape: "diamond"
 			description: [
-				"Lava touching basalt and blue ice will create basalt. The basalt can then be mined, much like a cobblestone generator setup."
+				"熔岩同时接触玄武岩和蓝冰会生成玄武岩。然后你可以把玄武岩进行自动收集，就和别的造石机一样的处理。"
 				""
-				"Basalt has a unique property where it can turn into Diorite when pressed in lava with flint. Hey! Diorite can become quartz! You now have a use for all that flint left over from the iron generator!"
+				"玄武岩，燧石和熔岩放在一起压块可以获得闪长岩，而闪长岩可以变成石英！造石机那些多余的燧石终于有用了！"
+				""
+				"(译者注：这块也错得离谱……看REI就会发现闪长岩是方解石，燧石和熔岩压块得到的……不知道制作组咋回事）"
 			]
 			dependencies: ["20BFF582275C31C8"]
 			optional: true
