@@ -785,7 +785,7 @@
 			y: -2.0d
 			shape: "diamond"
 			subtitle: "专为赌狗而生。"
-			description: ["哇塞！！半自动残骸！除了一般的用途外，下界合金还可用于锻造一些强大的《我的世界：地下城》中的武器。如果你将残骸切石，可以制造Create Deco中的一些昂贵的装饰方块。-快乐弯曲"
+			description: ["哇塞！！半自动残骸！除了一般的用途外，下界合金还可用于锻造一些强大的《我的世界：地下城》中的武器。如果你将残骸切石，可以制造Create Deco中的一些昂贵的装饰方块。祝你玩得愉快！"
 			]
 			dependencies: ["520A09EF39A1BF5D"]
 			optional: true
