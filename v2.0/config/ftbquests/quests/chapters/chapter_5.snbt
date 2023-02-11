@@ -39,7 +39,7 @@
 			x: -8.0d
 			y: -4.0d
 			shape: "pentagon"
-			subtitle: "就当在家一样吧……眼下这情况只会变得更糟了。"
+			subtitle: "就当在家一样，随便点吧……眼下这情况只会变得更糟了。"
 			description: [
 				"一个生命力顽强顽强的文明生活在火星上，看起来他们对黄金非常痴迷。在地下你可以找到大量的黄金、铅和奥斯特朗矿石。古老文明的遗迹和新建起的建筑都分布在行星表面"
 				""
@@ -700,11 +700,11 @@
 			}]
 		}
 		{
-			title: "咋这么粗……"
+			title: "浑浊的原油……"
 			x: -14.0d
 			y: 2.5d
-			subtitle: "咋还咕嘟咕嘟的……"
-			description: ["原油可以从离心机中持续生产，但是世界各处的油井中也含有相当多的这种液体。（译者注：原标题和副标题疑似Crude（粗糙的）和Crood（咕噜，拟声词）的谐音梗。）"]
+			subtitle: "咕噜咕噜咕噜……"
+			description: ["原油可以从离心机中持续生产，但是世界各处的油井中也含有相当多的这种液体。"]
 			dependencies: ["307933B04A6E7CA9"]
 			id: "48F61CBC3AFDEEBD"
 			tasks: [{
@@ -767,7 +767,7 @@
 			x: -4.2d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "刨一堆这东西吧！"
+			subtitle: "在地下多挖点这东西吧！"
 			description: ["粉碎炼狱尖刺有小概率产出残骸碎片。"]
 			dependencies: ["2B697AA42C48FC04"]
 			size: 1.2d
@@ -785,9 +785,7 @@
 			y: -2.0d
 			shape: "diamond"
 			subtitle: "专为赌狗而生。"
-			description: ["我去！半自动残骸！除了一般的用途外，下界合金还可用于锻造一些强大的《我的世界：地下城》中的武器。如果你将残骸切石，可以制造Create Deco中的一些昂贵的装饰方块。-快乐弯曲"
-			              ""
-				      "（译者注：标题可能指碎片掉落的谜之概率，或是生产残骸要耗费的大量砾岩。）
+			description: ["哇塞！！半自动残骸！除了一般的用途外，下界合金还可用于锻造一些强大的《我的世界：地下城》中的武器。如果你将残骸切石，可以制造Create Deco中的一些昂贵的装饰方块。-快乐弯曲"
 			]
 			dependencies: ["520A09EF39A1BF5D"]
 			optional: true
@@ -891,10 +889,10 @@
 			]
 		}
 		{
-			title: "Mix 'n' Mesh"
+			title: "编制黑色的细网……"
 			x: -5.5d
 			y: 8.0d
-			description: ["Carbon mesh is an integral component in machine parts, which will become highly prevalent in Chapter 5, in the production of new circuitry and machines."]
+			description: ["碳网是制造工业机器不可或缺的材料，在第5章中，它将大量用于新机器的制造。"]
 			dependencies: ["28CF539AA1D6A92F"]
 			id: "4F560FA8145329E8"
 			tasks: [{
@@ -949,10 +947,10 @@
 			}]
 		}
 		{
-			title: "With every fibre of my body..."
+			title: "这究竟有多少根纤维……"
 			x: -4.5d
 			y: 7.5d
-			subtitle: "I must know, what it tastes like."
+			subtitle: "我一定要知道这玩意尝起来咋样。"
 			dependencies: ["156FCE6FDC8AD38D"]
 			id: "28CF539AA1D6A92F"
 			tasks: [{
@@ -962,10 +960,10 @@
 			}]
 		}
 		{
-			title: "*another* use for coal dust"
+			title: "碳粉的*另一种*用途"
 			x: -5.0d
 			y: 6.5d
-			subtitle: "thought you could get away?"
+			subtitle: "哼，想逃？大量生碳网！"
 			dependencies: ["3A5D7E60EF1C3BC3"]
 			id: "156FCE6FDC8AD38D"
 			tasks: [{
@@ -975,10 +973,10 @@
 			}]
 		}
 		{
-			title: "Sodium Reference?"
+			title: "每天要摄入钠……多少来着？"
 			x: -14.0d
 			y: 8.0d
-			subtitle: "(electrolyse lazurite dust and create a sodium byproduct.)"
+			subtitle: "(电解青金石粉可以获得钠作为副产物)"
 			dependencies: ["6C43EB3CBD04AA17"]
 			id: "3110924697AB562C"
 			tasks: [{
@@ -999,10 +997,10 @@
 			}]
 		}
 		{
-			title: "Banana Dust"
+			title: "黄黄香蕉粉"
 			x: -12.0d
 			y: 5.0d
-			subtitle: "-> filled with yummy potassium"
+			subtitle: "-> 充满了美味的钾元素。"
 			dependencies: ["307933B04A6E7CA9"]
 			id: "6D5A97122F765FE3"
 			tasks: [{
@@ -1012,7 +1010,7 @@
 			}]
 		}
 		{
-			title: "Banana Fluid"
+			title: "液态香蕉"
 			x: -12.0d
 			y: 6.5d
 			dependencies: ["6D5A97122F765FE3"]
@@ -1030,10 +1028,10 @@
 			}]
 		}
 		{
-			title: "Lazurite?"
+			title: "青金石……你还好吗……"
 			x: -15.0d
 			y: 9.0d
-			subtitle: "Yea i'm alright thanks."
+			subtitle: "我挺好的，谢谢。"
 			hide_dependency_lines: true
 			dependencies: ["684E33C50BD55A8E"]
 			id: "6C43EB3CBD04AA17"
@@ -1044,7 +1042,7 @@
 			}]
 		}
 		{
-			title: "Do not drink the Listerine."
+			title: "不要把漱口水喝下去。"
 			x: -12.0d
 			y: 8.0d
 			dependencies: [
@@ -1107,7 +1105,7 @@
 			}]
 		}
 		{
-			title: "Horsepower."
+			title: "马的力量，马力。"
 			x: -11.0d
 			y: 9.0d
 			dependencies: [
@@ -1128,10 +1126,10 @@
 			}]
 		}
 		{
-			title: "144hz, 4k Monitor"
+			title: "144hz高刷，4k显示器。"
 			x: -7.0d
 			y: 8.5d
-			subtitle: "Our rocket needs a GAMING MONITOR."
+			subtitle: "我们的火箭需要一个电竞级显示屏！"
 			dependencies: ["2A95205D3A52622F"]
 			id: "356CE973D7F17F3C"
 			tasks: [{
@@ -1141,11 +1139,11 @@
 			}]
 		}
 		{
-			title: "Shake up that soul"
+			title: "颤抖的灵魂。"
 			x: -12.0d
 			y: 3.5d
 			description: [
-				"Both soul soil and soul sand can produce raw oil when centrifuged, with some extra byproducts provided which may prove to be useful..."
+				"灵魂沙和灵魂土都可以通过离心来生产原油和一些额外的副产品。这些副产品以后可能有用吧……"
 				""
 			]
 			dependencies: ["673DC1F22D2F790D"]
@@ -1153,7 +1151,7 @@
 			tasks: [{
 				id: "18B46A0D1C5F5E25"
 				type: "item"
-				title: "Any #minecraft:soul_fire_base_blocks"
+				title: "任何一种 #minecraft:soul_fire_base_blocks （灵魂火基底方块）																							"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1181,10 +1179,10 @@
 			}]
 		}
 		{
-			title: "Got coal lying around?"
+			title: "不如找找附近的煤炭？"
 			x: -3.5d
 			y: 4.5d
-			subtitle: "Let's make some use out of this..."
+			subtitle: "让我们给这些东西整出点新花样来……"
 			dependencies: ["33DBA03CF188DF0B"]
 			optional: true
 			id: "2E320829DF95EB8E"
@@ -1200,7 +1198,7 @@
 			}]
 		}
 		{
-			title: "Automating Diamonds."
+			title: "量产钻石。"
 			icon: {
 				id: "techreborn:cell"
 				Count: 1b
@@ -1210,8 +1208,8 @@
 			}
 			x: -2.5d
 			y: 4.5d
-			subtitle: "As a bonus for getting this far, here is a block of liquid diamond. A treat >.<"
-			description: ["64 coal dust in an implosion compressor will create a diamond. Seems steep, but such is the price we pay for automation."]
+			subtitle: "作为完成任务到这阶段的奖励，这里有一方块（1000mb）熔融钻石，请慢用。>.<"
+			description: ["聚爆压缩64份煤粉可以制成钻石。看起来似乎很昂贵，但这就是自动化所要付出的代价。"]
 			dependencies: ["2E320829DF95EB8E"]
 			optional: true
 			id: "6FC315C473D123F8"
@@ -1235,8 +1233,8 @@
 			icon: "minecraft:gold_block"
 			x: -10.0d
 			y: -3.5d
-			subtitle: "Always believe in your gold..."
-			description: ["Gold can be found in high amounts here. Either get your best mining gear and head underground or equip your finest weapons and head to a bastion."]
+			subtitle: "永远要相信黄金的力量。"
+			description: ["在这里，你可以找到大量的黄金。要么拿起你最好的采矿装备去地下挖一通，要么装备你最好的武器，前往堡垒去掠夺！"]
 			dependencies: ["253F29A00B4EA050"]
 			id: "3303D84A3F6FBBBA"
 			tasks: [{
@@ -1246,15 +1244,15 @@
 			}]
 		}
 		{
-			title: "When in Rome..."
+			title: "入乡随俗……"
 			x: -11.5d
 			y: -3.0d
-			subtitle: "Respect the Piglin religion and they might not immediatly kill you. "
+			subtitle: "要尊重猪灵的信仰，这样他们才不会一上来就想着弄死你。"
 			description: [
 				"{image:tconstruct:textures/block/storage/pig_iron/front.png width:100 height:100 align:1}"
-				"The Piglins worship gold like a god. Show off your respect by holding a token of faith."
-				"A bar of gold as a body... nugget for a nose... two little pins for arms... sand it off and... yes, that should do it."
-				"Once you've established a common ground with your piggy kin, you may begin trading."
+				"猪灵们像崇拜神一样崇拜着黄金。手持他们的图腾来表示您的尊重。"
+				"一块金子作为身体……金粒做鼻子……两根金针脚做成手臂……将它打磨光滑……然后……是的，这就是了。"
+				"一旦你和你的小猪朋友们建立共识，你们或许就能开始贸易了。"
 			]
 			dependencies: ["3303D84A3F6FBBBA"]
 			id: "1873D12083BC1697"
@@ -1270,14 +1268,14 @@
 			}]
 		}
 		{
-			title: "Automation of Lead/Ostrum"
+			title: "自动化生产铅/奥斯特朗。"
 			icon: "ad_astra:ostrum_nugget"
 			x: -6.0d
 			y: -3.5d
 			description: [
-				"With access to mars stone, you are now able to use it below a cobblestone generator to form more mars stone, with a chance of conglomerate being formed too!"
+				"当你获取火星石头之后，你就可以做一个刷石机生产火星圆石。这个刷石机也有概率产生砾岩。"
 				""
-				"Mars stone can be crushed into mars sand, which washes into lead. Conglomerate can be crushed into ostrum nuggets."
+				"火星石可以被粉碎成火星沙，并可以被洗成铅粒；砾岩可以被粉碎成奥斯特朗粒。"
 			]
 			dependencies: ["253F29A00B4EA050"]
 			id: "2B697AA42C48FC04"
@@ -1287,11 +1285,11 @@
 			}]
 		}
 		{
-			title: "Counterfeit Coins"
+			title: "假币"
 			x: -10.0d
 			y: -1.5d
-			subtitle: "They won't notice"
-			description: ["Toss a coin at a piglin, like a wish in a well. Piglins love themselves and gold. Expect big rewards."]
+			subtitle: "他们发现不了吧……"
+			description: ["向他们投这种金币，就像往许愿池里扔硬币那样。猪灵们嗜黄金如命。你可以期待得到一笔不错的回报。"]
 			dependencies: ["1A99F6B849B12B09"]
 			id: "597DB82F2961DD9B"
 			tasks: [{
@@ -1307,11 +1305,11 @@
 			}]
 		}
 		{
-			title: "Artificial Inflation"
+			title: "人为导致的通货膨胀"
 			x: -13.0d
 			y: -1.5d
 			shape: "diamond"
-			subtitle: "You wolf, you-!!"
+			subtitle: "你个野兽！你————！"
 			hide_dependency_lines: true
 			dependencies: ["597DB82F2961DD9B"]
 			hide: true
@@ -1330,10 +1328,10 @@
 			}]
 		}
 		{
-			title: "Forged documents"
+			title: "伪造机密文件"
 			x: -11.5d
 			y: -2.0d
-			subtitle: "Google Piglin inflation to find out more!"
+			subtitle: "百度一下猪灵经济世界通货膨胀以了解更多！"
 			dependencies: ["1873D12083BC1697"]
 			id: "1A99F6B849B12B09"
 			tasks: [
@@ -1401,11 +1399,11 @@
 			}]
 		}
 		{
-			title: "Societal Collapse"
+			title: "社会大崩溃！！！"
 			x: -14.0d
 			y: 4.5d
 			shape: "diamond"
-			subtitle: "You... monster"
+			subtitle: "你……真是魔鬼……"
 			hide_dependency_lines: true
 			dependencies: ["2EC536106C5002D4"]
 			secret: true
@@ -1451,14 +1449,14 @@
 			}]
 		}
 		{
-			title: "You spin my head right round..."
+			title: "你是不是把我的头转了一圈……"
 			x: -10.0d
 			y: 3.5d
-			subtitle: "I don't like where this is going..."
+			subtitle: "我不喜欢这样……"
 			description: [
-				"Methane has a strange effect on the mind and body. When inhaled, it fogs weak minds, making one suggestable to even the most preposterous of ideas."
-				"...I wonder if it has the same effect on Piglins?"
-				"It can be produced by placing lots of decomposable items in an Industrial Centrifuge, like 16 wood, as an example."
+				"甲烷对身心有奇怪的影响。当你吸入它时，它会麻醉你的的头脑，给你一遍遍重复暗示一些荒谬的想法……"
+				"……我在想它对猪灵会不会有同样的效果？"
+				"在工业离心机中离心大量可降解物质可以生产甲烷，比如说，16块木头就可以。"
 			]
 			dependencies: ["673DC1F22D2F790D"]
 			id: "08920EA71AAD4519"
@@ -1481,10 +1479,10 @@
 			}]
 		}
 		{
-			title: "Come heeeere, little piggy."
+			title: "小猪猪~到妈妈的怀抱里来~"
 			x: -13.0d
 			y: -2.5d
-			subtitle: "Observe a piglin in their natural habitat."
+			subtitle: "在火星的栖息地观察猪灵。"
 			dependencies: ["1873D12083BC1697"]
 			id: "43D115AA6859432C"
 			tasks: [{
@@ -1513,7 +1511,7 @@
 			}]
 		}
 		{
-			title: "Make CHANGES to this multiblock viability "
+			title: "给这个多方块结构做些改变……"
 			x: -8.0d
 			y: 8.0d
 			dependencies: ["0F0B9EF663EEC0C5"]
@@ -1536,13 +1534,13 @@
 			}]
 		}
 		{
-			title: "Ultimate Andesite Generation"
+			title: "终极安山岩刷石机！"
 			x: -4.5d
 			y: -4.5d
 			description: [
-				"An andesite generator ontop of quadruple compressed Andesite will create a single compressed andesite, giving you 9x efficiency."
+				"在四重压制安山岩上方建造刷石机可以生成压制安山岩，也就相当于以9倍的效率生产安山岩。"
 				""
-				"Of course, you should have enough andesite for the rest of the pack if you're able to create quad compressed andesite. But I know some people will want to beat this challenge just for the satisfaction of it. What will you do?"
+				"当然，当你能够制造四重压制安山岩时，你应该已经有了足够的安山岩用于其他生产。但我知道有些丧心病狂的玩家只是想做满全部任务……你会怎么做？"
 			]
 			dependencies: ["253F29A00B4EA050"]
 			optional: true
@@ -1554,7 +1552,7 @@
 			}]
 		}
 		{
-			title: "New Ingot!"
+			title: "新的金属锭！"
 			x: -7.5d
 			y: -2.0d
 			dependencies: ["253F29A00B4EA050"]
@@ -1566,13 +1564,13 @@
 			}]
 		}
 		{
-			title: "This isn't like the rest..."
+			title: "这和其他的不一样……"
 			x: -7.5d
 			y: -1.0d
-			subtitle: "You don't use the press for this..."
+			subtitle: "你不能用动力辊压机来压这东西……"
 			description: [
 				""
-				"Do note ostrum plates involve using a compressor instead of a mechanical press. More and more plates will be created like this."
+				"请注意：奥斯特朗板要用压缩机来制造，而不是动力辊压机。在这之后将会有更多的金属板需要用压缩机制造。"
 			]
 			dependencies: ["08FBFF7A3465BF56"]
 			id: "2993E04DCB7B4EC4"
@@ -1583,10 +1581,10 @@
 			}]
 		}
 		{
-			title: "Trojan Horse"
+			title: "特洛伊木马"
 			x: -10.0d
 			y: 4.5d
-			subtitle: "They won't remember"
+			subtitle: "它们不会记得……"
 			dependencies: [
 				"08920EA71AAD4519"
 				"5DE2E3396D1A4C7F"
