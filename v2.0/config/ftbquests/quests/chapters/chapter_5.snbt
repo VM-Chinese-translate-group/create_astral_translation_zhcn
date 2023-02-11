@@ -834,7 +834,7 @@
 			title: "我现在能看清了。"
 			x: -4.5d
 			y: 0.0d
-			description: ["按N键控制夜视"]
+			description: ["按N键切换夜视"]
 			dependencies: ["7B5DE5040FC24D21"]
 			id: "259E754B57C45C67"
 			tasks: [{
