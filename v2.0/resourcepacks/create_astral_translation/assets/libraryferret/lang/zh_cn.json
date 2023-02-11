@@ -24,7 +24,7 @@
   "block.libraryferret.unbreakable_gold_beacon": "坚不可摧的金信标",
   "gui.libraryferret.search": "搜索",
   "gui.libraryferret.props.default_value": "默认: %s",
-  "gui.libraryferret.props.description.boolean.creative.enable_item_group_ferret": "在创造菜单中启用或禁用\"Ferret item\"组。 要完全禁用物品/方块，请使用自定义数据包或使用 mod KubeJS/Crafttweaker。",
+  "gui.libraryferret.props.description.boolean.creative.enable_item_group_ferret": "在创造菜单中启用或禁用\"Ferret item\"组。要完全禁用物品/方块，请使用自定义数据包或使用 mod KubeJS/Crafttweaker。",
   "gui.libraryferret.config_welcome": "欢迎来到配置界面。\n\n右侧的列表显示属性组，选择组后您可以单击“选项...”按钮（您可以双击所需的项目），然后列表将显示所选组的属性，从列表中选择任何属性以将其显示在左侧面板上。\n\n按“后退”按钮返回显示的主屏幕组。\n\n要重置所有配置，请使用“打开文件”按钮打开文件并删除内容，然后重新启动 Minecraft。",
   "item.libraryferret.gold_coins_jtl": "金币",
   "gui.libraryferret.requiresave.title": "您要保存应用的更改吗？",

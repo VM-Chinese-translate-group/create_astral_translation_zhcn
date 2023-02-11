@@ -40,7 +40,7 @@
   "misc.catwalksinc.black": "黑色",
   "misc.catwalksinc.catwalk.usage": "放置后，它会改变形状以匹配周围环境。\n栈桥能与其他栈桥、大多数门、梯子和其他一些方块相连。如果上述的那些方块在栈桥斜上方，而栈桥正上方的空间是空的，栈桥就会变成楼梯。\n此外，栈桥在一些可交互方块（如漏斗和箱子等）前不会有栏杆。\n可以使用活动扳手覆盖此默认连接设置。\n对于楼梯，正常点击会在启用和关闭栏杆之间循环，而按住 Shift 键点击会旋转方块。",
   "misc.catwalksinc.caged_ladder.usage": "放置后，它会改变形状以匹配周围环境。\n如果梯子后面的方块是栈桥或其他可步行的方块，则梯子将被禁用，只留下笼子。\n换句话说，当放置在可步行的方块上时，您可以让笼子在梯子上延伸一个方块。\n或者，您可以使用活动扳手启用或禁用梯子元素。潜行时使用活动扳手来旋转方块。",
-  "misc.catwalksinc.crank_wheel.usage": "可以输出任意红石信号等级。使用左侧降低一级，右侧增加一级。",
-  "subtitles.catwalksinc.wrench_use": "已使用活动扳手",
-  "subtitles.catwalksinc.crank_wheel_use": "曲柄轮已旋转"
+  "misc.catwalksinc.crank_wheel.usage": "可以输出任意红石信号等级。向左侧旋转降低一级，向右侧旋转增加一级。",
+  "subtitles.catwalksinc.wrench_use": "活动扳手：使用",
+  "subtitles.catwalksinc.crank_wheel_use": "曲柄轮：旋转"
 }
