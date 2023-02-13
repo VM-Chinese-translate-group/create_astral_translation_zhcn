@@ -4,10 +4,8 @@ on:
   # 手动触发事件
   workflow_dispatch:
     inputs:
-      logLevel:
-        description: 'Log level'
-        required: true
-        default: 'warning'
+      tags:
+        description: 'Release Tag'
 
 jobs:
   build:
@@ -24,9 +22,13 @@ jobs:
     - name: Make Release
       run: python make_release.py
 
-    - name: Upload to release
-      uses: JasonEtco/upload-to-release@master
+    - name: Create GitHub release
+      uses: marvinpinto/action-automatic-releases@latest
       with:
-        args: ./release/release.zip application/zip
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        automatic_release_tag: ${{ github.event.inputs.tags }}
+        title: ${{ github.event.inputs.tags }}
+        prerelease: false
+        files: |
+          release/release.zip
+
