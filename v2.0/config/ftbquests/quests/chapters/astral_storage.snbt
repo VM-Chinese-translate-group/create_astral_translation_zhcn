@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 5
 	filename: "astral_storage"
-	title: "3.5) Astral Storage"
+	title: "第3.5章 星辰存储"
 	icon: "ae2:fluix_dust"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -47,10 +47,10 @@
 	]
 	quests: [
 		{
-			title: "Basic Item Storage"
+			title: "基本的物品存储"
 			x: -9.0d
 			y: -5.5d
-			subtitle: "Utilised with ME Drives, an AE system can convert real matter into bytes!"
+			subtitle: "利用ME驱动器，你可以把实际存在的物品以数据的形式储存在AE系统中！"
 			dependencies: ["44A6872451EA1BB2"]
 			id: "502FB68205A0CA3B"
 			tasks: [
@@ -89,10 +89,10 @@
 			]
 		}
 		{
-			title: "Please, a user interface."
+			title: "做一个用户界面，请"
 			x: -7.5d
 			y: -8.5d
-			subtitle: "The terminal access panel attached on an ME system provides the chest-like user interface you'll need to manage it,"
+			subtitle: "连接到ME网络的访问终端可以提供一个像箱子一样的交互界面，用来管理存储的物品。"
 			dependencies: ["3099BE4134861052"]
 			id: "30CFD291B115DBC7"
 			tasks: [{
@@ -102,10 +102,10 @@
 			}]
 		}
 		{
-			title: "The Heart of Shimmer."
+			title: "闪光之心"
 			x: -2.5d
 			y: -8.5d
-			description: ["The primary component requires to form an ME system."]
+			description: ["ME系统的基础元件。"]
 			dependencies: ["5B795991C4A581FE"]
 			id: "7CB9EBED55932D9B"
 			tasks: [{
@@ -115,7 +115,7 @@
 			}]
 		}
 		{
-			title: "Server Mainframe."
+			title: "系统主机"
 			x: -2.5d
 			y: -7.0d
 			dependencies: ["5E6E1A18D9727F1A"]
@@ -127,7 +127,7 @@
 			}]
 		}
 		{
-			title: "Welcome to Applied Energistics 2!"
+			title: "欢迎来到应用能源2！"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -138,11 +138,11 @@
 			x: -5.0d
 			y: 2.0d
 			shape: "pentagon"
-			subtitle: "That lunar meteorites have rare circuits useful in inventory management!"
+			subtitle: "月球陨石之中藏着一些稀有的电路板，可以帮助你管理你的物品储存！"
 			description: [
-				"Note, this tab is a vague guideline surrounding AE2. There are many guides online regarding this! "
+				"这个章节会围绕AE2模组为你指引大致方向，网上也有很多这方面的教程！"
 				""
-				"Future plans = establish an intricate guide into the mod"
+				"之后的计划：做一些更深入的AE2教程。"
 			]
 			dependencies: ["790B0567FF49110F"]
 			hide: true
@@ -151,11 +151,11 @@
 			tasks: [{
 				id: "50441F5A6EECD674"
 				type: "checkmark"
-				title: "Understood."
+				title: "我知道了"
 			}]
 		}
 		{
-			title: "Basic Presses, Volume 3:"
+			title: "《基本压印模板》第3册："
 			x: -3.0d
 			y: -2.0d
 			dependencies: ["7A2E9BE533B92DC0"]
@@ -167,7 +167,7 @@
 			}]
 		}
 		{
-			title: "Basic Presses, Volume 1:"
+			title: "《基本压印模板》第1册："
 			x: -7.0d
 			y: -2.0d
 			dependencies: ["7A2E9BE533B92DC0"]
@@ -179,7 +179,7 @@
 			}]
 		}
 		{
-			title: "Basic Presses, Volume 2:"
+			title: "《基本压印模板》第2册："
 			x: -5.0d
 			y: -2.5d
 			dependencies: ["7A2E9BE533B92DC0"]
@@ -191,10 +191,10 @@
 			}]
 		}
 		{
-			title: "The fundamental tools."
+			title: "基础工具"
 			x: -5.5d
 			y: 0.0d
-			subtitle: "When harnessing shimmer technology, a new variation of circuits can be used."
+			subtitle: "当你专注于闪光科技时，你可能会用到一种特别的电路板。"
 			dependencies: ["326EB9A775B8D791"]
 			id: "43DF61335F1A3AD6"
 			tasks: [{
@@ -204,10 +204,10 @@
 			}]
 		}
 		{
-			title: "Sussy Silicon"
+			title: "手中有硅，心中有鬼"
 			x: -4.5d
 			y: 0.0d
-			subtitle: "Heat certus dust to a high breaking point and form unprocessed silicon."
+			subtitle: "将赛特斯石英粉加热到临界温度可以获得未处理的硅。"
 			dependencies: ["790B0567FF49110F"]
 			hide: true
 			id: "227EF17194467491"
@@ -225,10 +225,10 @@
 			]
 		}
 		{
-			title: "Circuits for you..."
+			title: "电路，只为你"
 			x: -5.0d
 			y: -1.0d
-			subtitle: "Basic circuit frame for use in the inscriber."
+			subtitle: "在压印器中要用到的基础电路板材。"
 			dependencies: [
 				"43DF61335F1A3AD6"
 				"227EF17194467491"
@@ -241,7 +241,7 @@
 			}]
 		}
 		{
-			title: "Pastel Pressing"
+			title: "浅浅地压印一波"
 			x: -5.0d
 			y: -4.0d
 			dependencies: [
@@ -269,7 +269,7 @@
 			]
 		}
 		{
-			title: "This defies all logic,"
+			title: "逻辑处理器，但是毫无逻辑"
 			x: -7.5d
 			y: -5.5d
 			dependencies: ["7A9F59521C6A6B7E"]
@@ -281,7 +281,7 @@
 			}]
 		}
 		{
-			title: "Calculation for one, please."
+			title: "给我来一份运算，谢谢"
 			x: -5.0d
 			y: -5.5d
 			dependencies: ["7A9F59521C6A6B7E"]
@@ -293,10 +293,10 @@
 			}]
 		}
 		{
-			title: "Complex Circuitry."
+			title: "复杂电路"
 			x: -2.5d
 			y: -5.5d
-			subtitle: "People always underestimate the engineers,"
+			subtitle: "人们常常小看工程师。"
 			dependencies: ["7A9F59521C6A6B7E"]
 			id: "5E6E1A18D9727F1A"
 			tasks: [{
@@ -359,10 +359,10 @@
 			}]
 		}
 		{
-			title: "Magical Powder."
+			title: "神奇粉末"
 			x: -3.0d
 			y: 0.0d
-			description: ["I tried sniffing it, I wouldn't recommend it. Was cathartic for days."]
+			description: ["我试着闻了闻这个粉末。建议不要闻。我拉了好几天肚子。"]
 			dependencies: ["227EF17194467491"]
 			id: "3A8B72EC89451A93"
 			tasks: [{
@@ -372,7 +372,7 @@
 			}]
 		}
 		{
-			title: "Energetic Storage."
+			title: "能量满满的存储"
 			x: -2.0d
 			y: 0.0d
 			dependencies: ["3A8B72EC89451A93"]
@@ -395,7 +395,7 @@
 			]
 		}
 		{
-			title: "In the Eye of the Shimmer"
+			title: "闪光之眼"
 			x: -2.0d
 			y: -1.0d
 			dependencies: ["3A8B72EC89451A93"]
@@ -407,13 +407,13 @@
 			}]
 		}
 		{
-			title: "An energetic stone type..."
+			title: "一种充满能量的石头"
 			x: -3.5d
 			y: 1.0d
 			description: [
-				"Sky Stone (AE2) Can no longer be obtained in meteors."
+				"陨石（AE2）现在无法从陨石中获得了。"
 				""
-				"It generates in large, rare pockets under the moon's surface. Take note, if you see any!"
+				"现在陨石会在月球表面之下较为稀少的巨大空腔中生成。如果你有幸找到，记得把位置记下来！"
 			]
 			dependencies: ["326EB9A775B8D791"]
 			id: "432AF29897E50CDC"
