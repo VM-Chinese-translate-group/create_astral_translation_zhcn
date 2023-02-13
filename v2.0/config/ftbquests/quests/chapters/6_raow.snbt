@@ -1131,6 +1131,61 @@
 				count: 16
 			}]
 		}
+		{
+			title: "来自翻译团队的感谢"
+			icon: "ad_astra:earth_globe"
+			x: 7.0d
+			y: 13.5d
+			shape: "heart"
+			subtitle: "十分感谢你对我们的支持！"
+			description: [
+				"从整合包2.0版发布之后我们就一直在加紧进行翻译，花费了两周时间完成了所有任务文本以及游戏内自定义物品（kubejs、魔改文本）的汉化，这个过程很辛苦，但就我个人而言也很开心，能够尽自己的一份力量帮助大家更好地进行游戏。"
+				""
+				"原文的文本有不少地方都有玩梗以及reference，我们都结合了自己的理解进行了本地化，如果能够博君一笑那就再好不过了。"
+				""
+				"再次感谢所有参与汉化的人员，辛苦了。"
+				""
+				"汉化主催：（B站ID）@HS_花露水（任务奖励是我的头"
+				""
+				"鸣谢（排名不分先后）"
+				""
+				"B站ID：@茫氪、@Mc2deM、@冰焰_Frozen"
+				"GitHub：@lrcno6、@spaceskynet、@DrGolden2022、@KuLiPoi"
+			]
+			hide_dependency_lines: true
+			dependencies: ["69669C2A3E16E328"]
+			size: 1.5d
+			id: "6A36E383247948F3"
+			tasks: [{
+				id: "7FEB359DC3B38174"
+				type: "checkmark"
+				title: "感谢翻译！"
+			}]
+			rewards: [{
+				id: "1D457D5183AF2E33"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								538801554
+								859983662
+								-1464179994
+								1815641674
+							]
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3NjI1MzM0NzM0NCwKICAicHJvZmlsZUlkIiA6ICIyMDFkNzU5MjMzNDI0ZjJlYThiYTYyZTY2YzM4N2U0YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYWxvU2Vuc2UiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjdkM2RjNzkyZTRkYWIwNDhkNWE2Mjk2MzQzODg0YzFkMWY1NTcxNTkxZTM0MDFkYzQ1MzRiMjM5MTg1NjJmMyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+								}]
+							}
+							Name: "HaloSense"
+						}
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }
