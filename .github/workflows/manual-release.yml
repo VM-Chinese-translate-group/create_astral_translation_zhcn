@@ -14,15 +14,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Source
-    - uses: actions/checkout@v3
+      uses: actions/checkout@v3
 
     - name: Setup Python 3.10
-    - uses: actions/setup-python@v4
+      uses: actions/setup-python@v4
       with:
         python-version: '3.10'
 
     - name: Make Release
-    - run: python make_release.py
+      run: python make_release.py
 
     - name: Upload to release
       uses: JasonEtco/upload-to-release@master
