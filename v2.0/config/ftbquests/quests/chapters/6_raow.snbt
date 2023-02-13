@@ -67,11 +67,11 @@
 			x: 4.5d
 			y: 3.0d
 			shape: "square"
-			subtitle: "有头绪吗? "
+			subtitle: "嘿嘿，get到梗了没？"
 			description: [
-				"UU物质可以被合成成为各种物品, 但是它的用途远不止如此。"
+				"UU物质可以被合成成为各种物品，但是它还能用来合成一种最为强大的东西……"
 				""
-				"将它和闪光溶液混合放入超级加热的搅拌盆中进而得到一些发着光的化合物。"
+				"将它和闪光溶液混合放入超级加热的搅拌盆中搅拌，可以获得异彩化合物。"
 			]
 			dependencies: [
 				"6F1D5D69B4E9266E"
@@ -94,16 +94,16 @@
 			}]
 		}
 		{
-			title: "更多的电子垃圾"
+			title: "不是吧大哥，怎么还要做电路板啊？"
 			x: 6.0d
 			y: 0.0d
 			shape: "square"
 			description: [
 				"锂和耐热合金会为电路板锦上添花, "
 				""
-				"这一过程和你在第四章做过的有些类似, "
+				"这一过程和你在第4章做过的有些类似，会用到耐热合金针脚和锂。"
 				""
-				"你玩到这里的时候应该已经可以熟练的使用REI了, 我就不详细介绍它的过程了。"
+				"你玩到这里的时候应该已经可以熟练地使用REI了, 我就不详细介绍它的过程了。"
 			]
 			dependencies: [
 				"3091F7AC37F848AD"
@@ -139,7 +139,7 @@
 			]
 		}
 		{
-			title: "讲道理这种容量的储罐看起来傻傻的"
+			title: "讲道理这种容量的储存方块就有点蠢了……"
 			x: 4.0d
 			y: 1.0d
 			dependencies: ["11F776AD4AEA326A"]
@@ -229,7 +229,7 @@
 			]
 		}
 		{
-			title: "冲啊 超级钻头！"
+			title: "冲啊！超级钻头！"
 			x: 0.0d
 			y: 1.0d
 			dependencies: ["3705B91C0D4EA2A0"]
@@ -248,7 +248,7 @@
 			}]
 		}
 		{
-			title: "冲啊 超级链锯！"
+			title: "冲啊！超级链锯！"
 			x: -0.5d
 			y: 0.0d
 			dependencies: ["3705B91C0D4EA2A0"]
@@ -267,7 +267,7 @@
 			}]
 		}
 		{
-			title: "冲啊 超级凿岩机！"
+			title: "冲啊！超级凿岩机！"
 			x: 0.0d
 			y: -1.0d
 			dependencies: ["3705B91C0D4EA2A0"]
@@ -289,8 +289,8 @@
 			title: "能力越大责任越大"
 			x: 2.5d
 			y: 1.5d
-			subtitle: "物质机使用 2000E/t 的能量"
-			description: ["请确保你的发电设施能经受得住..."]
+			subtitle: "物质机耗能2000FE/tick。"
+			description: ["请确保你的发电设施能经受得住……"]
 			dependencies: ["3705B91C0D4EA2A0"]
 			id: "6F1D5D69B4E9266E"
 			tasks: [{
@@ -329,7 +329,7 @@
 			}]
 		}
 		{
-			title: "我们要去哪...我们需要更多的能量...."
+			title: "我们将要去的地方，会需要更多的能量……"
 			x: 5.5d
 			y: 6.0d
 			subtitle: "制作一个聚变控制系统"
@@ -367,7 +367,7 @@
 			x: 5.0d
 			y: 5.0d
 			subtitle: "别舔, 带电的"
-			description: ["这些是组成聚变控制系统的必须物品"]
+			description: ["这些是组成聚变控制系统的必需物品。"]
 			dependencies: ["00EB34849356498A"]
 			id: "7A25FF7058F0C3CD"
 			tasks: [{
@@ -435,8 +435,8 @@
 			title: "变废为宝"
 			x: 6.5d
 			y: 3.5d
-			subtitle: "物品回收机能把任何东西变成废料...真的能产生很多..."
-			description: ["当你能把废料转换成更加厉害的UU物质的时候...为什么不这样做呢? "]
+			subtitle: "物品回收机能把任何东西变成废料，再从中获得一些资源……差不多是这个意思。"
+			description: ["不过要是你能当你能把废料转换成更加厉害的UU物质，你又何必在乎废料盒里开出来的那点资源呢？"]
 			hide_dependency_lines: true
 			dependencies: ["6F1D5D69B4E9266E"]
 			id: "2605212C0EC5C277"
@@ -511,7 +511,7 @@
 				""
 				"将异彩化合物丢入虚空"
 				""
-				"等等... 我们没有还没去过末地....不过我敢肯定你总能找到方法将他丢入虚空...."
+				"等等... 我们没有还没去过末地....不过我敢肯定你能找到方法将它丢入其他维度的虚空...."
 			]
 			dependencies: ["17794A6A366C8497"]
 			id: "69F63D2FA5384442"
@@ -536,7 +536,7 @@
 			title: "异彩化合物"
 			x: 4.0d
 			y: 5.0d
-			subtitle: "一种颇具有创意性的材料"
+			subtitle: "一种颇具机械创意的材料"
 			description: [
 				"这种看起来古怪的材料可以用来制作暗影钢和光辉石"
 				""
@@ -557,7 +557,7 @@
 		{
 			x: 1.5d
 			y: 12.0d
-			subtitle: "你并不需要这么多的原石"
+			subtitle: "你并不需要这么多的圆石"
 			hide_dependency_lines: true
 			dependencies: ["3ED703EAA646A18A"]
 			optional: true
@@ -571,7 +571,7 @@
 		{
 			x: -1.0d
 			y: 8.5d
-			subtitle: "岩浆快乐盒"
+			subtitle: "熔岩快乐盒"
 			hide_dependency_lines: true
 			dependencies: ["3ED703EAA646A18A"]
 			optional: true
@@ -585,7 +585,7 @@
 		{
 			x: -0.5d
 			y: 10.5d
-			subtitle: "不管怎样这种发电机十分被欢迎"
+			subtitle: "无论如何，多点能量总是好的。"
 			hide_dependency_lines: true
 			dependencies: ["3ED703EAA646A18A"]
 			optional: true
@@ -600,7 +600,7 @@
 			title: "起飞咯"
 			x: 3.0d
 			y: 7.5d
-			subtitle: "充电后你将获得十分强大的飞行能力, 但是在地球上这种能力被限制了, 当你到达太空, 他将向你展示它真正的力量。"
+			subtitle: "充电后你将获得略有受限但依旧强大的飞行能力。在地球上这种能力就已经十分有用，而太空才是它大有可为的地方。"
 			hide_dependency_lines: false
 			dependencies: ["3ED703EAA646A18A"]
 			id: "0299295DF9D47181"
@@ -652,15 +652,15 @@
 			]
 		}
 		{
-			title: "新的金属, 你叫它什么都行"
+			title: "新的金属，还是什么东西来着"
 			x: 4.5d
 			y: 8.5d
 			shape: "hexagon"
-			subtitle: "他喵的呃呃啊啊超级联合金属锭 (原文 [fuckin uhhhh conglomerate ingot])"
+			subtitle: "他喵的额额额额超级联合金属锭"
 			description: [
 				"当一块暗影钢和一块光辉石放在一起的时候...他们开始融合.."
 				""
-				"这种亚原子金属锭[他喵的呃呃啊啊超级联合金属锭]能够提供惊人的能量传输和耐用性，他是强大的机器的合成材料之一。"
+				"这种含有超强能量的金属锭具有惊人的能量传输能力和耐用性，可用于合成强大的物品和机器。"
 			]
 			dependencies: [
 				"1E93A90AEF614FA3"
@@ -685,7 +685,7 @@
 			title: "夸克-胶子等离子流体桶"
 			x: 6.5d
 			y: 11.5d
-			subtitle: "地狱火和闪光溶液混合~"
+			subtitle: "地狱火和闪光溶液进行裂变反应~"
 			dependencies: [
 				"3ED703EAA646A18A"
 				"5779A205B598A69B"
@@ -707,7 +707,7 @@
 			title: "奇点框架"
 			x: 2.5d
 			y: 11.5d
-			description: ["将256k的物品压缩成一个奇点"]
+			description: ["将256k个物品压缩成一个奇点。"]
 			dependencies: ["0A6A678C1179157D"]
 			id: "16A2464A968635F7"
 			tasks: [{
@@ -717,11 +717,11 @@
 			}]
 		}
 		{
-			title: "成为传说"
+			title: "登神长阶"
 			x: 4.5d
 			y: 13.5d
-			subtitle: "一个密密麻麻的奇点, 试图释放无穷的神秘力量。"
-			description: ["制作它是一个极限且繁琐的过程将涉及很多材料, 我希望你和你的工厂已经做好觉悟，祝你好运。"]
+			subtitle: "一个超级致密的奇点，如神圣能量孕育出的花朵一般绽放。"
+			description: ["这个东西将带你超越你的极限。制作奇点是一个极其漫长枯燥的过程，希望你和你的工厂已经准备好了。祝你好运。"]
 			dependencies: [
 				"585CEEAE5CADECA0"
 				"16A2464A968635F7"
@@ -752,11 +752,11 @@
 			]
 		}
 		{
-			title: "太阳之热"
+			title: "烈日之焰"
 			x: 7.5d
 			y: 7.5d
 			subtitle: "我们将征服宇宙"
-			description: ["模拟太阳的情况，用超级加热的搅拌盆加热熔岩"]
+			description: ["人工再现太阳表面的热度，用超级加热的搅拌盆制造熔岩。"]
 			dependencies: [
 				"78932223283B0376"
 				"3ED703EAA646A18A"
@@ -775,10 +775,10 @@
 			}]
 		}
 		{
-			title: "我该如何处理粗铱"
+			title: "我该如何处理粗铱？"
 			x: 2.5d
 			y: -5.5d
-			description: ["可以将铱矿石块放入工业研磨机来获得粗铱, 但你得先有一台! "]
+			description: ["可以将铱矿石放入工业磨粉机来获得粗铱，但你得先有一台！"]
 			dependencies: ["7A4255522DA6FEB7"]
 			id: "160490A7E60FC575"
 			tasks: [
@@ -798,7 +798,7 @@
 			title: "耐热合金针脚"
 			x: 7.5d
 			y: -1.0d
-			description: ["我们之前做过这个, 将一些耐热合金放入轧机然后静静等待我们的新电路板材料诞生就行啦"]
+			description: ["我们之前做过这个。将一些耐热合金粒放入轧机，然后准备用来做我们的全新电路板！"]
 			dependencies: [
 				"4329020373E27B1F"
 				"353DA088F5ABA8FE"
@@ -812,10 +812,10 @@
 			}]
 		}
 		{
-			title: "锂!"
+			title: "锂！"
 			x: 7.5d
 			y: 1.0d
-			description: ["最后, 锂可以用来给电路板保持功率"]
+			description: ["最后，锂可以用来为电路板维持功率。"]
 			hide_dependency_lines: true
 			dependencies: ["7A4255522DA6FEB7"]
 			id: "77E9682ED4C5C74D"
@@ -832,10 +832,10 @@
 			}]
 		}
 		{
-			title: "机器零件"
+			title: "机械零件"
 			x: 7.5d
 			y: 0.0d
-			description: ["我们应该大量生产这种电路板, 你总会用到它的"]
+			description: ["你应该大量生产这种零件，制作这个级别的电路的时候总会用到它。"]
 			hide_dependency_lines: true
 			dependencies: ["7A4255522DA6FEB7"]
 			id: "3F5054A2481E6F9C"
@@ -848,7 +848,7 @@
 		{
 			x: 4.5d
 			y: -1.0d
-			subtitle: "快还得更快"
+			subtitle: "再快点再快点再快点！"
 			dependencies: ["11F776AD4AEA326A"]
 			id: "01FC63FCED872B8A"
 			tasks: [{
@@ -861,7 +861,7 @@
 			title: "还记得它吗?"
 			x: 1.0d
 			y: -3.0d
-			description: ["你之前应该处理过辉绿矿, 这种矿石的副产物是橄榄石粉"]
+			description: ["你之前应该处理过辉绿矿，不过这次咱们要的是橄榄石粉"]
 			dependencies: ["39B529A749BEC970"]
 			id: "1FFE36A644FA5491"
 			tasks: [{
@@ -872,7 +872,7 @@
 			}]
 		}
 		{
-			title: "粉碎它 粉碎它 粉碎它"
+			title: "粉碎！粉碎！！粉碎！！！"
 			icon: "create:crushing_wheel"
 			x: 3.0d
 			y: -2.5d
@@ -887,7 +887,7 @@
 			title: "橄榄酱"
 			x: 1.0d
 			y: -2.0d
-			description: ["16个橄榄石粉经过超级加热的辊压机可以变成新的板材"]
+			description: ["16个橄榄石粉在超级加热的盆中辊压可以变成新的板材。"]
 			dependencies: ["1B70BAF5B7B5ED0C"]
 			id: "0E0C76625B24032F"
 			tasks: [{
@@ -898,10 +898,10 @@
 			}]
 		}
 		{
-			title: "把他们压成片!"
+			title: "把它们压成片!"
 			x: 2.230952380952367d
 			y: -1.6107142857142804d
-			subtitle: "把他们压成片! "
+			subtitle: "把橄榄石粉压成板材。"
 			dependencies: ["0E0C76625B24032F"]
 			id: "4347500C31C8D0DD"
 			tasks: [{
@@ -918,12 +918,12 @@
 		{
 			x: 4.5d
 			y: 11.5d
-			subtitle: "潜在的威胁"
+			subtitle: "秘密建造的核弹头（Warhead of Latent Fabricality），简称W.O.L.F."
 			description: [
 				"核武器在默认的情况下是禁用的,"
 				""
 				""
-				"如果你扔想启用他, 请到TechReborn设置 (它可以作为正常的合成材料使用)"
+				"如果你仍想启用它，请自行修改科技复兴配置文件。（它可以作为正常的合成材料使用）"
 			]
 			dependencies: [
 				"3ED703EAA646A18A"
@@ -943,10 +943,10 @@
 			}]
 		}
 		{
-			title: "现在256k的材料也不是很多了嘛"
+			title: "现在256k个物品也不是那么多了嘛"
 			x: 2.5d
 			y: 9.5d
-			description: ["请不要使用溜槽给奇点充能, 请使用其他方法 (AE2)"]
+			description: ["不要使用溜槽给奇点充能，可能会失败。请使用其他方法（如AE2）。"]
 			dependencies: [
 				"3ED703EAA646A18A"
 				"49C63ADC9B1FC721"
@@ -961,7 +961,7 @@
 		{
 			x: 1.0d
 			y: 9.5d
-			subtitle: "如果你想制作一个奇点, 你会需要它的"
+			subtitle: "如果你想制作奇点，你至少需要一个256k存储组件。"
 			hide_dependency_lines: true
 			dependencies: ["3ED703EAA646A18A"]
 			id: "49C63ADC9B1FC721"
@@ -1067,7 +1067,7 @@
 			x: 8.5d
 			y: -2.5d
 			subtitle: "从 我 的 脑 袋 里 出 去 "
-			description: ["有一个冒名顶替者! ~"]
+			description: ["我们之中有一个内鬼。"]
 			dependencies: ["353DA088F5ABA8FE"]
 			hide: true
 			id: "60838B72BF0FDFEE"
@@ -1078,17 +1078,17 @@
 			}]
 		}
 		{
-			title: "感谢你能走到这里"
+			title: "感谢你一路以来的支持！"
 			x: 4.4761904761904745d
 			y: 16.52857142857141d
 			shape: "gear"
-			subtitle: "整合包完成"
+			subtitle: "整合包通关！"
 			description: [
 				"在2.0版本中, 我们不断地努力为每个人提供独特的体验! 我们计划继续开发, 离开这个简单的太阳系, 向更深的未知进发..."
 				""
-				"这将涉及四级火箭配方和更多经过大修的其他星系, 更多的自定义内容正在开发... 感谢你的关注！"
+				"这将涉及更复杂的四级火箭配方、更多经过魔改的其他星系，以及仍在开发中的更多内容！"
 				""
-				"感谢! "
+				"再次感谢你的游玩！"
 			]
 			dependencies: ["0CE73BAC9F3A9E03"]
 			size: 5.0d
@@ -1109,13 +1109,13 @@
 			}]
 		}
 		{
-			title: "铱合金?! "
+			title: "铱合金？！"
 			x: 6.5d
 			y: -5.0d
 			description: [
-				"可以用这种金属压成板的混合物压制成铱合金板"
+				"可以用这种金属压成板的混合物压制成铱合金板。"
 				""
-				"看看REI, 看看第五章, 你会明白怎么制作它的。"
+				"跟着第5章中没有写进去的合成线一路往下走，沿着REI给你的配方深入探索，看看你能研究出什么东西吧。"
 			]
 			dependencies: ["7A4255522DA6FEB7"]
 			id: "056D4E8FC090FBC7"
