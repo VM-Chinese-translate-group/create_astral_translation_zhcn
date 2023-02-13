@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 7
 	filename: "6_raow"
-	title: "5) 亚原子"
+	title: "第5章 亚原子"
 	icon: "createastral:subatomic_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
