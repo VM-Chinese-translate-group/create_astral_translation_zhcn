@@ -725,5 +725,13 @@
     "tooltip.ad_astra.consumable": "§2消耗品",
     "tooltip.ad_astra.hold_shift": "按住 Shift 查看更多信息",
     "tooltip.ad_astra.space_suit": "§b氧气: §%s/%d mB",
-    "tooltip.ad_astra.vehicle_fuel": "§b燃料: §%s/%d mB"
+    "tooltip.ad_astra.vehicle_fuel": "§b燃料: §%s/%d mB",
+
+    "__comment__": "翻译增补",
+    "fluid.ad_astra.oil": "原油",
+    "fluid.ad_astra.fuel": "燃油",
+    "fluid.ad_astra.cryo_fuel": "深低温燃油",
+    "fluid.ad_astra.oxygen": "氧气"
+
+
 }

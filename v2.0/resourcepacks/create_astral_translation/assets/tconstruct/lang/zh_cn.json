@@ -1,4 +1,5 @@
 {
+  "__comment__": "魔改部分",
   "block.tconstruct.cobalt_ore": "月球钴矿石",
 
   "material.tconstruct.desh": "戴斯",
@@ -19,6 +20,10 @@
 
   "material.tconstruct.radiant": "光辉石",
   "material.tconstruct.radiant.flavor": "坚硬，光亮。",
-  "material.tconstruct.radiant.encyclopedia": "它就是光芒力量的化身。尽管它在铸造过程中很脆弱，但是它可以带来无与伦比的强化属性、挖掘速度和可供把玩的升级槽。"
+  "material.tconstruct.radiant.encyclopedia": "它就是光芒力量的化身。尽管它在铸造过程中很脆弱，但是它可以带来无与伦比的强化属性、挖掘速度和可供把玩的升级槽。",
+
+  "__comment__": "补充翻译部分",
+  "fluid.tconstruct.ichor": "灵浆",
+  "item.tconstruct.ichor_bucket": "灵浆桶"
 }
 

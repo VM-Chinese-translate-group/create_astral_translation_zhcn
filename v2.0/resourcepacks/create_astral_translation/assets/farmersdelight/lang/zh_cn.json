@@ -1,10 +1,10 @@
 {
-  // 整合包修改过的物品/方块
+  "__comment__": "魔改条目",
   "block.farmersdelight.beetroot_crate": "箱装玉米",
   "block.farmersdelight.wild_beetroots": "海玉米",
   "item.farmersdelight.vegetable_noodles": "歪比巴卜面",
 
-  // 缺失的翻译
+  "__comment__": "增补翻译条目",
   "block.farmersdelight.rice_roll_medley_block": "寿司拼盘",
   "block.farmersdelight.sandy_shrub": "沙生灌木",
 
@@ -14,6 +14,7 @@
   "item.farmersdelight.kelp_roll_slice": "海带寿司",
   "item.farmersdelight.bone_broth": "大骨汤",
   "item.farmersdelight.glow_berry_custard": "发光浆果蛋奶沙司",
+  "item.farmersdelight.mushroom_rice": "蘑菇盖饭",
 
   "item.farmersdelight.rotten_tomato": "烂番茄",
 
