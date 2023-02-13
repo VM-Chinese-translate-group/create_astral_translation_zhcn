@@ -1,0 +1,32 @@
+name: Manual Release
+
+on:
+  # 手动触发事件
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Source
+    - uses: actions/checkout@v3
+
+    - name: Setup Python 3.10
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Make Release
+    - run: python make_release.py
+
+    - name: Upload to release
+      uses: JasonEtco/upload-to-release@master
+      with:
+        args: ./release/release.zip application/zip
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

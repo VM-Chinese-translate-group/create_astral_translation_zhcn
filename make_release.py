@@ -31,7 +31,7 @@ def add_dir_to_zipfile(zip_obj, zip_fp):
 		add_objs(files_path, zip_fp, base_dir)
 
 if __name__ == "__main__":
-	work_dir = os.path.abspath(os.curdir)
+	work_dir = os.path.dirname(os.path.abspath(__file__))
 	src_dir = os.path.join(work_dir, 'v2.0')
 	release_name = 'release'
 	release_dir = os.path.join(work_dir, 'release')
@@ -62,11 +62,15 @@ if __name__ == "__main__":
 		zip_fp.write('pack.mcmeta')
 		
 	# Pack All to a Zip File
+	md_files = ['changelog.md', 'README.md']
 	os.chdir(release_dir)
 	release_zip = os.path.join(release_dir, f'{release_name}.zip')
 	with zipfile.ZipFile(release_zip, 'w', zipfile.ZIP_DEFLATED) as zip_fp:
 		for required_dir in required_dirs:
 			add_dir_to_zipfile(required_dir, zip_fp)
+		for md_file in md_files:
+			md_path = os.path.join(work_dir, md_file)
+			zip_fp.write(md_path, arcname = md_file)
 	
 	# Delete Temp Files
 	for required_dir in required_dirs:
