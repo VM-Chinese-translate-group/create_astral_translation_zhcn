@@ -1,0 +1,34 @@
+name: Manual Release
+
+on:
+  # 手动触发事件
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: 'Release Tag'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Source
+      uses: actions/checkout@v3
+
+    - name: Setup Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Make Release
+      run: python make_release.py
+
+    - name: Create GitHub release
+      uses: marvinpinto/action-automatic-releases@latest
+      with:
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        automatic_release_tag: ${{ github.event.inputs.tags }}
+        title: ${{ github.event.inputs.tags }}
+        prerelease: false
+        files: |
+          release/release.zip
+
