@@ -420,7 +420,10 @@
 				""
 				"（以及，任务奖励会额外给你4个闪光石，可以把传送门的四个角补上）"
 			]
-			dependencies: ["00F3EA4A8FB5B11B"]
+			dependencies: [
+				"00F3EA4A8FB5B11B"
+				"08BC73F24043BB91"
+			]
 			size: 1.25d
 			id: "0A71AC65808AFBE5"
 			tasks: [{
@@ -481,6 +484,7 @@
 				"如果它不工作，就把它打碎后重新放置！"
 				""
 				"它只能将水作为输入，只能将氧气作为输出，所以你不用担心需要额外在管道上加上过滤条件来适配它。"
+				"{image:ftblibrary:textures/gui/missing_image.png width:100 height:100 align:1 fit:true}"
 			]
 			dependencies: [
 				"267CD8D04921402E"
@@ -1505,7 +1509,7 @@
 					type: "item"
 					title: "16x64 黏土"
 					item: "minecraft:clay_ball"
-					count: 1028L
+					count: 1024L
 				}
 			]
 			rewards: [
@@ -2462,6 +2466,27 @@
 				type: "item"
 				item: "tconstruct:gold_reinforcement"
 				count: 64
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.5d
+			subtitle: "Fragments from above"
+			description: [
+				"Pieces of the moon remain all over the overworld. You will need to collect at least 10 to establish a connection with the moon."
+				""
+				"Find large quantities in meteor crash sites on the surface. Discover deposits in mineshaft chests. Sift it out of the shores of shimmer lakes."
+			]
+			id: "08BC73F24043BB91"
+			tasks: [{
+				id: "3CDDFDB700B20B99"
+				type: "item"
+				item: "ad_astra:moon_stone"
+			}]
+			rewards: [{
+				id: "4F4AC8EE18D127B0"
+				type: "xp"
+				xp: 50
 			}]
 		}
 	]

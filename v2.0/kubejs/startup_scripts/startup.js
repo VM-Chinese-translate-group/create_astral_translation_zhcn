@@ -263,6 +263,14 @@ onEvent("item.modification", event => {
     item.burnTime = 50000
   })
 
+  event.modify('ad_astra:oil_bucket', item => {
+    item.burnTime = 40000
+  })
+
+  event.modify('ad_astra:oilt', item => {
+    item.burnTime = 40000
+  })
+
 })		
 
 
@@ -984,6 +992,28 @@ onEvent('item.tooltip', e => {
       
       text.add(1, [Text.of('纹理由 Create 提供：合金化质感！').red(),])
       
+    }
+  })
+  
+  e.addAdvanced('createastral:andesite_compound', (item, advanced, text) => {
+    if (!e.isShift()) {
+      text.add(1, [Text.of('按下 ').gold(), Text.of('Shift ').yellow(), Text.of('来查看更多信息。').gold()])
+    }
+    if (e.isShift()) {
+
+      text.add(1, [Text.of('纹理由 Jamiscus 提供！').white(),])
+
+    }
+  })
+
+  e.addAdvanced('extractinator:extractinator', (item, advanced, text) => {
+    if (!e.isShift()) {
+      text.add(1, [Text.of('按下 ').gold(), Text.of('Shift ').yellow(), Text.of('来查看更多信息。').gold()])
+    }
+    if (e.isShift()) {
+
+      text.add(1, [Text.of('纯粹的装饰。没有实际的用途。').white(),])
+
     }
   })
 })

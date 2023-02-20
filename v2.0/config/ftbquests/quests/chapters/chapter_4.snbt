@@ -58,7 +58,6 @@
 			description: [
 				"多多生产黄铜，你会需要用它制作许多独特的工具。尽管你已经有了自动化，但是你也许还要建造一个采石场或者一台盾构机，快速获取该种材料。"
 				""
-				"从这里开始，获取齿轮的最快方式就是通过注液器向铸模中注入青铜。考虑自动化生产黄铜机壳和齿轮吧，后续会需要很多这些东西的。"
 			]
 			dependencies: ["51BD31261A5725E3"]
 			id: "705C815541DB89F8"
@@ -319,6 +318,11 @@
 				type: "item"
 				item: "create:steam_engine"
 				count: 9L
+			}]
+			rewards: [{
+				id: "064504FFFA76C63C"
+				type: "xp"
+				xp: 200
 			}]
 		}
 		{
@@ -2660,9 +2664,9 @@
 			description: [
 				"熔岩同时接触玄武岩和蓝冰会生成玄武岩。然后你可以把玄武岩进行自动收集，就和别的造石机一样的处理。"
 				""
-				"玄武岩，燧石和熔岩放在一起压块可以获得闪长岩，而闪长岩可以变成石英！造石机那些多余的燧石终于有用了！"
+				"与石头一样，玄武岩也可以通过提取器进行提取，以产生铜和红石。"
 				""
-				"(译者注：这块也错得离谱……看REI就会发现闪长岩是方解石，燧石和熔岩压块得到的……不知道制作组咋回事）"
+				"(译者注：这块也错得离谱……看REI就会发现闪长岩是方解石，燧石和熔岩压块得到的……不知道制作组咋回事……虽然新版本又改了）"
 			]
 			dependencies: ["20BFF582275C31C8"]
 			optional: true
@@ -3283,6 +3287,76 @@
 					only_one: true
 				}
 			]
+		}
+		{
+			title: "月球上的矿石们"
+			x: -24.5d
+			y: -2.0d
+			dependencies: ["306D009F01634115"]
+			id: "01BF21C02F97B378"
+			tasks: [
+				{
+					id: "1D825C50C2C5B58C"
+					type: "questsadditions:break"
+					block_type: 0
+					block: "ad_astra:moon_desh_ore"
+					value: 16L
+					checkItem: false
+				}
+				{
+					id: "257A64F93C34D386"
+					type: "questsadditions:break"
+					block_type: 0
+					block: "ad_astra:moon_cheese_ore"
+					value: 16L
+					checkItem: false
+				}
+				{
+					id: "56286EDB89499395"
+					type: "questsadditions:break"
+					block_type: 0
+					block: "ad_astra:moon_iron_ore"
+					value: 32L
+					checkItem: false
+				}
+				{
+					id: "5BE048ECE4AED124"
+					type: "questsadditions:break"
+					block_type: 0
+					block: "ad_astra:moon_ice_shard_ore"
+					value: 16L
+					checkItem: false
+				}
+				{
+					id: "5187B19909CA4773"
+					type: "questsadditions:break"
+					block_type: 0
+					block: "tconstruct:cobalt_ore"
+					value: 16L
+					checkItem: false
+				}
+				{
+					id: "76BBB9390B6CD775"
+					type: "questsadditions:break"
+					block_type: 0
+					block: "techreborn:deepslate_silver_ore"
+					value: 16L
+					checkItem: false
+				}
+				{
+					id: "24677D0A32D17AED"
+					type: "questsadditions:break"
+					block_type: 0
+					block: "ae2:deepslate_quartz_ore"
+					value: 16L
+					checkItem: false
+				}
+			]
+			rewards: [{
+				id: "7E497BC1C88A5603"
+				type: "item"
+				item: "createaddition:chocolate_cake"
+			}]
 		}
 	]
 	quest_links: [ ]
