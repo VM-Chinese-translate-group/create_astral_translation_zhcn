@@ -1,0 +1,8 @@
+{
+    "block.createsifter.sifter": "动力筛",
+    "item.createsifter.string_mesh": "线筛网",
+    "item.createsifter.andesite_mesh": "安山筛网",
+    "item.createsifter.zinc_mesh": "锌筛网",
+    "item.createsifter.brass_mesh": "黄铜筛网",
+    "item.createsifter.custom_mesh": "自定义筛网"
+}
