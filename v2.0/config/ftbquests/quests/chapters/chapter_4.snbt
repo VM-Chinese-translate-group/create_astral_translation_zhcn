@@ -3290,9 +3290,11 @@
 		}
 		{
 			title: "月球上的矿石们"
+			icon: "ad_astra:moon_ice_shard_ore"
 			x: -24.5d
 			y: -2.0d
 			dependencies: ["306D009F01634115"]
+			min_required_tasks: 1			
 			id: "01BF21C02F97B378"
 			tasks: [
 				{
@@ -3350,6 +3352,11 @@
 					block: "ae2:deepslate_quartz_ore"
 					value: 16L
 					checkItem: false
+				}
+				{
+					id: "3881AFE2E790DFCA"
+					type: "checkmark"
+					title: "I understand!"
 				}
 			]
 			rewards: [{

@@ -1922,13 +1922,13 @@
 			title: "已解锁磨粉机"
 			x: -17.5d
 			y: -10.5d
-			shape: "circle"
 			subtitle: "提高产量"
 			description: ["磨粉机可以通过磨粉滴水石锥获得比粉碎轮粉碎滴水石块更高的产量。"]
 			dependencies: [
 				"1BFA4FB40E2BB903"
 				"2F7F41E1C9C7F7B3"
 			]
+			hide: true
 			id: "1EB897C7C80B3286"
 			tasks: [{
 				id: "6E13AE174469C82D"

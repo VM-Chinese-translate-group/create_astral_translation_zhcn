@@ -337,7 +337,11 @@
 			shape: "hexagon"
 			subtitle: "机械动力要上天了"
 			description: ["该放演职员表咯（译者注：半场开香槟是吧）"]
-			dependencies: ["4D7BFA8973D61425"]
+			dependencies: [
+				"4D7BFA8973D61425"
+				"343B8B2BF76B1D3B"
+			]
+			dependency_requirement: "one_completed"
 			size: 1.25d
 			id: "624026189BBACBB0"
 			tasks: [
@@ -460,11 +464,12 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -0.5d
+			x: 10.5d
+			y: 0.5d
 			subtitle: "要给你的太空服充氧的话，需要用到一种特别的机器……"
 			description: ["我们已经取消了操作这台机器时对能量的需求！ 在你努力登月时不需要担心这个 :)"]	
 			dependencies: ["343B8B2BF76B1D3B"]
+			optional: true
 			id: "4D7BFA8973D61425"
 			tasks: [{
 				id: "773F68FCB1D6F848"
@@ -484,7 +489,9 @@
 				"如果它不工作，就把它打碎后重新放置！"
 				""
 				"它只能将水作为输入，只能将氧气作为输出，所以你不用担心需要额外在管道上加上过滤条件来适配它。"
-				"{image:ftblibrary:textures/gui/missing_image.png width:100 height:100 align:1 fit:true}"
+				"{image:createastral:textures/item/electrolyser_blueprint.png width:100 height:100 align:1 fit:true}"
+				""
+				"你只能从电解器方块输入和输出！"
 			]
 			dependencies: [
 				"267CD8D04921402E"
@@ -2031,11 +2038,18 @@
 					count: 4L
 				}
 			]
-			rewards: [{
-				id: "67867CF7F86A799D"
-				type: "item"
-				item: "adoptafloppa:the_dog_item"
-			}]
+			rewards: [
+				{
+					id: "67867CF7F86A799D"
+					type: "item"
+					item: "adoptafloppa:the_dog_item"
+				}
+				{
+					id: "377F84C6D97AF79A"
+					type: "item"
+					item: "adoptafloppa:amazon_delivery"
+				}
+			]
 		}
 		{
 			title: "掌控风之力量"
@@ -2469,6 +2483,7 @@
 			}]
 		}
 		{
+			icon: "ad_astra:moon_stone"
 			x: 10.0d
 			y: -4.5d
 			subtitle: "Fragments from above"
@@ -2477,12 +2492,22 @@
 				""
 				"Find large quantities in meteor crash sites on the surface. Discover deposits in mineshaft chests. Sift it out of the shores of shimmer lakes."
 			]
+			hide_dependency_lines: true
+			dependencies: ["00F3EA4A8FB5B11B"]
 			id: "08BC73F24043BB91"
-			tasks: [{
-				id: "3CDDFDB700B20B99"
-				type: "item"
-				item: "ad_astra:moon_stone"
-			}]
+			tasks: [
+				{
+					id: "3CDDFDB700B20B99"
+					type: "item"
+					item: "ad_astra:moon_stone"
+					count: 10L
+				}
+				{
+					id: "71004635288AE4E6"
+					type: "checkmark"
+					title: "I Understand!"
+				}
+			]
 			rewards: [{
 				id: "4F4AC8EE18D127B0"
 				type: "xp"

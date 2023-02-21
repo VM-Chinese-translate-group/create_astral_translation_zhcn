@@ -416,9 +416,10 @@
 			size: 1.5d
 			id: "604CF717881C323A"
 			tasks: [{
-				id: "29F229B39989651C"
-				type: "item"
-				item: "create:andesite_casing"
+				id: "705806F9DF2C4D4E"
+				type: "advancement"
+				advancement: "create:andesite_casing"
+				criterion: ""
 			}]
 		}
 		{
@@ -868,8 +869,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 15.0d
+			x: -5.0d
+			y: 6.5d
 			subtitle: "和泰拉瑞亚没有半毛钱关系"
 			description: ["提炼机可以输入各种种类的方块，然后把它们转化成怪物掉落物和金属。跟卡到掉帧的刷怪塔说拜拜吧！"]
 			description: [
@@ -879,19 +880,19 @@
 				""
 				"不妨使用 REI 查看提炼机的潜在的输入原料和输出产物，结果可能会让你大吃一惊哦！"
 			]
-			dependencies: ["5BE7EBA598FD5EE0"]
+			dependencies: ["1DEF161DE26F3587"]
 			optional: true
 			id: "392516C890B749C8"
 			tasks: [{
 				id: "4338CFB76306088F"
 				type: "item"
-				item: "extractinator:extractinator"
+				item: "createsifter:sifter"
 			}]
 		}
 		{
 			title: "想到上次做刷怪塔还是在上次"
-			x: -3.0d
-			y: 15.0d
+			x: -5.0d
+			y: 7.5d
 			shape: "diamond"
 			subtitle: "提炼沙子可以获得大部分主世界怪物的掉落物，什么刷怪塔通通都可以扔进仓库吃灰去了。"
 			dependencies: ["392516C890B749C8"]

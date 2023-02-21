@@ -306,6 +306,7 @@
 			}]
 		}
 		{
+			title: "黄金装备"
 			x: -1.5d
 			y: 11.5d
 			subtitle: "像拉里一样生活（译者注：可能是海绵宝宝梗）"
@@ -1939,9 +1940,11 @@
 		}
 		{
 			title: "主世界的矿石们"
+			icon: "minecraft:coal_ore"
 			x: -4.5d
 			y: 8.5d
 			dependencies: ["0FC0B4E8EC58F791"]
+			min_required_tasks: 1
 			id: "49202443C0D32255"
 			tasks: [
 				{
@@ -2015,6 +2018,11 @@
 					block: "minecraft:emerald_ore"
 					value: 1L
 					checkItem: false
+				}
+				{
+					id: "2CAB697E724073A6"
+					type: "checkmark"
+					title: "I understand!"
 				}
 			]
 			rewards: [{
