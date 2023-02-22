@@ -4,7 +4,7 @@
 
 主要是为了将整合包内的任务书、kubejs内容、自定义物品名称进行汉化。欢迎contribution。
 
-目前整合包版本：2.0.1b，[点此进入CurseForge页面](https://www.curseforge.com/minecraft/modpacks/create-astral)
+目前整合包版本：2.0.2，[点此进入CurseForge页面](https://www.curseforge.com/minecraft/modpacks/create-astral)
 
 ## 进度
 
