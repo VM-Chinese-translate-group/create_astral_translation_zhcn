@@ -21,3 +21,5 @@
 * 2023.2.14：@spaceskynet 编写了打包脚本，打包并发布第1版汉化。TODO：汉化Custom Machinery的自定义方块，Chipped
 
 * 2023.2.21：@spaceskynet 更新并校对了已加入本地化键的任务文本，更新了新版翻译。
+
+* 2023.2.26: @Shiki@Z 更新了部分模组的缺漏翻译，添加了Custom Machinery的多方块机器翻译。
