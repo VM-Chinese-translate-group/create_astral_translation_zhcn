@@ -1,5 +1,5 @@
 {
     "attribute.name.generic.projectile_damage" : "弹射物伤害",
     "item.modifiers.both_hands": "当手持时：",
-    "effect.projectiledamage.impact": "冲击"
+    "effect.projectiledamage.impact": "强击"
   }
