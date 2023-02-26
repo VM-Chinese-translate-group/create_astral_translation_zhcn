@@ -37,7 +37,14 @@ if __name__ == "__main__":
 	release_dir = os.path.join(work_dir, 'release')
 	resourcepack_name = 'create_astral_translation'
 	resourcepack_path = os.path.join(src_dir, 'resourcepacks', resourcepack_name)
-	required_dirs = ['config', 'kubejs', 'resourcepacks']
+
+	# Required directories
+	required_dirs = []
+	required_dirs.append('config')
+	required_dirs.append('kubejs')
+	required_dirs.append('resourcepacks')
+	required_dirs.append('global_packs')
+
 	
 	# Make Dirs
 	if not os.path.isdir(release_dir): os.makedirs(release_dir)
@@ -46,8 +53,14 @@ if __name__ == "__main__":
 		if not os.path.isdir(required_path): 
 			os.makedirs(required_path)
 
-	# KubeJS & Quests
-	copy_dirs = ['config', 'kubejs']
+	# KubeJS, quests, machine startup configs
+	
+	# Directories to copy
+	copy_dirs = []
+	copy_dirs.append('config')
+	copy_dirs.append('kubejs')
+	copy_dirs.append('global_packs')
+
 	for copy_dir in copy_dirs:
 		copy_tree(os.path.join(src_dir, copy_dir), os.path.join(release_dir, copy_dir))
 
