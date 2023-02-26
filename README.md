@@ -23,4 +23,4 @@ KubeJS魔改内容：翻译完成
 B站ID：[@茫氪](https://space.bilibili.com/560349507)、[@Mc2deM](https://space.bilibili.com/541937599)
 
 
-GitHub: [@lrcno6](https://github.com/lrcno6), [@spaceskynet](https://github.com/spaceskynet), [@KuLiPoi](https://github.com/KuLiPoi), [@DrGolden2022](https://github.com/DrGolden2022)
+GitHub: [@lrcno6](https://github.com/lrcno6), [@spaceskynet](https://github.com/spaceskynet), [@KuLiPoi](https://github.com/KuLiPoi), [@DrGolden2022](https://github.com/DrGolden2022), [@Shiki@Z](https://github.com/kressety)
