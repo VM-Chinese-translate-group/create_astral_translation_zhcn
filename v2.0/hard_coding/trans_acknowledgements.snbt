@@ -1,0 +1,66 @@
+{
+	title: "{quest.trans_acknowledgements.title}"
+	icon: "ad_astra:earth_globe"
+	x: 7.0d
+	y: 13.5d
+	shape: "heart"
+	subtitle: "{quest.trans_acknowledgements.subtitle}"
+	description: ["{quest.trans_acknowledgements.description.1}"]
+	hide_dependency_lines: true
+	dependencies: ["69669C2A3E16E328"]
+	size: 1.5d
+	id: "6A36E383247948F3"
+	tasks: [{
+		id: "7FEB359DC3B38174"
+		type: "checkmark"
+		title: "{quest.trans_acknowledgements.task.1.title}"
+	}]
+	rewards: [{
+		id: "1D457D5183AF2E33"
+		type: "item"
+		item: {
+			id: "minecraft:player_head"
+			Count: 1b
+			tag: {
+				SkullOwner: {
+					Id: [I;
+						538801554
+						859983662
+						-1464179994
+						1815641674
+					]
+					Name: "HaloSense"
+					Properties: {
+						textures: [{
+							Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3NjI1MzM0NzM0NCwKICAicHJvZmlsZUlkIiA6ICIyMDFkNzU5MjMzNDI0ZjJlYThiYTYyZTY2YzM4N2U0YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYWxvU2Vuc2UiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjdkM2RjNzkyZTRkYWIwNDhkNWE2Mjk2MzQzODg0YzFkMWY1NTcxNTkxZTM0MDFkYzQ1MzRiMjM5MTg1NjJmMyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+						}]
+					}
+				}
+			}
+		}
+	}
+	{
+		id: "5751E4E94F064D43"
+		type: "item"
+		item: {
+			id: "minecraft:player_head"
+			Count: 1b
+			tag: {
+				SkullOwner: {
+					Id: [I;
+						-817717024
+						-751350674
+						-1593679781
+						-540082299
+					]
+					Properties: {
+						textures: [{
+							Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3NzQ4MDg2ODQxNCwKICAicHJvZmlsZUlkIiA6ICJjZjQyYTBlMGQzMzc0YzZlYTEwMjYwNWJkZmNlZmY4NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTcGFjZVNreU5ldCIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lNTI5NTFjYjgyMzljNDEyMTQwNmEzMmU1NzJhZjljNWFlYjdkZjkxZmIwNzZlMTQzN2MzODgyZjNhZDM5MGIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+						}]
+					}
+					Name: "SpaceSkyNet"
+				}
+			}
+		}
+	}]
+}

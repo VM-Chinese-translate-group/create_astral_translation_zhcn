@@ -19,6 +19,12 @@ jobs:
       with:
         python-version: '3.10'
 
+    - name: Pull Official Modpack Repo
+      uses: GuillaumeFalourd/clone-github-repo-action@v2
+      with:
+        owner: 'Laskyyy'
+        repository: 'Create-Astral'
+
     - name: Make Release
       run: python make_release.py
 
