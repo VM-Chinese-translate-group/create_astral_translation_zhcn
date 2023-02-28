@@ -23,3 +23,5 @@
 * 2023.2.21：@spaceskynet 更新并校对了已加入本地化键的任务文本，更新了新版翻译。
 
 * 2023.2.26：@Shiki@Z 更新了部分模组的缺漏翻译，添加了Custom Machinery的多方块机器翻译。
+
+* 2023.2.29：@spaceskynet 改进了打包脚本，将汉化资源包转移至`global_packs/required_resources`，无需手动设置加载，并发布0.3.0版汉化。
