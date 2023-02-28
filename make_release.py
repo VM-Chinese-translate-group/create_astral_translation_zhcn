@@ -40,7 +40,7 @@ if __name__ == "__main__":
 	resourcepack_path = os.path.join(src_dir, 'resourcepacks', resourcepack_name)
 
 	# Required directories
-	required_dirs = ['resourcepacks', 'config', 'kubejs', 'global_packs']
+	required_dirs = ['config', 'kubejs', 'global_packs', 'global_packs/required_resources']
 	
 	# Make Dirs
 	if not os.path.isdir(release_dir): os.makedirs(release_dir)
@@ -57,7 +57,7 @@ if __name__ == "__main__":
 	# Resourcepack
 	os.chdir(resourcepack_path)
 	jsons = glob.glob("assets/*/lang/zh_cn.json")
-	resourcepack_zip = os.path.join(release_dir, 'resourcepacks', f'{resourcepack_name}.zip')
+	resourcepack_zip = os.path.join(release_dir, 'global_packs/required_resources', f'{resourcepack_name}.zip')
 	with zipfile.ZipFile(resourcepack_zip, 'w', zipfile.ZIP_DEFLATED) as zip_fp:
 		for json in jsons:
 			zip_fp.write(json)
@@ -70,6 +70,7 @@ if __name__ == "__main__":
 	release_zip = os.path.join(release_dir, f'{release_name}.zip')
 	with zipfile.ZipFile(release_zip, 'w', zipfile.ZIP_DEFLATED) as zip_fp:
 		for required_dir in required_dirs:
+			if '/' in required_dir: continue
 			add_dir_to_zipfile(required_dir, zip_fp)
 		for md_file in md_files:
 			md_path = os.path.join(work_dir, md_file)
@@ -78,6 +79,6 @@ if __name__ == "__main__":
 	# Delete Temp Files
 	for required_dir in required_dirs:
 		required_path = os.path.join(release_dir, required_dir)
-		shutil.rmtree(required_path)
+		# shutil.rmtree(required_path)
 	
 	print('[INFO] All is done!')
