@@ -4,8 +4,10 @@ on:
   # 手动触发事件
   workflow_dispatch:
     inputs:
-      tags:
+      release_tag:
         description: 'Release Tag'
+      commit:
+        description: 'Full SHA of Special Commit'
 
 jobs:
   build:
@@ -19,6 +21,11 @@ jobs:
       with:
         python-version: '3.10'
 
+    - name: Clone Official Modpack Repo (With Special Commit)
+      run: |
+        git clone https://github.com/Laskyyy/Create-Astral.git
+        cd Create-Astral && git reset --hard ${{ github.event.inputs.commit }} && cd ..
+
     - name: Make Release
       run: python make_release.py
 
@@ -26,8 +33,8 @@ jobs:
       uses: marvinpinto/action-automatic-releases@latest
       with:
         repo_token: "${{ secrets.GITHUB_TOKEN }}"
-        automatic_release_tag: ${{ github.event.inputs.tags }}
-        title: ${{ github.event.inputs.tags }}
+        automatic_release_tag: ${{ github.event.inputs.release_tag }}
+        title: ${{ github.event.inputs.release_tag }}
         prerelease: false
         files: |
           release/release.zip

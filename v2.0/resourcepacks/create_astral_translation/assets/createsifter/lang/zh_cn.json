@@ -4,5 +4,8 @@
     "item.createsifter.andesite_mesh": "安山筛网",
     "item.createsifter.zinc_mesh": "锌筛网",
     "item.createsifter.brass_mesh": "黄铜筛网",
-    "item.createsifter.custom_mesh": "自定义筛网"
+    "item.createsifter.custom_mesh": "自定义筛网",
+    "create.recipe.sifting": "动力筛分",
+    "createsifter.recipe.sifting": "动力筛分",
+    "itemGroup.createsifter:main": "机械动力：筛子"
 }
