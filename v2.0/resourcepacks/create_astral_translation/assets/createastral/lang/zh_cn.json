@@ -1,4 +1,7 @@
 {
+    "item.createastral.crushed_desh_ore": "粉碎戴斯矿石",
+    "item.createastral.crushed_ostrum_ore": "粉碎紫金矿石",
+    "item.createastral.crushed_calorite_ore": "粉碎耐热金属矿石",
     "item.createastral.subatomic_ingot": "亚原子金属锭",
     "item.createastral.astral_conduit": "星辰核心",
     "item.createastral.andesite_compound": "安山混合物",
@@ -61,5 +64,6 @@
     "block.createastral.blast-resistant_concrete_slab": "防爆混凝土台阶",
     "block.createastral.blast-resistant_concrete": "防爆混凝土",
     "block.createastral.blast-resistant_concrete_stairs": "防爆混凝土楼梯",
-    "block.createastral.andesite_alloy_block": "安山合金块"
+    "block.createastral.andesite_alloy_block": "安山合金块",
+    "block.createastral.electrolyser_dummy": "电解器（模型）"
 }
