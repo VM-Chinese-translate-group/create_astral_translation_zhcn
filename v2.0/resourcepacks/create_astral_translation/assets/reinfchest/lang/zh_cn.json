@@ -1,4 +1,6 @@
 {
   "block.reinfchest.gold_chest": "玫瑰金箱子",
-  "container.reinfchest.goldChest": "玫瑰金箱子"
+  "container.reinfchest.goldChest": "玫瑰金箱子",
+  "container.reinfchest.goldChestDouble": "大型玫瑰金箱子",
+  "stat.reinfchest.open_gold_chest": "玫瑰金箱子打开次数"
 }
