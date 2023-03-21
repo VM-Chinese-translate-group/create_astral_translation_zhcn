@@ -1,5 +1,5 @@
 {
-    // 整合包修改过的物品/方块
+    "__commentModified__": "整合包修改过的翻译",
     "item.techreborn.electronic_circuit": "高级集成电路",
     "item.techreborn.industrial_circuit": "工业计算单元",
     "item.techreborn.machine_parts": "机械零件",
@@ -7,11 +7,12 @@
     "item.techreborn.synthetic_redstone_crystal": "合成红石晶体",
     "block.techreborn.nuke": "W.O.L.F",
 
-    // 缺失的翻译
+    "__commentReplement__": "修正的翻译",
     "item.techreborn.netherrack_dust": "下界岩粉",
     "item.techreborn.netherite_nugget": "下界合金粒",
     "item.techreborn.sponge_piece": "海绵碎片",
     "item.techreborn.muffler_upgrade": "消音升级",
+    "item.techreborn.clay_dust": "黏土粉",
 
     "item.techreborn.silver_helmet": "银头盔",
     "item.techreborn.silver_chestplate": "银胸甲",
