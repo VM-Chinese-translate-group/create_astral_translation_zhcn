@@ -4,11 +4,11 @@
 
 主要是为了将整合包内的任务书、kubejs内容、自定义物品名称进行汉化。欢迎contribution。
 
-目前整合包版本：2.0.2，[点此进入CurseForge页面](https://www.curseforge.com/minecraft/modpacks/create-astral)
+目前整合包版本：2.0.3b，[点此进入CurseForge页面](https://www.curseforge.com/minecraft/modpacks/create-astral)
 
 ## 进度
 
-任务书：全部翻译完成。校对：WIP
+任务书：全部翻译完成。校对随玩随进行。
 
 KubeJS魔改内容：翻译完成
 
