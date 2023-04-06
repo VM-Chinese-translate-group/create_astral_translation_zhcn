@@ -24,4 +24,20 @@
 
     "Material item, no functional use.": "合成材料，无实际用途。",
     "Purely decorative. No functional use.": "纯粹的装饰。无实际用途。"
+
+    "Disabled, use a foundry in chapter 3.": "已禁用，使用第三章的熔铸炉。",
+    "No longer superheats! Use processes in Chapter 4 to superheat blaze burners. (Fuel Bucket, regular blaze burner)":"不再能用来超级加热！使用第四章的工艺超级加热烈焰人燃烧室。（用燃油桶才是正常的烈焰人燃烧室）",
+    "Gated by reaching the Moon!.": "在月球传送门的另一边！",
+    "Gated by reaching the Moon!": "在月球传送门的另一边！",
+    "Blazes can be found in a certain structure on the Moon...":"烈焰人可以在月球的特定结构中找到……",
+    "Can be repaired using Sturdy Sheets.":"可以用坚固板修复。",
+    "Nether is Disabled. Nether content is distributed across planets. Follow the questbook for more info.":"整合包取消了下界。下界物品分布在各个星球上。查看任务书获取更多信息。",
+    "Blazes are found on the moon.":"烈焰人在月球上。",
+    "Crafted with either silver OR lead!":"可以用银**或者**铅合成！",
+    "Found underground on the moon.":"可以在月球地下找到。",
+    "Found underground on the moon and mars. Can be obtained from bastions and infernal spires on mars.": "可以在月球和火星地下找到。可以用玄武岩和火星上的炼狱尖刺制作。",
+    "Material forged in chapter 5.": "物质制造在第五章。",
+    "Use a hopper to place this in a mechanical crafter.": "可以用漏斗把它放进动力合成器。",
+    "This metal is found on the moon. Y=65": "这种金属可以在月球找到。Y=65",
+    "This metal is found on mars. Y=50": "这种金属可以在火星找到。Y=50"
 }
