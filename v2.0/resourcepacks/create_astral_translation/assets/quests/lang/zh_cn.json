@@ -1242,7 +1242,7 @@
 
   "__comment__": "来自翻译人员的私货",
   
-  "quest.trans_acknowledgements.description.1": "从整合包2.0版发布之后我们就一直在加紧进行翻译，花费了两周时间完成了所有任务文本以及游戏内自定义物品（kubejs、魔改文本）的汉化，这个过程很辛苦，但就我个人而言也很开心，能够尽自己的一份力量帮助大家更好地进行游戏。\n\n原文的文本有不少地方都有玩梗以及reference，我们都结合了自己的理解进行了本地化，如果能够博君一笑那就再好不过了。\n\n再次感谢所有参与汉化的人员，辛苦了。\n\n汉化主催：（B站ID）@HS_花露水（任务奖励第一个是我的头，第二个是spacesskynet的头，感谢他的贡献。）\n\n鸣谢（排名不分先后）\n\nB站ID：@茫氪、@Mc2deM、@冰焰_Frozen\nGitHub：@lrcno6、@spaceskynet、@DrGolden2022、@KuLiPoi、@kressety（Shiki@Z）",
+  "quest.trans_acknowledgements.description.1": "从整合包2.0版发布之后我们就一直在加紧进行翻译，花费了两周时间完成了所有任务文本以及游戏内自定义物品（kubejs、魔改文本）的汉化，这个过程很辛苦，但就我个人而言也很开心，能够尽自己的一份力量帮助大家更好地进行游戏。\n\n原文的文本有不少地方都有玩梗以及reference，我们都结合了自己的理解进行了本地化，如果能够博君一笑那就再好不过了。\n\n再次感谢所有参与汉化的人员，辛苦了。\n\n汉化主催：（B站ID）@HS_花露水（任务奖励第一个是我的头，第二个是SpaceSkyNet的头，感谢他的贡献。）\n\n鸣谢（排名不分先后）\n\nB站ID：@茫氪、@Mc2deM、@冰焰_Frozen\nGitHub：@lrcno6、@spaceskynet、@DrGolden2022、@KuLiPoi、@kressety（Shiki@Z）、@KeithTsao",
   "quest.trans_acknowledgements.subtitle": "十分感谢你对我们的支持！",
   "quest.trans_acknowledgements.task.1.title": "感谢翻译！",
   "quest.trans_acknowledgements.title": "来自翻译团队的感谢"

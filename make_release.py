@@ -79,6 +79,7 @@ if __name__ == "__main__":
 	# Delete Temp Files
 	for required_dir in required_dirs:
 		required_path = os.path.join(release_dir, required_dir)
-		# shutil.rmtree(required_path)
+		if '/' in required_dir: continue
+		shutil.rmtree(required_path)
 	
 	print('[INFO] All is done!')

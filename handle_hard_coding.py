@@ -89,6 +89,8 @@ def handle_startup_js(work_dir):
     for key, value in trans_dict.items():
         content = content.replace(f"Text.of('{key}", f"Text.of('{value}")
         content = content.replace(f'Text.of("{key}', f'Text.of("{value}')
+        content = content.replace(f"tooltip: '{key}", f"tooltip: '{value}")
+        content = content.replace(f'tooltip: "{key}', f'tooltip: "{value}')
 
     with open(startup_js_path, 'w', encoding="utf-8") as f:
         f.write(content)
