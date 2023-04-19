@@ -1,10 +1,6 @@
 {
     "__comment_part1__": "Text.of",
 
-    "(It actually smelts ": "（它实际上能熔炼 ",
-    "16 items": "16个物品",
-    ", ignore what it says above)": "，请忽略上面说的）",
-
     "Hold": "按住",
     "to see more info.": "来查看更多信息。",
 
@@ -36,6 +32,11 @@
 
 
     "__comment_part3__": "old translations, maybe useful",
+
+    
+    "(It actually smelts ": "（它实际上能熔炼 ",
+    "16 items": "16个物品",
+    ", ignore what it says above)": "，请忽略上面说的）",
 
     "Heavy and durable, a solid alternative to diamond.": "厚实耐用，是钻石的坚实替代品。",
     "Reliable, will require a mechanical press to produce.": "坚固可靠，需将铁锭压成铁板才可以进一步加工。",
