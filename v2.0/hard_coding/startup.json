@@ -4,18 +4,18 @@
     "Hold": "按住",
     "to see more info.": "来查看更多信息。",
 
-    "If you are new to create, use pondering or online guides. The pack is almost exclusively centered around it and Tech Reborn. The quest book has some items that give a general idea of what has changed / what is included, in the order of when to take note of them, however the pack can be played without following it exactly, so do what you enjoy.": "如果你是机械动力新手，那么 你可以使用思索或在线指南。该整合包几乎完全以机械动力为中心。任务书有一些项目，可以大致了解发生了什么变化/包含什么，可以根据任务书来进行游玩，但是，也可以不完全跟着任务线走，所以做你喜欢的事情吧！",
-    "A major change you *might* want to be aware of. The nether does not exist. Do not even try to make the portal as it will not function. All nether related items are distributed throughout the pack (mostly planets)": "你 可能 想知道的一个重大变化——这个整合包中不存在下界，所以请不要尝试搭建下界传送门，因为它不会起作用（除非你想拿它做装饰）。所有与下界相关的物品都分布在整个整合包的流程中（主要是在除主世界外的星球上）",
+    "If you are new to create, use pondering or online guides. The pack is almost exclusively centered around it and Tech Reborn. The quest book has some items that give a general idea of what has changed / what is included, in the order of when to take note of them, however the pack can be played without following it exactly, so do what you enjoy.": "如果你是机械动力新手，那么你可以使用思索或在线指南。\n该整合包几乎完全以机械动力为中心。任务书有一些项目，\n可以大致了解哪些内容有所改动。你可以选择按照任务书指示\n进行游玩，但是，也可以不完全跟着任务线走，所以做\n你喜欢的事情吧！",
+    "A major change you *might* want to be aware of. The nether does not exist. Do not even try to make the portal as it will not function. All nether related items are distributed throughout the pack (mostly planets)": "你可能想知道的一个重大变化——这个整合包中不存在下界，\n所以请不要尝试搭建下界传送门，因为它不会起作用\n（除非你想拿它做装饰）。所有与下界相关的物品都分布在整个整合包的流程中\n（主要是在除主世界外的星球上）",
 
 
     "__comment_part2__": "Tooltip: ",
 
     "Disabled, use a foundry in chapter 3.": "已禁用，请使用第三章中提到的熔铸炉。",
-    "No longer superheats! Use processes in Chapter 4 to superheat blaze burners. (Fuel Bucket, regular blaze burner)": "不再支持超级加热! 请用任务线第4章展示的流程生产燃油进行超级加热（对着普通烈焰人燃烧室使用燃油桶）。",
+    "No longer superheats! Use processes in Chapter 4 to superheat blaze burners. (Fuel Bucket, regular blaze burner)": "烈焰蛋糕不再支持超级加热! 请用任务线第4章展示的流程生产燃油进行超级加热（对着普通烈焰人燃烧室使用燃油桶）。",
     "Gated by reaching the Moon!": "可以前往月球获得！",
     "Blazes can be found in a certain structure on the Moon...": "可以在月球上某种特定结构中找到烈焰人……",
     "Chewy... might make a good source of leather?": "好难嚼……也许可以把它制成皮革？",
-    "This recipe is wierd it actually uses redstone, not rose quartz.": "这个配方很奇怪，它实际上使用的是红石，而不是玫瑰石英。",
+    "This recipe is weird it actually uses redstone, not rose quartz.": "这个配方很奇怪，它实际上使用的是红石，而不是玫瑰石英。",
     "Texture courtesy of Create: Alloyed!": "纹理由机械动力：合金模组提供！",
     "Purely decorative. No functional use.": "纯粹的装饰，无实际用途。",
     "Can be repaired using Sturdy Sheets.": "可以在铁砧上用坚固板修复。",
@@ -33,7 +33,6 @@
 
     "__comment_part3__": "old translations, maybe useful",
 
-    
     "(It actually smelts ": "（它实际上能熔炼 ",
     "16 items": "16个物品",
     ", ignore what it says above)": "，请忽略上面说的）",
