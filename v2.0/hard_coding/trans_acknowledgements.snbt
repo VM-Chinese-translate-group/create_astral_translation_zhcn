@@ -7,7 +7,7 @@
 	subtitle: "{quest.trans_acknowledgements.subtitle}"
 	description: ["{quest.trans_acknowledgements.description.1}"]
 	hide_dependency_lines: true
-	dependencies: ["69669C2A3E16E328"]
+	dependencies: ["0CE73BAC9F3A9E03"]
 	size: 1.5d
 	id: "6A36E383247948F3"
 	tasks: [{

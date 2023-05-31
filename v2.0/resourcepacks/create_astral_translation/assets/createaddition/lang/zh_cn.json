@@ -1,4 +1,8 @@
 {
+  "__commentCustomTooltip__": "修改的tooltip",
+  "item.createaddition.biomass_pellet.tooltip.summary": "一种可以在_熔炉_中熔炼 _16 个物品_的_固体燃料_。",
+
+  "__commentFix__": "补充修复翻译",
   "createaddition.tooltip.energy.stored": "已存储的能量：",
   "createaddition.tooltip.energy.consumption": "已使用的能量：",
   "createaddition.tooltip.energy.production": "已产生的能量：",
@@ -86,7 +90,6 @@
   "item.createaddition.biomass": "生物质",
   "item.createaddition.biomass_pellet": "生物质颗粒",
   "item.createaddition.biomass_pellet.tooltip": "生物质颗粒",
-  "item.createaddition.biomass_pellet.tooltip.summary": "一种可以在_熔炉_中熔炼 _5 个物品_的_固体燃料_。",
   
   "item.createaddition.charging_chromatic_compound": "正在充能的异彩化合物",
   "item.createaddition.overcharged_alloy": "超负荷合金",
