@@ -1,4 +1,16 @@
 {
+  ///// 流体名称 /////
+  "fluid.kubejs.molten_calorite" : "熔融耐热合金",
+  "fluid.kubejs.molten_ostrum" : "熔融紫金",
+  "fluid.kubejs.molten_desh" : "熔融戴斯",
+  "fluid.kubejs.plasma_fluid" : "夸克-胶子等离子流体",
+  "fluid.kubejs.hellfire" : "地狱火",
+  "fluid.kubejs.compound_mixture" : "安山混合液",
+  "fluid.kubejs.shimmer" : "闪光溶液",
+  "fluid.kubejs.blast-resistant_cement" : "防爆水泥",
+
+
+  //任务
   "quest.main_title": "机械动力：星辰",
   "chapter.1.quest.1.description.1": "小心不要被雷劈到",
   "chapter.1.quest.1.subtitle": "廉价但实用",
@@ -1008,6 +1020,8 @@
   "chapter.6.quest.5.description": "闪光玻璃线缆最多可以传输8个频道，如果频道占用超出限制，整个网络就会直接瘫痪！\n\n智能线缆可以显示已使用的频道数量，可以用Jade模组查看（画面顶端的指示栏），也可以观察线缆方块表面，频道占用显示为一条或几条线。",
   "chapter.6.quest.5.subtitle": "大概是你会用到的第一样物品",
   "chapter.6.quest.5.title": "最初的线缆",
+  "chapter.6.quest.10.title": "发现压印模板",
+  "chapter.6.quest.10.subtitle": "在月球的各种结构以及陨石中可以找到这种基础的压印模板。",
   "chapter.6.quest.11.subtitle": "将赛特斯石英粉加热到临界温度可以获得未处理的硅。",
   "chapter.6.quest.11.title": "手中有硅，心中有鬼",
   "chapter.6.quest.12.subtitle": "在压印器中要用到的基础电路板材。",
