@@ -1,16 +1,4 @@
 {
-  ///// FLUIDS NAME HERE /////
-  "fluid.kubejs.molten_calorite" : "Calorite",
-  "fluid.kubejs.molten_ostrum" : "Ostrum",
-  "fluid.kubejs.molten_desh" : "Desh",
-  "fluid.kubejs.plasma_fluid" : "Quark-Gluon Plasma Fluid",
-  "fluid.kubejs.hellfire" : "Hellfire",
-  "fluid.kubejs.compound_mixture" : "Compound Mixture",
-  "fluid.kubejs.shimmer" : "Shimmer",
-  "fluid.kubejs.blast-resistant_cement" : "Blast-Resistant Cement",
-
-
- //Quest
   "quest.main_title": "Create: Astral",
   "chapter.1.quest.1.description.1": "Don\u0027t get hit by lightning.",
   "chapter.1.quest.1.subtitle": "Cheap defense.",
@@ -1027,8 +1015,6 @@
   "chapter.6.quest.5.description": "The shimmer glass cable can carry up to 8 channels, when you exceed the channel limit, that entire piece of network will go offline!\nSmart cables display the amount of channels used, both on jade (your block viewer in top middle) and on the block itself, viewed as a line.",
   "chapter.6.quest.5.subtitle": "The first items you probably you will use",
   "chapter.6.quest.5.title": "The first cables",
-  "chapter.6.quest.10.title": "Discovering the press.",
-  "chapter.6.quest.10.subtitle": "This basic press can be found across the moon in various structures and meteors.",
   "chapter.6.quest.11.subtitle": "Heat certus dust to a high breaking point and form unprocessed silicon.",
   "chapter.6.quest.11.title": "Sussy Silicon",
   "chapter.6.quest.12.subtitle": "Basic circuit frame for use in the inscriber.",
