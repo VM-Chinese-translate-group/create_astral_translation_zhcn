@@ -1,16 +1,4 @@
 {
-  ///// 流体名称 /////
-  "fluid.kubejs.molten_calorite" : "熔融耐热合金",
-  "fluid.kubejs.molten_ostrum" : "熔融紫金",
-  "fluid.kubejs.molten_desh" : "熔融戴斯",
-  "fluid.kubejs.plasma_fluid" : "夸克-胶子等离子流体",
-  "fluid.kubejs.hellfire" : "地狱火",
-  "fluid.kubejs.compound_mixture" : "安山混合液",
-  "fluid.kubejs.shimmer" : "闪光溶液",
-  "fluid.kubejs.blast-resistant_cement" : "防爆水泥",
-
-
-  //任务
   "quest.main_title": "机械动力：星辰",
   "chapter.1.quest.1.description.1": "小心不要被雷劈到",
   "chapter.1.quest.1.subtitle": "廉价但实用",
