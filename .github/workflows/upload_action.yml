@@ -1,0 +1,36 @@
+name: Upload Action
+
+on:
+  issues:
+    types: [opened]
+jobs:
+  check-issue-and-upload:
+    if: contains(github.event.issue.labels.*.name, '自动化:Github→paratranz')
+    name: Check Issue And Upload
+    runs-on: ubuntu-latest
+    environment: PARATRANZ_ENV
+    env:
+      API_TOKEN: ${{secrets.API_KEY}}
+      FILE_PATH: ./
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PROJECT_ID: ${{vars.ID}}
+      GIT_PATH: ${{vars.G_PATH}}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: |
+          pip install git+https://github.com/MuXiu1997/ParaTranz-SDK-python.git
+      - name: Json To Paratranz
+        run: |
+          python .github/workflows/upload.py
+  close-issue:
+    name: Close Issue
+    needs: check-issue-and-upload
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close Issue
+        uses: peter-evans/close-issue@v3

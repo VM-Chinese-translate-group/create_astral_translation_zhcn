@@ -1,0 +1,34 @@
+labelPRBasedOnFilePath:
+  need review:
+    - "CNPack/**"
+
+  .github:
+    - ".github/**"
+
+  resource:
+    - "CNPack/kubejs/assets/**"
+    - "CNPack/config/fancymenu/**"
+#   - "CNPack/resoucepacks/**"
+
+  ftbquest:
+    - "CNPack/config/ftbquests/**"
+  
+  
+labelerFlags:
+    # If this flag is changed to 'false', labels would only be added when the PR is first created and not when existing
+    # PR is updated.
+    # The default is 'true' which means the labels would be added when PR is updated even if they were removed by the user
+    labelOnPRUpdates: true  
+
+##### Greetings ########################################################################################################
+firstPRWelcomeComment: >
+  - 请确定此 Pull Request 的目标分支是否正确
+  - 请确定此 Pull Request 的状态，若未完成，请设置为 Draft
+  - 劣质的机器翻译请不要轻易提交，但是机翻润色是允许的
+  - 请耐心等待审核，审核完成后请及时前来处理
+
+firstPRMergeComment: >
+  Nice Job!
+# Comment to be posted to on first time issues
+firstIssueWelcomeComment: >
+  欢迎，感谢你为整合包汉化做出的反馈，下次再来，客官您慢走。
