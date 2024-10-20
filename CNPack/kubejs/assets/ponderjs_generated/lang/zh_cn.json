@@ -21,7 +21,7 @@
     "kubejs.ponder.set_replace_modify_tutorial.text_6":"目前，催生仓可以生产花岗岩和别的星球的默认石头（月岩和火星岩）。",
     "kubejs.ponder.shimmer_refinery.header":"如何搭建一个闪光溶液精炼厂",
     "kubejs.ponder.shimmering_stone.header":"如何搭建一个月球传送门",
-    "kubejs.ponder.shimmering_stone.text_1":"在这个整合包中不存在下界，下界的物品分散在不同的星球上。",
+    "kubejs.ponder.shimmering_stone.text_1":"在这个整合包中下界已被禁用，下界的物品分散在不同的星球上。",
     "kubejs.ponder.shimmering_stone.text_2":"这是个新增的传送门，它会把你带往月球！",
     "kubejs.ponder.tag.createastral":"机械动力：星辰",
     "kubejs.ponder.tag.createastral.description":"游玩该整合包的小技巧",
