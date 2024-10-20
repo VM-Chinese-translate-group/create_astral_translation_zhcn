@@ -17,7 +17,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: 机械动力星辰汉化补丁${{ steps.date.outputs.date }}.zip
+          name: 机械动力星辰汉化补丁${{ steps.date.outputs.date }}
           path: ./CNPack
       - name: Release
         uses: ncipollo/release-action@v1
