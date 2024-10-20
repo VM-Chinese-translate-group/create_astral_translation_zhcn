@@ -1,26 +1,33 @@
 name: Packer
 on:
-    workflow_dispatch: 
-    schedule:
-        - cron: 
-            0 0 * * *
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"  # 每天0点运行
+
 jobs:
   release:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3.5.3
+
       - name: Get current date
         id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: 机械动力星辰汉化补丁${{ steps.date.outputs.date }}
+          name: "机械动力星辰汉化补丁-${{ env.date }}"
           path: ./CNPack
-      - name: Release
+
+      - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "机械动力星辰汉化补丁${{ steps.date.outputs.date }}.zip"
-          tag: "Realease-${{ steps.date.outputs.date }}"
+          artifacts: "机械动力星辰汉化补丁-${{ env.date }}.zip"
+          tag: "Release-${{ env.date }}"
+          name: "Release ${{ env.date }}"
+          body: "自动生成的发布，包含最新的汉化补丁。"
+          draft: false
+          prerelease: false
