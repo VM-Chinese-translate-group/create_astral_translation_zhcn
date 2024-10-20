@@ -4,6 +4,7 @@ on:
     types: [opened]
   schedule:
     - cron: "0 */2 * * *"
+  workflow_dispatch :
 jobs:
   check-issue:
     if: contains(github.event.issue.labels.*.name, '自动化:paratranz→Github') && github.event_name != 'schedule'
