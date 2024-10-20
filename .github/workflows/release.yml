@@ -2,7 +2,7 @@ name: Packer
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"  # 每天0点运行
+    - cron: "0 0 * * *"
 
 jobs:
   release:
@@ -16,11 +16,14 @@ jobs:
         id: date
         run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
 
+      - name: Zip CNPack folder
+        run: zip -r "机械动力星辰汉化补丁-${{ env.date }}.zip" ./CNPack
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: "机械动力星辰汉化补丁-${{ env.date }}"
-          path: ./CNPack
+          name: "机械动力星辰汉化补丁-${{ env.date }}.zip"
+          path: "机械动力星辰汉化补丁-${{ env.date }}.zip"
 
       - name: Create Release
         uses: ncipollo/release-action@v1
@@ -28,6 +31,6 @@ jobs:
           artifacts: "机械动力星辰汉化补丁-${{ env.date }}.zip"
           tag: "Release-${{ env.date }}"
           name: "Release ${{ env.date }}"
-          body: "自动生成的发布，包含最新的汉化补丁。"
+          body: "自动生成的最新汉化补丁"
           draft: false
           prerelease: false
