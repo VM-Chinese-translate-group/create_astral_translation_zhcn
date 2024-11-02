@@ -9,7 +9,8 @@ jobs:
   paratranz-to-gitHub:
     name: Translation To GitHub
     runs-on: ubuntu-latest
-    environment: PARATRANZ_ENV
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
     env:
       API_TOKEN: ${{ secrets.API_KEY }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -40,16 +41,12 @@ jobs:
             git commit -m 'paratranz 上传翻译'
             git push origin main
             echo "changed=true" >> $GITHUB_ENV
+            echo "::set-output name=changed::true"
           else
             echo '译文未更改'
             echo "changed=false" >> $GITHUB_ENV
+            echo "::set-output name=changed::false"
           fi
-      - name: Upload a Build Artifact
-        if: env.changed == 'true'
-        uses: actions/upload-artifact@v4
-        with:
-          name: CNPack
-          path: ${{ github.workspace }}/CNPack
 
   release:
     name: Create Release
@@ -59,6 +56,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: CNPack
+          path: ${{ github.workspace }}/CNPack
 
       - name: Get current date
         id: date

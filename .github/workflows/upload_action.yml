@@ -7,7 +7,6 @@ jobs:
   upload:
     name: Upload
     runs-on: ubuntu-latest
-    environment: PARATRANZ_ENV
     env:
       API_TOKEN: ${{ secrets.API_KEY }}
       FILE_PATH: ./
