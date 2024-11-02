@@ -80,6 +80,9 @@ def main() -> None:
         zh_cn_dict: dict[str, str] = {
             key: re.sub(r"\\n", "\n", value) for key, value in zip(keys, values)
         }
+        zh_cn_dict: dict[str, str] = {
+            key: re.sub(r"\\u00A0", "\u00A0", value) for key, value in zip(keys, values)
+        }
         if "ftbquest" in path:
             zh_cn_dict = {
                 key: (value.replace(" ", "\u00A0") if "image" not in value else value)
