@@ -1,0 +1,84 @@
+name: Paratranz To GitHub
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+jobs:
+  paratranz-to-gitHub:
+    name: Translation To GitHub
+    runs-on: ubuntu-latest
+    environment: PARATRANZ_ENV
+    env:
+      API_TOKEN: ${{ secrets.API_KEY }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PROJECT_ID: ${{ vars.ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install dependencies
+        run: |
+          pip install requests
+      - name: Configure Git
+        run: |
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com" && \
+          git config --global user.name "VM[BOT]"
+      - name: Checkout main branch
+        run: git checkout main
+      - name: Paratranz To GitHub
+        run: python .github/workflows/para2github.py
+      - name: Commit changes
+        id: commit
+        run: |
+          git add .
+          if [[ -n $(git status -s) ]]; then
+            echo '译文更改'
+            git commit -m 'paratranz 上传翻译'
+            git push origin main
+            echo "changed=true" >> $GITHUB_ENV
+          else
+            echo '译文未更改'
+            echo "changed=false" >> $GITHUB_ENV
+          fi
+      - name: Upload a Build Artifact
+        if: env.changed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: CNPack
+          path: ${{ github.workspace }}/CNPack
+
+  release:
+    name: Create Release
+    runs-on: ubuntu-latest
+    needs: paratranz-to-gitHub
+    if: needs.paratranz-to-gitHub.outputs.changed == 'true'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+
+      - name: Zip CNPack folder
+        run: zip -r "${{ env.date }}.zip" ./CNPack
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: "${{ env.date }}.zip"
+          path: "${{ env.date }}.zip"
+
+      - name: Create Release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "${{ env.date }}.zip"
+          tag: "Release-${{ env.date }}"
+          name: "Release ${{ env.date }}"
+          body: "自动生成的最新汉化补丁"
+          draft: false
+          prerelease: false
