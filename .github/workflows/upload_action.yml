@@ -6,6 +6,7 @@ on:
 jobs:
   upload:
     name: Upload
+    environment: PARATRANZ_ENV
     runs-on: ubuntu-latest
     env:
       API_TOKEN: ${{ secrets.API_KEY }}
