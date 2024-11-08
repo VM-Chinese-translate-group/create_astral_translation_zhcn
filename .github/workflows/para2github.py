@@ -80,7 +80,7 @@ def main() -> None:
         zh_cn_dict: dict[str, str] = {
             key: re.sub(r"\\n", "\n", value) for key, value in zip(keys, values)
         }
-        {
+        zh_cn_dict: dict[str, str] = {
             key: re.sub(r"\\u00b7", "\u00b7", value) for key, value in zip(keys, values)
         }
         if "ftbquest" in path:
