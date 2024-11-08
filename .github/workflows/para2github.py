@@ -77,10 +77,10 @@ def main() -> None:
 
     for file_id, path in zip(file_id_list, file_path_list):
         keys, values = translate(file_id)
-        zh_cn_dict: dict[str, str] = {
+        zh_cn_dict: dict = {
             key: (value.replace("\\n", "\n", value) for key, value in zip(keys, values))
         }
-        zh_cn_dict: dict1[str, str] = {
+        zh_cn_dict: dict = {
             key: (value.replace("\\u00b7", "\u00b7", value) for key, value in zip(keys, values))
         }
         if "ftbquest" in path:
