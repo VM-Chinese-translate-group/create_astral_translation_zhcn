@@ -11,8 +11,6 @@ jobs:
     name: Paratranz To GitHub
     environment: PARATRANZ_ENV
     runs-on: ubuntu-latest
-    outputs:
-      changed: ${{ steps.commit.outputs.changed }}
     env:
       API_TOKEN: ${{ secrets.API_KEY }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -44,8 +42,10 @@ jobs:
             echo "changed=true" > .changed
           else
             echo "changed=false" > .changed
-        outputs:
-          changed: ${{ steps.commit.outputs.changed }}
+          fi
+      - name: Set output for changed
+        run: echo "changed=$(cat .changed)" >> $GITHUB_ENV
+        id: set_output
 
   release:
     name: Create Release
