@@ -45,13 +45,12 @@ jobs:
           fi
       - name: Set output for changed
         run: echo "changed=$(cat .changed)" >> $GITHUB_ENV
-        id: set_output
 
   release:
     name: Create Release
     runs-on: ubuntu-latest
     needs: paratranz-to-gitHub
-    if: ${{ needs.paratranz-to-gitHub.outputs.changed == 'true' }}
+    if: ${{ env.changed == 'true' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
