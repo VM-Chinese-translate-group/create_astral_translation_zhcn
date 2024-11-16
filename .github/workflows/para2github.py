@@ -1,16 +1,18 @@
 import json
 import os
 import re
+from pathlib import Path
 from typing import Tuple
 
 import requests
 
+TOKEN: str = os.getenv("API_TOKEN", "")
+GH_TOKEN: str = os.getenv("GH_TOKEN", "")
+PROJECT_ID: str = os.getenv("PROJECT_ID", "")
+FILE_URL: str = f"https://paratranz.cn/api/projects/{PROJECT_ID}/files/"
 
-# 从环境变量中获取必要的Token和项目ID
-token: str = os.environ["API_TOKEN"]
-gittoken: str = os.environ["GH_TOKEN"]
-project_id: str = os.environ["PROJECT_ID"]
-file_url: str = f"https://paratranz.cn/api/projects/{project_id}/files/"
+if not TOKEN or not PROJECT_ID:
+    raise EnvironmentError("环境变量 API_TOKEN 或 PROJECT_ID 未设置。")
 
 # 初始化列表和字典
 file_id_list: list[int] = []
@@ -18,32 +20,32 @@ file_path_list: list[str] = []
 zh_cn_list: list[dict[str, str]] = []
 
 
+def fetch_json(url: str, headers: dict[str, str]) -> list[dict[str, str]]:
+    response = requests.get(url, headers=headers)
+    response.raise_for_status()
+    return response.json()
+
+
 def translate(file_id: int) -> Tuple[list[str], list[str]]:
     """
-    获取指定文件的翻译内容并返回键值对列表。
+    获取指定文件的翻译内容并返回键值对列表
 
     :param file_id: 文件ID
     :return: 包含键和值的元组列表
     """
-    url: str = (
-        f"https://paratranz.cn/api/projects/{project_id}/files/{file_id}/translation"
-    )
-    response: requests.Response = requests.get(
-        url, headers={"Authorization": token, "accept": "*/*"}
-    )
-    translations: list[dict[str, str]] = response.json()
+    url = f"https://paratranz.cn/api/projects/{PROJECT_ID}/files/{file_id}/translation"
+    headers = {"Authorization": TOKEN, "accept": "*/*"}
+    translations = fetch_json(url, headers)
 
-    keys: list[str] = []
-    values: list[str] = []
+    keys, values = [], []
 
     for item in translations:
         keys.append(item["key"])
-        translation: str = item["translation"]
-        original: str = item["original"]
+        translation = item.get("translation", "")
+        original = item.get("original", "")
+        # 优先使用翻译内容，缺失时根据 stage 使用原文
         values.append(
-            original
-            if not translation and (item["stage"] == 0 or item["stage"] == -1)
-            else translation
+            original if not translation and item["stage"] in [0, -1] else translation
         )
 
     return keys, values
@@ -51,47 +53,66 @@ def translate(file_id: int) -> Tuple[list[str], list[str]]:
 
 def get_files() -> None:
     """
-    获取项目中的文件列表并提取文件ID和路径。
+    获取项目中的文件列表并提取文件ID和路径
     """
-    response: requests.Response = requests.get(
-        file_url, headers={"Authorization": token, "accept": "*/*"}
-    )
-    files: list[dict[str, str]] = response.json()
+    headers = {"Authorization": TOKEN, "accept": "*/*"}
+    files = fetch_json(FILE_URL, headers)
 
     for file in files:
         file_id_list.append(file["id"])
         file_path_list.append(file["name"])
 
 
-def save_translation(zh_cn_dict: dict[str, str], path: str) -> None:
-    dir_path: str = os.path.join("CNPack", os.path.dirname(path))
-    os.makedirs(dir_path, exist_ok=True)
-    file_path: str = os.path.join(dir_path, "zh_cn.json")
+def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
+    """
+    保存翻译内容到指定的 JSON 文件
 
-    with open(file_path, "w+", encoding="UTF-8") as f:
+    :param zh_cn_dict: 翻译内容的字典
+    :param path: 原始文件路径
+    """
+    dir_path = Path("CNPack") / path.parent
+    dir_path.mkdir(parents=True, exist_ok=True)
+    file_path = dir_path / "zh_cn.json"
+
+    with open(file_path, "w", encoding="UTF-8") as f:
         json.dump(zh_cn_dict, f, ensure_ascii=False, indent=4, separators=(",", ":"))
+
+
+def process_translation(file_id: int, path: Path) -> dict[str, str]:
+    """
+    处理单个文件的翻译，返回翻译字典
+
+    :param file_id: 文件ID
+    :param path: 文件路径
+    :return: 翻译内容字典
+    """
+    keys, values = translate(file_id)
+
+    # 替换换行符
+    zh_cn_dict = {key: re.sub(r"\\n", "\n", value) for key, value in zip(keys, values)}
+
+    # 特殊处理：ftbquest 文件
+    if "ftbquest" in path.name:
+        zh_cn_dict = {
+            key: value.replace(" ", "\u00A0") if "image" not in value else value
+            for key, value in zip(keys, values)
+        }
+
+    return zh_cn_dict
 
 
 def main() -> None:
     get_files()
 
     for file_id, path in zip(file_id_list, file_path_list):
-        keys, values = translate(file_id)
-        zh_cn_dict: dict[str, str] = {
-        key: re.sub(r"\\u00b7", "\u00b7", re.sub(r"\\n", "\n", value))
-        for key, value in zip(keys, values)
-        }
-        if "ftbquest" in path:
-            zh_cn_dict = {
-                key: (value.replace(" ", "\u00A0") if "image" not in value else value)
-                for key, value in zip(keys, values)
-            }
-        if "TM" in path:
+        if "TM" in path:  # 跳过 TM 文件
             continue
 
+        zh_cn_dict = process_translation(file_id, Path(path))
         zh_cn_list.append(zh_cn_dict)
-        save_translation(zh_cn_dict, path)
-        print(f"上传完成：{re.sub('en_us.json', 'zh_cn.json', path)}")
+
+        save_translation(zh_cn_dict, Path(path))
+        print(f"已从Patatranz下载到仓库：{re.sub('en_us.json', 'zh_cn.json', path)}")
 
 
 if __name__ == "__main__":

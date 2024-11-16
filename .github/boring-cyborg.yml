@@ -11,8 +11,8 @@ labelPRBasedOnFilePath:
 
   ftbquest:
     - "CNPack/config/ftbquests/**"
-  
-  
+    - "CNPack/kubejs/assets/ftbquests**"
+
 labelerFlags:
     labelOnPRUpdates: true  
 

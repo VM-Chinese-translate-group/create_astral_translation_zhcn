@@ -14,13 +14,24 @@ jobs:
       PROJECT_ID: ${{ vars.ID }}
     steps:
       - uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
+
+      - name: Cache Python dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip
+          restore-keys: |
+            ${{ runner.os }}-pip
+
       - name: Install dependencies
         run: |
           pip install git+https://github.com/MuXiu1997/ParaTranz-SDK-python.git
-      - name: Json To Paratranz
+
+      - name: Upload To Paratranz
         run: |
           python .github/workflows/github2para.py
