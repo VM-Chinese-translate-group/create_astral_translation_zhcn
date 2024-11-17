@@ -2,6 +2,7 @@ import json
 import os
 import re
 import sys
+from collections import OrderedDict
 from pathlib import Path
 from typing import Tuple
 
@@ -58,13 +59,16 @@ def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
     en_us_path = dir_path / "en_us.json"
     if en_us_path.exists():
         with open(en_us_path, "r", encoding="UTF-8") as en_file:
-            en_us_dict = json.load(en_file)
-        sorted_zh_cn_dict = {
-            key: zh_cn_dict[key] for key in en_us_dict.keys() if key in zh_cn_dict
-        }
+            en_us_dict = json.load(en_file, object_pairs_hook=OrderedDict)
+
+        # 保证 zh_cn_dict 按照 en_us_dict 的顺序排列
+        sorted_zh_cn_dict = OrderedDict(
+            (key, zh_cn_dict.get(key, ""))
+            for key in en_us_dict.keys()
+            if key in zh_cn_dict
+        )
     else:
-        # Paratranz会自动排序
-        sorted_zh_cn_dict = zh_cn_dict
+        sorted_zh_cn_dict = OrderedDict(zh_cn_dict)
 
     with open(dir_path / "zh_cn.json", "w", encoding="UTF-8") as f:
         json.dump(

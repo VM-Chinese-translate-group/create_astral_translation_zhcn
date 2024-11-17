@@ -61,7 +61,7 @@ jobs:
 
       - name: Get current datetime for tag
         id: datetime
-        run: echo "datetime=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
+        run: echo "datetime=$(date +'%Y%m%d-%H%M')" >> $GITHUB_ENV
 
       - name: Zip CNPack folder
         run: zip -r "${{ env.datetime }}.zip" ./CNPack
