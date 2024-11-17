@@ -61,13 +61,17 @@ def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
         with open(en_us_path, "r", encoding="UTF-8") as en_file:
             en_us_dict = json.load(en_file, object_pairs_hook=OrderedDict)
 
-        # 保证 zh_cn_dict 按照 en_us_dict 的顺序排列
-        sorted_zh_cn_dict = OrderedDict(
-            (key, zh_cn_dict.get(key, ""))
-            for key in en_us_dict.keys()
-            if key in zh_cn_dict
-        )
+        # 保证 zh_cn_dict 按照 en_us_dict 的顺序排列，同时在缺少翻译时使用原文
+        sorted_zh_cn_dict = OrderedDict()
+
+        for key in en_us_dict.keys():
+            if key in zh_cn_dict:
+                sorted_zh_cn_dict[key] = zh_cn_dict[key]
+            else:
+                # 如果在 zh_cn_dict 中没有该键，使用英文原文
+                sorted_zh_cn_dict[key] = en_us_dict[key]
     else:
+        # 如果没有 en_us.json 文件，就直接使用 zh_cn_dict
         sorted_zh_cn_dict = OrderedDict(zh_cn_dict)
 
     with open(dir_path / "zh_cn.json", "w", encoding="UTF-8") as f:
