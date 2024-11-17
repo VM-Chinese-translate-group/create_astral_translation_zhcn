@@ -2782,7 +2782,7 @@
     "ftbquests.chapter.read_the_questbook.quests16.description2":"&6抽屉锁&r也是Extended Drawers中的物品，可以阻止任何其他种类的物品进入上锁的抽屉。",
     "ftbquests.chapter.read_the_questbook.quests16.subtitle":"没有黄铜？",
     "ftbquests.chapter.read_the_questbook.quests16.title":"&6游戏早期的物品过滤",
-    "ftbquests.chapter.read_the_questbook.quests17.description0":"我们听到了你们的反馈！！ 战斗配乐现在可以被关闭，而且我们把开关音乐的设置加入了配置文件。",
+    "ftbquests.chapter.read_the_questbook.quests17.description0":"我们听到了你们的反馈！ 战斗配乐现在可以被关闭，而且我们把开关音乐的设置加入了配置文件。",
     "ftbquests.chapter.read_the_questbook.quests17.description2":".minecraft\\\\config\\\\astraladditions\\\\combatmusic.txt",
     "ftbquests.chapter.read_the_questbook.quests17.description4":"只要把上面那个路径的文件中的值由'true' 改为'false'就可以关闭",
     "ftbquests.chapter.read_the_questbook.quests17.subtitle":"开关战斗配乐",
