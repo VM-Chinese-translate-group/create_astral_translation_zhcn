@@ -43,8 +43,6 @@ jobs:
             git add . 
             git commit -m '从Paratranz同步翻译'
             git push origin main
-          else
-            echo "changed=false" > .changed
           fi
 
   release:

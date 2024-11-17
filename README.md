@@ -10,7 +10,7 @@ CurseForge|加载器|整合包版本|状态
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/11990)
 
-汉化发布：[Paratranz](https://vmct-cn.top/modpacks/create)
+汉化发布：[VM汉化组官网](https://vmct-cn.top/modpacks/create)
 
 ## 译者
 

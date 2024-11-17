@@ -1,19 +1,20 @@
 import asyncio
 import os
+import sys
 from pathlib import Path
 
 import paratranz_client
 
-TOKEN: str = os.getenv("API_TOKEN", "")
-PROJECT_ID: str = os.getenv("PROJECT_ID", "")
+TOKEN = os.getenv("API_TOKEN", "")
+PROJECT_ID = os.getenv("PROJECT_ID", "")
 
-if not TOKEN or not PROJECT_ID:
-    raise EnvironmentError("环境变量 API_TOKEN 或 PROJECT_ID 未设置。")
+if len(TOKEN) != 32 or not PROJECT_ID.isdigit():
+    raise EnvironmentError("未设置有效的 API_TOKEN 或 PROJECT_ID 环境变量")
 
 # 配置 Paratranz 客户端
 configuration = paratranz_client.Configuration(host="https://paratranz.cn/api")
 configuration.api_key["Token"] = TOKEN
-project_id: int = int(PROJECT_ID)
+PROJECT_ID = int(PROJECT_ID)
 
 
 async def upload_file(file_path: Path, upload_path: str) -> None:
@@ -22,7 +23,7 @@ async def upload_file(file_path: Path, upload_path: str) -> None:
         api_instance = paratranz_client.FilesApi(api_client)
         try:
             await api_instance.create_file(
-                project_id, file=str(file_path), path=upload_path
+                PROJECT_ID, file=str(file_path), path=upload_path
             )
             print(f"Uploaded {file_path} successfully.")
         except Exception as e:
@@ -31,7 +32,7 @@ async def upload_file(file_path: Path, upload_path: str) -> None:
 
 def get_file_list(dir_path: Path) -> list[Path]:
     """获取指定目录下所有匹配的文件"""
-    file_list: list[Path] = []
+    file_list = []
     if dir_path.is_file() and dir_path.suffix == ".json" and "en_us" in dir_path.name:
         file_list.append(dir_path)
     elif dir_path.is_dir():
@@ -41,12 +42,15 @@ def get_file_list(dir_path: Path) -> list[Path]:
 
 
 async def main() -> None:
+    if sys.version_info < (3, 9):
+        raise EnvironmentError("请使用 Python 3.9 及更高版本")
+
     dir_path = Path(os.environ["FILE_PATH"])
-    file_list: list[Path] = get_file_list(dir_path)
+    file_list = get_file_list(dir_path)
 
     for file_path in file_list:
-        relative_path: Path = file_path.relative_to("CNPack")
-        upload_path: str = relative_path.parent.as_posix()
+        relative_path = file_path.relative_to("CNPack")
+        upload_path = relative_path.parent.as_posix()
 
         print(f"Uploading {file_path} to {upload_path}")
         await upload_file(file_path, upload_path)
