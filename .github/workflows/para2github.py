@@ -7,7 +7,6 @@ from typing import Tuple
 import requests
 
 TOKEN: str = os.getenv("API_TOKEN", "")
-GH_TOKEN: str = os.getenv("GH_TOKEN", "")
 PROJECT_ID: str = os.getenv("PROJECT_ID", "")
 FILE_URL: str = f"https://paratranz.cn/api/projects/{PROJECT_ID}/files/"
 
@@ -52,9 +51,7 @@ def translate(file_id: int) -> Tuple[list[str], list[str]]:
 
 
 def get_files() -> None:
-    """
-    获取项目中的文件列表并提取文件ID和路径
-    """
+    """获取项目中的文件列表并提取文件ID和路径"""
     headers = {"Authorization": TOKEN, "accept": "*/*"}
     files = fetch_json(FILE_URL, headers)
 
