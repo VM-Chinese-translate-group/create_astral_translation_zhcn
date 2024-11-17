@@ -38,27 +38,19 @@ jobs:
       - name: Paratranz To GitHub
         run: python .github/workflows/para2github.py
       - name: Commit changes
-        id: commit
         run: |
           if [[ -n $(git status -s) ]]; then
             git add . 
             git commit -m '从Paratranz同步翻译'
             git push origin main
-            echo "changed=true" > .changed
           else
             echo "changed=false" > .changed
           fi
-      - name: Set output for changed
-        run: echo "changed=$(cat .changed)" >> $GITHUB_ENV
-
-    outputs:
-      changed: ${{ steps.commit.outputs.changed }}
 
   release:
     name: Create Release
     runs-on: ubuntu-latest
     needs: paratranz-to-gitHub
-    if: ${{ needs.paratranz-to-gitHub.outputs.changed == 'true' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4

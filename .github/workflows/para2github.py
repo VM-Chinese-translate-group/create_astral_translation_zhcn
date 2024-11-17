@@ -26,12 +26,7 @@ def fetch_json(url: str, headers: dict[str, str]) -> list[dict[str, str]]:
 
 
 def translate(file_id: int) -> Tuple[list[str], list[str]]:
-    """
-    获取指定文件的翻译内容并返回键值对列表
-
-    :param file_id: 文件ID
-    :return: 包含键和值的元组列表
-    """
+    """获取指定文件的翻译内容并返回键值对列表"""
     url = f"https://paratranz.cn/api/projects/{PROJECT_ID}/files/{file_id}/translation"
     headers = {"Authorization": TOKEN, "accept": "*/*"}
     translations = fetch_json(url, headers)
@@ -62,17 +57,22 @@ def get_files() -> None:
 
 def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
     """
-    保存翻译内容到指定的 JSON 文件
+    保存翻译内容到指定的 JSON 文件，并按键字母顺序排序
 
     :param zh_cn_dict: 翻译内容的字典
     :param path: 原始文件路径
     """
+    # 按照字母顺序排序字典的键
+    sorted_zh_cn_dict = dict(sorted(zh_cn_dict.items()))
+
     dir_path = Path("CNPack") / path.parent
     dir_path.mkdir(parents=True, exist_ok=True)
     file_path = dir_path / "zh_cn.json"
 
     with open(file_path, "w", encoding="UTF-8") as f:
-        json.dump(zh_cn_dict, f, ensure_ascii=False, indent=4, separators=(",", ":"))
+        json.dump(
+            sorted_zh_cn_dict, f, ensure_ascii=False, indent=4, separators=(",", ":")
+        )
 
 
 def process_translation(file_id: int, path: Path) -> dict[str, str]:
