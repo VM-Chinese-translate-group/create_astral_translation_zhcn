@@ -2,7 +2,7 @@ name: Paratranz To GitHub
 
 on:
   schedule:
-    # 每天北京时间早上9点和晚上9点运行
+    # 每天北京时间早晚10点左右自动运行
     - cron: "0 1,13 * * *"
   workflow_dispatch:
 
@@ -11,44 +11,70 @@ jobs:
     name: Paratranz To GitHub
     environment: PARATRANZ_ENV
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 允许推送代码到仓库
+      actions: read    # 允许读取工作流状态
+      packages: write  # 允许上传 artifacts
     env:
       API_TOKEN: ${{ secrets.API_KEY }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       PROJECT_ID: ${{ vars.ID }}
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
     steps:
       - uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
-      - name: Cache pip dependencies
-        uses: actions/cache@v4
+
+      - name: Cache Python dependencies
+        id: cache-pip
+        uses: actions/cache@v3
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/*.py') }}
+          key: pip-${{ runner.os }}-${{ hashFiles('**/requirements.txt') }}
           restore-keys: |
-            ${{ runner.os }}-pip-
+            pip-${{ runner.os }}-
+
       - name: Install dependencies
         run: |
-          pip install requests
+          pip install requests nbtlib
+
       - name: Configure Git
         run: |
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com" && \
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "VM[BOT]"
+
+      - name: Checkout main branch
+        run: git checkout main
+
       - name: Paratranz To GitHub
         run: python .github/workflows/para2github.py
+
       - name: Commit changes
+        id: commit
         run: |
           if [[ -n $(git status -s) ]]; then
-            git add . 
+            git add .
             git commit -m '从Paratranz同步翻译'
             git push origin main
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "译文变动，发布release！"
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "译文不变，取消发布release！"
           fi
 
   release:
     name: Create Release
     runs-on: ubuntu-latest
+    environment: PARATRANZ_ENV
     needs: paratranz-to-gitHub
+    if: ${{ needs.paratranz-to-gitHub.outputs.changed == 'true' }}
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -57,27 +83,27 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: CNPack
-          path: ${{ github.workspace }}/CNPack
+          path: ./CNPack
 
       - name: Get current datetime for tag
         id: datetime
-        run: echo "datetime=$(date +'%Y%m%d-%H%M')" >> $GITHUB_ENV
+        run: echo "datetime=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
 
       - name: Zip CNPack folder
-        run: zip -r "${{ env.datetime }}.zip" ./CNPack
+        run: zip -r "VM-CNPack-${{ env.datetime }}.zip" ./CNPack
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: "${{ env.datetime }}.zip"
-          path: "${{ env.datetime }}.zip"
+          name: "VM-CNPack-${{ env.datetime }}.zip"
+          path: "VM-CNPack-${{ env.datetime }}.zip"
 
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "${{ env.datetime }}.zip"
-          tag: "Release-${{ env.datetime }}"
-          name: "Release ${{ env.datetime }}"
+          artifacts: "VM-CNPack-${{ env.datetime }}.zip"
+          tag: "release-${{ env.datetime }}"
+          name: "测试版构建${{ env.datetime }}"
           body: "自动生成的最新汉化补丁"
           draft: false
           prerelease: true
