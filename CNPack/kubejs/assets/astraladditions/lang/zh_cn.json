@@ -11,6 +11,7 @@
     "block.astraladditions.desizer_7":"空间压缩器左下角",
     "block.astraladditions.desizer_8":"空间压缩器底",
     "block.astraladditions.desizer_9":"空间压缩器右下角",
+    "block.astraladditions.desizer_base":"Desizer Casing",
     "block.astraladditions.desizer_controller":"空间压缩控制器",
     "block.astraladditions.ender_sprouts":"末影苗",
     "block.astraladditions.ender_tip":"末影石锥",
@@ -24,6 +25,9 @@
     "block.astraladditions.sputum":"未知实体唾液",
     "block.astraladditions.the_end":"天涯石",
     "block.astraladditions.twisted_nylium":"诡异菌岩",
+    "category.astraladditions.desizer":"Desizer",
+    "category.astraladditions.transmute":"Transmute",
+    "category.astraladditions.vacuum":"Chromatic Vacuum",
     "entity.astraladditions.ender_watcher":"末影观察者",
     "entity.astraladditions.hemogiant":"嗜血末影人",
     "entity.astraladditions.moonman":"月影人",
@@ -70,5 +74,6 @@
     "subtitles.astraladditions.hesperyd":"由Hesperyd制作",
     "subtitles.astraladditions.pisn3y":"由PINS3Y制作",
     "subtitles.astraladditions.xetroo":"由XETROO制作",
-    "subtitles.astraladditions.xh":"由Hesperyd和XETROO制作"
+    "subtitles.astraladditions.xh":"由Hesperyd和XETROO制作",
+    "tooltip.astraladditions.transmute_text":"Shimmer Fluid"
 }
