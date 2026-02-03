@@ -1,0 +1,38 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "align zh_cn.json",
+			"type": "shell",
+			"command": "D:\\mc\\mod\\create_astral_translation_zhcn\\.venv\\Scripts\\python.exe",
+			"args": [
+				"D:\\mc\\mod\\create_astral_translation_zhcn\\scripts\\align_lang.py"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "copy en_us.json",
+			"type": "shell",
+			"command": "robocopy",
+			"args": [
+				"D:\\mc\\modpack\\curse\\.minecraft\\versions\\Create：Astral\\kubejs\\assets",
+				"D:\\mc\\mod\\create_astral_translation_zhcn\\CNPack\\kubejs\\assets",
+				"en_us.json",
+				"/s"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "align all zh_cn.json",
+			"type": "shell",
+			"command": "D:\\mc\\mod\\create_astral_translation_zhcn\\.venv\\Scripts\\python.exe",
+			"args": [
+				"D:\\mc\\mod\\create_astral_translation_zhcn\\scripts\\align_all_langs.py"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
