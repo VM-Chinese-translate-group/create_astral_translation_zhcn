@@ -4,7 +4,7 @@
 
 CurseForge|加载器|整合包版本|状态
 :-|:-|:-|:-
-[链接](https://www.curseforge.com/minecraft/modpacks/create-astral)|模组加载器|mc1.18.2 2.1.2|*维护中*|
+[链接](https://www.curseforge.com/minecraft/modpacks/create-astral)|模组加载器|mc1.18.2 2.1.4c|*维护中*|
 
 ---
 

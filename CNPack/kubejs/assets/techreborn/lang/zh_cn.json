@@ -96,8 +96,8 @@
   "techreborn:rolling_machine": "打包机",
   "block.techreborn.assembly_machine": "拆包机",
   "techreborn:assembling_machine": "拆包机",
-  "block.techreborn.iron_alloy_furnace": "Alloy Furnace",
-  "techreborn:iron_alloy_furnace": "Alloy Furnace",
+  "block.techreborn.iron_alloy_furnace": "合金熔炉",
+  "techreborn:iron_alloy_furnace": "合金熔炉",
 
   "techreborn.message.info.block.techreborn.rolling_machine": "可以快速处理3x3和2x2的合成配方",
   "techreborn.message.info.block.techreborn.assembly_machine": "可以把打包过的材料解包。",
